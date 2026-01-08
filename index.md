@@ -1,5 +1,6 @@
 {::nomarkdown}
 <img src="image/a60-logo-block-gray.simple.svg?sanitize=true" height="50" width="100">
+<br />
 {:/}
 
 
@@ -10,6 +11,10 @@
 - [notes](/docs/observations_notes.md)
 - [analysis notebook](/notebooks/analysis_2025.ipynb)
 
+
+## Questions
+- [andor](/docs/andor.md)
+- [mandalorian](/docs/mandalorian.md)
 
 ## Results
 - [andor](/docs/andor.md)
