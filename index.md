@@ -22,10 +22,10 @@
 * Cumulative
 * Weekly
 * GeoJSON aggregate for each media object.
-* [2026 json API](data-json.2026.md)
+* [2026 json API](docs/data-json.2026.md)
 
 ### Sources
-* [json](https://github.com/alpha60-devops/alpha60-results-star-wars-universe/tree/main/data)
+* [json](https://github.com/alpha60-devops/alpha60-results-star-wars-universe/tree/main/data.v2)
 
 {::nomarkdown}
 <svg width="100" height=100>
