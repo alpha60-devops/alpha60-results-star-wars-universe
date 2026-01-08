@@ -1,5 +1,5 @@
 {::nomarkdown}
-<img src="image/a60-logo-block-gray.simple.svg?sanitize=true" height="100" width="200">
+<img src="image/a60-logo-block-gray.simple.svg?sanitize=true" height="50" width="100">
 {:/}
 
 
