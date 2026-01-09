@@ -5,11 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     {% seo %}
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    <!-- fix Minimal theme weird nested list spacing -->
     <style>
-    /* fix Minimal theme weird nested list spacing */
-       li > p {
-	   margin-bottom: 0;
-       }
+       li > p { margin-bottom: 0; }
     </style>
 </head>
 <body>
@@ -25,8 +23,3 @@
      -->
 </body>
 </html>
-
-
-li > p {
-    margin-bottom: 0;
-}
