@@ -7,7 +7,10 @@
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
     <!-- fix Minimal theme weird nested list spacing -->
     <style>
-       li > p { margin-bottom: 0; }
+      li * {
+    margin-top: 0;
+    margin-bottom: 0;
+}
     </style>
 </head>
 <body>
