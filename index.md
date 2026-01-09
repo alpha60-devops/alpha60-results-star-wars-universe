@@ -48,11 +48,11 @@
 
 ### Forms
 - Cumulative
-  - (media-object-cumulative.json)
-  - (media-object-cumulative-btiha-media-objects.json)
-  - (media-object-cumulative-ip-swarm.json)
-- Weekly (media-object-week.json)
-- GeoJSON (media-object-cumulative.geojson)
+  - (title-cumulative.json)
+  - (title-cumulative-btiha-media-objects.json)
+  - (title-cumulative-ip-swarm.json)
+- Weekly (title-week.json)
+- GeoJSON (title-cumulative.geojson)
 - [2026 json API](docs/data-json.2026.md)
 
 ### Sources
