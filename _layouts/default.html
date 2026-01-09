@@ -6,6 +6,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     {% seo %}
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+     <style>
+	/* Complete reset - no margins anywhere */
+	* {
+	    margin: 0 !important;
+	    padding: 0 !important;
+	    box-sizing: border-box !important;
+	}
+
+	body, html {
+	    width: 100% !important;
+	    font-family: monospace !important;
+	}
+
+	/* Make everything flush left */
+	.content {
+	    width: 100% !important;
+	    padding: 0 !important;
+	    margin: 0 !important;
+	    text-align: left !important;
+	}
+
+	/* Specific for your page content */
+	pre, code {
+	    display: block !important;
+	    width: 100% !important;
+	    text-align: left !important;
+	    white-space: pre !important;
+	    overflow-x: auto !important;
+	}
+    </style>
 </head>
 <body>
     <!-- one col -->
