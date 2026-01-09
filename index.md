@@ -32,13 +32,10 @@
   * “Long tail” sampling of first season during premiere of second season: 200%
   * Estimate per-episode Year over Year increase for the series,  given that second year grouped.
   * Estimate year-over-year P2P or internet population growth. Try to fit that to ITU(itu.int)  internet size and population estimates, see  ICT Development Index (IDI) 2025, ITU Facts and Figures 2025, Global Connectivity Report 2025
-
 - acolyte
   * if this series was so successful with downloaders, why did Disney cancel it?
-
 - mandalorian
   * season 1,2,3
-
 - obi wan
   * would a hypothetical second season follow the same trajectory of Andor?
 
