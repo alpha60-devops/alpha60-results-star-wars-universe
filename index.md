@@ -55,8 +55,7 @@
 - GeoJSON (title-cumulative.geojson)
 - [2026 json API](docs/data-json.2026.md)
 
-### Sources
-- [json](https://github.com/alpha60-devops/alpha60-results-star-wars-universe/tree/main/data.v2)
+### [Source](https://github.com/alpha60-devops/alpha60-results-star-wars-universe/tree/main/data.v2)
 
 
 {::nomarkdown}
