@@ -23,6 +23,11 @@
 <!-- - [analysis notebook](/notebooks/analysis_2025.ipynb) -->
 
 
+## Results, Commentary
+- [andor](/docs/andor.md)
+- [mandalorian](/docs/mandalorian.md)
+
+
 ## Questions
 - andor
   - Andors, tell three stories one for each season in exploded chart
@@ -37,11 +42,6 @@
   - season 1,2,3
 - obi wan
   - would a hypothetical second season follow the same trajectory as Andor?
-
-
-## Results, Commentary
-- [andor](/docs/andor.md)
-- [mandalorian](/docs/mandalorian.md)
 
 
 ## Data
@@ -61,6 +61,6 @@
 
 {::nomarkdown}
 <svg width="100" height=100>
-    <circle cx="25" cy="50" r="10" fill="black"/>
+    <circle cx="20" cy="50" r="10" fill="black"/>
 </svg>
 {:/}
