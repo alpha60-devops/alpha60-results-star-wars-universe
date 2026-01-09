@@ -7,9 +7,8 @@
 
 
 ## About
-- [Alpha60](http://alpha60.co)
-- Subject Area: Star Wars Universe
-- Media Objects:
+- [Alpha60](http://alpha60.co) Grouping: Star Wars Universe
+- Media Objects
   * acolyte-101, acolyte-107
   * ahsoka-101, ahsoka-108
   * andor-101, andor-112, andor-201, andor-210
@@ -19,10 +18,12 @@
   * obi-wan-kenobi-101, obi-wan-kenobi-106
   * star-wars-visions-01, star-wars-visions-03
   * tales-of-the-jedi-01
-
+- Dates
+  * 2019 to 2025
 <!--
 - [analysis notebook](/notebooks/analysis_2025.ipynb)
 -->
+
 
 ## Questions
 - andor
@@ -39,12 +40,13 @@
 - obi wan
   * would a hypothetical second season follow the same trajectory of Andor?
 
+
 ## Results, Commentary
 - [andor](/docs/andor.md)
 - [mandalorian](/docs/mandalorian.md)
 
-## Data
 
+## Data
 ### Forms
 - Cumulative
   * (title-cumulative.json)
@@ -53,7 +55,6 @@
 - Weekly (title-week.json)
 - GeoJSON (title-cumulative.geojson)
 - [2026 json API](docs/data-json.2026.md)
-
 ### Sources
 - [json](https://github.com/alpha60-devops/alpha60-results-star-wars-universe/tree/main/data.v2)
 
