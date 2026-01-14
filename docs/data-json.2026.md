@@ -92,14 +92,37 @@
     - [0][14] week 1 udownloaders for country UKR
     - [0][15] week 1 udownloaders for country USA
 
-## geolocation cumulate duration data
+## geolocation cumulative duration data
 - filename: (collection_key)-cumulative.geojson
   - Feature Collection
     - [0] COUNTRY-GEOID-CITY grouping by largest swarm size: udownloaders_total, uuploaders_total
 
-## collection metadata data
-- filename: (collection_key)-btiha.json
 
+## collection metadata data
+- filename: (collection_key).json
+  - collection_name
+  - collection_key
+  - collection_id [ "101", "102", "103" ]
+  - collection_tags [ "star_wars_universe", "aapi", "animation" ]
+  - metadata_datestamp "YYYY-MM-DD"
+  - updated_datestamp "YYYY-MM-DD"
+  - imdb_id
+  - url_wikipedia
+  - url_fandom
+  - box_office_usa
+  - box_office_international
+  - box_office_global
+  - ecount
+  - eruntime
+  - ecost [ 1, 2] # per episode cost range in M USD
+  - distribution_tags [ "netflix" ]
+  - production_tags [ "a24" ]
+  - sample_duration "YYYY-MM-DD to YYY-MM-DD"
+  - sample_days 105
+  - sample_day_year_start 1
+  - sample_day_year_end 365
+  - sample_year_start YYYY
+  - sample_year_end YYYY
 
 ## example with annotation
 ```
