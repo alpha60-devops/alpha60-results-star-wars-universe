@@ -1,19 +1,31 @@
-<!--
-<img src="image/identity/a60-logo-outline.svg?sanitize=true" height="287" width="301">
--->
+{::nomarkdown}
+<img src="image/a60-logo-block-gray.simple.svg?sanitize=true" height="50" width="100">
 
-The alpha60 project: Star Wars Universe.
+<div style="height: 50px;">
+</div>
+{:/}
 
-## Data Sources
+<!-- - [analysis notebook](/notebooks/analysis_2025.ipynb) -->
 
-* Cumulative
-* Weekly
-* GeoJSON aggregate for each media object.
-* [2026 json API](data-json.2026.md)
+# Mandalorian Seasons 1-3
 
-These data files are released under the Creative Commons
-Attribution-NonCommercial-ShareAlike license (CC BY-NC-SA). Please
-contact us if you want to analyze these results in your own research;
-we'd like to help you.
+## Results
+- Dates
+  - 2019 to 2025
+- Total
 
-In addition, some [media objects](/data/) have individual results.
+
+
+## Commentary, Questions
+- mandalorian
+  - season 1,2,3
+- obi wan
+  - would a hypothetical second season follow the same trajectory as Andor?
+
+
+
+{::nomarkdown}
+<svg width="100" height=100>
+    <circle cx="20" cy="50" r="10" fill="black"/>
+</svg>
+{:/}
