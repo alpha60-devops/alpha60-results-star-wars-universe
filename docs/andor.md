@@ -1,5 +1,5 @@
 {::nomarkdown}
-<img src="/image/a60-logo-block-gray.simple.svg?sanitize=true" height="50" width="100">
+<img src="../image/a60-logo-block-gray.simple.svg?sanitize=true" height="50" width="100">
 
 <div style="height: 50px;">
 </div>
@@ -18,7 +18,7 @@
   - Uploaders: 13,962,966
 - Graphs
 {::nomarkdown}
-<img src="/image/andor-seasons-12-downloads-by-week-cumulative-normalized-start.svg?sanitize=true" width="500">
+<img src="../image/andor-seasons-12-downloads-by-week-cumulative-normalized-start.svg?sanitize=true" width="500">
 
 <div style="height: 50px;">
 </div>
