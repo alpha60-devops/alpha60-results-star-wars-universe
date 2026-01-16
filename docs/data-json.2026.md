@@ -1,4 +1,4 @@
-# Documentation for the alpha60 project JSON files
+# alpha60 project JSON documentationwhite
 
 *Last 2026-01-14*
 
