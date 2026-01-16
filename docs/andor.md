@@ -12,10 +12,12 @@
 ## Results
 <!-- HTML Table? -->
 ### Dates
-  - 2022-04-23 to 2025-11-12
+  2022-04-23 to 2025-11-12
+
 ### Metrics
-  - Downloaders: 160,072,349
-  - Uploaders: 13,962,966
+  Downloaders: 160,072,349
+  Uploaders: 13,962,966
+
 ### Graphs
 
 <img src="../image/andor-seasons-12-downloads-by-week-cumulative-normalized-start.svg?sanitize=false" width="700">
@@ -34,10 +36,6 @@
   - “Long tail” sampling of first season during premiere of second season: 200%
   - Estimate per-episode Year over Year increase for the series,  given that second year grouped.
   - Estimate year-over-year P2P or internet population growth. Try to fit that to ITU(itu.int)  internet size and population estimates, see  ICT Development Index (IDI) 2025, ITU Facts and Figures 2025, Global Connectivity Report 2025
-- acolyte
-  - if this series was so successful with downloaders, why was it cancelled?
-- obi wan
-  - would a hypothetical second season follow the same trajectory as Andor?
 
 
 
