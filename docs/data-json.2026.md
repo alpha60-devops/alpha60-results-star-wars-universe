@@ -9,7 +9,7 @@
 - "btiha" : an array of all btiha in a collection, including duplicates
 - "unique btiha" : an array of unique info hashes, with duplicates merged
 
-## shared data fields in all JSON files
+## shared data fields in JSON files
 
 - collection_key : "andor-201", unique human readable tag for media
   collection, all lowercase, full seasons are 2 digits (01 is first
@@ -92,13 +92,15 @@
     - [0][14] week 1 udownloaders for country UKR
     - [0][15] week 1 udownloaders for country USA
 
-## geolocation cumulative duration data
+## geolocation data
 - filename: (collection_key)-cumulative.geojson
-  - Feature Collection
-    - [0] COUNTRY-GEOID-CITY grouping by largest swarm size: udownloaders_total, uuploaders_total
+  - FeatureCollection
+    - [0] feature of swarm
+      - properties object of COUNTRY-GEOID-CITY grouping by largest swarm size: udownloaders_total, uuploaders_total, etc.
+      - geometry Point
 
 
-## collection metadata data
+## collection metadata
 - filename: (collection_key).json
   - collection_name
   - collection_key
