@@ -11,13 +11,14 @@
 
 ## Results
 <!-- HTML Table? -->
-- Dates
+### Dates
   - 2022-04-23 to 2025-11-12
-- Metrics
+### Metrics
   - Downloaders: 160,072,349
   - Uploaders: 13,962,966
-- Graphs
-<img src="../image/andor-seasons-12-downloads-by-week-cumulative-normalized-start.svg?sanitize=true" width="700">
+### Graphs
+
+<img src="../image/andor-seasons-12-downloads-by-week-cumulative-normalized-start.svg?sanitize=false" width="700">
 
 {::nomarkdown}
 <div style="height: 50px;">
