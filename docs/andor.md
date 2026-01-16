@@ -21,14 +21,14 @@
 ### Graphs
 
 <!--
-<img src="../image/andor-seasons-12-downloads-by-week-cumulative-normalized-start.svg?sanitize=false" width="700">
+<img src="../image/andor-s1s2-downloads-by-week-cumulative-normalized-start.svg?sanitize=false" width="700">
 -->
 {::nomarkdown}
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
    version="1.1"
    xml:space="preserve"
-   id="andor-seasons-12-downloads-by-week-cumulative-normalized-start"
+   id="andor-s1s2-downloads-by-week-cumulative-normalized-start"
    x="0px"
    y="0px"
    width="1920.000000px"
@@ -36,35 +36,19 @@
    viewBox="0 0 1920.000000 1080.000000"
    enable-background="new 0 0 1920.000000 1080.000000"
    role="img"
-   sodipodi:docname="andor-seasons-12-downloads-by-week-cumulative-normalized-start.svg"
-   inkscape:version="1.4.3 (0d15f75042, 2025-12-25)"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg"><defs
-   id="defs537" /><sodipodi:namedview
-   id="namedview537"
-   pagecolor="#ffffff"
-   bordercolor="#000000"
-   borderopacity="0.25"
-   inkscape:showpageshadow="2"
-   inkscape:pageopacity="0.0"
-   inkscape:pagecheckerboard="0"
-   inkscape:deskcolor="#d1d1d1"
-   inkscape:zoom="0.75462963"
-   inkscape:cx="961.39877"
-   inkscape:cy="540"
-   inkscape:window-width="1920"
-   inkscape:window-height="1024"
-   inkscape:window-x="0"
-   inkscape:window-y="0"
-   inkscape:window-maximized="1"
-   inkscape:current-layer="andor-seasons-12-downloads-by-week-cumulative-normalized-start" />
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"><defs
+   id="defs537" />
 
 <title
    id="title1">
-andor-seasons-12-downloads-by-week-cumulative-normalized-start
+andor-s1s2-downloads-by-week-cumulative-normalized-start
 </title>
+ <g
+   id="annotations">
 <text
    x="960.000000"
    y="126.000000"
@@ -75,9 +59,9 @@ andor-seasons-12-downloads-by-week-cumulative-normalized-start
    font-weight="600"
    font-style="normal"
    style="fill:rgb(118,118,118); fill-opacity:1; stroke:rgb(118,118,118); stroke-opacity:0; stroke-width:0.5"
-   id="text1"> Andor Seasons 1,2 Downloads by Week Cumulative (Normalized Start)</text>
+   id="text1"> Andor S1,S2 Downloads by Week Cumulative (Normalized Start)</text>
  <g
-   id="axes-Andor Seasons 1,2 Downloads by Week Cumulative (Normalized Start)">
+   id="axes-lines">
 <text
    x="960.000000"
    y="1007.000000"
@@ -104,7 +88,7 @@ andor-seasons-12-downloads-by-week-cumulative-normalized-start
    id="text3"> DOWNLOADERS</text>
  </g>
  <g
-   id="tic-y-lines-Andor Seasons 1,2 Downloads by Week Cumulative (Normalized Start)">
+   id="tic-y-label-lines">
 <line
    x1="218.000000"
    y1="800.239309"
@@ -2817,7 +2801,7 @@ andor-seasons-12-downloads-by-week-cumulative-normalized-start
    id="text243"> 64M</text>
  </g>
  <g
-   id="tic-x-Andor Seasons 1,2 Downloads by Week Cumulative (Normalized Start)">
+   id="tic-x-labels">
 <text
    x="200.000000"
    y="898.000000"
@@ -4140,7 +4124,7 @@ andor-seasons-12-downloads-by-week-cumulative-normalized-start
    id="text353"> 26</text>
  </g>
  <g
-   id="tic-y-Andor Seasons 1,2 Downloads by Week Cumulative (Normalized Start)">
+   id="tic-y-labels">
 <text
    x="164.000000"
    y="869.239309"
@@ -4406,6 +4390,11 @@ andor-seasons-12-downloads-by-week-cumulative-normalized-start
    style="fill:rgb(118,118,118); fill-opacity:1; stroke:rgb(118,118,118); stroke-opacity:0; stroke-width:0.5"
    id="text375"> 64M</text>
  </g>
+ </g>
+<g
+   id="composite-chart">
+<g
+   id="line-graph-1-andor-101-102-103">
  <g
    id="polyline-andor-101-102-103">
 <polyline
@@ -4426,8 +4415,8 @@ andor-seasons-12-downloads-by-week-cumulative-normalized-start
 <title
    id="title375">
 andor-101-102-103
-week: 2084548
-1
+week: 1
+2.08455e+06
 </title>
  </rect>
 <rect
@@ -4440,8 +4429,8 @@ week: 2084548
 <title
    id="title376">
 andor-101-102-103
-week: 3351884
-2
+week: 2
+3.35188e+06
 </title>
  </rect>
 <rect
@@ -4454,8 +4443,8 @@ week: 3351884
 <title
    id="title377">
 andor-101-102-103
-week: 4223892
-3
+week: 3
+4.22389e+06
 </title>
  </rect>
 <rect
@@ -4468,8 +4457,8 @@ week: 4223892
 <title
    id="title378">
 andor-101-102-103
-week: 4979908
-4
+week: 4
+4.97991e+06
 </title>
  </rect>
 <rect
@@ -4482,8 +4471,8 @@ week: 4979908
 <title
    id="title379">
 andor-101-102-103
-week: 5629131
-5
+week: 5
+5.62913e+06
 </title>
  </rect>
 <rect
@@ -4496,8 +4485,8 @@ week: 5629131
 <title
    id="title380">
 andor-101-102-103
-week: 6192857
-6
+week: 6
+6.19286e+06
 </title>
  </rect>
 <rect
@@ -4510,8 +4499,8 @@ week: 6192857
 <title
    id="title381">
 andor-101-102-103
-week: 6737082
-7
+week: 7
+6.73708e+06
 </title>
  </rect>
 <rect
@@ -4524,8 +4513,8 @@ week: 6737082
 <title
    id="title382">
 andor-101-102-103
-week: 7308563
-8
+week: 8
+7.30856e+06
 </title>
  </rect>
 <rect
@@ -4538,8 +4527,8 @@ week: 7308563
 <title
    id="title383">
 andor-101-102-103
-week: 7831792
-9
+week: 9
+7.83179e+06
 </title>
  </rect>
 <rect
@@ -4552,8 +4541,8 @@ week: 7831792
 <title
    id="title384">
 andor-101-102-103
-week: 8299041
-10
+week: 10
+8.29904e+06
 </title>
  </rect>
 <rect
@@ -4566,8 +4555,8 @@ week: 8299041
 <title
    id="title385">
 andor-101-102-103
-week: 8694820
-11
+week: 11
+8.69482e+06
 </title>
  </rect>
 <rect
@@ -4580,8 +4569,8 @@ week: 8694820
 <title
    id="title386">
 andor-101-102-103
-week: 9050167
-12
+week: 12
+9.05017e+06
 </title>
  </rect>
 <rect
@@ -4594,8 +4583,8 @@ week: 9050167
 <title
    id="title387">
 andor-101-102-103
-week: 9327535
-13
+week: 13
+9.32754e+06
 </title>
  </rect>
 <rect
@@ -4608,8 +4597,8 @@ week: 9327535
 <title
    id="title388">
 andor-101-102-103
-week: 9646811
-14
+week: 14
+9.64681e+06
 </title>
  </rect>
 <rect
@@ -4622,8 +4611,8 @@ week: 9646811
 <title
    id="title389">
 andor-101-102-103
-week: 9973550
-15
+week: 15
+9.97355e+06
 </title>
  </rect>
 <rect
@@ -4636,8 +4625,8 @@ week: 9973550
 <title
    id="title390">
 andor-101-102-103
-week: 10276830
-16
+week: 16
+1.02768e+07
 </title>
  </rect>
 <rect
@@ -4650,8 +4639,8 @@ week: 10276830
 <title
    id="title391">
 andor-101-102-103
-week: 10569932
-17
+week: 17
+1.05699e+07
 </title>
  </rect>
 <rect
@@ -4664,8 +4653,8 @@ week: 10569932
 <title
    id="title392">
 andor-101-102-103
-week: 10847861
-18
+week: 18
+1.08479e+07
 </title>
  </rect>
 <rect
@@ -4678,8 +4667,8 @@ week: 10847861
 <title
    id="title393">
 andor-101-102-103
-week: 11137694
-19
+week: 19
+1.11377e+07
 </title>
  </rect>
 <rect
@@ -4692,8 +4681,8 @@ week: 11137694
 <title
    id="title394">
 andor-101-102-103
-week: 11431782
-20
+week: 20
+1.14318e+07
 </title>
  </rect>
 <rect
@@ -4706,8 +4695,8 @@ week: 11431782
 <title
    id="title395">
 andor-101-102-103
-week: 11713925
-21
+week: 21
+1.17139e+07
 </title>
  </rect>
 <rect
@@ -4720,8 +4709,8 @@ week: 11713925
 <title
    id="title396">
 andor-101-102-103
-week: 12010533
-22
+week: 22
+1.20105e+07
 </title>
  </rect>
 <rect
@@ -4734,8 +4723,8 @@ week: 12010533
 <title
    id="title397">
 andor-101-102-103
-week: 12298406
-23
+week: 23
+1.22984e+07
 </title>
  </rect>
 <rect
@@ -4748,8 +4737,8 @@ week: 12298406
 <title
    id="title398">
 andor-101-102-103
-week: 12583216
-24
+week: 24
+1.25832e+07
 </title>
  </rect>
 <rect
@@ -4762,8 +4751,8 @@ week: 12583216
 <title
    id="title399">
 andor-101-102-103
-week: 12876532
-25
+week: 25
+1.28765e+07
 </title>
  </rect>
 <rect
@@ -4776,8 +4765,8 @@ week: 12876532
 <title
    id="title400">
 andor-101-102-103
-week: 13172413
-26
+week: 26
+1.31724e+07
 </title>
  </rect>
  </g>
@@ -4792,6 +4781,9 @@ week: 13172413
    font-style="normal"
    style="fill:rgb(148,148,148); fill-opacity:1; stroke:rgb(148,148,148); stroke-opacity:0; stroke-width:0.5"
    id="text400"> andor-101-102-103</text>
+ </g>
+<g
+   id="line-graph-2-andor-112">
  <g
    id="polyline-andor-112">
 <polyline
@@ -4812,8 +4804,8 @@ week: 13172413
 <title
    id="title401">
 andor-112
-week: 1036002
-1
+week: 1
+1.036e+06
 </title>
  </rect>
 <rect
@@ -4838,8 +4830,8 @@ week: 1036002
 <title
    id="title403">
 andor-112
-week: 1727425
-2
+week: 2
+1.72742e+06
 </title>
  </rect>
 <rect
@@ -4864,8 +4856,8 @@ week: 1727425
 <title
    id="title405">
 andor-112
-week: 2268251
-3
+week: 3
+2.26825e+06
 </title>
  </rect>
 <rect
@@ -4890,8 +4882,8 @@ week: 2268251
 <title
    id="title407">
 andor-112
-week: 2711674
-4
+week: 4
+2.71167e+06
 </title>
  </rect>
 <rect
@@ -4916,8 +4908,8 @@ week: 2711674
 <title
    id="title409">
 andor-112
-week: 3059480
-5
+week: 5
+3.05948e+06
 </title>
  </rect>
 <rect
@@ -4942,8 +4934,8 @@ week: 3059480
 <title
    id="title411">
 andor-112
-week: 3263583
-6
+week: 6
+3.26358e+06
 </title>
  </rect>
 <rect
@@ -4968,8 +4960,8 @@ week: 3263583
 <title
    id="title413">
 andor-112
-week: 3653591
-7
+week: 7
+3.65359e+06
 </title>
  </rect>
 <rect
@@ -4994,8 +4986,8 @@ week: 3653591
 <title
    id="title415">
 andor-112
-week: 3918517
-8
+week: 8
+3.91852e+06
 </title>
  </rect>
 <rect
@@ -5020,8 +5012,8 @@ week: 3918517
 <title
    id="title417">
 andor-112
-week: 4259721
-9
+week: 9
+4.25972e+06
 </title>
  </rect>
 <rect
@@ -5046,8 +5038,8 @@ week: 4259721
 <title
    id="title419">
 andor-112
-week: 4597355
-10
+week: 10
+4.59736e+06
 </title>
  </rect>
 <rect
@@ -5072,8 +5064,8 @@ week: 4597355
 <title
    id="title421">
 andor-112
-week: 4701073
-11
+week: 11
+4.70107e+06
 </title>
  </rect>
 <rect
@@ -5098,8 +5090,8 @@ week: 4701073
 <title
    id="title423">
 andor-112
-week: 4940926
-12
+week: 12
+4.94093e+06
 </title>
  </rect>
 <rect
@@ -5124,8 +5116,8 @@ week: 4940926
 <title
    id="title425">
 andor-112
-week: 5230195
-13
+week: 13
+5.2302e+06
 </title>
  </rect>
 <rect
@@ -5150,8 +5142,8 @@ week: 5230195
 <title
    id="title427">
 andor-112
-week: 5511241
-14
+week: 14
+5.51124e+06
 </title>
  </rect>
 <rect
@@ -5176,8 +5168,8 @@ week: 5511241
 <title
    id="title429">
 andor-112
-week: 5806419
-15
+week: 15
+5.80642e+06
 </title>
  </rect>
  </g>
@@ -5192,8 +5184,10 @@ week: 5806419
    font-style="normal"
    style="fill:#949494;fill-opacity:1;stroke:#949494;stroke-opacity:0;stroke-width:0.5;-inkscape-font-specification:'Atkinson Hyperlegible, Normal';font-family:'Atkinson Hyperlegible';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:13.3333px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:right;text-anchor:end"
    id="text429"><tspan
-     sodipodi:role="line"
-     id="tspan1"> andor-112 (2022)</tspan></text>
+     id="tspan537"> andor-112 (2022)</tspan></text>
+ </g>
+<g
+   id="line-graph-3-andor-112">
  <g
    id="g429">
 <polyline
@@ -5214,8 +5208,8 @@ week: 5806419
 <title
    id="title430">
 andor-112
-week: 1457909
-1
+week: 1
+1.45791e+06
 </title>
  </rect>
 <rect
@@ -5240,8 +5234,8 @@ week: 1457909
 <title
    id="title432">
 andor-112
-week: 2963584
-2
+week: 2
+2.96358e+06
 </title>
  </rect>
 <rect
@@ -5266,8 +5260,8 @@ week: 2963584
 <title
    id="title434">
 andor-112
-week: 4478765
-3
+week: 3
+4.47876e+06
 </title>
  </rect>
 <rect
@@ -5292,8 +5286,8 @@ week: 4478765
 <title
    id="title436">
 andor-112
-week: 5983858
-4
+week: 4
+5.98386e+06
 </title>
  </rect>
 <rect
@@ -5318,8 +5312,8 @@ week: 5983858
 <title
    id="title438">
 andor-112
-week: 7483094
-5
+week: 5
+7.48309e+06
 </title>
  </rect>
 <rect
@@ -5344,8 +5338,8 @@ week: 7483094
 <title
    id="title440">
 andor-112
-week: 8892718
-6
+week: 6
+8.89272e+06
 </title>
  </rect>
 <rect
@@ -5370,8 +5364,8 @@ week: 8892718
 <title
    id="title442">
 andor-112
-week: 10337881
-7
+week: 7
+1.03379e+07
 </title>
  </rect>
 <rect
@@ -5396,8 +5390,8 @@ week: 10337881
 <title
    id="title444">
 andor-112
-week: 11846075
-8
+week: 8
+1.18461e+07
 </title>
  </rect>
 <rect
@@ -5422,8 +5416,8 @@ week: 11846075
 <title
    id="title446">
 andor-112
-week: 13256878
-9
+week: 9
+1.32569e+07
 </title>
  </rect>
 <rect
@@ -5448,8 +5442,8 @@ week: 13256878
 <title
    id="title448">
 andor-112
-week: 14639495
-10
+week: 10
+1.46395e+07
 </title>
  </rect>
 <rect
@@ -5474,8 +5468,8 @@ week: 14639495
 <title
    id="title450">
 andor-112
-week: 15910647
-11
+week: 11
+1.59106e+07
 </title>
  </rect>
 <rect
@@ -5500,8 +5494,8 @@ week: 15910647
 <title
    id="title452">
 andor-112
-week: 17146006
-12
+week: 12
+1.7146e+07
 </title>
  </rect>
 <rect
@@ -5526,8 +5520,8 @@ week: 17146006
 <title
    id="title454">
 andor-112
-week: 18415854
-13
+week: 13
+1.84159e+07
 </title>
  </rect>
 <rect
@@ -5552,8 +5546,8 @@ week: 18415854
 <title
    id="title456">
 andor-112
-week: 19887464
-14
+week: 14
+1.98875e+07
 </title>
  </rect>
 <rect
@@ -5578,8 +5572,8 @@ week: 19887464
 <title
    id="title458">
 andor-112
-week: 21282679
-15
+week: 15
+2.12827e+07
 </title>
  </rect>
 <rect
@@ -5604,8 +5598,8 @@ week: 21282679
 <title
    id="title460">
 andor-112
-week: 22721062
-16
+week: 16
+2.27211e+07
 </title>
  </rect>
  </g>
@@ -5620,8 +5614,10 @@ week: 22721062
    font-style="normal"
    style="fill:#949494;fill-opacity:1;stroke:#949494;stroke-opacity:0;stroke-width:0.5;-inkscape-font-specification:'Atkinson Hyperlegible, Normal';font-family:'Atkinson Hyperlegible';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:13.3333px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:right;text-anchor:end"
    id="text460"><tspan
-     sodipodi:role="line"
-     id="tspan537"> andor-112 (2025)</tspan></text>
+     id="tspan538"> andor-112 (2025)</tspan></text>
+ </g>
+<g
+   id="line-graph-4-andor-201-202-203">
  <g
    id="polyline-andor-201-202-203">
 <polyline
@@ -5643,8 +5639,8 @@ week: 22721062
 <title
    id="title461">
 andor-201-202-203
-week: 3054164
-1
+week: 1
+3.05416e+06
 </title>
  </rect>
 <rect
@@ -5657,8 +5653,8 @@ week: 3054164
 <title
    id="title462">
 andor-201-202-203
-week: 5724993
-2
+week: 2
+5.72499e+06
 </title>
  </rect>
 <rect
@@ -5671,8 +5667,8 @@ week: 5724993
 <title
    id="title463">
 andor-201-202-203
-week: 8113182
-3
+week: 3
+8.11318e+06
 </title>
  </rect>
 <rect
@@ -5685,8 +5681,8 @@ week: 8113182
 <title
    id="title464">
 andor-201-202-203
-week: 10358823
-4
+week: 4
+1.03588e+07
 </title>
  </rect>
 <rect
@@ -5699,8 +5695,8 @@ week: 10358823
 <title
    id="title465">
 andor-201-202-203
-week: 12638879
-5
+week: 5
+1.26389e+07
 </title>
  </rect>
 <rect
@@ -5713,8 +5709,8 @@ week: 12638879
 <title
    id="title466">
 andor-201-202-203
-week: 14823376
-6
+week: 6
+1.48234e+07
 </title>
  </rect>
 <rect
@@ -5727,8 +5723,8 @@ week: 14823376
 <title
    id="title467">
 andor-201-202-203
-week: 16936489
-7
+week: 7
+1.69365e+07
 </title>
  </rect>
 <rect
@@ -5741,8 +5737,8 @@ week: 16936489
 <title
    id="title468">
 andor-201-202-203
-week: 19060466
-8
+week: 8
+1.90605e+07
 </title>
  </rect>
 <rect
@@ -5755,8 +5751,8 @@ week: 19060466
 <title
    id="title469">
 andor-201-202-203
-week: 21151350
-9
+week: 9
+2.11514e+07
 </title>
  </rect>
 <rect
@@ -5769,8 +5765,8 @@ week: 21151350
 <title
    id="title470">
 andor-201-202-203
-week: 23006704
-10
+week: 10
+2.30067e+07
 </title>
  </rect>
 <rect
@@ -5783,8 +5779,8 @@ week: 23006704
 <title
    id="title471">
 andor-201-202-203
-week: 24932567
-11
+week: 11
+2.49326e+07
 </title>
  </rect>
 <rect
@@ -5797,8 +5793,8 @@ week: 24932567
 <title
    id="title472">
 andor-201-202-203
-week: 26780097
-12
+week: 12
+2.67801e+07
 </title>
  </rect>
 <rect
@@ -5811,8 +5807,8 @@ week: 26780097
 <title
    id="title473">
 andor-201-202-203
-week: 28942534
-13
+week: 13
+2.89425e+07
 </title>
  </rect>
 <rect
@@ -5825,8 +5821,8 @@ week: 28942534
 <title
    id="title474">
 andor-201-202-203
-week: 30981566
-14
+week: 14
+3.09816e+07
 </title>
  </rect>
 <rect
@@ -5839,8 +5835,8 @@ week: 30981566
 <title
    id="title475">
 andor-201-202-203
-week: 33012239
-15
+week: 15
+3.30122e+07
 </title>
  </rect>
 <rect
@@ -5853,8 +5849,8 @@ week: 33012239
 <title
    id="title476">
 andor-201-202-203
-week: 34843162
-16
+week: 16
+3.48432e+07
 </title>
  </rect>
 <rect
@@ -5867,8 +5863,8 @@ week: 34843162
 <title
    id="title477">
 andor-201-202-203
-week: 36492923
-17
+week: 17
+3.64929e+07
 </title>
  </rect>
 <rect
@@ -5881,8 +5877,8 @@ week: 36492923
 <title
    id="title478">
 andor-201-202-203
-week: 38228713
-18
+week: 18
+3.82287e+07
 </title>
  </rect>
 <rect
@@ -5895,8 +5891,8 @@ week: 38228713
 <title
    id="title479">
 andor-201-202-203
-week: 40098581
-19
+week: 19
+4.00986e+07
 </title>
  </rect>
 <rect
@@ -5909,8 +5905,8 @@ week: 40098581
 <title
    id="title480">
 andor-201-202-203
-week: 41956536
-20
+week: 20
+4.19565e+07
 </title>
  </rect>
 <rect
@@ -5923,8 +5919,8 @@ week: 41956536
 <title
    id="title481">
 andor-201-202-203
-week: 43800106
-21
+week: 21
+4.38001e+07
 </title>
  </rect>
 <rect
@@ -5937,8 +5933,8 @@ week: 43800106
 <title
    id="title482">
 andor-201-202-203
-week: 45827612
-22
+week: 22
+4.58276e+07
 </title>
  </rect>
 <rect
@@ -5951,8 +5947,8 @@ week: 45827612
 <title
    id="title483">
 andor-201-202-203
-week: 47849874
-23
+week: 23
+4.78499e+07
 </title>
  </rect>
 <rect
@@ -5965,8 +5961,8 @@ week: 47849874
 <title
    id="title484">
 andor-201-202-203
-week: 50118040
-24
+week: 24
+5.0118e+07
 </title>
  </rect>
 <rect
@@ -5979,8 +5975,8 @@ week: 50118040
 <title
    id="title485">
 andor-201-202-203
-week: 52273583
-25
+week: 25
+5.22736e+07
 </title>
  </rect>
 <rect
@@ -5993,8 +5989,8 @@ week: 52273583
 <title
    id="title486">
 andor-201-202-203
-week: 54179489
-26
+week: 26
+5.41795e+07
 </title>
  </rect>
  </g>
@@ -6009,6 +6005,9 @@ week: 54179489
    font-style="normal"
    style="fill:rgb(148,148,148); fill-opacity:1; stroke:rgb(148,148,148); stroke-opacity:0; stroke-width:0.5"
    id="text486"> andor-201-202-203</text>
+ </g>
+<g
+   id="line-graph-5-andor-210-211-212">
  <g
    id="polyline-andor-210-211-212">
 <polyline
@@ -6030,8 +6029,8 @@ week: 54179489
 <title
    id="title487">
 andor-210-211-212
-week: 2189432
-1
+week: 1
+2.18943e+06
 </title>
  </rect>
 <rect
@@ -6056,8 +6055,8 @@ week: 2189432
 <title
    id="title489">
 andor-210-211-212
-week: 5012054
-2
+week: 2
+5.01205e+06
 </title>
  </rect>
 <rect
@@ -6082,8 +6081,8 @@ week: 5012054
 <title
    id="title491">
 andor-210-211-212
-week: 7800901
-3
+week: 3
+7.8009e+06
 </title>
  </rect>
 <rect
@@ -6108,8 +6107,8 @@ week: 7800901
 <title
    id="title493">
 andor-210-211-212
-week: 10522502
-4
+week: 4
+1.05225e+07
 </title>
  </rect>
 <rect
@@ -6134,8 +6133,8 @@ week: 10522502
 <title
    id="title495">
 andor-210-211-212
-week: 13222454
-5
+week: 5
+1.32225e+07
 </title>
  </rect>
 <rect
@@ -6160,8 +6159,8 @@ week: 13222454
 <title
    id="title497">
 andor-210-211-212
-week: 15926324
-6
+week: 6
+1.59263e+07
 </title>
  </rect>
 <rect
@@ -6186,8 +6185,8 @@ week: 15926324
 <title
    id="title499">
 andor-210-211-212
-week: 18558963
-7
+week: 7
+1.8559e+07
 </title>
  </rect>
 <rect
@@ -6212,8 +6211,8 @@ week: 18558963
 <title
    id="title501">
 andor-210-211-212
-week: 20884165
-8
+week: 8
+2.08842e+07
 </title>
  </rect>
 <rect
@@ -6238,8 +6237,8 @@ week: 20884165
 <title
    id="title503">
 andor-210-211-212
-week: 22420923
-9
+week: 9
+2.24209e+07
 </title>
  </rect>
 <rect
@@ -6264,8 +6263,8 @@ week: 22420923
 <title
    id="title505">
 andor-210-211-212
-week: 24589133
-10
+week: 10
+2.45891e+07
 </title>
  </rect>
 <rect
@@ -6290,8 +6289,8 @@ week: 24589133
 <title
    id="title507">
 andor-210-211-212
-week: 27167716
-11
+week: 11
+2.71677e+07
 </title>
  </rect>
 <rect
@@ -6316,8 +6315,8 @@ week: 27167716
 <title
    id="title509">
 andor-210-211-212
-week: 29693396
-12
+week: 12
+2.96934e+07
 </title>
  </rect>
 <rect
@@ -6342,8 +6341,8 @@ week: 29693396
 <title
    id="title511">
 andor-210-211-212
-week: 32154907
-13
+week: 13
+3.21549e+07
 </title>
  </rect>
 <rect
@@ -6368,8 +6367,8 @@ week: 32154907
 <title
    id="title513">
 andor-210-211-212
-week: 34334638
-14
+week: 14
+3.43346e+07
 </title>
  </rect>
 <rect
@@ -6394,8 +6393,8 @@ week: 34334638
 <title
    id="title515">
 andor-210-211-212
-week: 36382384
-15
+week: 15
+3.63824e+07
 </title>
  </rect>
 <rect
@@ -6420,8 +6419,8 @@ week: 36382384
 <title
    id="title517">
 andor-210-211-212
-week: 38460153
-16
+week: 16
+3.84602e+07
 </title>
  </rect>
 <rect
@@ -6446,8 +6445,8 @@ week: 38460153
 <title
    id="title519">
 andor-210-211-212
-week: 40575654
-17
+week: 17
+4.05757e+07
 </title>
  </rect>
 <rect
@@ -6472,8 +6471,8 @@ week: 40575654
 <title
    id="title521">
 andor-210-211-212
-week: 42785822
-18
+week: 18
+4.27858e+07
 </title>
  </rect>
 <rect
@@ -6498,8 +6497,8 @@ week: 42785822
 <title
    id="title523">
 andor-210-211-212
-week: 45051457
-19
+week: 19
+4.50515e+07
 </title>
  </rect>
 <rect
@@ -6524,8 +6523,8 @@ week: 45051457
 <title
    id="title525">
 andor-210-211-212
-week: 47643382
-20
+week: 20
+4.76434e+07
 </title>
  </rect>
 <rect
@@ -6550,8 +6549,8 @@ week: 47643382
 <title
    id="title527">
 andor-210-211-212
-week: 50269592
-21
+week: 21
+5.02696e+07
 </title>
  </rect>
 <rect
@@ -6576,8 +6575,8 @@ week: 50269592
 <title
    id="title529">
 andor-210-211-212
-week: 53210005
-22
+week: 22
+5.321e+07
 </title>
  </rect>
 <rect
@@ -6602,8 +6601,8 @@ week: 53210005
 <title
    id="title531">
 andor-210-211-212
-week: 55819360
-23
+week: 23
+5.58194e+07
 </title>
  </rect>
 <rect
@@ -6628,8 +6627,8 @@ week: 55819360
 <title
    id="title533">
 andor-210-211-212
-week: 58461338
-24
+week: 24
+5.84613e+07
 </title>
  </rect>
 <rect
@@ -6654,8 +6653,8 @@ week: 58461338
 <title
    id="title535">
 andor-210-211-212
-week: 61090964
-25
+week: 25
+6.1091e+07
 </title>
  </rect>
 <rect
@@ -6680,8 +6679,8 @@ week: 61090964
 <title
    id="title537">
 andor-210-211-212
-week: 63826590
-26
+week: 26
+6.38266e+07
 </title>
  </rect>
  </g>
@@ -6696,14 +6695,21 @@ week: 63826590
    font-style="normal"
    style="fill:rgb(148,148,148); fill-opacity:1; stroke:rgb(148,148,148); stroke-opacity:0; stroke-width:0.5"
    id="text537"> andor-210-211-212</text>
-</svg>
+ </g>
+ </g>
+<metadata
+   id="metadata538"><rdf:RDF><cc:Work
+       rdf:about=""><dc:title>
+andor-s1s2-downloads-by-week-cumulative-normalized-start
+</dc:title></cc:Work></rdf:RDF></metadata></svg>
+
 
 {:/}
 
 
 ### Maps
 
-![Andor 101 Slice 1](/image/andor-101/andor-101-slice-1-pacifica-america-x-347-torrents-peer-cumulative-render-mode-11-10000-visionscarto-cahillkeyes-engc-7.3x-starx.096.png)
+[Andor 101 Slice 1](/image/andor-101/andor-101-slice-1-pacifica-america-x-347-torrents-peer-cumulative-render-mode-11-10000-visionscarto-cahillkeyes-engc-7.3x-starx.096.png)
 
 ![Andor 101 Slice 2](/image/andor-101-slice-2-americas-x-347-torrents-peer-cumulative-render-mode-11-10000-visionscarto-cahillkeyes-engc-7.3x-starx.096.png)
 
