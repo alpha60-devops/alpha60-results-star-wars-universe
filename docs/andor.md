@@ -1702,9 +1702,70 @@ week: 26
  </g>
 </svg>
 
-
-
 {:/}
+
+<script type="text/javascript" crossorigin="anonymous" id="graph-fade-js" >
+document.addEventListener('DOMContentLoaded', () => {
+    // 1. Find the SVG element with an ID containing "downloads-by-week"
+    const svg = document.querySelector('svg[id*="downloads-by-week"]');
+
+    if (!svg) {
+	console.warn('Target SVG not found');
+	return;
+    }
+
+    // 2. Find the group with ID "composite-chart"
+    const compositeChart = svg.querySelector('#composite-chart');
+
+    if (!compositeChart) {
+	console.warn('Composite chart group not found');
+	return;
+    }
+
+    // 3. Select all nested groups with IDs starting with "line-graph-"
+    const lineGraphs = compositeChart.querySelectorAll('g[id^="line-graph-"]');
+
+    // Helper to reset styles
+    const resetGraphs = () => {
+	lineGraphs.forEach(graph => {
+	    graph.style.opacity = '';      // Reset opacity
+	    graph.style.filter = '';       // Reset filter if used
+	    // If you strictly want to change color only:
+	    // graph.style.stroke = '';
+	    // graph.style.fill = '';
+	});
+    };
+
+    // 4. Mouseover listener
+    compositeChart.addEventListener('mouseover', (event) => {
+	const targetGraph = event.target.closest('g[id^="line-graph-"]');
+
+	// If we aren't hovering over a specific line graph, do nothing (or reset)
+	if (!targetGraph) return;
+
+	lineGraphs.forEach(graph => {
+	    if (graph === targetGraph) {
+		// The active line: reset to original
+		graph.style.opacity = '1';
+		graph.style.stroke = '';
+		graph.style.fill = '';
+	    } else {
+		// The background lines: go 50% gray
+		// Option A: Opacity (easier/smoother)
+		// graph.style.opacity = '0.5';
+
+		// Option B: Hard color override (as requested)
+		graph.style.stroke = 'gray';
+		graph.style.fill = 'gray';
+	    }
+	});
+    });
+
+    // 5. Mouseleave listener
+    compositeChart.addEventListener('mouseleave', resetGraphs);
+});
+
+</script>
 
 
 ### Maps
