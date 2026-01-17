@@ -3810,7 +3810,7 @@ week: 26
  </g>
 </svg>
 
-<script>
+<script type="text/javascript" crossorigin="anonymous" id="graph-fade-js" >
 (function() {
     // 1. Find the SVG element with an ID containing "downloads-by-week"
     const svg = document.querySelector('svg[id*="downloads-by-week"]');
