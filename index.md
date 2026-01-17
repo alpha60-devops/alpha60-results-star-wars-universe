@@ -25,6 +25,7 @@
 
 ## Results, Commentary
 - [andor](/docs/andor.md)
+- [ahsoka/ackolyte](/docs/ahsoka.md)
 - [mandalorian](/docs/mandalorian.md)
 - [star wars universe](/docs/swu.md)
 
