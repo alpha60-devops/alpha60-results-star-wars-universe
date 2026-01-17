@@ -11,9 +11,6 @@
 
 ## Results
 <!-- HTML Table? -->
-### Dates
-  2019-11-23 to 2025-11-12
-
 ### Metrics
 <table>
 
@@ -43,6 +40,9 @@
 </tr>
 </tbody>
 </table>
+
+<div style="height: 50px;">
+</div>
 
 
 ### Graphs

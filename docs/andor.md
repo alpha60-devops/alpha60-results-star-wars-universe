@@ -11,9 +11,6 @@
 
 ## Results
 <!-- HTML Table? -->
-### Dates
-  2022-04-23 to 2025-11-12
-
 ### Metrics
 
 <!-- generated HTML table -->
@@ -46,6 +43,10 @@
 </tr>
 </tbody>
 </table>
+
+<div style="height: 50px;">
+</div>
+
 {:/}
 
 ### Graphs
