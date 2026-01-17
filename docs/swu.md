@@ -3811,59 +3811,98 @@ week: 26
 </svg>
 
 <script type="text/javascript" crossorigin="anonymous" id="graph-fade-js" >
-(function() {
-    // 1. Find the SVG element with an ID containing "downloads-by-week"
-    const svg = document.querySelector('svg[id*="downloads-by-week"]');
 
-    if (!svg) {
-	console.warn('Target SVG not found.');
+document.addEventListener('DOMContentLoaded', () => {
+    // 1. Select ALL elements whose ID ends with the specific suffix
+    const suffix = "-downloads-by-week-cumulative-normalized-start";
+    const containers = document.querySelectorAll(`[id$="${suffix}"]`);
+
+    if (containers.length === 0) {
+	console.warn(`No containers found ending with "${suffix}"`);
 	return;
     }
 
-    // 2. Find the group with ID "composite-chart"
-    const compositeChart = svg.querySelector('#composite-chart');
+    // Shared function to apply logic to a valid SVG document/root
+    const applyInteractionsToSvg = (svgRoot) => {
+	// Look for the composite chart group
+	const compositeChart = svgRoot.getElementById('composite-chart') ||
+			       svgRoot.querySelector('#composite-chart');
 
-    if (!compositeChart) {
-	console.warn('Composite chart group not found.');
-	return;
-    }
+	if (!compositeChart) return; // Skip if this chart doesn't match the internal structure
 
-    // 3. Select all nested groups with IDs starting with "line-graph-"
-    const lineGraphs = compositeChart.querySelectorAll('g[id^="line-graph-"]');
+	const lineGraphs = compositeChart.querySelectorAll('g[id^="line-graph-"]');
 
-    // Helper function to reset styles to their original state
-    function resetGraphs() {
-	lineGraphs.forEach(graph => {
-	    graph.style.stroke = '';
-	    graph.style.fill = '';
-	});
-    }
-
-    // 4. Add mouseover event listener to the composite chart container
-    compositeChart.addEventListener('mouseover', function(event) {
-	// Find the specific line-graph group being hovered (bubbling up from the target element)
-	const targetGraph = event.target.closest('g[id^="line-graph-"]');
-
-	// Iterate through all line graphs to apply styles
-	lineGraphs.forEach(graph => {
-	    // If a line is hovered, and this graph is NOT the target, make it gray
-	    if (targetGraph && graph !== targetGraph) {
-		graph.style.stroke = 'gray'; // "50% gray" standard keyword
-		graph.style.fill = 'gray';
-	    } else {
-		// Otherwise (it is the target, or nothing is hovered), reset to original
+	const resetGraphs = () => {
+	    lineGraphs.forEach(graph => {
 		graph.style.stroke = '';
 		graph.style.fill = '';
-	    }
+	    });
+	};
+
+	compositeChart.addEventListener('mouseover', (event) => {
+	    const targetGraph = event.target.closest('g[id^="line-graph-"]');
+	    if (!targetGraph) return;
+
+	    lineGraphs.forEach(graph => {
+		if (graph === targetGraph) {
+		    graph.style.stroke = '';
+		    graph.style.fill = '';
+		} else {
+		    graph.style.stroke = 'gray';
+		    graph.style.fill = 'gray';
+		}
+	    });
 	});
-    });
 
-    // 5. Add mouseleave event to reset everything when the mouse leaves the chart area
-    compositeChart.addEventListener('mouseleave', function() {
-	resetGraphs();
-    });
+	compositeChart.addEventListener('mouseleave', resetGraphs);
+    };
 
-})();
+    // 2. Iterate over every matching container found
+    containers.forEach(container => {
+	if (container.tagName === 'svg') {
+	    // Case A: Inline SVG
+	    applyInteractionsToSvg(container);
+	}
+	else if (container.tagName === 'OBJECT' || container.tagName === 'EMBED') {
+	    // Case B: Embedded SVG (<object>)
+	    const initObject = () => {
+		try {
+		    const svgDoc = container.contentDocument;
+		    if (svgDoc) applyInteractionsToSvg(svgDoc);
+		} catch (e) {
+		    console.warn('Cannot access SVG content (CORS):', e);
+		}
+	    };
+
+	    if (container.contentDocument && container.contentDocument.readyState === 'complete') {
+		initObject();
+	    } else {
+		container.addEventListener('load', initObject);
+	    }
+	}
+	else {
+	    // Case C: Wrapper DIV
+	    const nestedSvg = container.querySelector('svg');
+	    const nestedObj = container.querySelector('object, embed');
+
+	    if (nestedSvg) {
+		applyInteractionsToSvg(nestedSvg);
+	    } else if (nestedObj) {
+		// Handle object inside div
+		if (nestedObj.contentDocument) {
+		    applyInteractionsToSvg(nestedObj.contentDocument);
+		} else {
+		    nestedObj.addEventListener('load', () => {
+			 try {
+			     if (nestedObj.contentDocument) applyInteractionsToSvg(nestedObj.contentDocument);
+			 } catch(e) { console.warn(e); }
+		    });
+		}
+	    }
+	}
+    });
+});
+
 </script>
 
 {:/}
