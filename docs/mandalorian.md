@@ -713,10 +713,6 @@ mandalorian-s1s2s3-downloads-by-week-cumulative-normalized-start
 
 
 ## Commentary, Questions
-- acolyte
-  - if this series was so successful with downloaders, why was it cancelled?
-- obi wan
-  - would a hypothetical second season follow the same trajectory as Andor?
 - Year-over-year growth vs. ITU growth
 
 
