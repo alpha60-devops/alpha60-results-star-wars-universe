@@ -698,7 +698,98 @@ mandalorian-s1s2s3-downloads-by-week-cumulative-normalized-start
  </g>
 </svg>
 
+<script type="text/javascript" crossorigin="anonymous" id="graph-fade-js" >
 
+document.addEventListener('DOMContentLoaded', () => {
+    // 1. Find the element with the ID "downloads-by-week" (could be SVG, OBJECT, or DIV)
+    const container = document.querySelector('[id*="downloads-by-week"]');
+
+    if (!container) {
+        console.warn('Container with id "downloads-by-week" not found.');
+        return;
+    }
+
+    // Function to apply the logic once we have the valid SVG document/element
+    const applyChartInteractions = (svgRoot) => {
+        const compositeChart = svgRoot.getElementById('composite-chart') || svgRoot.querySelector('#composite-chart');
+        
+        if (!compositeChart) {
+            console.warn('Group #composite-chart not found inside the SVG.');
+            return;
+        }
+
+        const lineGraphs = compositeChart.querySelectorAll('g[id^="line-graph-"]');
+
+        const resetGraphs = () => {
+            lineGraphs.forEach(graph => {
+                graph.style.stroke = '';
+                graph.style.fill = '';
+            });
+        };
+
+        compositeChart.addEventListener('mouseover', (event) => {
+            const targetGraph = event.target.closest('g[id^="line-graph-"]');
+            if (!targetGraph) return;
+
+            lineGraphs.forEach(graph => {
+                if (graph === targetGraph) {
+                    graph.style.stroke = '';
+                    graph.style.fill = '';
+                } else {
+                    graph.style.stroke = 'gray'; // 50% gray
+                    graph.style.fill = 'gray';
+                }
+            });
+        });
+
+        compositeChart.addEventListener('mouseleave', resetGraphs);
+        console.log('Chart interactions applied successfully.');
+    };
+
+    // 2. Determine how to access the SVG internals
+    if (container.tagName === 'svg') {
+        // Case A: Inline SVG
+        applyChartInteractions(container);
+    } 
+    else if (container.tagName === 'OBJECT' || container.tagName === 'EMBED') {
+        // Case B: Embedded SVG (<object> or <embed>)
+        // We must wait for the object to load to access contentDocument
+        const initObject = () => {
+            try {
+                const svgDoc = container.contentDocument;
+                if (svgDoc) {
+                    applyChartInteractions(svgDoc);
+                }
+            } catch (e) {
+                console.error('Cannot access SVG content (likely Cross-Origin restriction):', e);
+            }
+        };
+
+        if (container.contentDocument) {
+            initObject();
+        } else {
+            container.addEventListener('load', initObject);
+        }
+    } 
+    else {
+        // Case C: The ID is on a wrapper Div, find the SVG inside
+        const nestedSvg = container.querySelector('svg');
+        if (nestedSvg) {
+            applyChartInteractions(nestedSvg);
+        } else {
+            // Case D: Maybe it's an object inside the div
+            const nestedObj = container.querySelector('object');
+            if (nestedObj) {
+                if (nestedObj.contentDocument) {
+                    applyChartInteractions(nestedObj.contentDocument);
+                } else {
+                    nestedObj.addEventListener('load', () => applyChartInteractions(nestedObj.contentDocument));
+                }
+            }
+        }
+    }
+});
+</script>
 
 {:/}
 
