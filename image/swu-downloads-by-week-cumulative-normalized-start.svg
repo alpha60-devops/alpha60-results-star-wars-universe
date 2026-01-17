@@ -3693,18 +3693,65 @@ week: 26
  </g>
 <g id="line-graph-18-obiwan-kenobi-101-102">
  <g id="polyline-obiwan-kenobi-101-102">
-<polyline points="200,847.647 260.8,833.734 321.6,824.28 382.4,815.719 443.2,808.37 504,802.396 564.8,797.131 625.6,792.549 686.4,788.299 747.2,784.172 808,780.588 868.8,777.442 929.6,774.241 990.4,771.315 1051.2,768.493 1112,765.663 1172.8,762.902 1233.6,760.3 " stroke-linecap="round"  style="fill:rgb(0,0,0); fill-opacity:0; stroke:rgb(0,0,0); stroke-opacity:1; stroke-width:2" />
+<polyline points="200,847.647 260.8,833.734 321.6,824.28 382.4,815.719 443.2,808.37 504,802.396 564.8,797.131 625.6,792.549 686.4,788.299 747.2,784.172 808,780.588 868.8,777.442 929.6,774.241 990.4,771.315 1051.2,768.493 1112,765.663 1172.8,762.902 1233.6,760.3 " stroke-linecap="round"  style="fill:rgb(128,5,5); fill-opacity:0; stroke:rgb(128,5,5); stroke-opacity:1; stroke-width:2" />
  </g>
  <g id="markers-obiwan-kenobi-101-102">
-  </g>
+ <path d="M208.22,847.647  Q201.434,850.781 202.021,853.867 Q197.266,849.455 196.117,850.468 Q197.14,845.202 192.767,842.392 Q200.745,844.097 201.928,841.712 Q203.765,847.721 208.22,847.647 Z" style="fill:rgb(128,5,5); fill-opacity:1; stroke:rgb(128,5,5); stroke-opacity:0; stroke-width:2" />
+<path d="M269.02,833.734  Q262.234,836.867 262.821,839.953 Q258.066,835.542 256.917,836.555 Q257.94,831.288 253.567,828.479 Q261.545,830.184 262.728,827.799 Q264.565,833.808 269.02,833.734 Z" style="fill:rgb(128,5,5); fill-opacity:1; stroke:rgb(128,5,5); stroke-opacity:0; stroke-width:2" />
+<path d="M329.82,824.28  Q323.034,827.414 323.621,830.5 Q318.866,826.088 317.717,827.102 Q318.74,821.835 314.367,819.025 Q322.345,820.73 323.528,818.346 Q325.365,824.354 329.82,824.28 Z" style="fill:rgb(128,5,5); fill-opacity:1; stroke:rgb(128,5,5); stroke-opacity:0; stroke-width:2" />
+<path d="M390.62,815.719  Q383.834,818.852 384.421,821.938 Q379.666,817.527 378.517,818.54 Q379.54,813.273 375.167,810.464 Q383.145,812.169 384.328,809.784 Q386.165,815.793 390.62,815.719 Z" style="fill:rgb(128,5,5); fill-opacity:1; stroke:rgb(128,5,5); stroke-opacity:0; stroke-width:2" />
+<path d="M451.42,808.37  Q444.634,811.504 445.221,814.59 Q440.466,810.179 439.317,811.192 Q440.34,805.925 435.967,803.115 Q443.945,804.82 445.128,802.436 Q446.965,808.445 451.42,808.37 Z" style="fill:rgb(128,5,5); fill-opacity:1; stroke:rgb(128,5,5); stroke-opacity:0; stroke-width:2" />
+<path d="M512.22,802.396  Q505.434,805.53 506.021,808.616 Q501.266,804.204 500.117,805.217 Q501.14,799.951 496.767,797.141 Q504.745,798.846 505.928,796.461 Q507.765,802.47 512.22,802.396 Z" style="fill:rgb(128,5,5); fill-opacity:1; stroke:rgb(128,5,5); stroke-opacity:0; stroke-width:2" />
+<path d="M573.02,797.131  Q566.234,800.265 566.821,803.351 Q562.066,798.939 560.917,799.952 Q561.94,794.686 557.567,791.876 Q565.545,793.581 566.728,791.196 Q568.565,797.205 573.02,797.131 Z" style="fill:rgb(128,5,5); fill-opacity:1; stroke:rgb(128,5,5); stroke-opacity:0; stroke-width:2" />
+<path d="M633.82,792.549  Q627.034,795.683 627.621,798.769 Q622.866,794.358 621.717,795.371 Q622.74,790.104 618.367,787.295 Q626.345,789 627.528,786.615 Q629.365,792.624 633.82,792.549 Z" style="fill:rgb(128,5,5); fill-opacity:1; stroke:rgb(128,5,5); stroke-opacity:0; stroke-width:2" />
+<path d="M694.62,788.299  Q687.834,791.433 688.421,794.519 Q683.666,790.107 682.517,791.12 Q683.54,785.854 679.167,783.044 Q687.145,784.749 688.328,782.364 Q690.165,788.373 694.62,788.299 Z" style="fill:rgb(128,5,5); fill-opacity:1; stroke:rgb(128,5,5); stroke-opacity:0; stroke-width:2" />
+<path d="M755.42,784.172  Q748.634,787.306 749.221,790.392 Q744.466,785.98 743.317,786.994 Q744.34,781.727 739.967,778.917 Q747.945,780.622 749.128,778.238 Q750.965,784.246 755.42,784.172 Z" style="fill:rgb(128,5,5); fill-opacity:1; stroke:rgb(128,5,5); stroke-opacity:0; stroke-width:2" />
+<path d="M816.22,780.588  Q809.434,783.722 810.021,786.808 Q805.266,782.396 804.117,783.409 Q805.14,778.143 800.767,775.333 Q808.745,777.038 809.928,774.654 Q811.765,780.662 816.22,780.588 Z" style="fill:rgb(128,5,5); fill-opacity:1; stroke:rgb(128,5,5); stroke-opacity:0; stroke-width:2" />
+<path d="M877.02,777.442  Q870.234,780.576 870.821,783.662 Q866.066,779.251 864.917,780.264 Q865.94,774.997 861.567,772.188 Q869.545,773.893 870.728,771.508 Q872.565,777.517 877.02,777.442 Z" style="fill:rgb(128,5,5); fill-opacity:1; stroke:rgb(128,5,5); stroke-opacity:0; stroke-width:2" />
+<path d="M937.82,774.241  Q931.034,777.375 931.621,780.461 Q926.866,776.049 925.717,777.062 Q926.74,771.796 922.367,768.986 Q930.345,770.691 931.528,768.307 Q933.365,774.315 937.82,774.241 Z" style="fill:rgb(128,5,5); fill-opacity:1; stroke:rgb(128,5,5); stroke-opacity:0; stroke-width:2" />
+<path d="M998.62,771.315  Q991.834,774.449 992.421,777.535 Q987.666,773.124 986.517,774.137 Q987.54,768.87 983.167,766.061 Q991.145,767.766 992.328,765.381 Q994.165,771.39 998.62,771.315 Z" style="fill:rgb(128,5,5); fill-opacity:1; stroke:rgb(128,5,5); stroke-opacity:0; stroke-width:2" />
+<path d="M1059.42,768.493  Q1052.63,771.627 1053.22,774.713 Q1048.47,770.301 1047.32,771.314 Q1048.34,766.048 1043.97,763.238 Q1051.94,764.943 1053.13,762.558 Q1054.97,768.567 1059.42,768.493 Z" style="fill:rgb(128,5,5); fill-opacity:1; stroke:rgb(128,5,5); stroke-opacity:0; stroke-width:2" />
+<path d="M1120.22,765.663  Q1113.43,768.797 1114.02,771.883 Q1109.27,767.472 1108.12,768.485 Q1109.14,763.218 1104.77,760.409 Q1112.74,762.114 1113.93,759.729 Q1115.77,765.738 1120.22,765.663 Z" style="fill:rgb(128,5,5); fill-opacity:1; stroke:rgb(128,5,5); stroke-opacity:0; stroke-width:2" />
+<path d="M1181.02,762.902  Q1174.23,766.035 1174.82,769.121 Q1170.07,764.71 1168.92,765.723 Q1169.94,760.456 1165.57,757.647 Q1173.54,759.352 1174.73,756.967 Q1176.57,762.976 1181.02,762.902 Z" style="fill:rgb(128,5,5); fill-opacity:1; stroke:rgb(128,5,5); stroke-opacity:0; stroke-width:2" />
+<path d="M1241.82,760.3  Q1235.03,763.434 1235.62,766.52 Q1230.87,762.108 1229.72,763.121 Q1230.74,757.855 1226.37,755.045 Q1234.34,756.75 1235.53,754.365 Q1237.37,760.374 1241.82,760.3 Z" style="fill:rgb(128,5,5); fill-opacity:1; stroke:rgb(128,5,5); stroke-opacity:0; stroke-width:2" />
+ </g>
 <text x="1233.600000" y="753.299660" font-family="Atkinson Hyperlegible" font-size="10.000000pt" text-anchor="end" text-align="right" font-weight="400" font-style="normal"  style="fill:rgb(148,148,148); fill-opacity:1; stroke:rgb(148,148,148); stroke-opacity:0; stroke-width:0.5"> obiwan-kenobi-101-102</text>
  </g>
 <g id="line-graph-19-obiwan-kenobi-106">
  <g id="polyline-obiwan-kenobi-106">
-<polyline points="200,861.631 260.8,853.471 321.6,847.267 382.4,842.039 443.2,837.569 504,833.551 564.8,829.868 625.6,826.493 686.4,823.093 747.2,819.832 808,816.747 868.8,813.462 929.6,810.364 990.4,807.245 1051.2,804.171 " stroke-linecap="round"  style="fill:rgb(0,0,0); fill-opacity:0; stroke:rgb(0,0,0); stroke-opacity:1; stroke-width:2" />
+<polyline points="200,861.631 260.8,853.471 321.6,847.267 382.4,842.039 443.2,837.569 504,833.551 564.8,829.868 625.6,826.493 686.4,823.093 747.2,819.832 808,816.747 868.8,813.462 929.6,810.364 990.4,807.245 1051.2,804.171 " stroke-linecap="round"  style="fill:rgb(128,5,5); fill-opacity:0; stroke:rgb(128,5,5); stroke-opacity:1; stroke-width:2" />
  </g>
  <g id="markers-obiwan-kenobi-106">
-  </g>
+ <path d="M208.22,861.631  Q201.434,864.765 202.021,867.851 Q197.266,863.439 196.117,864.453 Q197.14,859.186 192.767,856.376 Q200.745,858.081 201.928,855.697 Q203.765,861.705 208.22,861.631 Z" style="fill:rgb(128,5,5); fill-opacity:1; stroke:rgb(128,5,5); stroke-opacity:0; stroke-width:2" />
+<path d="M218.058,860.035  Q212.969,862.385 213.409,864.7 Q209.843,861.391 208.981,862.151 Q209.749,858.201 206.469,856.094 Q212.452,857.373 213.34,855.584 Q214.717,860.091 218.058,860.035 Z" style="fill:rgb(128,5,5); fill-opacity:1; stroke:rgb(128,5,5); stroke-opacity:0; stroke-width:2" />
+<path d="M269.02,853.471  Q262.234,856.605 262.821,859.691 Q258.066,855.28 256.917,856.293 Q257.94,851.026 253.567,848.217 Q261.545,849.922 262.728,847.537 Q264.565,853.546 269.02,853.471 Z" style="fill:rgb(128,5,5); fill-opacity:1; stroke:rgb(128,5,5); stroke-opacity:0; stroke-width:2" />
+<path d="M278.903,852.253  Q273.814,854.604 274.254,856.918 Q270.687,853.609 269.826,854.369 Q270.593,850.419 267.314,848.312 Q273.297,849.591 274.184,847.802 Q275.562,852.309 278.903,852.253 Z" style="fill:rgb(128,5,5); fill-opacity:1; stroke:rgb(128,5,5); stroke-opacity:0; stroke-width:2" />
+<path d="M329.82,847.267  Q323.034,850.401 323.621,853.487 Q318.866,849.075 317.717,850.088 Q318.74,844.822 314.367,842.012 Q322.345,843.717 323.528,841.332 Q325.365,847.341 329.82,847.267 Z" style="fill:rgb(128,5,5); fill-opacity:1; stroke:rgb(128,5,5); stroke-opacity:0; stroke-width:2" />
+<path d="M339.721,846.239  Q334.631,848.589 335.072,850.904 Q331.505,847.595 330.643,848.355 Q331.411,844.405 328.131,842.298 Q334.115,843.576 335.002,841.788 Q336.38,846.294 339.721,846.239 Z" style="fill:rgb(128,5,5); fill-opacity:1; stroke:rgb(128,5,5); stroke-opacity:0; stroke-width:2" />
+<path d="M390.62,842.039  Q383.834,845.173 384.421,848.259 Q379.666,843.847 378.517,844.86 Q379.54,839.594 375.167,836.784 Q383.145,838.489 384.328,836.105 Q386.165,842.113 390.62,842.039 Z" style="fill:rgb(128,5,5); fill-opacity:1; stroke:rgb(128,5,5); stroke-opacity:0; stroke-width:2" />
+<path d="M400.533,841.159  Q395.443,843.51 395.883,845.824 Q392.317,842.516 391.455,843.275 Q392.223,839.325 388.943,837.218 Q394.926,838.497 395.814,836.708 Q397.192,841.215 400.533,841.159 Z" style="fill:rgb(128,5,5); fill-opacity:1; stroke:rgb(128,5,5); stroke-opacity:0; stroke-width:2" />
+<path d="M451.42,837.569  Q444.634,840.703 445.221,843.789 Q440.466,839.378 439.317,840.391 Q440.34,835.124 435.967,832.315 Q443.945,834.02 445.128,831.635 Q446.965,837.644 451.42,837.569 Z" style="fill:rgb(128,5,5); fill-opacity:1; stroke:rgb(128,5,5); stroke-opacity:0; stroke-width:2" />
+<path d="M461.339,836.778  Q456.249,839.129 456.69,841.443 Q453.123,838.134 452.261,838.894 Q453.029,834.944 449.749,832.837 Q455.733,834.116 456.62,832.327 Q457.998,836.834 461.339,836.778 Z" style="fill:rgb(128,5,5); fill-opacity:1; stroke:rgb(128,5,5); stroke-opacity:0; stroke-width:2" />
+<path d="M512.22,833.551  Q505.434,836.685 506.021,839.771 Q501.266,835.36 500.117,836.373 Q501.14,831.106 496.767,828.297 Q504.745,830.002 505.928,827.617 Q507.765,833.626 512.22,833.551 Z" style="fill:rgb(128,5,5); fill-opacity:1; stroke:rgb(128,5,5); stroke-opacity:0; stroke-width:2" />
+<path d="M522.143,832.826  Q517.054,835.176 517.494,837.491 Q513.927,834.182 513.066,834.942 Q513.833,830.992 510.554,828.885 Q516.537,830.163 517.424,828.375 Q518.802,832.881 522.143,832.826 Z" style="fill:rgb(128,5,5); fill-opacity:1; stroke:rgb(128,5,5); stroke-opacity:0; stroke-width:2" />
+<path d="M573.02,829.868  Q566.234,833.002 566.821,836.088 Q562.066,831.677 560.917,832.69 Q561.94,827.423 557.567,824.614 Q565.545,826.319 566.728,823.934 Q568.565,829.943 573.02,829.868 Z" style="fill:rgb(128,5,5); fill-opacity:1; stroke:rgb(128,5,5); stroke-opacity:0; stroke-width:2" />
+<path d="M582.947,829.203  Q577.857,831.554 578.297,833.868 Q574.731,830.559 573.869,831.319 Q574.637,827.369 571.357,825.262 Q577.34,826.541 578.228,824.752 Q579.606,829.259 582.947,829.203 Z" style="fill:rgb(128,5,5); fill-opacity:1; stroke:rgb(128,5,5); stroke-opacity:0; stroke-width:2" />
+<path d="M633.82,826.493  Q627.034,829.627 627.621,832.713 Q622.866,828.302 621.717,829.315 Q622.74,824.048 618.367,821.238 Q626.345,822.943 627.528,820.559 Q629.365,826.567 633.82,826.493 Z" style="fill:rgb(128,5,5); fill-opacity:1; stroke:rgb(128,5,5); stroke-opacity:0; stroke-width:2" />
+<path d="M643.746,825.823  Q638.657,828.174 639.097,830.488 Q635.531,827.179 634.669,827.939 Q635.437,823.989 632.157,821.882 Q638.14,823.161 639.027,821.372 Q640.405,825.879 643.746,825.823 Z" style="fill:rgb(128,5,5); fill-opacity:1; stroke:rgb(128,5,5); stroke-opacity:0; stroke-width:2" />
+<path d="M694.62,823.093  Q687.834,826.227 688.421,829.313 Q683.666,824.901 682.517,825.914 Q683.54,820.648 679.167,817.838 Q687.145,819.543 688.328,817.158 Q690.165,823.167 694.62,823.093 Z" style="fill:rgb(128,5,5); fill-opacity:1; stroke:rgb(128,5,5); stroke-opacity:0; stroke-width:2" />
+<path d="M704.548,822.45  Q699.458,824.8 699.899,827.115 Q696.332,823.806 695.47,824.566 Q696.238,820.616 692.958,818.509 Q698.941,819.788 699.829,817.999 Q701.207,822.506 704.548,822.45 Z" style="fill:rgb(128,5,5); fill-opacity:1; stroke:rgb(128,5,5); stroke-opacity:0; stroke-width:2" />
+<path d="M755.42,819.832  Q748.634,822.966 749.221,826.052 Q744.466,821.64 743.317,822.653 Q744.34,817.387 739.967,814.577 Q747.945,816.282 749.128,813.897 Q750.965,819.906 755.42,819.832 Z" style="fill:rgb(128,5,5); fill-opacity:1; stroke:rgb(128,5,5); stroke-opacity:0; stroke-width:2" />
+<path d="M765.35,819.224  Q760.26,821.574 760.7,823.889 Q757.134,820.58 756.272,821.34 Q757.04,817.39 753.76,815.283 Q759.743,816.561 760.631,814.773 Q762.009,819.279 765.35,819.224 Z" style="fill:rgb(128,5,5); fill-opacity:1; stroke:rgb(128,5,5); stroke-opacity:0; stroke-width:2" />
+<path d="M816.22,816.747  Q809.434,819.881 810.021,822.967 Q805.266,818.555 804.117,819.568 Q805.14,814.302 800.767,811.492 Q808.745,813.197 809.928,810.812 Q811.765,816.821 816.22,816.747 Z" style="fill:rgb(128,5,5); fill-opacity:1; stroke:rgb(128,5,5); stroke-opacity:0; stroke-width:2" />
+<path d="M826.148,816.099  Q821.058,818.45 821.498,820.764 Q817.932,817.456 817.07,818.216 Q817.838,814.266 814.558,812.158 Q820.541,813.437 821.429,811.649 Q822.807,816.155 826.148,816.099 Z" style="fill:rgb(128,5,5); fill-opacity:1; stroke:rgb(128,5,5); stroke-opacity:0; stroke-width:2" />
+<path d="M877.02,813.462  Q870.234,816.596 870.821,819.682 Q866.066,815.27 864.917,816.283 Q865.94,811.017 861.567,808.207 Q869.545,809.912 870.728,807.527 Q872.565,813.536 877.02,813.462 Z" style="fill:rgb(128,5,5); fill-opacity:1; stroke:rgb(128,5,5); stroke-opacity:0; stroke-width:2" />
+<path d="M886.949,812.851  Q881.86,815.202 882.3,817.516 Q878.734,814.208 877.872,814.967 Q878.64,811.018 875.36,808.91 Q881.343,810.189 882.231,808.4 Q883.609,812.907 886.949,812.851 Z" style="fill:rgb(128,5,5); fill-opacity:1; stroke:rgb(128,5,5); stroke-opacity:0; stroke-width:2" />
+<path d="M937.82,810.364  Q931.034,813.498 931.621,816.584 Q926.866,812.173 925.717,813.186 Q926.74,807.919 922.367,805.11 Q930.345,806.815 931.528,804.43 Q933.365,810.439 937.82,810.364 Z" style="fill:rgb(128,5,5); fill-opacity:1; stroke:rgb(128,5,5); stroke-opacity:0; stroke-width:2" />
+<path d="M947.749,809.75  Q942.66,812.1 943.1,814.414 Q939.534,811.106 938.672,811.866 Q939.44,807.916 936.16,805.808 Q942.143,807.087 943.03,805.299 Q944.408,809.805 947.749,809.75 Z" style="fill:rgb(128,5,5); fill-opacity:1; stroke:rgb(128,5,5); stroke-opacity:0; stroke-width:2" />
+<path d="M998.62,807.245  Q991.834,810.379 992.421,813.465 Q987.666,809.053 986.517,810.066 Q987.54,804.8 983.167,801.99 Q991.145,803.695 992.328,801.311 Q994.165,807.319 998.62,807.245 Z" style="fill:rgb(128,5,5); fill-opacity:1; stroke:rgb(128,5,5); stroke-opacity:0; stroke-width:2" />
+<path d="M1008.55,806.639  Q1003.46,808.99 1003.9,811.304 Q1000.33,807.995 999.472,808.755 Q1000.24,804.805 996.96,802.698 Q1002.94,803.977 1003.83,802.188 Q1005.21,806.695 1008.55,806.639 Z" style="fill:rgb(128,5,5); fill-opacity:1; stroke:rgb(128,5,5); stroke-opacity:0; stroke-width:2" />
+<path d="M1059.42,804.171  Q1052.63,807.305 1053.22,810.391 Q1048.47,805.979 1047.32,806.992 Q1048.34,801.726 1043.97,798.916 Q1051.94,800.621 1053.13,798.236 Q1054.97,804.245 1059.42,804.171 Z" style="fill:rgb(128,5,5); fill-opacity:1; stroke:rgb(128,5,5); stroke-opacity:0; stroke-width:2" />
+ </g>
 <text x="1051.200000" y="797.170992" font-family="Atkinson Hyperlegible" font-size="10.000000pt" text-anchor="end" text-align="right" font-weight="400" font-style="normal"  style="fill:rgb(148,148,148); fill-opacity:1; stroke:rgb(148,148,148); stroke-opacity:0; stroke-width:0.5"> obiwan-kenobi-106</text>
  </g>
 <g id="line-graph-20-star-wars-visions-101-102-103-104-105-106-107-108-109">
@@ -3745,13 +3792,125 @@ week: 26
  </g>
 <text x="747.200000" y="654.414017" font-family="Atkinson Hyperlegible" font-size="10.000000pt" text-anchor="end" text-align="right" font-weight="400" font-style="normal"  style="fill:rgb(148,148,148); fill-opacity:1; stroke:rgb(148,148,148); stroke-opacity:0; stroke-width:0.5"> star-wars-visions-301-302-303-304-305-306-307-308-309</text>
  </g>
-<g id="line-graph-22--wars-tales-of-the-jedi-101-102-103-104-105-106">
- <g id="polyline--wars-tales-of-the-jedi-101-102-103-104-105-106">
-<polyline points="200,876.801 260.8,875.114 321.6,873.794 382.4,872.606 443.2,871.538 504,870.552 564.8,869.62 625.6,868.719 686.4,867.89 747.2,867.097 808,866.246 868.8,865.398 929.6,864.495 990.4,863.599 1051.2,862.711 1112,861.899 " stroke-linecap="round"  style="fill:rgb(0,0,0); fill-opacity:0; stroke:rgb(0,0,0); stroke-opacity:1; stroke-width:2" />
+<g id="line-graph-22-star-wars-tales-of-the-jedi-101-102-103-104-105-106">
+ <g id="polyline-star-wars-tales-of-the-jedi-101-102-103-104-105-106">
+<polyline points="200,876.801 260.8,875.114 321.6,873.794 382.4,872.606 443.2,871.538 504,870.552 564.8,869.62 625.6,868.719 686.4,867.89 747.2,867.097 808,866.246 868.8,865.398 929.6,864.495 990.4,863.599 1051.2,862.711 1112,861.899 " stroke-linecap="round"  style="fill:rgb(200,56,81); fill-opacity:0; stroke:rgb(200,56,81); stroke-opacity:1; stroke-width:2" />
  </g>
- <g id="markers--wars-tales-of-the-jedi-101-102-103-104-105-106">
-  </g>
-<text x="1112.000000" y="854.898535" font-family="Atkinson Hyperlegible" font-size="10.000000pt" text-anchor="end" text-align="right" font-weight="400" font-style="normal"  style="fill:rgb(148,148,148); fill-opacity:1; stroke:rgb(148,148,148); stroke-opacity:0; stroke-width:0.5"> -wars-tales-of-the-jedi-101-102-103-104-105-106</text>
+ <g id="markers-star-wars-tales-of-the-jedi-101-102-103-104-105-106">
+ <path id="polygon-n6-r6.000000" d="M 205.196 873.801 L 200 870.801 L 194.804 873.801 L 194.804 879.801 L 200 882.801 L 205.196 879.801 L 205.196 873.801 " style="fill:rgb(200,56,81); fill-opacity:1; stroke:rgb(200,56,81); stroke-opacity:0; stroke-width:2"  >
+<title>
+star-wars-tales-of-the-jedi-101-102-103-104-105-106
+week: 1
+302,014.000000
+</title>
+ </circle>
+<path id="polygon-n6-r6.000000" d="M 265.996 872.114 L 260.8 869.114 L 255.604 872.114 L 255.604 878.114 L 260.8 881.114 L 265.996 878.114 L 265.996 872.114 " style="fill:rgb(200,56,81); fill-opacity:1; stroke:rgb(200,56,81); stroke-opacity:0; stroke-width:2"  >
+<title>
+star-wars-tales-of-the-jedi-101-102-103-104-105-106
+week: 2
+461,258.000000
+</title>
+ </circle>
+<path id="polygon-n6-r6.000000" d="M 326.796 870.794 L 321.6 867.794 L 316.404 870.794 L 316.404 876.794 L 321.6 879.794 L 326.796 876.794 L 326.796 870.794 " style="fill:rgb(200,56,81); fill-opacity:1; stroke:rgb(200,56,81); stroke-opacity:0; stroke-width:2"  >
+<title>
+star-wars-tales-of-the-jedi-101-102-103-104-105-106
+week: 3
+585,849.000000
+</title>
+ </circle>
+<path id="polygon-n6-r6.000000" d="M 387.596 869.606 L 382.4 866.606 L 377.204 869.606 L 377.204 875.606 L 382.4 878.606 L 387.596 875.606 L 387.596 869.606 " style="fill:rgb(200,56,81); fill-opacity:1; stroke:rgb(200,56,81); stroke-opacity:0; stroke-width:2"  >
+<title>
+star-wars-tales-of-the-jedi-101-102-103-104-105-106
+week: 4
+697,960.000000
+</title>
+ </circle>
+<path id="polygon-n6-r6.000000" d="M 448.396 868.538 L 443.2 865.538 L 438.004 868.538 L 438.004 874.538 L 443.2 877.538 L 448.396 874.538 L 448.396 868.538 " style="fill:rgb(200,56,81); fill-opacity:1; stroke:rgb(200,56,81); stroke-opacity:0; stroke-width:2"  >
+<title>
+star-wars-tales-of-the-jedi-101-102-103-104-105-106
+week: 5
+798,820.000000
+</title>
+ </circle>
+<path id="polygon-n6-r6.000000" d="M 509.196 867.552 L 504 864.552 L 498.804 867.552 L 498.804 873.552 L 504 876.552 L 509.196 873.552 L 509.196 867.552 " style="fill:rgb(200,56,81); fill-opacity:1; stroke:rgb(200,56,81); stroke-opacity:0; stroke-width:2"  >
+<title>
+star-wars-tales-of-the-jedi-101-102-103-104-105-106
+week: 6
+891,942.000000
+</title>
+ </circle>
+<path id="polygon-n6-r6.000000" d="M 569.996 866.62 L 564.8 863.62 L 559.604 866.62 L 559.604 872.62 L 564.8 875.62 L 569.996 872.62 L 569.996 866.62 " style="fill:rgb(200,56,81); fill-opacity:1; stroke:rgb(200,56,81); stroke-opacity:0; stroke-width:2"  >
+<title>
+star-wars-tales-of-the-jedi-101-102-103-104-105-106
+week: 7
+979,889.000000
+</title>
+ </circle>
+<path id="polygon-n6-r6.000000" d="M 630.796 865.719 L 625.6 862.719 L 620.404 865.719 L 620.404 871.719 L 625.6 874.719 L 630.796 871.719 L 630.796 865.719 " style="fill:rgb(200,56,81); fill-opacity:1; stroke:rgb(200,56,81); stroke-opacity:0; stroke-width:2"  >
+<title>
+star-wars-tales-of-the-jedi-101-102-103-104-105-106
+week: 8
+1,064,958.000000
+</title>
+ </circle>
+<path id="polygon-n6-r6.000000" d="M 691.596 864.89 L 686.4 861.89 L 681.204 864.89 L 681.204 870.89 L 686.4 873.89 L 691.596 870.89 L 691.596 864.89 " style="fill:rgb(200,56,81); fill-opacity:1; stroke:rgb(200,56,81); stroke-opacity:0; stroke-width:2"  >
+<title>
+star-wars-tales-of-the-jedi-101-102-103-104-105-106
+week: 9
+1,143,182.000000
+</title>
+ </circle>
+<path id="polygon-n6-r6.000000" d="M 752.396 864.097 L 747.2 861.097 L 742.004 864.097 L 742.004 870.097 L 747.2 873.097 L 752.396 870.097 L 752.396 864.097 " style="fill:rgb(200,56,81); fill-opacity:1; stroke:rgb(200,56,81); stroke-opacity:0; stroke-width:2"  >
+<title>
+star-wars-tales-of-the-jedi-101-102-103-104-105-106
+week: 10
+1,218,092.000000
+</title>
+ </circle>
+<path id="polygon-n6-r6.000000" d="M 813.196 863.246 L 808 860.246 L 802.804 863.246 L 802.804 869.246 L 808 872.246 L 813.196 869.246 L 813.196 863.246 " style="fill:rgb(200,56,81); fill-opacity:1; stroke:rgb(200,56,81); stroke-opacity:0; stroke-width:2"  >
+<title>
+star-wars-tales-of-the-jedi-101-102-103-104-105-106
+week: 11
+1,298,398.000000
+</title>
+ </circle>
+<path id="polygon-n6-r6.000000" d="M 873.996 862.398 L 868.8 859.398 L 863.604 862.398 L 863.604 868.398 L 868.8 871.398 L 873.996 868.398 L 873.996 862.398 " style="fill:rgb(200,56,81); fill-opacity:1; stroke:rgb(200,56,81); stroke-opacity:0; stroke-width:2"  >
+<title>
+star-wars-tales-of-the-jedi-101-102-103-104-105-106
+week: 12
+1,378,406.000000
+</title>
+ </circle>
+<path id="polygon-n6-r6.000000" d="M 934.796 861.495 L 929.6 858.495 L 924.404 861.495 L 924.404 867.495 L 929.6 870.495 L 934.796 867.495 L 934.796 861.495 " style="fill:rgb(200,56,81); fill-opacity:1; stroke:rgb(200,56,81); stroke-opacity:0; stroke-width:2"  >
+<title>
+star-wars-tales-of-the-jedi-101-102-103-104-105-106
+week: 13
+1,463,658.000000
+</title>
+ </circle>
+<path id="polygon-n6-r6.000000" d="M 995.596 860.599 L 990.4 857.599 L 985.204 860.599 L 985.204 866.599 L 990.4 869.599 L 995.596 866.599 L 995.596 860.599 " style="fill:rgb(200,56,81); fill-opacity:1; stroke:rgb(200,56,81); stroke-opacity:0; stroke-width:2"  >
+<title>
+star-wars-tales-of-the-jedi-101-102-103-104-105-106
+week: 14
+1,548,309.000000
+</title>
+ </circle>
+<path id="polygon-n6-r6.000000" d="M 1056.4 859.711 L 1051.2 856.711 L 1046 859.711 L 1046 865.711 L 1051.2 868.711 L 1056.4 865.711 L 1056.4 859.711 " style="fill:rgb(200,56,81); fill-opacity:1; stroke:rgb(200,56,81); stroke-opacity:0; stroke-width:2"  >
+<title>
+star-wars-tales-of-the-jedi-101-102-103-104-105-106
+week: 15
+1,632,113.000000
+</title>
+ </circle>
+<path id="polygon-n6-r6.000000" d="M 1117.2 858.899 L 1112 855.899 L 1106.8 858.899 L 1106.8 864.899 L 1112 867.899 L 1117.2 864.899 L 1117.2 858.899 " style="fill:rgb(200,56,81); fill-opacity:1; stroke:rgb(200,56,81); stroke-opacity:0; stroke-width:2"  >
+<title>
+star-wars-tales-of-the-jedi-101-102-103-104-105-106
+week: 16
+1,708,805.000000
+</title>
+ </circle>
+ </g>
+<text x="1112.000000" y="854.898535" font-family="Atkinson Hyperlegible" font-size="10.000000pt" text-anchor="end" text-align="right" font-weight="400" font-style="normal"  style="fill:rgb(148,148,148); fill-opacity:1; stroke:rgb(148,148,148); stroke-opacity:0; stroke-width:0.5"> star-wars-tales-of-the-jedi-101-102-103-104-105-106</text>
  </g>
  </g>
 </svg>

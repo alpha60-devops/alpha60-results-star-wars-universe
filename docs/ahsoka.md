@@ -31,7 +31,7 @@
 
 <tbody>
 <tr>
-<td>2021-02-09-to-2026-12-08</td>
+<td>2021-09-22-to-2026-01-06</td>
 <th>2,795</th>
 <td>171,262,126</td>
 <td>61,274</td>
@@ -45,9 +45,10 @@
 ### Graphs
 
 <!--
-<img src="../image/andor-s1s2-downloads-by-week-cumulative-normalized-start.svg?sanitize=false" width="700">
+<img src="../image/andor-s1s2-downloads-by-week-cumulative-normalized-start.svg?sanitize=false" width="100%" height="auto">
 -->
 {::nomarkdown}
+
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1"
@@ -2036,18 +2037,65 @@ week: 26
  </g>
 <g id="line-graph-6-obiwan-kenobi-101-102">
  <g id="polyline-obiwan-kenobi-101-102">
-<polyline points="200,827.447 260.8,804.847 321.6,789.492 382.4,775.585 443.2,763.649 504,753.945 564.8,745.392 625.6,737.95 686.4,731.046 747.2,724.343 808,718.521 868.8,713.412 929.6,708.211 990.4,703.459 1051.2,698.874 1112,694.278 1172.8,689.792 1233.6,685.566 " stroke-linecap="round"  style="fill:rgb(0,0,0); fill-opacity:0; stroke:rgb(0,0,0); stroke-opacity:1; stroke-width:2" />
+<polyline points="200,827.447 260.8,804.847 321.6,789.492 382.4,775.585 443.2,763.649 504,753.945 564.8,745.392 625.6,737.95 686.4,731.046 747.2,724.343 808,718.521 868.8,713.412 929.6,708.211 990.4,703.459 1051.2,698.874 1112,694.278 1172.8,689.792 1233.6,685.566 " stroke-linecap="round"  style="fill:rgb(128,5,5); fill-opacity:0; stroke:rgb(128,5,5); stroke-opacity:1; stroke-width:2" />
  </g>
  <g id="markers-obiwan-kenobi-101-102">
-  </g>
+ <path d="M208.22,827.447  Q201.434,830.581 202.021,833.667 Q197.266,829.255 196.117,830.268 Q197.14,825.002 192.767,822.192 Q200.745,823.897 201.928,821.512 Q203.765,827.521 208.22,827.447 Z" style="fill:rgb(128,5,5); fill-opacity:1; stroke:rgb(128,5,5); stroke-opacity:0; stroke-width:2" />
+<path d="M269.02,804.847  Q262.234,807.981 262.821,811.067 Q258.066,806.656 256.917,807.669 Q257.94,802.402 253.567,799.593 Q261.545,801.298 262.728,798.913 Q264.565,804.922 269.02,804.847 Z" style="fill:rgb(128,5,5); fill-opacity:1; stroke:rgb(128,5,5); stroke-opacity:0; stroke-width:2" />
+<path d="M329.82,789.492  Q323.034,792.626 323.621,795.712 Q318.866,791.3 317.717,792.313 Q318.74,787.047 314.367,784.237 Q322.345,785.942 323.528,783.557 Q325.365,789.566 329.82,789.492 Z" style="fill:rgb(128,5,5); fill-opacity:1; stroke:rgb(128,5,5); stroke-opacity:0; stroke-width:2" />
+<path d="M390.62,775.585  Q383.834,778.719 384.421,781.805 Q379.666,777.393 378.517,778.406 Q379.54,773.14 375.167,770.33 Q383.145,772.035 384.328,769.65 Q386.165,775.659 390.62,775.585 Z" style="fill:rgb(128,5,5); fill-opacity:1; stroke:rgb(128,5,5); stroke-opacity:0; stroke-width:2" />
+<path d="M451.42,763.649  Q444.634,766.783 445.221,769.869 Q440.466,765.457 439.317,766.47 Q440.34,761.204 435.967,758.394 Q443.945,760.099 445.128,757.714 Q446.965,763.723 451.42,763.649 Z" style="fill:rgb(128,5,5); fill-opacity:1; stroke:rgb(128,5,5); stroke-opacity:0; stroke-width:2" />
+<path d="M512.22,753.945  Q505.434,757.078 506.021,760.164 Q501.266,755.753 500.117,756.766 Q501.14,751.499 496.767,748.69 Q504.745,750.395 505.928,748.01 Q507.765,754.019 512.22,753.945 Z" style="fill:rgb(128,5,5); fill-opacity:1; stroke:rgb(128,5,5); stroke-opacity:0; stroke-width:2" />
+<path d="M573.02,745.392  Q566.234,748.526 566.821,751.612 Q562.066,747.2 560.917,748.213 Q561.94,742.947 557.567,740.137 Q565.545,741.842 566.728,739.457 Q568.565,745.466 573.02,745.392 Z" style="fill:rgb(128,5,5); fill-opacity:1; stroke:rgb(128,5,5); stroke-opacity:0; stroke-width:2" />
+<path d="M633.82,737.95  Q627.034,741.084 627.621,744.17 Q622.866,739.759 621.717,740.772 Q622.74,735.505 618.367,732.695 Q626.345,734.4 627.528,732.016 Q629.365,738.024 633.82,737.95 Z" style="fill:rgb(128,5,5); fill-opacity:1; stroke:rgb(128,5,5); stroke-opacity:0; stroke-width:2" />
+<path d="M694.62,731.046  Q687.834,734.179 688.421,737.265 Q683.666,732.854 682.517,733.867 Q683.54,728.6 679.167,725.791 Q687.145,727.496 688.328,725.111 Q690.165,731.12 694.62,731.046 Z" style="fill:rgb(128,5,5); fill-opacity:1; stroke:rgb(128,5,5); stroke-opacity:0; stroke-width:2" />
+<path d="M755.42,724.343  Q748.634,727.477 749.221,730.563 Q744.466,726.151 743.317,727.164 Q744.34,721.898 739.967,719.088 Q747.945,720.793 749.128,718.408 Q750.965,724.417 755.42,724.343 Z" style="fill:rgb(128,5,5); fill-opacity:1; stroke:rgb(128,5,5); stroke-opacity:0; stroke-width:2" />
+<path d="M816.22,718.521  Q809.434,721.655 810.021,724.741 Q805.266,720.329 804.117,721.342 Q805.14,716.076 800.767,713.266 Q808.745,714.971 809.928,712.586 Q811.765,718.595 816.22,718.521 Z" style="fill:rgb(128,5,5); fill-opacity:1; stroke:rgb(128,5,5); stroke-opacity:0; stroke-width:2" />
+<path d="M877.02,713.412  Q870.234,716.545 870.821,719.631 Q866.066,715.22 864.917,716.233 Q865.94,710.966 861.567,708.157 Q869.545,709.862 870.728,707.477 Q872.565,713.486 877.02,713.412 Z" style="fill:rgb(128,5,5); fill-opacity:1; stroke:rgb(128,5,5); stroke-opacity:0; stroke-width:2" />
+<path d="M937.82,708.211  Q931.034,711.345 931.621,714.431 Q926.866,710.02 925.717,711.033 Q926.74,705.766 922.367,702.957 Q930.345,704.662 931.528,702.277 Q933.365,708.286 937.82,708.211 Z" style="fill:rgb(128,5,5); fill-opacity:1; stroke:rgb(128,5,5); stroke-opacity:0; stroke-width:2" />
+<path d="M998.62,703.459  Q991.834,706.593 992.421,709.679 Q987.666,705.267 986.517,706.28 Q987.54,701.014 983.167,698.204 Q991.145,699.909 992.328,697.524 Q994.165,703.533 998.62,703.459 Z" style="fill:rgb(128,5,5); fill-opacity:1; stroke:rgb(128,5,5); stroke-opacity:0; stroke-width:2" />
+<path d="M1059.42,698.874  Q1052.63,702.008 1053.22,705.094 Q1048.47,700.682 1047.32,701.695 Q1048.34,696.429 1043.97,693.619 Q1051.94,695.324 1053.13,692.939 Q1054.97,698.948 1059.42,698.874 Z" style="fill:rgb(128,5,5); fill-opacity:1; stroke:rgb(128,5,5); stroke-opacity:0; stroke-width:2" />
+<path d="M1120.22,694.278  Q1113.43,697.412 1114.02,700.498 Q1109.27,696.086 1108.12,697.099 Q1109.14,691.833 1104.77,689.023 Q1112.74,690.728 1113.93,688.344 Q1115.77,694.352 1120.22,694.278 Z" style="fill:rgb(128,5,5); fill-opacity:1; stroke:rgb(128,5,5); stroke-opacity:0; stroke-width:2" />
+<path d="M1181.02,689.792  Q1174.23,692.926 1174.82,696.012 Q1170.07,691.6 1168.92,692.613 Q1169.94,687.347 1165.57,684.537 Q1173.54,686.242 1174.73,683.857 Q1176.57,689.866 1181.02,689.792 Z" style="fill:rgb(128,5,5); fill-opacity:1; stroke:rgb(128,5,5); stroke-opacity:0; stroke-width:2" />
+<path d="M1241.82,685.566  Q1235.03,688.7 1235.62,691.786 Q1230.87,687.374 1229.72,688.387 Q1230.74,683.121 1226.37,680.311 Q1234.34,682.016 1235.53,679.631 Q1237.37,685.64 1241.82,685.566 Z" style="fill:rgb(128,5,5); fill-opacity:1; stroke:rgb(128,5,5); stroke-opacity:0; stroke-width:2" />
+ </g>
 <text x="1233.600000" y="678.565688" font-family="Atkinson Hyperlegible" font-size="10.000000pt" text-anchor="end" text-align="right" font-weight="400" font-style="normal"  style="fill:rgb(148,148,148); fill-opacity:1; stroke:rgb(148,148,148); stroke-opacity:0; stroke-width:0.5"> obiwan-kenobi-101-102</text>
  </g>
 <g id="line-graph-7-obiwan-kenobi-106">
  <g id="polyline-obiwan-kenobi-106">
-<polyline points="200,850.163 260.8,836.908 321.6,826.83 382.4,818.339 443.2,811.078 504,804.552 564.8,798.569 625.6,793.087 686.4,787.563 747.2,782.266 808,777.255 868.8,771.92 929.6,766.888 990.4,761.821 1051.2,756.828 " stroke-linecap="round"  style="fill:rgb(0,0,0); fill-opacity:0; stroke:rgb(0,0,0); stroke-opacity:1; stroke-width:2" />
+<polyline points="200,850.163 260.8,836.908 321.6,826.83 382.4,818.339 443.2,811.078 504,804.552 564.8,798.569 625.6,793.087 686.4,787.563 747.2,782.266 808,777.255 868.8,771.92 929.6,766.888 990.4,761.821 1051.2,756.828 " stroke-linecap="round"  style="fill:rgb(128,5,5); fill-opacity:0; stroke:rgb(128,5,5); stroke-opacity:1; stroke-width:2" />
  </g>
  <g id="markers-obiwan-kenobi-106">
-  </g>
+ <path d="M208.22,850.163  Q201.434,853.297 202.021,856.383 Q197.266,851.971 196.117,852.984 Q197.14,847.718 192.767,844.908 Q200.745,846.613 201.928,844.228 Q203.765,850.237 208.22,850.163 Z" style="fill:rgb(128,5,5); fill-opacity:1; stroke:rgb(128,5,5); stroke-opacity:0; stroke-width:2" />
+<path d="M217.89,847.607  Q212.8,849.957 213.24,852.272 Q209.674,848.963 208.812,849.723 Q209.58,845.773 206.3,843.666 Q212.283,844.944 213.171,843.156 Q214.549,847.662 217.89,847.607 Z" style="fill:rgb(128,5,5); fill-opacity:1; stroke:rgb(128,5,5); stroke-opacity:0; stroke-width:2" />
+<path d="M269.02,836.908  Q262.234,840.042 262.821,843.128 Q258.066,838.717 256.917,839.73 Q257.94,834.463 253.567,831.654 Q261.545,833.359 262.728,830.974 Q264.565,836.983 269.02,836.908 Z" style="fill:rgb(128,5,5); fill-opacity:1; stroke:rgb(128,5,5); stroke-opacity:0; stroke-width:2" />
+<path d="M278.803,834.946  Q273.714,837.296 274.154,839.611 Q270.588,836.302 269.726,837.062 Q270.494,833.112 267.214,831.005 Q273.197,832.284 274.085,830.495 Q275.463,835.002 278.803,834.946 Z" style="fill:rgb(128,5,5); fill-opacity:1; stroke:rgb(128,5,5); stroke-opacity:0; stroke-width:2" />
+<path d="M329.82,826.83  Q323.034,829.964 323.621,833.05 Q318.866,828.638 317.717,829.651 Q318.74,824.385 314.367,821.575 Q322.345,823.28 323.528,820.895 Q325.365,826.904 329.82,826.83 Z" style="fill:rgb(128,5,5); fill-opacity:1; stroke:rgb(128,5,5); stroke-opacity:0; stroke-width:2" />
+<path d="M339.65,825.17  Q334.56,827.52 335,829.835 Q331.434,826.526 330.572,827.286 Q331.34,823.336 328.06,821.229 Q334.043,822.508 334.931,820.719 Q336.309,825.226 339.65,825.17 Z" style="fill:rgb(128,5,5); fill-opacity:1; stroke:rgb(128,5,5); stroke-opacity:0; stroke-width:2" />
+<path d="M390.62,818.339  Q383.834,821.472 384.421,824.558 Q379.666,820.147 378.517,821.16 Q379.54,815.893 375.167,813.084 Q383.145,814.789 384.328,812.404 Q386.165,818.413 390.62,818.339 Z" style="fill:rgb(128,5,5); fill-opacity:1; stroke:rgb(128,5,5); stroke-opacity:0; stroke-width:2" />
+<path d="M400.48,816.916  Q395.391,819.266 395.831,821.581 Q392.265,818.272 391.403,819.032 Q392.171,815.082 388.891,812.975 Q394.874,814.253 395.762,812.465 Q397.139,816.971 400.48,816.916 Z" style="fill:rgb(128,5,5); fill-opacity:1; stroke:rgb(128,5,5); stroke-opacity:0; stroke-width:2" />
+<path d="M451.42,811.078  Q444.634,814.212 445.221,817.298 Q440.466,812.887 439.317,813.9 Q440.34,808.633 435.967,805.823 Q443.945,807.528 445.128,805.144 Q446.965,811.153 451.42,811.078 Z" style="fill:rgb(128,5,5); fill-opacity:1; stroke:rgb(128,5,5); stroke-opacity:0; stroke-width:2" />
+<path d="M461.296,809.797  Q456.207,812.148 456.647,814.462 Q453.081,811.154 452.219,811.913 Q452.987,807.964 449.707,805.856 Q455.69,807.135 456.578,805.347 Q457.956,809.853 461.296,809.797 Z" style="fill:rgb(128,5,5); fill-opacity:1; stroke:rgb(128,5,5); stroke-opacity:0; stroke-width:2" />
+<path d="M512.22,804.552  Q505.434,807.685 506.021,810.771 Q501.266,806.36 500.117,807.373 Q501.14,802.106 496.767,799.297 Q504.745,801.002 505.928,798.617 Q507.765,804.626 512.22,804.552 Z" style="fill:rgb(128,5,5); fill-opacity:1; stroke:rgb(128,5,5); stroke-opacity:0; stroke-width:2" />
+<path d="M522.107,803.377  Q517.018,805.727 517.458,808.041 Q513.892,804.733 513.03,805.493 Q513.798,801.543 510.518,799.435 Q516.501,800.714 517.389,798.926 Q518.766,803.432 522.107,803.377 Z" style="fill:rgb(128,5,5); fill-opacity:1; stroke:rgb(128,5,5); stroke-opacity:0; stroke-width:2" />
+<path d="M573.02,798.569  Q566.234,801.703 566.821,804.789 Q562.066,800.377 560.917,801.391 Q561.94,796.124 557.567,793.314 Q565.545,795.019 566.728,792.635 Q568.565,798.643 573.02,798.569 Z" style="fill:rgb(128,5,5); fill-opacity:1; stroke:rgb(128,5,5); stroke-opacity:0; stroke-width:2" />
+<path d="M582.917,797.491  Q577.827,799.842 578.267,802.156 Q574.701,798.848 573.839,799.607 Q574.607,795.658 571.327,793.55 Q577.31,794.829 578.198,793.041 Q579.576,797.547 582.917,797.491 Z" style="fill:rgb(128,5,5); fill-opacity:1; stroke:rgb(128,5,5); stroke-opacity:0; stroke-width:2" />
+<path d="M633.82,793.087  Q627.034,796.221 627.621,799.307 Q622.866,794.895 621.717,795.908 Q622.74,790.642 618.367,787.832 Q626.345,789.537 627.528,787.152 Q629.365,793.161 633.82,793.087 Z" style="fill:rgb(128,5,5); fill-opacity:1; stroke:rgb(128,5,5); stroke-opacity:0; stroke-width:2" />
+<path d="M643.716,792.001  Q638.626,794.351 639.067,796.666 Q635.5,793.357 634.638,794.117 Q635.406,790.167 632.126,788.06 Q638.109,789.339 638.997,787.55 Q640.375,792.057 643.716,792.001 Z" style="fill:rgb(128,5,5); fill-opacity:1; stroke:rgb(128,5,5); stroke-opacity:0; stroke-width:2" />
+<path d="M694.62,787.563  Q687.834,790.697 688.421,793.783 Q683.666,789.371 682.517,790.384 Q683.54,785.118 679.167,782.308 Q687.145,784.013 688.328,781.628 Q690.165,787.637 694.62,787.563 Z" style="fill:rgb(128,5,5); fill-opacity:1; stroke:rgb(128,5,5); stroke-opacity:0; stroke-width:2" />
+<path d="M704.52,786.522  Q699.43,788.872 699.87,791.186 Q696.304,787.878 695.442,788.638 Q696.21,784.688 692.93,782.58 Q698.913,783.859 699.801,782.071 Q701.179,786.577 704.52,786.522 Z" style="fill:rgb(128,5,5); fill-opacity:1; stroke:rgb(128,5,5); stroke-opacity:0; stroke-width:2" />
+<path d="M755.42,782.266  Q748.634,785.4 749.221,788.486 Q744.466,784.074 743.317,785.087 Q744.34,779.821 739.967,777.011 Q747.945,778.716 749.128,776.331 Q750.965,782.34 755.42,782.266 Z" style="fill:rgb(128,5,5); fill-opacity:1; stroke:rgb(128,5,5); stroke-opacity:0; stroke-width:2" />
+<path d="M765.324,781.28  Q760.235,783.631 760.675,785.945 Q757.109,782.637 756.247,783.396 Q757.015,779.447 753.735,777.339 Q759.718,778.618 760.606,776.83 Q761.984,781.336 765.324,781.28 Z" style="fill:rgb(128,5,5); fill-opacity:1; stroke:rgb(128,5,5); stroke-opacity:0; stroke-width:2" />
+<path d="M816.22,777.255  Q809.434,780.389 810.021,783.475 Q805.266,779.064 804.117,780.077 Q805.14,774.81 800.767,772 Q808.745,773.705 809.928,771.321 Q811.765,777.329 816.22,777.255 Z" style="fill:rgb(128,5,5); fill-opacity:1; stroke:rgb(128,5,5); stroke-opacity:0; stroke-width:2" />
+<path d="M826.119,776.206  Q821.03,778.557 821.47,780.871 Q817.904,777.562 817.042,778.322 Q817.809,774.372 814.53,772.265 Q820.513,773.544 821.4,771.755 Q822.778,776.262 826.119,776.206 Z" style="fill:rgb(128,5,5); fill-opacity:1; stroke:rgb(128,5,5); stroke-opacity:0; stroke-width:2" />
+<path d="M877.02,771.92  Q870.234,775.053 870.821,778.139 Q866.066,773.728 864.917,774.741 Q865.94,769.474 861.567,766.665 Q869.545,768.37 870.728,765.985 Q872.565,771.994 877.02,771.92 Z" style="fill:rgb(128,5,5); fill-opacity:1; stroke:rgb(128,5,5); stroke-opacity:0; stroke-width:2" />
+<path d="M886.924,770.93  Q881.835,773.28 882.275,775.595 Q878.709,772.286 877.847,773.046 Q878.614,769.096 875.335,766.989 Q881.318,768.267 882.205,766.479 Q883.583,770.986 886.924,770.93 Z" style="fill:rgb(128,5,5); fill-opacity:1; stroke:rgb(128,5,5); stroke-opacity:0; stroke-width:2" />
+<path d="M937.82,766.888  Q931.034,770.022 931.621,773.108 Q926.866,768.696 925.717,769.709 Q926.74,764.443 922.367,761.633 Q930.345,763.338 931.528,760.953 Q933.365,766.962 937.82,766.888 Z" style="fill:rgb(128,5,5); fill-opacity:1; stroke:rgb(128,5,5); stroke-opacity:0; stroke-width:2" />
+<path d="M947.724,765.891  Q942.634,768.242 943.074,770.556 Q939.508,767.248 938.646,768.007 Q939.414,764.057 936.134,761.95 Q942.117,763.229 943.005,761.44 Q944.383,765.947 947.724,765.891 Z" style="fill:rgb(128,5,5); fill-opacity:1; stroke:rgb(128,5,5); stroke-opacity:0; stroke-width:2" />
+<path d="M998.62,761.821  Q991.834,764.955 992.421,768.041 Q987.666,763.629 986.517,764.643 Q987.54,759.376 983.167,756.566 Q991.145,758.271 992.328,755.887 Q994.165,761.895 998.62,761.821 Z" style="fill:rgb(128,5,5); fill-opacity:1; stroke:rgb(128,5,5); stroke-opacity:0; stroke-width:2" />
+<path d="M1008.52,760.839  Q1003.44,763.189 1003.88,765.504 Q1000.31,762.195 999.447,762.955 Q1000.22,759.005 996.935,756.898 Q1002.92,758.177 1003.81,756.388 Q1005.18,760.895 1008.52,760.839 Z" style="fill:rgb(128,5,5); fill-opacity:1; stroke:rgb(128,5,5); stroke-opacity:0; stroke-width:2" />
+<path d="M1059.42,756.828  Q1052.63,759.962 1053.22,763.048 Q1048.47,758.636 1047.32,759.649 Q1048.34,754.383 1043.97,751.573 Q1051.94,753.278 1053.13,750.893 Q1054.97,756.902 1059.42,756.828 Z" style="fill:rgb(128,5,5); fill-opacity:1; stroke:rgb(128,5,5); stroke-opacity:0; stroke-width:2" />
+ </g>
 <text x="1051.200000" y="749.827743" font-family="Atkinson Hyperlegible" font-size="10.000000pt" text-anchor="end" text-align="right" font-weight="400" font-style="normal"  style="fill:rgb(148,148,148); fill-opacity:1; stroke:rgb(148,148,148); stroke-opacity:0; stroke-width:0.5"> obiwan-kenobi-106</text>
  </g>
 <g id="line-graph-8-star-wars-visions-101-102-103-104-105-106-107-108-109">
@@ -2088,181 +2136,295 @@ week: 26
  </g>
 <text x="747.200000" y="517.941568" font-family="Atkinson Hyperlegible" font-size="10.000000pt" text-anchor="end" text-align="right" font-weight="400" font-style="normal"  style="fill:rgb(148,148,148); fill-opacity:1; stroke:rgb(148,148,148); stroke-opacity:0; stroke-width:0.5"> star-wars-visions-301-302-303-304-305-306-307-308-309</text>
  </g>
-<g id="line-graph-10--wars-tales-of-the-jedi-101-102-103-104-105-106">
- <g id="polyline--wars-tales-of-the-jedi-101-102-103-104-105-106">
-<polyline points="200,874.803 260.8,872.063 321.6,869.919 382.4,867.99 443.2,866.255 504,864.653 564.8,863.139 625.6,861.676 686.4,860.33 747.2,859.041 808,857.659 868.8,856.282 929.6,854.815 990.4,853.359 1051.2,851.917 1112,850.597 " stroke-linecap="round"  style="fill:rgb(0,0,0); fill-opacity:0; stroke:rgb(0,0,0); stroke-opacity:1; stroke-width:2" />
+<g id="line-graph-10-star-wars-tales-of-the-jedi-101-102-103-104-105-106">
+ <g id="polyline-star-wars-tales-of-the-jedi-101-102-103-104-105-106">
+<polyline points="200,874.803 260.8,872.063 321.6,869.919 382.4,867.99 443.2,866.255 504,864.653 564.8,863.139 625.6,861.676 686.4,860.33 747.2,859.041 808,857.659 868.8,856.282 929.6,854.815 990.4,853.359 1051.2,851.917 1112,850.597 " stroke-linecap="round"  style="fill:rgb(200,56,81); fill-opacity:0; stroke:rgb(200,56,81); stroke-opacity:1; stroke-width:2" />
  </g>
- <g id="markers--wars-tales-of-the-jedi-101-102-103-104-105-106">
-  </g>
-<text x="1112.000000" y="843.597027" font-family="Atkinson Hyperlegible" font-size="10.000000pt" text-anchor="end" text-align="right" font-weight="400" font-style="normal"  style="fill:rgb(148,148,148); fill-opacity:1; stroke:rgb(148,148,148); stroke-opacity:0; stroke-width:0.5"> -wars-tales-of-the-jedi-101-102-103-104-105-106</text>
+ <g id="markers-star-wars-tales-of-the-jedi-101-102-103-104-105-106">
+ <path id="polygon-n6-r6.000000" d="M 205.196 871.803 L 200 868.803 L 194.804 871.803 L 194.804 877.803 L 200 880.803 L 205.196 877.803 L 205.196 871.803 " style="fill:rgb(200,56,81); fill-opacity:1; stroke:rgb(200,56,81); stroke-opacity:0; stroke-width:2"  >
+<title>
+star-wars-tales-of-the-jedi-101-102-103-104-105-106
+week: 1
+302,014.000000
+</title>
+ </circle>
+<path id="polygon-n6-r6.000000" d="M 265.996 869.063 L 260.8 866.063 L 255.604 869.063 L 255.604 875.063 L 260.8 878.063 L 265.996 875.063 L 265.996 869.063 " style="fill:rgb(200,56,81); fill-opacity:1; stroke:rgb(200,56,81); stroke-opacity:0; stroke-width:2"  >
+<title>
+star-wars-tales-of-the-jedi-101-102-103-104-105-106
+week: 2
+461,258.000000
+</title>
+ </circle>
+<path id="polygon-n6-r6.000000" d="M 326.796 866.919 L 321.6 863.919 L 316.404 866.919 L 316.404 872.919 L 321.6 875.919 L 326.796 872.919 L 326.796 866.919 " style="fill:rgb(200,56,81); fill-opacity:1; stroke:rgb(200,56,81); stroke-opacity:0; stroke-width:2"  >
+<title>
+star-wars-tales-of-the-jedi-101-102-103-104-105-106
+week: 3
+585,849.000000
+</title>
+ </circle>
+<path id="polygon-n6-r6.000000" d="M 387.596 864.99 L 382.4 861.99 L 377.204 864.99 L 377.204 870.99 L 382.4 873.99 L 387.596 870.99 L 387.596 864.99 " style="fill:rgb(200,56,81); fill-opacity:1; stroke:rgb(200,56,81); stroke-opacity:0; stroke-width:2"  >
+<title>
+star-wars-tales-of-the-jedi-101-102-103-104-105-106
+week: 4
+697,960.000000
+</title>
+ </circle>
+<path id="polygon-n6-r6.000000" d="M 448.396 863.255 L 443.2 860.255 L 438.004 863.255 L 438.004 869.255 L 443.2 872.255 L 448.396 869.255 L 448.396 863.255 " style="fill:rgb(200,56,81); fill-opacity:1; stroke:rgb(200,56,81); stroke-opacity:0; stroke-width:2"  >
+<title>
+star-wars-tales-of-the-jedi-101-102-103-104-105-106
+week: 5
+798,820.000000
+</title>
+ </circle>
+<path id="polygon-n6-r6.000000" d="M 509.196 861.653 L 504 858.653 L 498.804 861.653 L 498.804 867.653 L 504 870.653 L 509.196 867.653 L 509.196 861.653 " style="fill:rgb(200,56,81); fill-opacity:1; stroke:rgb(200,56,81); stroke-opacity:0; stroke-width:2"  >
+<title>
+star-wars-tales-of-the-jedi-101-102-103-104-105-106
+week: 6
+891,942.000000
+</title>
+ </circle>
+<path id="polygon-n6-r6.000000" d="M 569.996 860.139 L 564.8 857.139 L 559.604 860.139 L 559.604 866.139 L 564.8 869.139 L 569.996 866.139 L 569.996 860.139 " style="fill:rgb(200,56,81); fill-opacity:1; stroke:rgb(200,56,81); stroke-opacity:0; stroke-width:2"  >
+<title>
+star-wars-tales-of-the-jedi-101-102-103-104-105-106
+week: 7
+979,889.000000
+</title>
+ </circle>
+<path id="polygon-n6-r6.000000" d="M 630.796 858.676 L 625.6 855.676 L 620.404 858.676 L 620.404 864.676 L 625.6 867.676 L 630.796 864.676 L 630.796 858.676 " style="fill:rgb(200,56,81); fill-opacity:1; stroke:rgb(200,56,81); stroke-opacity:0; stroke-width:2"  >
+<title>
+star-wars-tales-of-the-jedi-101-102-103-104-105-106
+week: 8
+1,064,958.000000
+</title>
+ </circle>
+<path id="polygon-n6-r6.000000" d="M 691.596 857.33 L 686.4 854.33 L 681.204 857.33 L 681.204 863.33 L 686.4 866.33 L 691.596 863.33 L 691.596 857.33 " style="fill:rgb(200,56,81); fill-opacity:1; stroke:rgb(200,56,81); stroke-opacity:0; stroke-width:2"  >
+<title>
+star-wars-tales-of-the-jedi-101-102-103-104-105-106
+week: 9
+1,143,182.000000
+</title>
+ </circle>
+<path id="polygon-n6-r6.000000" d="M 752.396 856.041 L 747.2 853.041 L 742.004 856.041 L 742.004 862.041 L 747.2 865.041 L 752.396 862.041 L 752.396 856.041 " style="fill:rgb(200,56,81); fill-opacity:1; stroke:rgb(200,56,81); stroke-opacity:0; stroke-width:2"  >
+<title>
+star-wars-tales-of-the-jedi-101-102-103-104-105-106
+week: 10
+1,218,092.000000
+</title>
+ </circle>
+<path id="polygon-n6-r6.000000" d="M 813.196 854.659 L 808 851.659 L 802.804 854.659 L 802.804 860.659 L 808 863.659 L 813.196 860.659 L 813.196 854.659 " style="fill:rgb(200,56,81); fill-opacity:1; stroke:rgb(200,56,81); stroke-opacity:0; stroke-width:2"  >
+<title>
+star-wars-tales-of-the-jedi-101-102-103-104-105-106
+week: 11
+1,298,398.000000
+</title>
+ </circle>
+<path id="polygon-n6-r6.000000" d="M 873.996 853.282 L 868.8 850.282 L 863.604 853.282 L 863.604 859.282 L 868.8 862.282 L 873.996 859.282 L 873.996 853.282 " style="fill:rgb(200,56,81); fill-opacity:1; stroke:rgb(200,56,81); stroke-opacity:0; stroke-width:2"  >
+<title>
+star-wars-tales-of-the-jedi-101-102-103-104-105-106
+week: 12
+1,378,406.000000
+</title>
+ </circle>
+<path id="polygon-n6-r6.000000" d="M 934.796 851.815 L 929.6 848.815 L 924.404 851.815 L 924.404 857.815 L 929.6 860.815 L 934.796 857.815 L 934.796 851.815 " style="fill:rgb(200,56,81); fill-opacity:1; stroke:rgb(200,56,81); stroke-opacity:0; stroke-width:2"  >
+<title>
+star-wars-tales-of-the-jedi-101-102-103-104-105-106
+week: 13
+1,463,658.000000
+</title>
+ </circle>
+<path id="polygon-n6-r6.000000" d="M 995.596 850.359 L 990.4 847.359 L 985.204 850.359 L 985.204 856.359 L 990.4 859.359 L 995.596 856.359 L 995.596 850.359 " style="fill:rgb(200,56,81); fill-opacity:1; stroke:rgb(200,56,81); stroke-opacity:0; stroke-width:2"  >
+<title>
+star-wars-tales-of-the-jedi-101-102-103-104-105-106
+week: 14
+1,548,309.000000
+</title>
+ </circle>
+<path id="polygon-n6-r6.000000" d="M 1056.4 848.917 L 1051.2 845.917 L 1046 848.917 L 1046 854.917 L 1051.2 857.917 L 1056.4 854.917 L 1056.4 848.917 " style="fill:rgb(200,56,81); fill-opacity:1; stroke:rgb(200,56,81); stroke-opacity:0; stroke-width:2"  >
+<title>
+star-wars-tales-of-the-jedi-101-102-103-104-105-106
+week: 15
+1,632,113.000000
+</title>
+ </circle>
+<path id="polygon-n6-r6.000000" d="M 1117.2 847.597 L 1112 844.597 L 1106.8 847.597 L 1106.8 853.597 L 1112 856.597 L 1117.2 853.597 L 1117.2 847.597 " style="fill:rgb(200,56,81); fill-opacity:1; stroke:rgb(200,56,81); stroke-opacity:0; stroke-width:2"  >
+<title>
+star-wars-tales-of-the-jedi-101-102-103-104-105-106
+week: 16
+1,708,805.000000
+</title>
+ </circle>
+ </g>
+<text x="1112.000000" y="843.597027" font-family="Atkinson Hyperlegible" font-size="10.000000pt" text-anchor="end" text-align="right" font-weight="400" font-style="normal"  style="fill:rgb(148,148,148); fill-opacity:1; stroke:rgb(148,148,148); stroke-opacity:0; stroke-width:0.5"> star-wars-tales-of-the-jedi-101-102-103-104-105-106</text>
  </g>
  </g>
 </svg>
+
+
 
 {:/}
 
 <script type="text/javascript" crossorigin="anonymous" id="graph-fade-js" >
 (function() {
     console.log('SVG Styler script loading...');
-    
+
     function handleSvgMouseover() {
-        // Try multiple approaches to find the target element
-        let targetElement = null;
-        
-        // Approach 1: Look for exact ID pattern
-        targetElement = document.querySelector('[id$="-downloads-by-week-cumulative-normalized-start"]');
-        
-        // Approach 2: If not found, look for elements containing similar patterns
-        if (!targetElement) {
-            const possibleSelectors = [
-                '[id*="downloads"]',
-                '[id*="cumulative"]',
-                '[id*="normalized"]',
-                'svg g',  // Any group in SVG
-                'svg'     // The SVG itself as fallback
-            ];
-            
-            for (const selector of possibleSelectors) {
-                const elements = document.querySelectorAll(selector);
-                console.log(`Found ${elements.length} elements with selector: ${selector}`);
-                
-                // Look for elements that might be our target
-                for (const el of elements) {
-                    if (el.id && (el.id.includes('download') || el.id.includes('cumulative'))) {
-                        targetElement = el;
-                        console.log('Found potential target:', el.id);
-                        break;
-                    }
-                }
-                if (targetElement) break;
-            }
-        }
-        
-        if (!targetElement) {
-            console.log('No target element found with expected patterns');
-            
-            // Try to find any SVG element to attach the event
-            const svgElements = document.querySelectorAll('svg, svg g');
-            if (svgElements.length > 0) {
-                targetElement = svgElements[0];
-                console.log('Using first SVG element as fallback:', targetElement);
-            } else {
-                console.log('No SVG elements found on page');
-                return;
-            }
-        }
-        
-        console.log('Attaching event to:', targetElement.tagName, targetElement.id || 'no-id');
-        
-        // Add mouseover event
-        targetElement.addEventListener('mouseover', function(event) {
-            console.log('Mouseover event triggered on:', event.target);
-            
-            // Find composite-chart - try multiple approaches
-            let compositeChart = document.getElementById('composite-chart');
-            
-            if (!compositeChart) {
-                // Try finding by similar pattern
-                compositeChart = document.querySelector('[id*="composite"], [id*="chart"]');
-            }
-            
-            if (!compositeChart) {
-                // Look for any group that might contain line graphs
-                const allGroups = document.querySelectorAll('svg g');
-                for (const group of allGroups) {
-                    const lineGraphs = group.querySelectorAll('[id*="line"]');
-                    if (lineGraphs.length > 0) {
-                        compositeChart = group;
-                        console.log('Found container with line graphs:', group.id || 'no-id');
-                        break;
-                    }
-                }
-            }
-            
-            if (compositeChart) {
-                console.log('Found container:', compositeChart.id || 'no-id');
-                
-                // Find line-graph elements
-                const lineGraphElements = compositeChart.querySelectorAll('[id*="line"], path, line, polyline');
-                
-                console.log(`Found ${lineGraphElements.length} potential line elements`);
-                
-                if (lineGraphElements.length === 0) {
-                    // If no elements found, try to find any graphic elements
-                    const allGraphics = compositeChart.querySelectorAll('path, line, polyline, rect, circle');
-                    console.log(`Found ${allGraphics.length} total graphic elements in container`);
-                    lineGraphElements = allGraphics;
-                }
-                
-                // Apply styling
-                lineGraphElements.forEach(function(element) {
-                    // Check if element might be a line graph
-                    const tagName = element.tagName.toLowerCase();
-                    const id = element.id || '';
-                    
-                    // Apply to lines and paths (common for graphs)
-                    if (tagName === 'path' || tagName === 'line' || tagName === 'polyline' || id.includes('line')) {
-                        element.style.stroke = '#808080';
-                        element.style.strokeOpacity = '1';
-                        element.style.strokeWidth = '2';
-                        
-                        // Only apply fill if element typically has fill
-                        if (tagName === 'path' && !id.includes('stroke')) {
-                            element.style.fill = '#808080';
-                            element.style.fillOpacity = '0.3';
-                        }
-                        
-                        console.log('Styled element:', tagName, id || 'no-id');
-                    }
-                });
-                
-            } else {
-                console.log('No composite-chart or similar container found');
-                
-                // Fallback: Try to style all line-like elements in the SVG
-                const allSvgLines = document.querySelectorAll('svg path, svg line, svg polyline');
-                console.log(`Found ${allSvgLines.length} line-like elements in entire SVG`);
-                
-                allSvgLines.forEach(function(element) {
-                    element.style.stroke = '#808080';
-                    element.style.strokeOpacity = '1';
-                });
-            }
-        });
-        
-        // Also add a click event for testing
-        targetElement.addEventListener('click', function() {
-            console.log('Click event - current SVG elements:');
-            const allSvgs = document.querySelectorAll('svg');
-            console.log(`Total SVGs: ${allSvgs.length}`);
-            allSvgs.forEach((svg, i) => {
-                console.log(`SVG ${i}:`, svg.id || 'no-id', `(${svg.querySelectorAll('*').length} children)`);
-            });
-        });
+	// Try multiple approaches to find the target element
+	let targetElement = null;
+
+	// Approach 1: Look for exact ID pattern
+	targetElement = document.querySelector('[id$="-downloads-by-week-cumulative-normalized-start"]');
+
+	// Approach 2: If not found, look for elements containing similar patterns
+	if (!targetElement) {
+	    const possibleSelectors = [
+		'[id*="downloads"]',
+		'[id*="cumulative"]',
+		'[id*="normalized"]',
+		'svg g',  // Any group in SVG
+		'svg'     // The SVG itself as fallback
+	    ];
+
+	    for (const selector of possibleSelectors) {
+		const elements = document.querySelectorAll(selector);
+		console.log(`Found ${elements.length} elements with selector: ${selector}`);
+
+		// Look for elements that might be our target
+		for (const el of elements) {
+		    if (el.id && (el.id.includes('download') || el.id.includes('cumulative'))) {
+			targetElement = el;
+			console.log('Found potential target:', el.id);
+			break;
+		    }
+		}
+		if (targetElement) break;
+	    }
+	}
+
+	if (!targetElement) {
+	    console.log('No target element found with expected patterns');
+
+	    // Try to find any SVG element to attach the event
+	    const svgElements = document.querySelectorAll('svg, svg g');
+	    if (svgElements.length > 0) {
+		targetElement = svgElements[0];
+		console.log('Using first SVG element as fallback:', targetElement);
+	    } else {
+		console.log('No SVG elements found on page');
+		return;
+	    }
+	}
+
+	console.log('Attaching event to:', targetElement.tagName, targetElement.id || 'no-id');
+
+	// Add mouseover event
+	targetElement.addEventListener('mouseover', function(event) {
+	    console.log('Mouseover event triggered on:', event.target);
+
+	    // Find composite-chart - try multiple approaches
+	    let compositeChart = document.getElementById('composite-chart');
+
+	    if (!compositeChart) {
+		// Try finding by similar pattern
+		compositeChart = document.querySelector('[id*="composite"], [id*="chart"]');
+	    }
+
+	    if (!compositeChart) {
+		// Look for any group that might contain line graphs
+		const allGroups = document.querySelectorAll('svg g');
+		for (const group of allGroups) {
+		    const lineGraphs = group.querySelectorAll('[id*="line"]');
+		    if (lineGraphs.length > 0) {
+			compositeChart = group;
+			console.log('Found container with line graphs:', group.id || 'no-id');
+			break;
+		    }
+		}
+	    }
+
+	    if (compositeChart) {
+		console.log('Found container:', compositeChart.id || 'no-id');
+
+		// Find line-graph elements
+		const lineGraphElements = compositeChart.querySelectorAll('[id*="line"], path, line, polyline');
+
+		console.log(`Found ${lineGraphElements.length} potential line elements`);
+
+		if (lineGraphElements.length === 0) {
+		    // If no elements found, try to find any graphic elements
+		    const allGraphics = compositeChart.querySelectorAll('path, line, polyline, rect, circle');
+		    console.log(`Found ${allGraphics.length} total graphic elements in container`);
+		    lineGraphElements = allGraphics;
+		}
+
+		// Apply styling
+		lineGraphElements.forEach(function(element) {
+		    // Check if element might be a line graph
+		    const tagName = element.tagName.toLowerCase();
+		    const id = element.id || '';
+
+		    // Apply to lines and paths (common for graphs)
+		    if (tagName === 'path' || tagName === 'line' || tagName === 'polyline' || id.includes('line')) {
+			element.style.stroke = '#808080';
+			element.style.strokeOpacity = '1';
+			element.style.strokeWidth = '2';
+
+			// Only apply fill if element typically has fill
+			if (tagName === 'path' && !id.includes('stroke')) {
+			    element.style.fill = '#808080';
+			    element.style.fillOpacity = '0.3';
+			}
+
+			console.log('Styled element:', tagName, id || 'no-id');
+		    }
+		});
+
+	    } else {
+		console.log('No composite-chart or similar container found');
+
+		// Fallback: Try to style all line-like elements in the SVG
+		const allSvgLines = document.querySelectorAll('svg path, svg line, svg polyline');
+		console.log(`Found ${allSvgLines.length} line-like elements in entire SVG`);
+
+		allSvgLines.forEach(function(element) {
+		    element.style.stroke = '#808080';
+		    element.style.strokeOpacity = '1';
+		});
+	    }
+	});
+
+	// Also add a click event for testing
+	targetElement.addEventListener('click', function() {
+	    console.log('Click event - current SVG elements:');
+	    const allSvgs = document.querySelectorAll('svg');
+	    console.log(`Total SVGs: ${allSvgs.length}`);
+	    allSvgs.forEach((svg, i) => {
+		console.log(`SVG ${i}:`, svg.id || 'no-id', `(${svg.querySelectorAll('*').length} children)`);
+	    });
+	});
     }
-    
+
     // Initialize with multiple strategies
     function init() {
-        // Strategy 1: Wait for DOMContentLoaded
-        if (document.readyState === 'loading') {
-            document.addEventListener('DOMContentLoaded', function() {
-                console.log('DOM loaded, initializing...');
-                setTimeout(handleSvgMouseover, 1000); // Extra delay for dynamic content
-            });
-        } else {
-            console.log('DOM already loaded, initializing...');
-            setTimeout(handleSvgMouseover, 1000);
-        }
-        
-        // Strategy 2: Also try after a longer delay for async content
-        setTimeout(handleSvgMouseover, 3000);
-        
-        // Strategy 3: Try when user interacts (some content loads on interaction)
-        document.addEventListener('click', function() {
-            setTimeout(handleSvgMouseover, 500);
-        }, { once: true });
+	// Strategy 1: Wait for DOMContentLoaded
+	if (document.readyState === 'loading') {
+	    document.addEventListener('DOMContentLoaded', function() {
+		console.log('DOM loaded, initializing...');
+		setTimeout(handleSvgMouseover, 1000); // Extra delay for dynamic content
+	    });
+	} else {
+	    console.log('DOM already loaded, initializing...');
+	    setTimeout(handleSvgMouseover, 1000);
+	}
+
+	// Strategy 2: Also try after a longer delay for async content
+	setTimeout(handleSvgMouseover, 3000);
+
+	// Strategy 3: Try when user interacts (some content loads on interaction)
+	document.addEventListener('click', function() {
+	    setTimeout(handleSvgMouseover, 500);
+	}, { once: true });
     }
-    
+
     init();
 })();
 </script>
