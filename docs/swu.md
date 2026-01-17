@@ -3812,6 +3812,99 @@ week: 26
 
 {:/}
 
+<script type="text/javascript" crossorigin="anonymous" id="graph-fade-js" >
+document.addEventListener('DOMContentLoaded', () => {
+    // 1. Select ALL elements whose ID ends with the specific suffix
+    const suffix = "-downloads-by-week-cumulative-normalized-start";
+    const containers = document.querySelectorAll(`[id$="${suffix}"]`);
+
+    if (containers.length === 0) {
+        console.warn(`No containers found ending with "${suffix}"`);
+        return;
+    }
+
+    // Shared function to apply logic to a valid SVG document/root
+    const applyInteractionsToSvg = (svgRoot) => {
+        // Look for the composite chart group
+        const compositeChart = svgRoot.getElementById('composite-chart') || 
+                               svgRoot.querySelector('#composite-chart');
+        
+        if (!compositeChart) return; // Skip if this chart doesn't match the internal structure
+
+        const lineGraphs = compositeChart.querySelectorAll('g[id^="line-graph-"]');
+
+        const resetGraphs = () => {
+            lineGraphs.forEach(graph => {
+                graph.style.stroke = '';
+                graph.style.fill = '';
+            });
+        };
+
+        compositeChart.addEventListener('mouseover', (event) => {
+            const targetGraph = event.target.closest('g[id^="line-graph-"]');
+            if (!targetGraph) return;
+
+            lineGraphs.forEach(graph => {
+                if (graph === targetGraph) {
+                    graph.style.stroke = '';
+                    graph.style.fill = '';
+                } else {
+                    graph.style.stroke = 'gray';
+                    graph.style.fill = 'gray';
+                }
+            });
+        });
+
+        compositeChart.addEventListener('mouseleave', resetGraphs);
+    };
+
+    // 2. Iterate over every matching container found
+    containers.forEach(container => {
+        if (container.tagName === 'svg') {
+            // Case A: Inline SVG
+            applyInteractionsToSvg(container);
+        } 
+        else if (container.tagName === 'OBJECT' || container.tagName === 'EMBED') {
+            // Case B: Embedded SVG (<object>)
+            const initObject = () => {
+                try {
+                    const svgDoc = container.contentDocument;
+                    if (svgDoc) applyInteractionsToSvg(svgDoc);
+                } catch (e) {
+                    console.warn('Cannot access SVG content (CORS):', e);
+                }
+            };
+
+            if (container.contentDocument && container.contentDocument.readyState === 'complete') {
+                initObject();
+            } else {
+                container.addEventListener('load', initObject);
+            }
+        } 
+        else {
+            // Case C: Wrapper DIV
+            const nestedSvg = container.querySelector('svg');
+            const nestedObj = container.querySelector('object, embed');
+            
+            if (nestedSvg) {
+                applyInteractionsToSvg(nestedSvg);
+            } else if (nestedObj) {
+                // Handle object inside div
+                if (nestedObj.contentDocument) {
+                    applyInteractionsToSvg(nestedObj.contentDocument);
+                } else {
+                    nestedObj.addEventListener('load', () => {
+                         try {
+                             if (nestedObj.contentDocument) applyInteractionsToSvg(nestedObj.contentDocument);
+                         } catch(e) { console.warn(e); }
+                    });
+                }
+            }
+        }
+    });
+});
+</script>
+
 
 ### Maps
 
