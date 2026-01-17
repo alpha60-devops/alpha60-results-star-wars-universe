@@ -1703,11 +1703,10 @@ week: 26
  </g>
 </svg>
 
-
-
 {:/}
 
-<script type="text/javascript" crossorigin="anonymous" id="graph-fade-js" >
+<script type="text/javascript" crossorigin="anonymous" id="graph-fade-js"
+	src="../scripts/graph-fade.js">
 </script>
 
 ### Maps
