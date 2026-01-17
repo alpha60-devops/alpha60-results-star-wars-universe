@@ -28,7 +28,7 @@
 	    <th>per btiha</th>
 	   </tr>
 	</thead>
-      
+
 <tbody>
 <tr>
 <td>2019-02-09-to-2026-12-23</td>
@@ -3810,8 +3810,61 @@ week: 26
  </g>
 </svg>
 
+<script>
+(function() {
+    // 1. Find the SVG element with an ID containing "downloads-by-week"
+    const svg = document.querySelector('svg[id*="downloads-by-week"]');
 
+    if (!svg) {
+	console.warn('Target SVG not found.');
+	return;
+    }
 
+    // 2. Find the group with ID "composite-chart"
+    const compositeChart = svg.querySelector('#composite-chart');
+
+    if (!compositeChart) {
+	console.warn('Composite chart group not found.');
+	return;
+    }
+
+    // 3. Select all nested groups with IDs starting with "line-graph-"
+    const lineGraphs = compositeChart.querySelectorAll('g[id^="line-graph-"]');
+
+    // Helper function to reset styles to their original state
+    function resetGraphs() {
+	lineGraphs.forEach(graph => {
+	    graph.style.stroke = '';
+	    graph.style.fill = '';
+	});
+    }
+
+    // 4. Add mouseover event listener to the composite chart container
+    compositeChart.addEventListener('mouseover', function(event) {
+	// Find the specific line-graph group being hovered (bubbling up from the target element)
+	const targetGraph = event.target.closest('g[id^="line-graph-"]');
+
+	// Iterate through all line graphs to apply styles
+	lineGraphs.forEach(graph => {
+	    // If a line is hovered, and this graph is NOT the target, make it gray
+	    if (targetGraph && graph !== targetGraph) {
+		graph.style.stroke = 'gray'; // "50% gray" standard keyword
+		graph.style.fill = 'gray';
+	    } else {
+		// Otherwise (it is the target, or nothing is hovered), reset to original
+		graph.style.stroke = '';
+		graph.style.fill = '';
+	    }
+	});
+    });
+
+    // 5. Add mouseleave event to reset everything when the mouse leaves the chart area
+    compositeChart.addEventListener('mouseleave', function() {
+	resetGraphs();
+    });
+
+})();
+</script>
 
 {:/}
 
