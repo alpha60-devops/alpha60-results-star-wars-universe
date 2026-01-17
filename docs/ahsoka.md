@@ -2102,58 +2102,169 @@ week: 26
 {:/}
 
 <script type="text/javascript" crossorigin="anonymous" id="graph-fade-js" >
-
-
 (function() {
-    // Main function to handle mouseover effect
+    console.log('SVG Styler script loading...');
+    
     function handleSvgMouseover() {
-        // Wait for SVG to load completely
-        const checkSvgLoaded = setInterval(function() {
-            // Target element ID pattern
-            const targetElement = document.querySelector('[id$="-downloads-by-week-cumulative-normalized-start"]');
+        // Try multiple approaches to find the target element
+        let targetElement = null;
+        
+        // Approach 1: Look for exact ID pattern
+        targetElement = document.querySelector('[id$="-downloads-by-week-cumulative-normalized-start"]');
+        
+        // Approach 2: If not found, look for elements containing similar patterns
+        if (!targetElement) {
+            const possibleSelectors = [
+                '[id*="downloads"]',
+                '[id*="cumulative"]',
+                '[id*="normalized"]',
+                'svg g',  // Any group in SVG
+                'svg'     // The SVG itself as fallback
+            ];
             
-            if (targetElement) {
-                clearInterval(checkSvgLoaded);
+            for (const selector of possibleSelectors) {
+                const elements = document.querySelectorAll(selector);
+                console.log(`Found ${elements.length} elements with selector: ${selector}`);
                 
-                // Add mouseover event listener to target element
-                targetElement.addEventListener('mouseover', function() {
-                    // Find the composite-chart group
-                    const compositeChart = document.getElementById('composite-chart');
+                // Look for elements that might be our target
+                for (const el of elements) {
+                    if (el.id && (el.id.includes('download') || el.id.includes('cumulative'))) {
+                        targetElement = el;
+                        console.log('Found potential target:', el.id);
+                        break;
+                    }
+                }
+                if (targetElement) break;
+            }
+        }
+        
+        if (!targetElement) {
+            console.log('No target element found with expected patterns');
+            
+            // Try to find any SVG element to attach the event
+            const svgElements = document.querySelectorAll('svg, svg g');
+            if (svgElements.length > 0) {
+                targetElement = svgElements[0];
+                console.log('Using first SVG element as fallback:', targetElement);
+            } else {
+                console.log('No SVG elements found on page');
+                return;
+            }
+        }
+        
+        console.log('Attaching event to:', targetElement.tagName, targetElement.id || 'no-id');
+        
+        // Add mouseover event
+        targetElement.addEventListener('mouseover', function(event) {
+            console.log('Mouseover event triggered on:', event.target);
+            
+            // Find composite-chart - try multiple approaches
+            let compositeChart = document.getElementById('composite-chart');
+            
+            if (!compositeChart) {
+                // Try finding by similar pattern
+                compositeChart = document.querySelector('[id*="composite"], [id*="chart"]');
+            }
+            
+            if (!compositeChart) {
+                // Look for any group that might contain line graphs
+                const allGroups = document.querySelectorAll('svg g');
+                for (const group of allGroups) {
+                    const lineGraphs = group.querySelectorAll('[id*="line"]');
+                    if (lineGraphs.length > 0) {
+                        compositeChart = group;
+                        console.log('Found container with line graphs:', group.id || 'no-id');
+                        break;
+                    }
+                }
+            }
+            
+            if (compositeChart) {
+                console.log('Found container:', compositeChart.id || 'no-id');
+                
+                // Find line-graph elements
+                const lineGraphElements = compositeChart.querySelectorAll('[id*="line"], path, line, polyline');
+                
+                console.log(`Found ${lineGraphElements.length} potential line elements`);
+                
+                if (lineGraphElements.length === 0) {
+                    // If no elements found, try to find any graphic elements
+                    const allGraphics = compositeChart.querySelectorAll('path, line, polyline, rect, circle');
+                    console.log(`Found ${allGraphics.length} total graphic elements in container`);
+                    lineGraphElements = allGraphics;
+                }
+                
+                // Apply styling
+                lineGraphElements.forEach(function(element) {
+                    // Check if element might be a line graph
+                    const tagName = element.tagName.toLowerCase();
+                    const id = element.id || '';
                     
-                    if (compositeChart) {
-                        // Find all line-graph-* elements within composite-chart
-                        const lineGraphElements = compositeChart.querySelectorAll('[id^="line-graph-"]');
+                    // Apply to lines and paths (common for graphs)
+                    if (tagName === 'path' || tagName === 'line' || tagName === 'polyline' || id.includes('line')) {
+                        element.style.stroke = '#808080';
+                        element.style.strokeOpacity = '1';
+                        element.style.strokeWidth = '2';
                         
-                        // Apply 50% gray styling to each line-graph element
-                        lineGraphElements.forEach(function(element) {
-                            // Style lines
-                            element.style.stroke = '#808080';  // 50% gray
-                            element.style.strokeOpacity = '1';
-                            
-                            // Style fills if present
-                            element.style.fill = '#808080';    // 50% gray
-                            element.style.fillOpacity = '0.5';
-                        });
+                        // Only apply fill if element typically has fill
+                        if (tagName === 'path' && !id.includes('stroke')) {
+                            element.style.fill = '#808080';
+                            element.style.fillOpacity = '0.3';
+                        }
                         
-                        console.log(`Styled ${lineGraphElements.length} line-graph elements with 50% gray`);
-                    } else {
-                        console.log('composite-chart element not found');
+                        console.log('Styled element:', tagName, id || 'no-id');
                     }
                 });
                 
-                console.log('Event listener attached to:', targetElement.id);
+            } else {
+                console.log('No composite-chart or similar container found');
+                
+                // Fallback: Try to style all line-like elements in the SVG
+                const allSvgLines = document.querySelectorAll('svg path, svg line, svg polyline');
+                console.log(`Found ${allSvgLines.length} line-like elements in entire SVG`);
+                
+                allSvgLines.forEach(function(element) {
+                    element.style.stroke = '#808080';
+                    element.style.strokeOpacity = '1';
+                });
             }
-        }, 100); // Check every 100ms for SVG availability
+        });
+        
+        // Also add a click event for testing
+        targetElement.addEventListener('click', function() {
+            console.log('Click event - current SVG elements:');
+            const allSvgs = document.querySelectorAll('svg');
+            console.log(`Total SVGs: ${allSvgs.length}`);
+            allSvgs.forEach((svg, i) => {
+                console.log(`SVG ${i}:`, svg.id || 'no-id', `(${svg.querySelectorAll('*').length} children)`);
+            });
+        });
     }
     
-    // Initialize when DOM is fully loaded
-    if (document.readyState === 'loading') {
-        document.addEventListener('DOMContentLoaded', handleSvgMouseover);
-    } else {
-        handleSvgMouseover();
+    // Initialize with multiple strategies
+    function init() {
+        // Strategy 1: Wait for DOMContentLoaded
+        if (document.readyState === 'loading') {
+            document.addEventListener('DOMContentLoaded', function() {
+                console.log('DOM loaded, initializing...');
+                setTimeout(handleSvgMouseover, 1000); // Extra delay for dynamic content
+            });
+        } else {
+            console.log('DOM already loaded, initializing...');
+            setTimeout(handleSvgMouseover, 1000);
+        }
+        
+        // Strategy 2: Also try after a longer delay for async content
+        setTimeout(handleSvgMouseover, 3000);
+        
+        // Strategy 3: Try when user interacts (some content loads on interaction)
+        document.addEventListener('click', function() {
+            setTimeout(handleSvgMouseover, 500);
+        }, { once: true });
     }
+    
+    init();
 })();
-
 </script>
 
 
