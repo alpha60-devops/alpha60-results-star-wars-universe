@@ -28,7 +28,7 @@
 	    <th>per btiha</th>
 	   </tr>
 	</thead>
-      
+
 <tbody>
 <tr>
 <td>2019-03-01-to-2023-12-23</td>
@@ -698,100 +698,101 @@ mandalorian-s1s2s3-downloads-by-week-cumulative-normalized-start
  </g>
 </svg>
 
+{:/}
+
 <script type="text/javascript" crossorigin="anonymous" id="graph-fade-js" >
 
 document.addEventListener('DOMContentLoaded', () => {
-    // 1. Find the element with the ID "downloads-by-week" (could be SVG, OBJECT, or DIV)
-    const container = document.querySelector('[id*="downloads-by-week"]');
+    // 1. Select ALL elements whose ID ends with the specific suffix
+    const suffix = "-downloads-by-week-cumulative-normalized-start";
+    const containers = document.querySelectorAll(`[id$="${suffix}"]`);
 
-    if (!container) {
-        console.warn('Container with id "downloads-by-week" not found.');
-        return;
+    if (containers.length === 0) {
+	console.warn(`No containers found ending with "${suffix}"`);
+	return;
     }
 
-    // Function to apply the logic once we have the valid SVG document/element
-    const applyChartInteractions = (svgRoot) => {
-        const compositeChart = svgRoot.getElementById('composite-chart') || svgRoot.querySelector('#composite-chart');
-        
-        if (!compositeChart) {
-            console.warn('Group #composite-chart not found inside the SVG.');
-            return;
-        }
+    // Shared function to apply logic to a valid SVG document/root
+    const applyInteractionsToSvg = (svgRoot) => {
+	// Look for the composite chart group
+	const compositeChart = svgRoot.getElementById('composite-chart') ||
+			       svgRoot.querySelector('#composite-chart');
 
-        const lineGraphs = compositeChart.querySelectorAll('g[id^="line-graph-"]');
+	if (!compositeChart) return; // Skip if this chart doesn't match the internal structure
 
-        const resetGraphs = () => {
-            lineGraphs.forEach(graph => {
-                graph.style.stroke = '';
-                graph.style.fill = '';
-            });
-        };
+	const lineGraphs = compositeChart.querySelectorAll('g[id^="line-graph-"]');
 
-        compositeChart.addEventListener('mouseover', (event) => {
-            const targetGraph = event.target.closest('g[id^="line-graph-"]');
-            if (!targetGraph) return;
+	const resetGraphs = () => {
+	    lineGraphs.forEach(graph => {
+		graph.style.stroke = '';
+		graph.style.fill = '';
+	    });
+	};
 
-            lineGraphs.forEach(graph => {
-                if (graph === targetGraph) {
-                    graph.style.stroke = '';
-                    graph.style.fill = '';
-                } else {
-                    graph.style.stroke = 'gray'; // 50% gray
-                    graph.style.fill = 'gray';
-                }
-            });
-        });
+	compositeChart.addEventListener('mouseover', (event) => {
+	    const targetGraph = event.target.closest('g[id^="line-graph-"]');
+	    if (!targetGraph) return;
 
-        compositeChart.addEventListener('mouseleave', resetGraphs);
-        console.log('Chart interactions applied successfully.');
+	    lineGraphs.forEach(graph => {
+		if (graph === targetGraph) {
+		    graph.style.stroke = '';
+		    graph.style.fill = '';
+		} else {
+		    graph.style.stroke = 'gray';
+		    graph.style.fill = 'gray';
+		}
+	    });
+	});
+
+	compositeChart.addEventListener('mouseleave', resetGraphs);
     };
 
-    // 2. Determine how to access the SVG internals
-    if (container.tagName === 'svg') {
-        // Case A: Inline SVG
-        applyChartInteractions(container);
-    } 
-    else if (container.tagName === 'OBJECT' || container.tagName === 'EMBED') {
-        // Case B: Embedded SVG (<object> or <embed>)
-        // We must wait for the object to load to access contentDocument
-        const initObject = () => {
-            try {
-                const svgDoc = container.contentDocument;
-                if (svgDoc) {
-                    applyChartInteractions(svgDoc);
-                }
-            } catch (e) {
-                console.error('Cannot access SVG content (likely Cross-Origin restriction):', e);
-            }
-        };
+    // 2. Iterate over every matching container found
+    containers.forEach(container => {
+	if (container.tagName === 'svg') {
+	    // Case A: Inline SVG
+	    applyInteractionsToSvg(container);
+	}
+	else if (container.tagName === 'OBJECT' || container.tagName === 'EMBED') {
+	    // Case B: Embedded SVG (<object>)
+	    const initObject = () => {
+		try {
+		    const svgDoc = container.contentDocument;
+		    if (svgDoc) applyInteractionsToSvg(svgDoc);
+		} catch (e) {
+		    console.warn('Cannot access SVG content (CORS):', e);
+		}
+	    };
 
-        if (container.contentDocument) {
-            initObject();
-        } else {
-            container.addEventListener('load', initObject);
-        }
-    } 
-    else {
-        // Case C: The ID is on a wrapper Div, find the SVG inside
-        const nestedSvg = container.querySelector('svg');
-        if (nestedSvg) {
-            applyChartInteractions(nestedSvg);
-        } else {
-            // Case D: Maybe it's an object inside the div
-            const nestedObj = container.querySelector('object');
-            if (nestedObj) {
-                if (nestedObj.contentDocument) {
-                    applyChartInteractions(nestedObj.contentDocument);
-                } else {
-                    nestedObj.addEventListener('load', () => applyChartInteractions(nestedObj.contentDocument));
-                }
-            }
-        }
-    }
+	    if (container.contentDocument && container.contentDocument.readyState === 'complete') {
+		initObject();
+	    } else {
+		container.addEventListener('load', initObject);
+	    }
+	}
+	else {
+	    // Case C: Wrapper DIV
+	    const nestedSvg = container.querySelector('svg');
+	    const nestedObj = container.querySelector('object, embed');
+
+	    if (nestedSvg) {
+		applyInteractionsToSvg(nestedSvg);
+	    } else if (nestedObj) {
+		// Handle object inside div
+		if (nestedObj.contentDocument) {
+		    applyInteractionsToSvg(nestedObj.contentDocument);
+		} else {
+		    nestedObj.addEventListener('load', () => {
+			 try {
+			     if (nestedObj.contentDocument) applyInteractionsToSvg(nestedObj.contentDocument);
+			 } catch(e) { console.warn(e); }
+		    });
+		}
+	    }
+	}
+    });
 });
 </script>
-
-{:/}
 
 
 ### Maps
