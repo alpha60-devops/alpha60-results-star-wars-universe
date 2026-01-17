@@ -28,7 +28,7 @@
 	    <th>per btiha</th>
 	   </tr>
 	</thead>
-      
+
 <tbody>
 <tr>
 <td>2021-02-09-to-2026-12-08</td>
@@ -2099,9 +2099,62 @@ week: 26
  </g>
 </svg>
 
-
-
 {:/}
+
+<script type="text/javascript" crossorigin="anonymous" id="graph-fade-js" >
+
+
+(function() {
+    // Main function to handle mouseover effect
+    function handleSvgMouseover() {
+        // Wait for SVG to load completely
+        const checkSvgLoaded = setInterval(function() {
+            // Target element ID pattern
+            const targetElement = document.querySelector('[id$="-downloads-by-week-cumulative-normalized-start"]');
+            
+            if (targetElement) {
+                clearInterval(checkSvgLoaded);
+                
+                // Add mouseover event listener to target element
+                targetElement.addEventListener('mouseover', function() {
+                    // Find the composite-chart group
+                    const compositeChart = document.getElementById('composite-chart');
+                    
+                    if (compositeChart) {
+                        // Find all line-graph-* elements within composite-chart
+                        const lineGraphElements = compositeChart.querySelectorAll('[id^="line-graph-"]');
+                        
+                        // Apply 50% gray styling to each line-graph element
+                        lineGraphElements.forEach(function(element) {
+                            // Style lines
+                            element.style.stroke = '#808080';  // 50% gray
+                            element.style.strokeOpacity = '1';
+                            
+                            // Style fills if present
+                            element.style.fill = '#808080';    // 50% gray
+                            element.style.fillOpacity = '0.5';
+                        });
+                        
+                        console.log(`Styled ${lineGraphElements.length} line-graph elements with 50% gray`);
+                    } else {
+                        console.log('composite-chart element not found');
+                    }
+                });
+                
+                console.log('Event listener attached to:', targetElement.id);
+            }
+        }, 100); // Check every 100ms for SVG availability
+    }
+    
+    // Initialize when DOM is fully loaded
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', handleSvgMouseover);
+    } else {
+        handleSvgMouseover();
+    }
+})();
+
+</script>
 
 
 ### Maps

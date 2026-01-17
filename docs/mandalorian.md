@@ -702,96 +702,57 @@ mandalorian-s1s2s3-downloads-by-week-cumulative-normalized-start
 
 <script type="text/javascript" crossorigin="anonymous" id="graph-fade-js" >
 
-document.addEventListener('DOMContentLoaded', () => {
-    // 1. Select ALL elements whose ID ends with the specific suffix
-    const suffix = "-downloads-by-week-cumulative-normalized-start";
-    const containers = document.querySelectorAll(`[id$="${suffix}"]`);
 
-    if (containers.length === 0) {
-	console.warn(`No containers found ending with "${suffix}"`);
-	return;
+(function() {
+    // Main function to handle mouseover effect
+    function handleSvgMouseover() {
+        // Wait for SVG to load completely
+        const checkSvgLoaded = setInterval(function() {
+            // Target element ID pattern
+            const targetElement = document.querySelector('[id$="-downloads-by-week-cumulative-normalized-start"]');
+            
+            if (targetElement) {
+                clearInterval(checkSvgLoaded);
+                
+                // Add mouseover event listener to target element
+                targetElement.addEventListener('mouseover', function() {
+                    // Find the composite-chart group
+                    const compositeChart = document.getElementById('composite-chart');
+                    
+                    if (compositeChart) {
+                        // Find all line-graph-* elements within composite-chart
+                        const lineGraphElements = compositeChart.querySelectorAll('[id^="line-graph-"]');
+                        
+                        // Apply 50% gray styling to each line-graph element
+                        lineGraphElements.forEach(function(element) {
+                            // Style lines
+                            element.style.stroke = '#808080';  // 50% gray
+                            element.style.strokeOpacity = '1';
+                            
+                            // Style fills if present
+                            element.style.fill = '#808080';    // 50% gray
+                            element.style.fillOpacity = '0.5';
+                        });
+                        
+                        console.log(`Styled ${lineGraphElements.length} line-graph elements with 50% gray`);
+                    } else {
+                        console.log('composite-chart element not found');
+                    }
+                });
+                
+                console.log('Event listener attached to:', targetElement.id);
+            }
+        }, 100); // Check every 100ms for SVG availability
     }
+    
+    // Initialize when DOM is fully loaded
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', handleSvgMouseover);
+    } else {
+        handleSvgMouseover();
+    }
+})();
 
-    // Shared function to apply logic to a valid SVG document/root
-    const applyInteractionsToSvg = (svgRoot) => {
-	// Look for the composite chart group
-	const compositeChart = svgRoot.getElementById('composite-chart') ||
-			       svgRoot.querySelector('#composite-chart');
-
-	if (!compositeChart) return; // Skip if this chart doesn't match the internal structure
-
-	const lineGraphs = compositeChart.querySelectorAll('g[id^="line-graph-"]');
-
-	const resetGraphs = () => {
-	    lineGraphs.forEach(graph => {
-		graph.style.stroke = '';
-		graph.style.fill = '';
-	    });
-	};
-
-	compositeChart.addEventListener('mouseover', (event) => {
-	    const targetGraph = event.target.closest('g[id^="line-graph-"]');
-	    if (!targetGraph) return;
-
-	    lineGraphs.forEach(graph => {
-		if (graph === targetGraph) {
-		    graph.style.stroke = '';
-		    graph.style.fill = '';
-		} else {
-		    graph.style.stroke = 'gray';
-		    graph.style.fill = 'gray';
-		}
-	    });
-	});
-
-	compositeChart.addEventListener('mouseleave', resetGraphs);
-    };
-
-    // 2. Iterate over every matching container found
-    containers.forEach(container => {
-	if (container.tagName === 'svg') {
-	    // Case A: Inline SVG
-	    applyInteractionsToSvg(container);
-	}
-	else if (container.tagName === 'OBJECT' || container.tagName === 'EMBED') {
-	    // Case B: Embedded SVG (<object>)
-	    const initObject = () => {
-		try {
-		    const svgDoc = container.contentDocument;
-		    if (svgDoc) applyInteractionsToSvg(svgDoc);
-		} catch (e) {
-		    console.warn('Cannot access SVG content (CORS):', e);
-		}
-	    };
-
-	    if (container.contentDocument && container.contentDocument.readyState === 'complete') {
-		initObject();
-	    } else {
-		container.addEventListener('load', initObject);
-	    }
-	}
-	else {
-	    // Case C: Wrapper DIV
-	    const nestedSvg = container.querySelector('svg');
-	    const nestedObj = container.querySelector('object, embed');
-
-	    if (nestedSvg) {
-		applyInteractionsToSvg(nestedSvg);
-	    } else if (nestedObj) {
-		// Handle object inside div
-		if (nestedObj.contentDocument) {
-		    applyInteractionsToSvg(nestedObj.contentDocument);
-		} else {
-		    nestedObj.addEventListener('load', () => {
-			 try {
-			     if (nestedObj.contentDocument) applyInteractionsToSvg(nestedObj.contentDocument);
-			 } catch(e) { console.warn(e); }
-		    });
-		}
-	    }
-	}
-    });
-});
 </script>
 
 
