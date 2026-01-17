@@ -7,7 +7,7 @@
 
 <!-- - [analysis notebook](/notebooks/analysis_2025.ipynb) -->
 
-# Star Wars Universe
+# Ahsoka, Ackolyte, Visions, Kenobi, etc.
 
 ## Results
 <!-- HTML Table? -->
