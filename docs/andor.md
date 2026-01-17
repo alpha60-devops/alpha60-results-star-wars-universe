@@ -1703,21 +1703,17 @@ week: 26
  </g>
 </svg>
 
-
-
-
 {:/}
-
 
 ### Maps
 
 [Andor 101 Slice 1](../image/andor-101/andor-101-slice-1-pacifica-america-x-347-torrents-peer-cumulative-render-mode-11-10000-visionscarto-cahillkeyes-engc-7.3x-starx.096.png)
 
-[Andor 101 Slice 2](../image/andor-101-slice-2-americas-x-347-torrents-peer-cumulative-render-mode-11-10000-visionscarto-cahillkeyes-engc-7.3x-starx.096.png)
+[Andor 101 Slice 2](../image/andor-101/andor-101-slice-2-americas-x-347-torrents-peer-cumulative-render-mode-11-10000-visionscarto-cahillkeyes-engc-7.3x-starx.096.png)
 
-[Andor 101 Slice 3](../image/andor-101-slice-3-afro-eur-asia-x-347-torrents-peer-cumulative-render-mode-11-10000-visionscarto-cahillkeyes-engc-7.3x-starx.096.png)
+[Andor 101 Slice 3](../image/andor-101/andor-101-slice-3-afro-eur-asia-x-347-torrents-peer-cumulative-render-mode-11-10000-visionscarto-cahillkeyes-engc-7.3x-starx.096.png)
 
-[Andor 101 Slice 4](../image/andor-101-slice-4-asia-pacifica-x-347-torrents-peer-cumulative-render-mode-11-10000-visionscarto-cahillkeyes-engc-7.3x-starx.096.png)
+[Andor 101 Slice 4](../image/andor-101/andor-101-slice-4-asia-pacifica-x-347-torrents-peer-cumulative-render-mode-11-10000-visionscarto-cahillkeyes-engc-7.3x-starx.096.png)
 
 {::nomarkdown}
 <div style="height: 50px;">

@@ -28,7 +28,7 @@
 	    <th>per btiha</th>
 	   </tr>
 	</thead>
-      
+
 <tbody>
 <tr>
 <td>2019-02-09-to-2026-12-23</td>
@@ -3809,8 +3809,6 @@ week: 26
  </g>
  </g>
 </svg>
-
-
 
 {:/}
 
