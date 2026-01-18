@@ -3973,7 +3973,8 @@ week: 16
 
 {:/}
 
-<script type="text/javascript" crossorigin="anonymous" id="graph-fade-js" >
+<script type="text/javascript" crossorigin="anonymous" id="graph-fade-js"
+	src="../scripts/graph-fade-v10.js">
 </script>
 
 
