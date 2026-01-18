@@ -703,7 +703,7 @@ mandalorian-s1s2s3-downloads-by-week-cumulative-normalized-start
 {:/}
 
 <script type="text/javascript" crossorigin="anonymous" id="graph-fade-js"
-	src="../scripts/graph-fade-v10.js">
+	src="../scripts/graph-fade.js">
 </script>
 
 
