@@ -50,9 +50,10 @@
 ### Graphs
 
 <!--
-<img src="../image/andor-s1s2-downloads-by-week-cumulative-normalized-start.svg?sanitize=false" width="700">
+<img src="../image/andor-s1s2-downloads-by-week-cumulative-normalized-start.svg?sanitize=false" width="100%" height="auto">
 -->
 {::nomarkdown}
+
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1"
@@ -473,7 +474,7 @@ andor-s1s2-downloads-by-week-cumulative-normalized-start
 <title>
 andor-101-102-103
 week: 1
-2,084,548.000000
+2,084,548
 </title>
  </rect>
 <rect x="254.800000" y="838.493299" width="12.000000" height="12.000000"
@@ -481,7 +482,7 @@ week: 1
 <title>
 andor-101-102-103
 week: 2
-3,351,884.000000
+3,351,884
 </title>
  </rect>
 <rect x="315.600000" y="829.256065" width="12.000000" height="12.000000"
@@ -489,7 +490,7 @@ week: 2
 <title>
 andor-101-102-103
 week: 3
-4,223,892.000000
+4,223,892
 </title>
  </rect>
 <rect x="376.400000" y="821.247541" width="12.000000" height="12.000000"
@@ -497,7 +498,7 @@ week: 3
 <title>
 andor-101-102-103
 week: 4
-4,979,908.000000
+4,979,908
 </title>
  </rect>
 <rect x="437.200000" y="814.370282" width="12.000000" height="12.000000"
@@ -505,7 +506,7 @@ week: 4
 <title>
 andor-101-102-103
 week: 5
-5,629,131.000000
+5,629,131
 </title>
  </rect>
 <rect x="498.000000" y="808.398698" width="12.000000" height="12.000000"
@@ -513,7 +514,7 @@ week: 5
 <title>
 andor-101-102-103
 week: 6
-6,192,857.000000
+6,192,857
 </title>
  </rect>
 <rect x="558.800000" y="802.633689" width="12.000000" height="12.000000"
@@ -521,7 +522,7 @@ week: 6
 <title>
 andor-101-102-103
 week: 7
-6,737,082.000000
+6,737,082
 </title>
  </rect>
 <rect x="619.600000" y="796.579956" width="12.000000" height="12.000000"
@@ -529,7 +530,7 @@ week: 7
 <title>
 andor-101-102-103
 week: 8
-7,308,563.000000
+7,308,563
 </title>
  </rect>
 <rect x="680.400000" y="791.037359" width="12.000000" height="12.000000"
@@ -537,7 +538,7 @@ week: 8
 <title>
 andor-101-102-103
 week: 9
-7,831,792.000000
+7,831,792
 </title>
  </rect>
 <rect x="741.200000" y="786.087762" width="12.000000" height="12.000000"
@@ -545,7 +546,7 @@ week: 9
 <title>
 andor-101-102-103
 week: 10
-8,299,041.000000
+8,299,041
 </title>
  </rect>
 <rect x="802.000000" y="781.895251" width="12.000000" height="12.000000"
@@ -553,7 +554,7 @@ week: 10
 <title>
 andor-101-102-103
 week: 11
-8,694,820.000000
+8,694,820
 </title>
  </rect>
 <rect x="862.800000" y="778.131039" width="12.000000" height="12.000000"
@@ -561,7 +562,7 @@ week: 11
 <title>
 andor-101-102-103
 week: 12
-9,050,167.000000
+9,050,167
 </title>
  </rect>
 <rect x="923.600000" y="775.192862" width="12.000000" height="12.000000"
@@ -569,7 +570,7 @@ week: 12
 <title>
 andor-101-102-103
 week: 13
-9,327,535.000000
+9,327,535
 </title>
  </rect>
 <rect x="984.400000" y="771.810752" width="12.000000" height="12.000000"
@@ -577,7 +578,7 @@ week: 13
 <title>
 andor-101-102-103
 week: 14
-9,646,811.000000
+9,646,811
 </title>
  </rect>
 <rect x="1045.200000" y="768.349586" width="12.000000" height="12.000000"
@@ -585,7 +586,7 @@ week: 14
 <title>
 andor-101-102-103
 week: 15
-9,973,550.000000
+9,973,550
 </title>
  </rect>
 <rect x="1106.000000" y="765.136923" width="12.000000" height="12.000000"
@@ -593,7 +594,7 @@ week: 15
 <title>
 andor-101-102-103
 week: 16
-10,276,830.000000
+10,276,830
 </title>
  </rect>
 <rect x="1166.800000" y="762.032075" width="12.000000" height="12.000000"
@@ -601,7 +602,7 @@ week: 16
 <title>
 andor-101-102-103
 week: 17
-10,569,932.000000
+10,569,932
 </title>
  </rect>
 <rect x="1227.600000" y="759.087956" width="12.000000" height="12.000000"
@@ -609,7 +610,7 @@ week: 17
 <title>
 andor-101-102-103
 week: 18
-10,847,861.000000
+10,847,861
 </title>
  </rect>
 <rect x="1288.400000" y="756.017738" width="12.000000" height="12.000000"
@@ -617,7 +618,7 @@ week: 18
 <title>
 andor-101-102-103
 week: 19
-11,137,694.000000
+11,137,694
 </title>
  </rect>
 <rect x="1349.200000" y="752.902445" width="12.000000" height="12.000000"
@@ -625,7 +626,7 @@ week: 19
 <title>
 andor-101-102-103
 week: 20
-11,431,782.000000
+11,431,782
 </title>
  </rect>
 <rect x="1410.000000" y="749.913687" width="12.000000" height="12.000000"
@@ -633,7 +634,7 @@ week: 20
 <title>
 andor-101-102-103
 week: 21
-11,713,925.000000
+11,713,925
 </title>
  </rect>
 <rect x="1470.800000" y="746.771701" width="12.000000" height="12.000000"
@@ -641,7 +642,7 @@ week: 21
 <title>
 andor-101-102-103
 week: 22
-12,010,533.000000
+12,010,533
 </title>
  </rect>
 <rect x="1531.600000" y="743.722244" width="12.000000" height="12.000000"
@@ -649,7 +650,7 @@ week: 22
 <title>
 andor-101-102-103
 week: 23
-12,298,406.000000
+12,298,406
 </title>
  </rect>
 <rect x="1592.400000" y="740.705235" width="12.000000" height="12.000000"
@@ -657,7 +658,7 @@ week: 23
 <title>
 andor-101-102-103
 week: 24
-12,583,216.000000
+12,583,216
 </title>
  </rect>
 <rect x="1653.200000" y="737.598120" width="12.000000" height="12.000000"
@@ -665,7 +666,7 @@ week: 24
 <title>
 andor-101-102-103
 week: 25
-12,876,532.000000
+12,876,532
 </title>
  </rect>
 <rect x="1714.000000" y="734.463835" width="12.000000" height="12.000000"
@@ -673,7 +674,7 @@ week: 25
 <title>
 andor-101-102-103
 week: 26
-13,172,413.000000
+13,172,413
 </title>
  </rect>
  </g>
@@ -689,7 +690,7 @@ week: 26
 <title>
 andor-112
 week: 1
-1,036,002.000000
+1,036,002
 </title>
  </rect>
 <rect x="207.413865" y="863.090372" width="9.000000" height="9.000000"
@@ -703,7 +704,7 @@ week: 1
 <title>
 andor-112
 week: 2
-1,727,425.000000
+1,727,425
 </title>
  </rect>
 <rect x="268.247080" y="856.075554" width="9.000000" height="9.000000"
@@ -717,7 +718,7 @@ week: 2
 <title>
 andor-112
 week: 3
-2,268,251.000000
+2,268,251
 </title>
  </rect>
 <rect x="329.064348" y="850.547963" width="9.000000" height="9.000000"
@@ -731,7 +732,7 @@ week: 3
 <title>
 andor-112
 week: 4
-2,711,674.000000
+2,711,674
 </title>
  </rect>
 <rect x="389.878028" y="846.049243" width="9.000000" height="9.000000"
@@ -745,7 +746,7 @@ week: 4
 <title>
 andor-112
 week: 5
-3,059,480.000000
+3,059,480
 </title>
  </rect>
 <rect x="450.692420" y="842.664296" width="9.000000" height="9.000000"
@@ -759,7 +760,7 @@ week: 5
 <title>
 andor-112
 week: 6
-3,263,583.000000
+3,263,583
 </title>
  </rect>
 <rect x="511.472392" y="840.115149" width="9.000000" height="9.000000"
@@ -773,7 +774,7 @@ week: 6
 <title>
 andor-112
 week: 7
-3,653,591.000000
+3,653,591
 </title>
  </rect>
 <rect x="572.287237" y="836.243997" width="9.000000" height="9.000000"
@@ -787,7 +788,7 @@ week: 7
 <title>
 andor-112
 week: 8
-3,918,517.000000
+3,918,517
 </title>
  </rect>
 <rect x="633.078852" y="833.278810" width="9.000000" height="9.000000"
@@ -801,7 +802,7 @@ week: 8
 <title>
 andor-112
 week: 9
-4,259,721.000000
+4,259,721
 </title>
  </rect>
 <rect x="693.879291" y="829.671841" width="9.000000" height="9.000000"
@@ -815,7 +816,7 @@ week: 9
 <title>
 andor-112
 week: 10
-4,597,355.000000
+4,597,355
 </title>
  </rect>
 <rect x="754.698041" y="826.583137" width="9.000000" height="9.000000"
@@ -829,7 +830,7 @@ week: 10
 <title>
 andor-112
 week: 11
-4,701,073.000000
+4,701,073
 </title>
  </rect>
 <rect x="815.489536" y="825.200225" width="9.000000" height="9.000000"
@@ -843,7 +844,7 @@ week: 11
 <title>
 andor-112
 week: 12
-4,940,926.000000
+4,940,926
 </title>
  </rect>
 <rect x="876.284789" y="822.556461" width="9.000000" height="9.000000"
@@ -857,7 +858,7 @@ week: 12
 <title>
 andor-112
 week: 13
-5,230,195.000000
+5,230,195
 </title>
  </rect>
 <rect x="937.085640" y="819.509346" width="9.000000" height="9.000000"
@@ -871,7 +872,7 @@ week: 13
 <title>
 andor-112
 week: 14
-5,511,241.000000
+5,511,241
 </title>
  </rect>
 <rect x="997.884162" y="816.502773" width="9.000000" height="9.000000"
@@ -885,7 +886,7 @@ week: 14
 <title>
 andor-112
 week: 15
-5,806,419.000000
+5,806,419
 </title>
  </rect>
  </g>
@@ -901,7 +902,7 @@ week: 15
 <title>
 andor-112
 week: 1
-1,457,909.000000
+1,457,909
 </title>
  </rect>
 <rect x="207.107254" y="857.011352" width="9.000000" height="9.000000"
@@ -915,7 +916,7 @@ week: 1
 <title>
 andor-112
 week: 2
-2,963,584.000000
+2,963,584
 </title>
  </rect>
 <rect x="267.902524" y="841.043670" width="9.000000" height="9.000000"
@@ -929,7 +930,7 @@ week: 2
 <title>
 andor-112
 week: 3
-4,478,765.000000
+4,478,765
 </title>
  </rect>
 <rect x="328.707543" y="825.012341" width="9.000000" height="9.000000"
@@ -943,7 +944,7 @@ week: 3
 <title>
 andor-112
 week: 4
-5,983,858.000000
+5,983,858
 </title>
  </rect>
 <rect x="389.510445" y="809.079886" width="9.000000" height="9.000000"
@@ -957,7 +958,7 @@ week: 4
 <title>
 andor-112
 week: 5
-7,483,094.000000
+7,483,094
 </title>
  </rect>
 <rect x="450.353686" y="793.369041" width="9.000000" height="9.000000"
@@ -971,7 +972,7 @@ week: 5
 <title>
 andor-112
 week: 6
-8,892,718.000000
+8,892,718
 </title>
  </rect>
 <rect x="511.136798" y="778.368901" width="9.000000" height="9.000000"
@@ -985,7 +986,7 @@ week: 6
 <title>
 andor-112
 week: 7
-10,337,881.000000
+10,337,881
 </title>
  </rect>
 <rect x="571.906003" y="762.940501" width="9.000000" height="9.000000"
@@ -999,7 +1000,7 @@ week: 7
 <title>
 andor-112
 week: 8
-11,846,075.000000
+11,846,075
 </title>
  </rect>
 <rect x="632.753131" y="747.149459" width="9.000000" height="9.000000"
@@ -1013,7 +1014,7 @@ week: 8
 <title>
 andor-112
 week: 9
-13,256,878.000000
+13,256,878
 </title>
  </rect>
 <rect x="693.566286" y="732.258794" width="9.000000" height="9.000000"
@@ -1027,7 +1028,7 @@ week: 9
 <title>
 andor-112
 week: 10
-14,639,495.000000
+14,639,495
 </title>
  </rect>
 <rect x="754.416107" y="717.828177" width="9.000000" height="9.000000"
@@ -1041,7 +1042,7 @@ week: 10
 <title>
 andor-112
 week: 11
-15,910,647.000000
+15,910,647
 </title>
  </rect>
 <rect x="815.231345" y="704.432569" width="9.000000" height="9.000000"
@@ -1055,7 +1056,7 @@ week: 11
 <title>
 andor-112
 week: 12
-17,146,006.000000
+17,146,006
 </title>
  </rect>
 <rect x="876.016669" y="691.279090" width="9.000000" height="9.000000"
@@ -1069,7 +1070,7 @@ week: 12
 <title>
 andor-112
 week: 13
-18,415,854.000000
+18,415,854
 </title>
  </rect>
 <rect x="936.724007" y="677.439399" width="9.000000" height="9.000000"
@@ -1083,7 +1084,7 @@ week: 13
 <title>
 andor-112
 week: 14
-19,887,464.000000
+19,887,464
 </title>
  </rect>
 <rect x="997.560434" y="661.996407" width="9.000000" height="9.000000"
@@ -1097,7 +1098,7 @@ week: 14
 <title>
 andor-112
 week: 15
-21,282,679.000000
+21,282,679
 </title>
  </rect>
 <rect x="1058.340047" y="647.134220" width="9.000000" height="9.000000"
@@ -1111,7 +1112,7 @@ week: 15
 <title>
 andor-112
 week: 16
-22,721,062.000000
+22,721,062
 </title>
  </rect>
  </g>
@@ -1127,7 +1128,7 @@ week: 16
 <title>
 andor-201-202-203
 week: 1
-3,054,164.000000
+3,054,164
 </title>
  </rect>
 <rect x="254.800000" y="813.354810" width="12.000000" height="12.000000"
@@ -1135,7 +1136,7 @@ week: 1
 <title>
 andor-201-202-203
 week: 2
-5,724,993.000000
+5,724,993
 </title>
  </rect>
 <rect x="315.600000" y="788.056578" width="12.000000" height="12.000000"
@@ -1143,7 +1144,7 @@ week: 2
 <title>
 andor-201-202-203
 week: 3
-8,113,182.000000
+8,113,182
 </title>
  </rect>
 <rect x="376.400000" y="764.268366" width="12.000000" height="12.000000"
@@ -1151,7 +1152,7 @@ week: 3
 <title>
 andor-201-202-203
 week: 4
-10,358,823.000000
+10,358,823
 </title>
  </rect>
 <rect x="437.200000" y="740.115593" width="12.000000" height="12.000000"
@@ -1159,7 +1160,7 @@ week: 4
 <title>
 andor-201-202-203
 week: 5
-12,638,879.000000
+12,638,879
 </title>
  </rect>
 <rect x="498.000000" y="716.975083" width="12.000000" height="12.000000"
@@ -1167,7 +1168,7 @@ week: 5
 <title>
 andor-201-202-203
 week: 6
-14,823,376.000000
+14,823,376
 </title>
  </rect>
 <rect x="558.800000" y="694.590748" width="12.000000" height="12.000000"
@@ -1175,7 +1176,7 @@ week: 6
 <title>
 andor-201-202-203
 week: 7
-16,936,489.000000
+16,936,489
 </title>
  </rect>
 <rect x="619.600000" y="672.091330" width="12.000000" height="12.000000"
@@ -1183,7 +1184,7 @@ week: 7
 <title>
 andor-201-202-203
 week: 8
-19,060,466.000000
+19,060,466
 </title>
  </rect>
 <rect x="680.400000" y="649.942468" width="12.000000" height="12.000000"
@@ -1191,7 +1192,7 @@ week: 8
 <title>
 andor-201-202-203
 week: 9
-21,151,350.000000
+21,151,350
 </title>
  </rect>
 <rect x="741.200000" y="630.288590" width="12.000000" height="12.000000"
@@ -1199,7 +1200,7 @@ week: 9
 <title>
 andor-201-202-203
 week: 10
-23,006,704.000000
+23,006,704
 </title>
  </rect>
 <rect x="802.000000" y="609.887805" width="12.000000" height="12.000000"
@@ -1207,7 +1208,7 @@ week: 10
 <title>
 andor-201-202-203
 week: 11
-24,932,567.000000
+24,932,567
 </title>
  </rect>
 <rect x="862.800000" y="590.316807" width="12.000000" height="12.000000"
@@ -1215,7 +1216,7 @@ week: 11
 <title>
 andor-201-202-203
 week: 12
-26,780,097.000000
+26,780,097
 </title>
  </rect>
 <rect x="923.600000" y="567.409980" width="12.000000" height="12.000000"
@@ -1223,7 +1224,7 @@ week: 12
 <title>
 andor-201-202-203
 week: 13
-28,942,534.000000
+28,942,534
 </title>
  </rect>
 <rect x="984.400000" y="545.810389" width="12.000000" height="12.000000"
@@ -1231,7 +1232,7 @@ week: 13
 <title>
 andor-201-202-203
 week: 14
-30,981,566.000000
+30,981,566
 </title>
  </rect>
 <rect x="1045.200000" y="524.299346" width="12.000000" height="12.000000"
@@ -1239,7 +1240,7 @@ week: 14
 <title>
 andor-201-202-203
 week: 15
-33,012,239.000000
+33,012,239
 </title>
  </rect>
 <rect x="1106.000000" y="504.904267" width="12.000000" height="12.000000"
@@ -1247,7 +1248,7 @@ week: 15
 <title>
 andor-201-202-203
 week: 16
-34,843,162.000000
+34,843,162
 </title>
  </rect>
 <rect x="1166.800000" y="487.428248" width="12.000000" height="12.000000"
@@ -1255,7 +1256,7 @@ week: 16
 <title>
 andor-201-202-203
 week: 17
-36,492,923.000000
+36,492,923
 </title>
  </rect>
 <rect x="1227.600000" y="469.040918" width="12.000000" height="12.000000"
@@ -1263,7 +1264,7 @@ week: 17
 <title>
 andor-201-202-203
 week: 18
-38,228,713.000000
+38,228,713
 </title>
  </rect>
 <rect x="1288.400000" y="449.233292" width="12.000000" height="12.000000"
@@ -1271,7 +1272,7 @@ week: 18
 <title>
 andor-201-202-203
 week: 19
-40,098,581.000000
+40,098,581
 </title>
  </rect>
 <rect x="1349.200000" y="429.551861" width="12.000000" height="12.000000"
@@ -1279,7 +1280,7 @@ week: 19
 <title>
 andor-201-202-203
 week: 20
-41,956,536.000000
+41,956,536
 </title>
  </rect>
 <rect x="1410.000000" y="410.022812" width="12.000000" height="12.000000"
@@ -1287,7 +1288,7 @@ week: 20
 <title>
 andor-201-202-203
 week: 21
-43,800,106.000000
+43,800,106
 </title>
  </rect>
 <rect x="1470.800000" y="388.545317" width="12.000000" height="12.000000"
@@ -1295,7 +1296,7 @@ week: 21
 <title>
 andor-201-202-203
 week: 22
-45,827,612.000000
+45,827,612
 </title>
  </rect>
 <rect x="1531.600000" y="367.123372" width="12.000000" height="12.000000"
@@ -1303,7 +1304,7 @@ week: 22
 <title>
 andor-201-202-203
 week: 23
-47,849,874.000000
+47,849,874
 </title>
  </rect>
 <rect x="1592.400000" y="343.096551" width="12.000000" height="12.000000"
@@ -1311,7 +1312,7 @@ week: 23
 <title>
 andor-201-202-203
 week: 24
-50,118,040.000000
+50,118,040
 </title>
  </rect>
 <rect x="1653.200000" y="320.262752" width="12.000000" height="12.000000"
@@ -1319,7 +1320,7 @@ week: 24
 <title>
 andor-201-202-203
 week: 25
-52,273,583.000000
+52,273,583
 </title>
  </rect>
 <rect x="1714.000000" y="300.073374" width="12.000000" height="12.000000"
@@ -1327,7 +1328,7 @@ week: 25
 <title>
 andor-201-202-203
 week: 26
-54,179,489.000000
+54,179,489
 </title>
  </rect>
  </g>
@@ -1343,7 +1344,7 @@ week: 26
 <title>
 andor-210-211-212
 week: 1
-2,189,432.000000
+2,189,432
 </title>
  </rect>
 <rect x="206.268300" y="847.011592" width="9.000000" height="9.000000"
@@ -1357,7 +1358,7 @@ week: 1
 <title>
 andor-210-211-212
 week: 2
-5,012,054.000000
+5,012,054
 </title>
  </rect>
 <rect x="267.093330" y="817.162589" width="9.000000" height="9.000000"
@@ -1371,7 +1372,7 @@ week: 2
 <title>
 andor-210-211-212
 week: 3
-7,800,901.000000
+7,800,901
 </title>
  </rect>
 <rect x="327.942777" y="787.723172" width="9.000000" height="9.000000"
@@ -1385,7 +1386,7 @@ week: 3
 <title>
 andor-210-211-212
 week: 4
-10,522,502.000000
+10,522,502
 </title>
  </rect>
 <rect x="388.758582" y="758.926549" width="9.000000" height="9.000000"
@@ -1399,7 +1400,7 @@ week: 4
 <title>
 andor-210-211-212
 week: 5
-13,222,454.000000
+13,222,454
 </title>
  </rect>
 <rect x="449.555726" y="730.319726" width="9.000000" height="9.000000"
@@ -1413,7 +1414,7 @@ week: 5
 <title>
 andor-210-211-212
 week: 6
-15,926,324.000000
+15,926,324
 </title>
  </rect>
 <rect x="510.407348" y="701.788512" width="9.000000" height="9.000000"
@@ -1427,7 +1428,7 @@ week: 6
 <title>
 andor-210-211-212
 week: 7
-18,558,963.000000
+18,558,963
 </title>
  </rect>
 <rect x="571.421995" y="674.398092" width="9.000000" height="9.000000"
@@ -1441,7 +1442,7 @@ week: 7
 <title>
 andor-210-211-212
 week: 8
-20,884,165.000000
+20,884,165
 </title>
  </rect>
 <rect x="632.691698" y="651.169141" width="9.000000" height="9.000000"
@@ -1455,7 +1456,7 @@ week: 8
 <title>
 andor-210-211-212
 week: 9
-22,420,923.000000
+22,420,923
 </title>
  </rect>
 <rect x="693.125721" y="633.753143" width="9.000000" height="9.000000"
@@ -1469,7 +1470,7 @@ week: 9
 <title>
 andor-210-211-212
 week: 10
-24,589,133.000000
+24,589,133
 </title>
  </rect>
 <rect x="753.646082" y="610.108171" width="9.000000" height="9.000000"
@@ -1483,7 +1484,7 @@ week: 10
 <title>
 andor-210-211-212
 week: 11
-27,167,716.000000
+27,167,716
 </title>
  </rect>
 <rect x="814.483602" y="582.877466" width="9.000000" height="9.000000"
@@ -1497,7 +1498,7 @@ week: 11
 <title>
 andor-210-211-212
 week: 12
-29,693,396.000000
+29,693,396
 </title>
  </rect>
 <rect x="875.328571" y="556.226295" width="9.000000" height="9.000000"
@@ -1511,7 +1512,7 @@ week: 12
 <title>
 andor-210-211-212
 week: 13
-32,154,907.000000
+32,154,907
 </title>
  </rect>
 <rect x="936.318259" y="530.620757" width="9.000000" height="9.000000"
@@ -1525,7 +1526,7 @@ week: 13
 <title>
 andor-210-211-212
 week: 14
-34,334,638.000000
+34,334,638
 </title>
  </rect>
 <rect x="997.202220" y="507.758747" width="9.000000" height="9.000000"
@@ -1539,7 +1540,7 @@ week: 14
 <title>
 andor-210-211-212
 week: 15
-36,382,384.000000
+36,382,384
 </title>
  </rect>
 <rect x="1057.983419" y="486.014534" width="9.000000" height="9.000000"
@@ -1553,7 +1554,7 @@ week: 15
 <title>
 andor-210-211-212
 week: 16
-38,460,153.000000
+38,460,153
 </title>
  </rect>
 <rect x="1118.759539" y="463.939225" width="9.000000" height="9.000000"
@@ -1567,7 +1568,7 @@ week: 16
 <title>
 andor-210-211-212
 week: 17
-40,575,654.000000
+40,575,654
 </title>
  </rect>
 <rect x="1179.498429" y="441.367415" width="9.000000" height="9.000000"
@@ -1581,7 +1582,7 @@ week: 17
 <title>
 andor-210-211-212
 week: 18
-42,785,822.000000
+42,785,822
 </title>
  </rect>
 <rect x="1240.261862" y="417.861184" width="9.000000" height="9.000000"
@@ -1595,7 +1596,7 @@ week: 18
 <title>
 andor-210-211-212
 week: 19
-45,051,457.000000
+45,051,457
 </title>
  </rect>
 <rect x="1300.836558" y="393.328379" width="9.000000" height="9.000000"
@@ -1609,7 +1610,7 @@ week: 19
 <title>
 andor-210-211-212
 week: 20
-47,643,382.000000
+47,643,382
 </title>
  </rect>
 <rect x="1361.611975" y="365.817879" width="9.000000" height="9.000000"
@@ -1623,7 +1624,7 @@ week: 20
 <title>
 andor-210-211-212
 week: 21
-50,269,592.000000
+50,269,592
 </title>
  </rect>
 <rect x="1422.180056" y="337.519735" width="9.000000" height="9.000000"
@@ -1637,7 +1638,7 @@ week: 21
 <title>
 andor-210-211-212
 week: 22
-53,210,005.000000
+53,210,005
 </title>
  </rect>
 <rect x="1483.224080" y="306.876843" width="9.000000" height="9.000000"
@@ -1651,7 +1652,7 @@ week: 22
 <title>
 andor-210-211-212
 week: 23
-55,819,360.000000
+55,819,360
 </title>
  </rect>
 <rect x="1544.000617" y="279.184495" width="9.000000" height="9.000000"
@@ -1665,7 +1666,7 @@ week: 23
 <title>
 andor-210-211-212
 week: 24
-58,461,338.000000
+58,461,338
 </title>
  </rect>
 <rect x="1604.809517" y="251.217242" width="9.000000" height="9.000000"
@@ -1679,7 +1680,7 @@ week: 24
 <title>
 andor-210-211-212
 week: 25
-61,090,964.000000
+61,090,964
 </title>
  </rect>
 <rect x="1665.532509" y="223.196678" width="9.000000" height="9.000000"
@@ -1693,7 +1694,7 @@ week: 25
 <title>
 andor-210-211-212
 week: 26
-63,826,590.000000
+63,826,590
 </title>
  </rect>
  </g>
@@ -1702,71 +1703,13 @@ week: 26
  </g>
 </svg>
 
+
+
 {:/}
 
-<script type="text/javascript" crossorigin="anonymous" id="graph-fade-js" >
-document.addEventListener('DOMContentLoaded', () => {
-    // 1. Find the SVG element with an ID containing "downloads-by-week"
-    const svg = document.querySelector('svg[id*="downloads-by-week"]');
-
-    if (!svg) {
-	console.warn('Target SVG not found');
-	return;
-    }
-
-    // 2. Find the group with ID "composite-chart"
-    const compositeChart = svg.querySelector('#composite-chart');
-
-    if (!compositeChart) {
-	console.warn('Composite chart group not found');
-	return;
-    }
-
-    // 3. Select all nested groups with IDs starting with "line-graph-"
-    const lineGraphs = compositeChart.querySelectorAll('g[id^="line-graph-"]');
-
-    // Helper to reset styles
-    const resetGraphs = () => {
-	lineGraphs.forEach(graph => {
-	    graph.style.opacity = '';      // Reset opacity
-	    graph.style.filter = '';       // Reset filter if used
-	    // If you strictly want to change color only:
-	    // graph.style.stroke = '';
-	    // graph.style.fill = '';
-	});
-    };
-
-    // 4. Mouseover listener
-    compositeChart.addEventListener('mouseover', (event) => {
-	const targetGraph = event.target.closest('g[id^="line-graph-"]');
-
-	// If we aren't hovering over a specific line graph, do nothing (or reset)
-	if (!targetGraph) return;
-
-	lineGraphs.forEach(graph => {
-	    if (graph === targetGraph) {
-		// The active line: reset to original
-		graph.style.opacity = '1';
-		graph.style.stroke = '';
-		graph.style.fill = '';
-	    } else {
-		// The background lines: go 50% gray
-		// Option A: Opacity (easier/smoother)
-		// graph.style.opacity = '0.5';
-
-		// Option B: Hard color override (as requested)
-		graph.style.stroke = 'gray';
-		graph.style.fill = 'gray';
-	    }
-	});
-    });
-
-    // 5. Mouseleave listener
-    compositeChart.addEventListener('mouseleave', resetGraphs);
-});
-
+<script type="text/javascript" crossorigin="anonymous" id="graph-fade-js"
+	src="../scripts/graph-fade.js">
 </script>
-
 
 ### Maps
 
