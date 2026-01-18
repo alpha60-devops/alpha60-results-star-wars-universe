@@ -1708,7 +1708,7 @@ week: 26
 {:/}
 
 <script type="text/javascript" crossorigin="anonymous" id="graph-fade-js"
-	src="../scripts/graph-fade.js">
+	src="../scripts/graph-fade-v9.js">
 </script>
 
 ### Maps
