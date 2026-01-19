@@ -1,3 +1,4 @@
+// v12 target-on/target-off
 (function() {
     console.log('SVG Styler: Initializing...');
     
