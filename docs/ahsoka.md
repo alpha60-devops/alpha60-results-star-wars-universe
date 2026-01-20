@@ -31,7 +31,7 @@
 
 <tbody>
 <tr>
-<td>2021-09-22-to-2026-01-06</td>
+<td>2021-09-22 to 2026-01-06</td>
 <th>2,795</th>
 <td>171,262,126</td>
 <td>61,274</td>
@@ -2663,6 +2663,139 @@ week: 16
 
 
 ## Commentary, Questions
+<table>
+
+	<thead>
+	  <tr>
+	    <th rowspan="2" width="16.6%">media object</th>
+	    <th rowspan="2" width="16.6%">weeks sampled</th>
+	    <th rowspan="2" width="16.6%">dates sampled</th>
+	    <th rowspan="2" width="16.6%">btiha size</th>
+	    <th colspan="2" width="16.6%">downloaders</th>
+	    <th colspan="2" width="16.6%">uploaders</th>
+	  </tr>
+	  <tr>
+	    <th>total</th>
+	    <th>per btiha</th>
+	    <th>total</th>
+	    <th>per btiha</th>
+	   </tr>
+	</thead>
+      
+<tbody>
+<tr>
+<td>acolyte-101-102-103</td>
+<td>26</td>
+<td>2024-06-05 to 2024-12-03</td>
+<td>286</td>
+<td>35,359,424</td>
+<td>123,634</td>
+<td>2,390,129</td>
+<td>8,357</td>
+</tr>
+
+<tr>
+<td>acolyte-107-108</td>
+<td>26</td>
+<td>2024-07-10 to 2025-01-07</td>
+<td>346</td>
+<td>39,519,362</td>
+<td>114,217</td>
+<td>1,626,997</td>
+<td>4,702</td>
+</tr>
+
+<tr>
+<td>ahsoka-101-102</td>
+<td>26</td>
+<td>2023-08-23 to 2024-02-20</td>
+<td>312</td>
+<td>23,122,335</td>
+<td>74,110</td>
+<td>2,657,613</td>
+<td>8,517</td>
+</tr>
+
+<tr>
+<td>ahsoka-108</td>
+<td>26</td>
+<td>2023-10-04 to 2024-04-02</td>
+<td>252</td>
+<td>24,480,430</td>
+<td>97,144</td>
+<td>1,548,749</td>
+<td>6,145</td>
+</tr>
+
+<tr>
+<td>book-of-boba-fett-107</td>
+<td>11</td>
+<td>2022-02-09 to 2022-04-26</td>
+<td>242</td>
+<td>5,698,462</td>
+<td>23,547</td>
+<td>1,987,363</td>
+<td>8,212</td>
+</tr>
+
+<tr>
+<td>obiwan-kenobi-101-102</td>
+<td>18</td>
+<td>2022-05-27 to 2022-09-29</td>
+<td>321</td>
+<td>11,299,883</td>
+<td>35,202</td>
+<td>3,925,260</td>
+<td>12,228</td>
+</tr>
+
+<tr>
+<td>obiwan-kenobi-106</td>
+<td>15</td>
+<td>2022-06-22 to 2022-10-04</td>
+<td>301</td>
+<td>7,158,367</td>
+<td>23,781</td>
+<td>2,530,539</td>
+<td>8,407</td>
+</tr>
+
+<tr>
+<td>star-wars-visions-101-102-103-104-105-106-107-108-109</td>
+<td>11</td>
+<td>2021-09-22 to 2021-12-08</td>
+<td>197</td>
+<td>2,280,230</td>
+<td>11,574</td>
+<td>570,430</td>
+<td>2,895</td>
+</tr>
+
+<tr>
+<td>star-wars-visions-301-302-303-304-305-306-307-308-309</td>
+<td>10</td>
+<td>2025-10-29 to 2026-01-06</td>
+<td>418</td>
+<td>20,634,828</td>
+<td>49,365</td>
+<td>397,869</td>
+<td>951</td>
+</tr>
+
+<tr>
+<td>star-wars-tales-of-the-jedi-101-102-103-104-105-106</td>
+<td>16</td>
+<td>2022-10-26 to 2023-02-14</td>
+<td>120</td>
+<td>1,708,805</td>
+<td>14,240</td>
+<td>319,270</td>
+<td>2,660</td>
+</tr>
+
+</tbody>
+</table>
+
 - acolyte
   - if this series was so successful with downloaders, why was it cancelled?
 - obi wan

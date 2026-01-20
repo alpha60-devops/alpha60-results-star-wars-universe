@@ -33,7 +33,7 @@
 
 <tbody>
 <tr>
-<td>2022-04-23-to-2025-11-12</td>
+<td>2022-04-23 to 2025-11-12</td>
 <th>1,662</th>
 <td>160,072,349</td>
 <td>96,313</td>
@@ -1733,11 +1733,11 @@ week: 26
 	<thead>
 	  <tr>
 	    <th rowspan="2" width="16.6%">media object</th>
+	    <th rowspan="2" width="16.6%">weeks sampled</th>
+	    <th rowspan="2" width="16.6%">dates sampled</th>
 	    <th rowspan="2" width="16.6%">btiha size</th>
 	    <th colspan="2" width="16.6%">downloaders</th>
 	    <th colspan="2" width="16.6%">uploaders</th>
-	    <th rowspan="2" width="16.6%">weeks sampled</th>
-	    <th rowspan="2" width="16.6%">sdates</th>
 	  </tr>
 	  <tr>
 	    <th>total</th>
@@ -1750,62 +1750,61 @@ week: 26
 <tbody>
 <tr>
 <td>andor-101-102-103</td>
-<th>347</th>
+<td>26</td>
+<td>2022-09-21 to 2023-03-21</td>
+<td>347</td>
 <td>13,172,413</td>
 <td>37,960</td>
 <td>4,317,482</td>
 <td>12,442</td>
-<td>4,294,967,271</td>
-<td>2022-09-21-to-2023-03-21</td>
 </tr>
 
 <tr>
-<td>andor-112 (2022)</td>
-<th>199</th>
+<td>andor-112</td>
+<td>15</td>
+<td>2022-11-23 to 2023-03-07</td>
+<td>199</td>
 <td>5,806,419</td>
 <td>29,177</td>
 <td>1,964,406</td>
 <td>9,871</td>
-<td>4,294,967,282</td>
-<td>2022-11-23-to-2023-03-07</td>
 </tr>
 
 <tr>
-<td>andor-112 (2025)</td>
-<th>199</th>
+<td>andor-112</td>
+<td>16</td>
+<td>2025-04-23 to 2025-08-12</td>
+<td>199</td>
 <td>22,721,062</td>
 <td>114,176</td>
 <td>764,733</td>
 <td>3,842</td>
-<td>4,294,967,281</td>
-<td>2025-04-23-to-2025-08-12</td>
 </tr>
 
 <tr>
 <td>andor-201-202-203</td>
-<th>424</th>
+<td>27</td>
+<td>2025-04-23 to 2025-10-27</td>
+<td>424</td>
 <td>54,179,489</td>
 <td>127,781</td>
 <td>3,411,904</td>
 <td>8,046</td>
-<td>4,294,967,270</td>
-<td>2025-04-23-to-2025-10-27</td>
 </tr>
 
 <tr>
 <td>andor-210-211-212</td>
-<th>493</th>
+<td>26</td>
+<td>2025-05-14 to 2025-11-12</td>
+<td>493</td>
 <td>64,192,966</td>
 <td>130,208</td>
 <td>3,504,441</td>
 <td>7,108</td>
-<td>4,294,967,270</td>
-<td>2025-05-14-to-2025-11-12</td>
 </tr>
 
 </tbody>
 </table>
-
 
 - andor
   - Andors, tell three stories one for each season in exploded chart

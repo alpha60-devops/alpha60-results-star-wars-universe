@@ -31,7 +31,7 @@
 
 <tbody>
 <tr>
-<td>2019-03-01-to-2023-12-23</td>
+<td>2019-03-01 to 2023-12-23</td>
 <th>1,186</th>
 <td>83,378,255</td>
 <td>70,302</td>
@@ -1395,6 +1395,106 @@ week: 15
 
 
 ## Commentary, Questions
+<table>
+
+	<thead>
+	  <tr>
+	    <th rowspan="2" width="16.6%">media object</th>
+	    <th rowspan="2" width="16.6%">weeks sampled</th>
+	    <th rowspan="2" width="16.6%">dates sampled</th>
+	    <th rowspan="2" width="16.6%">btiha size</th>
+	    <th colspan="2" width="16.6%">downloaders</th>
+	    <th colspan="2" width="16.6%">uploaders</th>
+	  </tr>
+	  <tr>
+	    <th>total</th>
+	    <th>per btiha</th>
+	    <th>total</th>
+	    <th>per btiha</th>
+	   </tr>
+	</thead>
+      
+<tbody>
+<tr>
+<td>mandalorian-101</td>
+<td>6</td>
+<td>2019-11-12 to 2019-12-23</td>
+<td>86</td>
+<td>8,639,036</td>
+<td>100,453</td>
+<td>1,900,475</td>
+<td>22,098</td>
+</tr>
+
+<tr>
+<td>mandalorian-102</td>
+<td>7</td>
+<td>2019-11-15 to 2020-01-02</td>
+<td>132</td>
+<td>11,745,425</td>
+<td>88,980</td>
+<td>2,563,002</td>
+<td>19,416</td>
+</tr>
+
+<tr>
+<td>mandalorian-108</td>
+<td>26</td>
+<td>2019-12-27 to 2020-06-25</td>
+<td>138</td>
+<td>21,138,618</td>
+<td>153,178</td>
+<td>5,407,090</td>
+<td>39,181</td>
+</tr>
+
+<tr>
+<td>mandalorian-201</td>
+<td>7</td>
+<td>2020-10-30 to 2020-12-17</td>
+<td>160</td>
+<td>4,571,681</td>
+<td>28,573</td>
+<td>1,881,003</td>
+<td>11,756</td>
+</tr>
+
+<tr>
+<td>mandalorian-208</td>
+<td>26</td>
+<td>2020-12-18 to 2021-06-17</td>
+<td>176</td>
+<td>21,972,490</td>
+<td>124,843</td>
+<td>5,434,310</td>
+<td>30,876</td>
+</tr>
+
+<tr>
+<td>mandalorian-301</td>
+<td>26</td>
+<td>2023-03-01 to 2023-08-29</td>
+<td>229</td>
+<td>8,986,039</td>
+<td>39,240</td>
+<td>2,070,990</td>
+<td>9,043</td>
+</tr>
+
+<tr>
+<td>mandalorian-308</td>
+<td>15</td>
+<td>2023-04-19 to 2023-08-01</td>
+<td>265</td>
+<td>6,324,966</td>
+<td>23,867</td>
+<td>1,635,837</td>
+<td>6,172</td>
+</tr>
+
+</tbody>
+</table>
+
 - Year-over-year growth vs. ITU growth
 
 
