@@ -11,11 +11,10 @@
 
 ## Results
 <!-- HTML Table? -->
-### Metrics
+### Aggregate
 
-<!-- generated HTML table -->
+<!-- generated HTML summary table -->
 <table>
-
 	<thead>
 	  <tr>
 	    <th rowspan="2" width="25%">duration</th>
@@ -30,7 +29,6 @@
 	    <th>per btiha</th>
 	   </tr>
 	</thead>
-
 <tbody>
 <tr>
 <td>2022-04-23 to 2025-11-12</td>
@@ -40,6 +38,88 @@
 <td>13,962,966</td>
 <td>8,401</td>
 </tr>
+</tbody>
+</table>
+
+
+### Itemized
+
+<!-- generated HTML itemized table -->
+<table>
+
+	<thead>
+	  <tr>
+	    <th rowspan="2" width="16.6%">media object</th>
+	    <th rowspan="2" width="16.6%">weeks sampled</th>
+	    <th rowspan="2" width="16.6%">dates sampled</th>
+	    <th rowspan="2" width="16.6%">btiha size</th>
+	    <th colspan="2" width="16.6%">downloaders</th>
+	    <th colspan="2" width="16.6%">uploaders</th>
+	  </tr>
+	  <tr>
+	    <th>total</th>
+	    <th>per btiha</th>
+	    <th>total</th>
+	    <th>per btiha</th>
+	   </tr>
+	</thead>
+
+<tbody>
+<tr>
+<td>andor-101-102-103</td>
+<td>26</td>
+<td>2022-09-21 to 2023-03-21</td>
+<td>347</td>
+<td>13,172,413</td>
+<td>37,960</td>
+<td>4,317,482</td>
+<td>12,442</td>
+</tr>
+
+<tr>
+<td>andor-112</td>
+<td>15</td>
+<td>2022-11-23 to 2023-03-07</td>
+<td>199</td>
+<td>5,806,419</td>
+<td>29,177</td>
+<td>1,964,406</td>
+<td>9,871</td>
+</tr>
+
+<tr>
+<td>andor-112</td>
+<td>16</td>
+<td>2025-04-23 to 2025-08-12</td>
+<td>199</td>
+<td>22,721,062</td>
+<td>114,176</td>
+<td>764,733</td>
+<td>3,842</td>
+</tr>
+
+<tr>
+<td>andor-201-202-203</td>
+<td>27</td>
+<td>2025-04-23 to 2025-10-27</td>
+<td>424</td>
+<td>54,179,489</td>
+<td>127,781</td>
+<td>3,411,904</td>
+<td>8,046</td>
+</tr>
+
+<tr>
+<td>andor-210-211-212</td>
+<td>26</td>
+<td>2025-05-14 to 2025-11-12</td>
+<td>493</td>
+<td>64,192,966</td>
+<td>130,208</td>
+<td>3,504,441</td>
+<td>7,108</td>
+</tr>
+
 </tbody>
 </table>
 
@@ -1736,93 +1816,22 @@ week: 26
 
 
 ## Commentary, Questions
-<table>
 
-	<thead>
-	  <tr>
-	    <th rowspan="2" width="16.6%">media object</th>
-	    <th rowspan="2" width="16.6%">weeks sampled</th>
-	    <th rowspan="2" width="16.6%">dates sampled</th>
-	    <th rowspan="2" width="16.6%">btiha size</th>
-	    <th colspan="2" width="16.6%">downloaders</th>
-	    <th colspan="2" width="16.6%">uploaders</th>
-	  </tr>
-	  <tr>
-	    <th>total</th>
-	    <th>per btiha</th>
-	    <th>total</th>
-	    <th>per btiha</th>
-	   </tr>
-	</thead>
+- Season one
+  - First season, last episode under first episode.
+  - 2022 as immediate past COVID lockdowns, similar results to Obiwan Kenobi, Book of Bobba Fett.
+- Season two
+  - Season two opener 4x higher swarm count than Season one opener.
+  - Season two last episodes more swarm over first episodes.
+- Examinging “Long tail” of first season content during the start of the second season.
+  - Same btiha, just sampled three years apart: in 2022 and 2025.
+  - Repeat viewing is 3x original viewing.
 
-<tbody>
-<tr>
-<td>andor-101-102-103</td>
-<td>26</td>
-<td>2022-09-21 to 2023-03-21</td>
-<td>347</td>
-<td>13,172,413</td>
-<td>37,960</td>
-<td>4,317,482</td>
-<td>12,442</td>
-</tr>
+- Nielsen methodology uses 35 day measurements of select USA-only data feeds. Approximate this by using 5 week USA only swarm results. How does this compare to global or 15/26 week USA samples?
+- Estimate per-episode Year over Year increase for the series,  given that second year grouped.
+- Estimate year-over-year P2P or internet population growth. Try to fit that to ITU(itu.int)  internet size and population estimates, see  ICT Development Index (IDI) 2025, ITU Facts and Figures 2025, Global Connectivity Report 2025
 
-<tr>
-<td>andor-112</td>
-<td>15</td>
-<td>2022-11-23 to 2023-03-07</td>
-<td>199</td>
-<td>5,806,419</td>
-<td>29,177</td>
-<td>1,964,406</td>
-<td>9,871</td>
-</tr>
-
-<tr>
-<td>andor-112</td>
-<td>16</td>
-<td>2025-04-23 to 2025-08-12</td>
-<td>199</td>
-<td>22,721,062</td>
-<td>114,176</td>
-<td>764,733</td>
-<td>3,842</td>
-</tr>
-
-<tr>
-<td>andor-201-202-203</td>
-<td>27</td>
-<td>2025-04-23 to 2025-10-27</td>
-<td>424</td>
-<td>54,179,489</td>
-<td>127,781</td>
-<td>3,411,904</td>
-<td>8,046</td>
-</tr>
-
-<tr>
-<td>andor-210-211-212</td>
-<td>26</td>
-<td>2025-05-14 to 2025-11-12</td>
-<td>493</td>
-<td>64,192,966</td>
-<td>130,208</td>
-<td>3,504,441</td>
-<td>7,108</td>
-</tr>
-
-</tbody>
-</table>
-
-- andor
-  - Andors, tell three stories one for each season in exploded chart
-  - First season, last episode under first episode
-  - Second season, last episode over first episode
-  - “Long tail” sampling of first season during premiere of second season: 200%
-  - Nielsen methodology is to use 35 day measurements of select USA-only data feeds. Approximate this by using 5 week USA only swarm results. How does this compare to global or 15/26 week USA samples?
-  - Estimate per-episode Year over Year increase for the series,  given that second year grouped.
-  - Estimate year-over-year P2P or internet population growth. Try to fit that to ITU(itu.int)  internet size and population estimates, see  ICT Development Index (IDI) 2025, ITU Facts and Figures 2025, Global Connectivity Report 2025
-
+- Only half of the espisodes in Andor season two were sampled. Can the missing episodes (204-206, 207-209) be approximated using data from the first (201-203) and (210-212) episodes? What
 
 
 {::nomarkdown}
