@@ -1713,13 +1713,20 @@ week: 26
 
 ### Maps
 
-[Andor 101 Slice 1](../image/andor-101/andor-101-slice-1-pacifica-america-x-347-torrents-peer-cumulative-render-mode-11-10000-visionscarto-cahillkeyes-engc-7.3x-starx.096.png)
+<table style="border-collapse: collapse; width: 100%;">
+<tr>
 
-[Andor 101 Slice 2](../image/andor-101/andor-101-slice-2-americas-x-347-torrents-peer-cumulative-render-mode-11-10000-visionscarto-cahillkeyes-engc-7.3x-starx.096.png)
+<th style="padding: 5px;"><img src="../image/andor-101/andor-101-slice-1-pacifica-america-x-347-torrents-peer-cumulative-render-mode-11-10000-visionscarto-cahillkeyes-engc-7.3x-starx.096.png" alt="Andor 101 Slice 1" width="25%"></th>
 
-[Andor 101 Slice 3](../image/andor-101/andor-101-slice-3-afro-eur-asia-x-347-torrents-peer-cumulative-render-mode-11-10000-visionscarto-cahillkeyes-engc-7.3x-starx.096.png)
+<th style="padding: 5px;"><img src="../image/andor-101/andor-101-slice-2-americas-x-347-torrents-peer-cumulative-render-mode-11-10000-visionscarto-cahillkeyes-engc-7.3x-starx.096.png" alt="Andor 101 Slice 2" width="25%"></th>
 
-[Andor 101 Slice 4](../image/andor-101/andor-101-slice-4-asia-pacifica-x-347-torrents-peer-cumulative-render-mode-11-10000-visionscarto-cahillkeyes-engc-7.3x-starx.096.png)
+<th style="padding: 5px;"><img src="../image/andor-101/andor-101-slice-3-afro-eur-asia-x-347-torrents-peer-cumulative-render-mode-11-10000-visionscarto-cahillkeyes-engc-7.3x-starx.096.png" alt="Andor 101 Slice 3" width="25%"></th>
+
+<th style="padding: 5px;"><img src="../image/andor-101/andor-101-slice-4-asia-pacifica-x-347-torrents-peer-cumulative-render-mode-11-10000-visionscarto-cahillkeyes-engc-7.3x-starx.096.png" alt="Andor 101 Slice 4" width="25%"></th>
+
+</tr>
+</table>
+
 
 {::nomarkdown}
 <div style="height: 50px;">
@@ -1746,7 +1753,7 @@ week: 26
 	    <th>per btiha</th>
 	   </tr>
 	</thead>
-      
+
 <tbody>
 <tr>
 <td>andor-101-102-103</td>
