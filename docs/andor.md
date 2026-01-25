@@ -1713,17 +1713,17 @@ week: 26
 
 ### Maps
 
-<-- raster cartography -->
+<!-- raster cartography -->
 <table style="border-collapse: collapse; width: 100%;">
 <tr>
 
-<th style="padding: 5px;"><a href="../image/andor-101/andor-101-slice-1-pacifica-america-x-347-torrents-peer-cumulative-render-mode-11-10000-visionscarto-cahillkeyes-engc-7.3x-starx.096.png" rel="preload"> "Andor 101 Slice 1" </a></th>
+<th style="padding: 5px;"><a href="../image/andor-101/andor-101-slice-1-pacifica-america-x-347-torrents-peer-cumulative-render-mode-11-10000-visionscarto-cahillkeyes-engc-7.3x-starx.096.png" rel="preload"> Andor 101 Slice 1 </a></th>
 
-<th style="padding: 5px;"><a href="../image/andor-101/andor-101-slice-2-americas-x-347-torrents-peer-cumulative-render-mode-11-10000-visionscarto-cahillkeyes-engc-7.3x-starx.096.png" rel="preload"> "Andor 101 Slice 2" </a></th>
+<th style="padding: 5px;"><a href="../image/andor-101/andor-101-slice-2-americas-x-347-torrents-peer-cumulative-render-mode-11-10000-visionscarto-cahillkeyes-engc-7.3x-starx.096.png" rel="preload"> Andor 101 Slice 2 </a></th>
 
-<th style="padding: 5px;"><a href="../image/andor-101/andor-101-slice-3-afro-eur-asia-x-347-torrents-peer-cumulative-render-mode-11-10000-visionscarto-cahillkeyes-engc-7.3x-starx.096.png" rel="preload"> "Andor 101 Slice 3" </a></th>
+<th style="padding: 5px;"><a href="../image/andor-101/andor-101-slice-3-afro-eur-asia-x-347-torrents-peer-cumulative-render-mode-11-10000-visionscarto-cahillkeyes-engc-7.3x-starx.096.png" rel="preload"> Andor 101 Slice 3 </a></th>
 
-<th style="padding: 5px;"><a href="../image/andor-101/andor-101-slice-4-asia-pacifica-x-347-torrents-peer-cumulative-render-mode-11-10000-visionscarto-cahillkeyes-engc-7.3x-starx.096.png" rel="preload"> "Andor 101 Slice 4" </a></th>
+<th style="padding: 5px;"><a href="../image/andor-101/andor-101-slice-4-asia-pacifica-x-347-torrents-peer-cumulative-render-mode-11-10000-visionscarto-cahillkeyes-engc-7.3x-starx.096.png" rel="preload"> Andor 101 Slice 4 </a></th>
 
 </tr>
 </table>
