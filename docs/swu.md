@@ -5069,7 +5069,7 @@ week: 16
 	    <th>per btiha</th>
 	   </tr>
 	</thead>
-      
+
 <tbody>
 <tr>
 <td>acolyte-101-102-103</td>
@@ -5317,11 +5317,15 @@ week: 16
 </table>
 
 
-- acolyte
-  - if this series was so successful with downloaders, why was it cancelled?
 - obi wan
-  - would a hypothetical second season follow the same trajectory as Andor?
-- Year-over-year growth vs. ITU growth
+  - would a hypothetical second season follow the same growth trajectory
+  as Andor?
+- Disney+ as a Streaming Service
+  - Year-over-year subscriber growth vs. ITU growth
+  - Year-over-year price hikes
+- Correlate downloads to
+  - Film Production Cost / Global Box Office
+  - TV, Streaming: Estimated Cost per Episode x Number of Episodes x Length
 
 
 {::nomarkdown}

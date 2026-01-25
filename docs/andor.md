@@ -1818,6 +1818,7 @@ week: 26
   - First season, last episode under first episode
   - Second season, last episode over first episode
   - “Long tail” sampling of first season during premiere of second season: 200%
+  - Nielsen methodology is to use 35 day measurements of select USA-only data feeds. Approximate this by using 5 week USA only swarm results. How does this compare to global or 15/26 week USA samples?
   - Estimate per-episode Year over Year increase for the series,  given that second year grouped.
   - Estimate year-over-year P2P or internet population growth. Try to fit that to ITU(itu.int)  internet size and population estimates, see  ICT Development Index (IDI) 2025, ITU Facts and Figures 2025, Global Connectivity Report 2025
 
