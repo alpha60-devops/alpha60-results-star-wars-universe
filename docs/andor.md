@@ -49,10 +49,10 @@
 
 	<thead>
 	  <tr>
-	    <th rowspan="2" width="16.6%">media object</th>
-	    <th rowspan="2" width="16.6%">weeks</th>
-	    <th rowspan="2" width="16.6%">duration</th>
-	    <th rowspan="2" width="16.6%">btiha size</th>
+	    <th rowspan="2" width="26.6%">media object</th>
+	    <th rowspan="2" width="6.6%">weeks</th>
+	    <th rowspan="2" width="26.6%">duration</th>
+	    <th rowspan="2" width="6.6%">btiha size</th>
 	    <th colspan="2" width="16.6%">downloaders</th>
 	    <th colspan="2" width="16.6%">uploaders</th>
 	  </tr>
