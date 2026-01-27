@@ -1,0 +1,2202 @@
+{
+    "collection_name": "Lego Star Wars Holiday Special 2020",
+    "collection_id": "",
+    "collection_key": "lego-star-wars-holiday-special-2020",
+    "collection_notes": "",
+    "data_version": "2025-09-22",
+    "data_btiha_sort": 1,
+    "ip_geolocation_version": "3:1759565215",
+    "collection_btiha_duplicates": [
+        {
+            "duplicate_id": 0,
+            "duplicate_btih": "51a80d976a3cd30393ea2af5ecfafa015bab3ac1",
+            "duplicate_0_0": "[ OxTorrent.cc ] The.Lego.Star.Wars.Holiday.Special.2020.FRENCH.720p.WEB.H264-EXTREME.mkv",
+            "duplicate_0_1": "[limetorrents.info][..].The.Lego.Star.Wars.Holiday.Special.2020.FRENCH.720p.WEB.H264-EXTREME"
+        },
+        {
+            "duplicate_id": 1,
+            "duplicate_btih": "f78f4165b0adac9eee4454ba61b5a1a105f5d865",
+            "duplicate_1_0": "[ OxTorrent.cc ] The.Lego.Star.Wars.Holiday.Special.2020.FRENCH.HDRip.XviD-EXTREME.avi",
+            "duplicate_1_1": "[limetorrents.info][..].The.Lego.Star.Wars.Holiday.Special.2020.FRENCH.HDRip.XviD-EXTREME"
+        },
+        {
+            "duplicate_id": 2,
+            "duplicate_btih": "87f111417010d2a4bfc8b994ad7579ad4e049bc2",
+            "duplicate_2_0": "[ OxTorrent.cc ] The.Lego.Star.Wars.Holiday.Special.2020.MULTI.1080p.WEB.H264-FRATERNITY.mkv",
+            "duplicate_2_1": "[limetorrents.info][..].The.Lego.Star.Wars.Holiday.Special.2020.MULTI.1080p.WEB.H264-FRATERNITY"
+        },
+        {
+            "duplicate_id": 3,
+            "duplicate_btih": "33800b170a878d06d6d56f823c3ac28d9c5f008e",
+            "duplicate_3_0": "[limetorrents.info]Lego.Star.Wars.–.Christmas.Special..2020..ITA.AC3.WEBRip.H264.-.L@Z59.-.iDN.CreW",
+            "duplicate_3_1": "Lego Star Wars – Christmas Special (2020) ITA AC3 WEBRip H264 - L@Z59 - iDN_CreW.mkv"
+        },
+        {
+            "duplicate_id": 4,
+            "duplicate_btih": "d8543df8333301ce5e4e118da4d2e6072b90ba47",
+            "duplicate_4_0": "[limetorrents.info]The.LEGO.Star.Wars.Holiday.Special..2020..1080p.5.1.-.2.0.x264.Phun.Psyz",
+            "duplicate_4_1": "The LEGO Star Wars Holiday Special (2020) 1080p 5.1 - 2.0 x264 Phun Psyz.mp4"
+        },
+        {
+            "duplicate_id": 5,
+            "duplicate_btih": "74722b449c17c02bfdfe0a95568357d4d028bdda",
+            "duplicate_5_0": "[limetorrents.info]The.Lego.Star.Wars.Holiday.Special..2020...[1080p.x265.q22.FS86.Joy]",
+            "duplicate_5_1": "The Lego Star Wars Holiday Special (2020)  [1080p x265 q22 FS86 Joy].mkv"
+        },
+        {
+            "duplicate_id": 6,
+            "duplicate_btih": "66941b72673579df652fb110a49b251a6d89605f",
+            "duplicate_6_0": "[limetorrents.info]The.Lego.Star.Wars.Holiday.Special..2020..Ita.Eng.1080p.h264.MultiSub.byMetalh",
+            "duplicate_6_1": "The.Lego.Star.Wars.Holiday.Special.(2020).Ita.Eng.1080p.h264.MultiSub.byMetalh.mkv"
+        },
+        {
+            "duplicate_id": 7,
+            "duplicate_btih": "1856e1b9f20276832e74619f1b80f336291125b0",
+            "duplicate_7_0": "[limetorrents.info]The.Lego.Star.Wars.Holiday.Special.2020.1080p.DSNP.WEBRip.DDP5.1.x264",
+            "duplicate_7_1": "The.Lego.Star.Wars.Holiday.Special.2020.1080p.DSNP.WEBRip.DDP5.1.x264-NOGRP-[rarbg.to]"
+        },
+        {
+            "duplicate_id": 8,
+            "duplicate_btih": "b787b13f805a4510f769d4477e3f5d7968d0a478",
+            "duplicate_8_0": "[limetorrents.info]The.Lego.Star.Wars.Holiday.Special.2020.1080p.WEBRip.x264-RARBG",
+            "duplicate_8_1": "The.Lego.Star.Wars.Holiday.Special.2020.1080p.WEBRip.x264-RARBG-[rarbg.to]"
+        },
+        {
+            "duplicate_id": 9,
+            "duplicate_btih": "aebf877d66d80a6894f170bf19851fa3e5bff7d5",
+            "duplicate_9_0": "[limetorrents.info]The.Lego.Star.Wars.Holiday.Special.2020.1080p.WEBRip.x265-RARBG",
+            "duplicate_9_1": "The.Lego.Star.Wars.Holiday.Special.2020.1080p.WEBRip.x265-RARBG-[rarbg.to]"
+        },
+        {
+            "duplicate_id": 10,
+            "duplicate_btih": "4679d3b2031ac927de5f730bf4e2b8e9ad4555ea",
+            "duplicate_10_0": "[limetorrents.info]The.Lego.Star.Wars.Holiday.Special.2020.720p.WEBRip.400MB.x264",
+            "duplicate_10_1": "The.Lego.Star.Wars.Holiday.Special.2020.720p.WEBRip.400MB.x264-GalaxyRG[TGx]"
+        },
+        {
+            "duplicate_id": 11,
+            "duplicate_btih": "d77279d13ca6f04466969cbb8b493a90713a2a8b",
+            "duplicate_11_0": "[limetorrents.info]The.Lego.Star.Wars.Holiday.Special.2020.HDRip.XviD(1)",
+            "duplicate_11_1": "The.Lego.Star.Wars.Holiday.Special.2020.HDRip.XviD.AC3-EVO"
+        },
+        {
+            "duplicate_id": 12,
+            "duplicate_btih": "c40a568ecbae199f0b894f3a67ce925c7d8738c5",
+            "duplicate_12_0": "[limetorrents.info]The.Lego.Star.Wars.Holiday.Special.2020.MultiSub.720p.x265-StB",
+            "duplicate_12_1": "The Lego Star Wars Holiday Special 2020 MultiSub 720p x265-StB"
+        },
+        {
+            "duplicate_id": 13,
+            "duplicate_btih": "c10f8166afb007b47c21723d152db8883ba3ee56",
+            "duplicate_13_0": "[limetorrents.info]The.Lego.Star.Wars.Holiday.Special.2020.WEBRip.XviD.MP3-XVID",
+            "duplicate_13_1": "The.Lego.Star.Wars.Holiday.Special.2020.WEBRip.XviD.MP3-XVID-[rarbg.to]"
+        },
+        {
+            "duplicate_id": 14,
+            "duplicate_btih": "15ecf99ba1c89d356545df620bcc4804dbe77a9e",
+            "duplicate_14_0": "[limetorrents.info]The.Lego.Star.Wars.Holiday.Special.2020.WEBRip.x264",
+            "duplicate_14_1": "The.Lego.Star.Wars.Holiday.Special.2020.WEBRip.x264-ION10-[rarbg.to]"
+        },
+        {
+            "duplicate_id": 15,
+            "duplicate_btih": "81111f7892bbd13408d90e643f470557d124139b",
+            "duplicate_15_0": "[limetorrents.info]The.Lego.Star.Wars.Holiday.Special.2020.iNTERNAL.720p.WEB.h264-OPUS[rarbg]",
+            "duplicate_15_1": "The.Lego.Star.Wars.Holiday.Special.2020.iNTERNAL.720p.WEB.h264-OPUS-[rarbg.to]",
+            "duplicate_15_2": "The.Lego.Star.Wars.Holiday.Special.2020.iNTERNAL.720p.WEB.h264-OPUS[rarbg]"
+        }
+    ],
+    "collection_btiha_metadata": [
+        {
+            "id": 1,
+            "name": "[ OxTorrent.cc ] The.Lego.Star.Wars.Holiday.Special.2020.FRENCH.720p.WEB.H264-EXTREME.mkv",
+            "size_total": 1.557023425,
+            "files_total": 1,
+            "files": [
+                {
+                    "number": 1,
+                    "size": 1.557023425,
+                    "path": "[ OxTorrent.cc ] The.Lego.Star.Wars.Holiday.Special.2020.FRENCH.720p.WEB.H264-EXTREME.mkv"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "name": "[ OxTorrent.cc ] The.Lego.Star.Wars.Holiday.Special.2020.FRENCH.HDRip.XviD-EXTREME.avi",
+            "size_total": 0.417619386,
+            "files_total": 1,
+            "files": [
+                {
+                    "number": 1,
+                    "size": 0.417619386,
+                    "path": "[ OxTorrent.cc ] The.Lego.Star.Wars.Holiday.Special.2020.FRENCH.HDRip.XviD-EXTREME.avi"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "name": "[ OxTorrent.cc ] The.Lego.Star.Wars.Holiday.Special.2020.MULTI.1080p.WEB.H264-FRATERNITY.mkv",
+            "size_total": 3.034790342,
+            "files_total": 1,
+            "files": [
+                {
+                    "number": 1,
+                    "size": 3.034790342,
+                    "path": "[ OxTorrent.cc ] The.Lego.Star.Wars.Holiday.Special.2020.MULTI.1080p.WEB.H264-FRATERNITY.mkv"
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "name": "[limetorrents.info][..].The.Lego.Star.Wars.Holiday.Special.2020.FRENCH.720p.WEB.H264-EXTREME",
+            "size_total": 1.557023425,
+            "files_total": 1,
+            "files": [
+                {
+                    "number": 1,
+                    "size": 1.557023425,
+                    "path": "[ OxTorrent.cc ] The.Lego.Star.Wars.Holiday.Special.2020.FRENCH.720p.WEB.H264-EXTREME.mkv"
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "name": "[limetorrents.info][..].The.Lego.Star.Wars.Holiday.Special.2020.FRENCH.HDRip.XviD-EXTREME",
+            "size_total": 0.417619386,
+            "files_total": 1,
+            "files": [
+                {
+                    "number": 1,
+                    "size": 0.417619386,
+                    "path": "[ OxTorrent.cc ] The.Lego.Star.Wars.Holiday.Special.2020.FRENCH.HDRip.XviD-EXTREME.avi"
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "name": "[limetorrents.info][..].The.Lego.Star.Wars.Holiday.Special.2020.MULTI.1080p.WEB.H264-FRATERNITY",
+            "size_total": 3.034790342,
+            "files_total": 1,
+            "files": [
+                {
+                    "number": 1,
+                    "size": 3.034790342,
+                    "path": "[ OxTorrent.cc ] The.Lego.Star.Wars.Holiday.Special.2020.MULTI.1080p.WEB.H264-FRATERNITY.mkv"
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "name": "[limetorrents.info]Lego.Star.Wars.–.Christmas.Special..2020..ITA.AC3.WEBRip.H264.-.L@Z59.-.iDN.CreW",
+            "size_total": 0.327143448,
+            "files_total": 1,
+            "files": [
+                {
+                    "number": 1,
+                    "size": 0.327143448,
+                    "path": "Lego Star Wars – Christmas Special (2020) ITA AC3 WEBRip H264 - L@Z59 - iDN_CreW.mkv"
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "name": "[limetorrents.info]The.Lego.Star.Wars.Holiday.Special..2020...1080p..[WEBRip].[5.1].[YTS.MX]",
+            "size_total": 0.890471074,
+            "files_total": 14,
+            "files": [
+                {
+                    "number": 1,
+                    "size": 0.000052105,
+                    "path": "The Lego Star Wars Holiday Special (2020) [1080p] [WEBRip] [5.1] [YTS.MX]/The.Lego.Star.Wars.Holiday.Special.2020.1080p.WEBRip.x264.AAC5.1-[YTS.MX].srt"
+                },
+                {
+                    "number": 2,
+                    "size": 0.889909622,
+                    "path": "The Lego Star Wars Holiday Special (2020) [1080p] [WEBRip] [5.1] [YTS.MX]/The.Lego.Star.Wars.Holiday.Special.2020.1080p.WEBRip.x264.AAC5.1-[YTS.MX].mp4"
+                },
+                {
+                    "number": 3,
+                    "size": 0.000053226,
+                    "path": "The Lego Star Wars Holiday Special (2020) [1080p] [WEBRip] [5.1] [YTS.MX]/www.YTS.MX.jpg"
+                },
+                {
+                    "number": 4,
+                    "size": 0.000052105,
+                    "path": "The Lego Star Wars Holiday Special (2020) [1080p] [WEBRip] [5.1] [YTS.MX]/Subs/English.srt"
+                },
+                {
+                    "number": 5,
+                    "size": 0.000035017,
+                    "path": "The Lego Star Wars Holiday Special (2020) [1080p] [WEBRip] [5.1] [YTS.MX]/Subs/dan.srt"
+                },
+                {
+                    "number": 6,
+                    "size": 0.000037246,
+                    "path": "The Lego Star Wars Holiday Special (2020) [1080p] [WEBRip] [5.1] [YTS.MX]/Subs/dut.srt"
+                },
+                {
+                    "number": 7,
+                    "size": 0.000040004,
+                    "path": "The Lego Star Wars Holiday Special (2020) [1080p] [WEBRip] [5.1] [YTS.MX]/Subs/fin.srt"
+                },
+                {
+                    "number": 8,
+                    "size": 0.000040701,
+                    "path": "The Lego Star Wars Holiday Special (2020) [1080p] [WEBRip] [5.1] [YTS.MX]/Subs/fre.srt"
+                },
+                {
+                    "number": 9,
+                    "size": 0.000044751,
+                    "path": "The Lego Star Wars Holiday Special (2020) [1080p] [WEBRip] [5.1] [YTS.MX]/Subs/ger.srt"
+                },
+                {
+                    "number": 10,
+                    "size": 0.000041503,
+                    "path": "The Lego Star Wars Holiday Special (2020) [1080p] [WEBRip] [5.1] [YTS.MX]/Subs/ita.srt"
+                },
+                {
+                    "number": 11,
+                    "size": 0.0000409,
+                    "path": "The Lego Star Wars Holiday Special (2020) [1080p] [WEBRip] [5.1] [YTS.MX]/Subs/nor.srt"
+                },
+                {
+                    "number": 12,
+                    "size": 0.000041917,
+                    "path": "The Lego Star Wars Holiday Special (2020) [1080p] [WEBRip] [5.1] [YTS.MX]/Subs/por.srt"
+                },
+                {
+                    "number": 13,
+                    "size": 0.000041845,
+                    "path": "The Lego Star Wars Holiday Special (2020) [1080p] [WEBRip] [5.1] [YTS.MX]/Subs/spa.srt"
+                },
+                {
+                    "number": 14,
+                    "size": 0.000040132,
+                    "path": "The Lego Star Wars Holiday Special (2020) [1080p] [WEBRip] [5.1] [YTS.MX]/Subs/swe.srt"
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "name": "[limetorrents.info]The.Lego.Star.Wars.Holiday.Special..2020...[1080p.x265.q22.FS86.Joy]",
+            "size_total": 1.366899146,
+            "files_total": 1,
+            "files": [
+                {
+                    "number": 1,
+                    "size": 1.366899146,
+                    "path": "The Lego Star Wars Holiday Special (2020)  [1080p x265 q22 FS86 Joy].mkv"
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "name": "[limetorrents.info]The.LEGO.Star.Wars.Holiday.Special..2020..1080p.5.1.-.2.0.x264.Phun.Psyz",
+            "size_total": 0.793097038,
+            "files_total": 1,
+            "files": [
+                {
+                    "number": 1,
+                    "size": 0.793097038,
+                    "path": "The LEGO Star Wars Holiday Special (2020) 1080p 5.1 - 2.0 x264 Phun Psyz.mp4"
+                }
+            ]
+        },
+        {
+            "id": 11,
+            "name": "[limetorrents.info]The.Lego.Star.Wars.Holiday.Special..2020..[720p].[WEBRip].[YTS.MX]",
+            "size_total": 0.43342076,
+            "files_total": 14,
+            "files": [
+                {
+                    "number": 1,
+                    "size": 0.000052105,
+                    "path": "The Lego Star Wars Holiday Special (2020) [720p] [WEBRip] [YTS.MX]/The.Lego.Star.Wars.Holiday.Special.2020.720p.WEBRip.x264.AAC-[YTS.MX].srt"
+                },
+                {
+                    "number": 2,
+                    "size": 0.432859308,
+                    "path": "The Lego Star Wars Holiday Special (2020) [720p] [WEBRip] [YTS.MX]/The.Lego.Star.Wars.Holiday.Special.2020.720p.WEBRip.x264.AAC-[YTS.MX].mp4"
+                },
+                {
+                    "number": 3,
+                    "size": 0.000053226,
+                    "path": "The Lego Star Wars Holiday Special (2020) [720p] [WEBRip] [YTS.MX]/www.YTS.MX.jpg"
+                },
+                {
+                    "number": 4,
+                    "size": 0.000052105,
+                    "path": "The Lego Star Wars Holiday Special (2020) [720p] [WEBRip] [YTS.MX]/Subs/English.srt"
+                },
+                {
+                    "number": 5,
+                    "size": 0.000035017,
+                    "path": "The Lego Star Wars Holiday Special (2020) [720p] [WEBRip] [YTS.MX]/Subs/dan.srt"
+                },
+                {
+                    "number": 6,
+                    "size": 0.000037246,
+                    "path": "The Lego Star Wars Holiday Special (2020) [720p] [WEBRip] [YTS.MX]/Subs/dut.srt"
+                },
+                {
+                    "number": 7,
+                    "size": 0.000040004,
+                    "path": "The Lego Star Wars Holiday Special (2020) [720p] [WEBRip] [YTS.MX]/Subs/fin.srt"
+                },
+                {
+                    "number": 8,
+                    "size": 0.000040701,
+                    "path": "The Lego Star Wars Holiday Special (2020) [720p] [WEBRip] [YTS.MX]/Subs/fre.srt"
+                },
+                {
+                    "number": 9,
+                    "size": 0.000044751,
+                    "path": "The Lego Star Wars Holiday Special (2020) [720p] [WEBRip] [YTS.MX]/Subs/ger.srt"
+                },
+                {
+                    "number": 10,
+                    "size": 0.000041503,
+                    "path": "The Lego Star Wars Holiday Special (2020) [720p] [WEBRip] [YTS.MX]/Subs/ita.srt"
+                },
+                {
+                    "number": 11,
+                    "size": 0.0000409,
+                    "path": "The Lego Star Wars Holiday Special (2020) [720p] [WEBRip] [YTS.MX]/Subs/nor.srt"
+                },
+                {
+                    "number": 12,
+                    "size": 0.000041917,
+                    "path": "The Lego Star Wars Holiday Special (2020) [720p] [WEBRip] [YTS.MX]/Subs/por.srt"
+                },
+                {
+                    "number": 13,
+                    "size": 0.000041845,
+                    "path": "The Lego Star Wars Holiday Special (2020) [720p] [WEBRip] [YTS.MX]/Subs/spa.srt"
+                },
+                {
+                    "number": 14,
+                    "size": 0.000040132,
+                    "path": "The Lego Star Wars Holiday Special (2020) [720p] [WEBRip] [YTS.MX]/Subs/swe.srt"
+                }
+            ]
+        },
+        {
+            "id": 12,
+            "name": "[limetorrents.info]The.Lego.Star.Wars.Holiday.Special..2020..Ita.Eng.1080p.h264.MultiSub.byMetalh",
+            "size_total": 3.035229298,
+            "files_total": 1,
+            "files": [
+                {
+                    "number": 1,
+                    "size": 3.035229298,
+                    "path": "The.Lego.Star.Wars.Holiday.Special.(2020).Ita.Eng.1080p.h264.MultiSub.byMetalh.mkv"
+                }
+            ]
+        },
+        {
+            "id": 13,
+            "name": "[limetorrents.info]The.Lego.Star.Wars.Holiday.Special.2020.1080p.DSNP.WEBRip.DDP5.1.x264",
+            "size_total": 2.948847534,
+            "files_total": 2,
+            "files": [
+                {
+                    "number": 1,
+                    "size": 3.1e-8,
+                    "path": "The.Lego.Star.Wars.Holiday.Special.2020.1080p.DSNP.WEBRip.DDP5.1.x264-NOGRP/RARBG.txt"
+                },
+                {
+                    "number": 2,
+                    "size": 2.948847503,
+                    "path": "The.Lego.Star.Wars.Holiday.Special.2020.1080p.DSNP.WEBRip.DDP5.1.x264-NOGRP/The.Lego.Star.Wars.Holiday.Special.2020.1080p.DSNP.WEBRip.DDP5.1.x264-NOGRP.mkv"
+                }
+            ]
+        },
+        {
+            "id": 14,
+            "name": "[limetorrents.info]The.Lego.Star.Wars.Holiday.Special.2020.1080p.DSNP.WEBRip.x264-Rapta",
+            "size_total": 1.282706973,
+            "files_total": 1,
+            "files": [
+                {
+                    "number": 1,
+                    "size": 1.282706973,
+                    "path": "The.Lego.Star.Wars.Holiday.Special.2020.1080p.DSNP.WEBRip.x264-Rapta.mkv"
+                }
+            ]
+        },
+        {
+            "id": 15,
+            "name": "[limetorrents.info]The.Lego.Star.Wars.Holiday.Special.2020.1080p.WEB-DL.DDP5.1.H.264-ROCCaT[TGx]",
+            "size_total": 2.948848634,
+            "files_total": 3,
+            "files": [
+                {
+                    "number": 1,
+                    "size": 2.948847503,
+                    "path": "The.Lego.Star.Wars.Holiday.Special.2020.1080p.WEB-DL.DDP5.1.H.264-ROCCaT[TGx]/The.Lego.Star.Wars.Holiday.Special.2020.1080p.WEB-DL.DDP5.1.H.264-ROCCaT.mkv"
+                },
+                {
+                    "number": 2,
+                    "size": 4.53e-7,
+                    "path": "The.Lego.Star.Wars.Holiday.Special.2020.1080p.WEB-DL.DDP5.1.H.264-ROCCaT[TGx]/The.Lego.Star.Wars.Holiday.Special.2020.1080p.WEB-DL.DDP5.1.H.264-ROCCaT.nfo"
+                },
+                {
+                    "number": 3,
+                    "size": 6.78e-7,
+                    "path": "The.Lego.Star.Wars.Holiday.Special.2020.1080p.WEB-DL.DDP5.1.H.264-ROCCaT[TGx]/[TGx]Downloaded from torrentgalaxy.to .txt"
+                }
+            ]
+        },
+        {
+            "id": 16,
+            "name": "[limetorrents.info]The.Lego.Star.Wars.Holiday.Special.2020.1080p.WEBRip.x264-RARBG",
+            "size_total": 0.920797262,
+            "files_total": 15,
+            "files": [
+                {
+                    "number": 1,
+                    "size": 3e-8,
+                    "path": "The.Lego.Star.Wars.Holiday.Special.2020.1080p.WEBRip.x264-RARBG/RARBG.txt"
+                },
+                {
+                    "number": 2,
+                    "size": 9.9e-8,
+                    "path": "The.Lego.Star.Wars.Holiday.Special.2020.1080p.WEBRip.x264-RARBG/RARBG_DO_NOT_MIRROR.exe"
+                },
+                {
+                    "number": 3,
+                    "size": 0.000040147,
+                    "path": "The.Lego.Star.Wars.Holiday.Special.2020.1080p.WEBRip.x264-RARBG/Subs/10_Swedish.srt"
+                },
+                {
+                    "number": 4,
+                    "size": 0.000035128,
+                    "path": "The.Lego.Star.Wars.Holiday.Special.2020.1080p.WEBRip.x264-RARBG/Subs/11_Danish.srt"
+                },
+                {
+                    "number": 5,
+                    "size": 0.000044791,
+                    "path": "The.Lego.Star.Wars.Holiday.Special.2020.1080p.WEBRip.x264-RARBG/Subs/12_German.srt"
+                },
+                {
+                    "number": 6,
+                    "size": 0.000041861,
+                    "path": "The.Lego.Star.Wars.Holiday.Special.2020.1080p.WEBRip.x264-RARBG/Subs/13_Spanish.srt"
+                },
+                {
+                    "number": 7,
+                    "size": 0.000052208,
+                    "path": "The.Lego.Star.Wars.Holiday.Special.2020.1080p.WEBRip.x264-RARBG/Subs/2_English.srt"
+                },
+                {
+                    "number": 8,
+                    "size": 0.000042314,
+                    "path": "The.Lego.Star.Wars.Holiday.Special.2020.1080p.WEBRip.x264-RARBG/Subs/3_Spanish.srt"
+                },
+                {
+                    "number": 9,
+                    "size": 0.000039985,
+                    "path": "The.Lego.Star.Wars.Holiday.Special.2020.1080p.WEBRip.x264-RARBG/Subs/4_Finnish.srt"
+                },
+                {
+                    "number": 10,
+                    "size": 0.0000407,
+                    "path": "The.Lego.Star.Wars.Holiday.Special.2020.1080p.WEBRip.x264-RARBG/Subs/5_French.srt"
+                },
+                {
+                    "number": 11,
+                    "size": 0.000041522,
+                    "path": "The.Lego.Star.Wars.Holiday.Special.2020.1080p.WEBRip.x264-RARBG/Subs/6_Italian.srt"
+                },
+                {
+                    "number": 12,
+                    "size": 0.000037342,
+                    "path": "The.Lego.Star.Wars.Holiday.Special.2020.1080p.WEBRip.x264-RARBG/Subs/7_Dutch.srt"
+                },
+                {
+                    "number": 13,
+                    "size": 0.000040909,
+                    "path": "The.Lego.Star.Wars.Holiday.Special.2020.1080p.WEBRip.x264-RARBG/Subs/8_nor.srt"
+                },
+                {
+                    "number": 14,
+                    "size": 0.000041955,
+                    "path": "The.Lego.Star.Wars.Holiday.Special.2020.1080p.WEBRip.x264-RARBG/Subs/9_Portuguese.srt"
+                },
+                {
+                    "number": 15,
+                    "size": 0.920298271,
+                    "path": "The.Lego.Star.Wars.Holiday.Special.2020.1080p.WEBRip.x264-RARBG/The.Lego.Star.Wars.Holiday.Special.2020.1080p.WEBRip.x264-RARBG.mp4"
+                }
+            ]
+        },
+        {
+            "id": 17,
+            "name": "[limetorrents.info]The.Lego.Star.Wars.Holiday.Special.2020.1080p.WEBRip.x265-RARBG",
+            "size_total": 0.751959908,
+            "files_total": 15,
+            "files": [
+                {
+                    "number": 1,
+                    "size": 3e-8,
+                    "path": "The.Lego.Star.Wars.Holiday.Special.2020.1080p.WEBRip.x265-RARBG/RARBG.txt"
+                },
+                {
+                    "number": 2,
+                    "size": 9.9e-8,
+                    "path": "The.Lego.Star.Wars.Holiday.Special.2020.1080p.WEBRip.x265-RARBG/RARBG_DO_NOT_MIRROR.exe"
+                },
+                {
+                    "number": 3,
+                    "size": 0.000040147,
+                    "path": "The.Lego.Star.Wars.Holiday.Special.2020.1080p.WEBRip.x265-RARBG/Subs/10_Swedish.srt"
+                },
+                {
+                    "number": 4,
+                    "size": 0.000035128,
+                    "path": "The.Lego.Star.Wars.Holiday.Special.2020.1080p.WEBRip.x265-RARBG/Subs/11_Danish.srt"
+                },
+                {
+                    "number": 5,
+                    "size": 0.000044791,
+                    "path": "The.Lego.Star.Wars.Holiday.Special.2020.1080p.WEBRip.x265-RARBG/Subs/12_German.srt"
+                },
+                {
+                    "number": 6,
+                    "size": 0.000041861,
+                    "path": "The.Lego.Star.Wars.Holiday.Special.2020.1080p.WEBRip.x265-RARBG/Subs/13_Spanish.srt"
+                },
+                {
+                    "number": 7,
+                    "size": 0.000052208,
+                    "path": "The.Lego.Star.Wars.Holiday.Special.2020.1080p.WEBRip.x265-RARBG/Subs/2_English.srt"
+                },
+                {
+                    "number": 8,
+                    "size": 0.000042314,
+                    "path": "The.Lego.Star.Wars.Holiday.Special.2020.1080p.WEBRip.x265-RARBG/Subs/3_Spanish.srt"
+                },
+                {
+                    "number": 9,
+                    "size": 0.000039985,
+                    "path": "The.Lego.Star.Wars.Holiday.Special.2020.1080p.WEBRip.x265-RARBG/Subs/4_Finnish.srt"
+                },
+                {
+                    "number": 10,
+                    "size": 0.0000407,
+                    "path": "The.Lego.Star.Wars.Holiday.Special.2020.1080p.WEBRip.x265-RARBG/Subs/5_French.srt"
+                },
+                {
+                    "number": 11,
+                    "size": 0.000041522,
+                    "path": "The.Lego.Star.Wars.Holiday.Special.2020.1080p.WEBRip.x265-RARBG/Subs/6_Italian.srt"
+                },
+                {
+                    "number": 12,
+                    "size": 0.000037342,
+                    "path": "The.Lego.Star.Wars.Holiday.Special.2020.1080p.WEBRip.x265-RARBG/Subs/7_Dutch.srt"
+                },
+                {
+                    "number": 13,
+                    "size": 0.000040909,
+                    "path": "The.Lego.Star.Wars.Holiday.Special.2020.1080p.WEBRip.x265-RARBG/Subs/8_nor.srt"
+                },
+                {
+                    "number": 14,
+                    "size": 0.000041955,
+                    "path": "The.Lego.Star.Wars.Holiday.Special.2020.1080p.WEBRip.x265-RARBG/Subs/9_Portuguese.srt"
+                },
+                {
+                    "number": 15,
+                    "size": 0.751460917,
+                    "path": "The.Lego.Star.Wars.Holiday.Special.2020.1080p.WEBRip.x265-RARBG/The.Lego.Star.Wars.Holiday.Special.2020.1080p.WEBRip.x265-RARBG.mp4"
+                }
+            ]
+        },
+        {
+            "id": 18,
+            "name": "[limetorrents.info]The.Lego.Star.Wars.Holiday.Special.2020.720p.WEBRip.400MB.x264",
+            "size_total": 0.418083504,
+            "files_total": 2,
+            "files": [
+                {
+                    "number": 1,
+                    "size": 0.418082826,
+                    "path": "The.Lego.Star.Wars.Holiday.Special.2020.720p.WEBRip.400MB.x264-GalaxyRG[TGx]/The.Lego.Star.Wars.Holiday.Special.2020.720p.WEBRip.400MB.x264-GalaxyRG.mkv"
+                },
+                {
+                    "number": 2,
+                    "size": 6.78e-7,
+                    "path": "The.Lego.Star.Wars.Holiday.Special.2020.720p.WEBRip.400MB.x264-GalaxyRG[TGx]/[TGx]Downloaded from torrentgalaxy.to .txt"
+                }
+            ]
+        },
+        {
+            "id": 19,
+            "name": "[limetorrents.info]The.Lego.Star.Wars.Holiday.Special.2020.HDRip.XviD(1)",
+            "size_total": 0.975332377,
+            "files_total": 3,
+            "files": [
+                {
+                    "number": 1,
+                    "size": 6.43e-7,
+                    "path": "The.Lego.Star.Wars.Holiday.Special.2020.HDRip.XviD.AC3-EVO/The.Lego.Star.Wars.Holiday.Special.2020.HDRip.XviD.AC3-EVO.NFO"
+                },
+                {
+                    "number": 2,
+                    "size": 0.975331697,
+                    "path": "The.Lego.Star.Wars.Holiday.Special.2020.HDRip.XviD.AC3-EVO/The.Lego.Star.Wars.Holiday.Special.2020.HDRip.XviD.AC3-EVO.avi"
+                },
+                {
+                    "number": 3,
+                    "size": 3.7e-8,
+                    "path": "The.Lego.Star.Wars.Holiday.Special.2020.HDRip.XviD.AC3-EVO/Torrent Downloaded From ProstyleX.org.txt"
+                }
+            ]
+        },
+        {
+            "id": 20,
+            "name": "[limetorrents.info]The.Lego.Star.Wars.Holiday.Special.2020.HDRip.XviD",
+            "size_total": 0.975333018,
+            "files_total": 3,
+            "files": [
+                {
+                    "number": 1,
+                    "size": 6.43e-7,
+                    "path": "The.Lego.Star.Wars.Holiday.Special.2020.HDRip.XviD.AC3-EVO[TGx]/The.Lego.Star.Wars.Holiday.Special.2020.HDRip.XviD.AC3-EVO.NFO"
+                },
+                {
+                    "number": 2,
+                    "size": 0.975331697,
+                    "path": "The.Lego.Star.Wars.Holiday.Special.2020.HDRip.XviD.AC3-EVO[TGx]/The.Lego.Star.Wars.Holiday.Special.2020.HDRip.XviD.AC3-EVO.avi"
+                },
+                {
+                    "number": 3,
+                    "size": 6.78e-7,
+                    "path": "The.Lego.Star.Wars.Holiday.Special.2020.HDRip.XviD.AC3-EVO[TGx]/[TGx]Downloaded from torrentgalaxy.to .txt"
+                }
+            ]
+        },
+        {
+            "id": 21,
+            "name": "[limetorrents.info]The.Lego.Star.Wars.Holiday.Special.2020.iNTERNAL.720p.WEB.h264-OPUS[rarbg]",
+            "size_total": 0.75959054,
+            "files_total": 4,
+            "files": [
+                {
+                    "number": 1,
+                    "size": 3e-8,
+                    "path": "The.Lego.Star.Wars.Holiday.Special.2020.iNTERNAL.720p.WEB.h264-OPUS[rarbg]/RARBG.txt"
+                },
+                {
+                    "number": 2,
+                    "size": 9.9e-8,
+                    "path": "The.Lego.Star.Wars.Holiday.Special.2020.iNTERNAL.720p.WEB.h264-OPUS[rarbg]/RARBG_DO_NOT_MIRROR.exe"
+                },
+                {
+                    "number": 3,
+                    "size": 0.759588342,
+                    "path": "The.Lego.Star.Wars.Holiday.Special.2020.iNTERNAL.720p.WEB.h264-OPUS[rarbg]/The.Lego.Star.Wars.Holiday.Special.2020.iNTERNAL.720p.WEB.h264-OPUS.mkv"
+                },
+                {
+                    "number": 4,
+                    "size": 0.000002069,
+                    "path": "The.Lego.Star.Wars.Holiday.Special.2020.iNTERNAL.720p.WEB.h264-OPUS[rarbg]/the.lego.star.wars.holiday.special.2020.internal.720p.web.h264-opus.nfo"
+                }
+            ]
+        },
+        {
+            "id": 22,
+            "name": "[limetorrents.info]The.Lego.Star.Wars.Holiday.Special.2020.MULTI.1080p.WEB-DL.DDP5.1.H264",
+            "size_total": 3.034796998,
+            "files_total": 2,
+            "files": [
+                {
+                    "number": 1,
+                    "size": 3.034790441,
+                    "path": "The.Lego.Star.Wars.Holiday.Special.2020.MULTI.1080p.WEB-DL.DDP5.1.H264-FRATERNITY/The.Lego.Star.Wars.Holiday.Special.2020.MULTI.1080p.WEB-DL.DDP5.1.H264-FRATERNITY.mkv"
+                },
+                {
+                    "number": 2,
+                    "size": 0.000006557,
+                    "path": "The.Lego.Star.Wars.Holiday.Special.2020.MULTI.1080p.WEB-DL.DDP5.1.H264-FRATERNITY/The.Lego.Star.Wars.Holiday.Special.2020.MULTI.1080p.WEB-DL.DDP5.1.H264-FRATERNITY.nfo"
+                }
+            ]
+        },
+        {
+            "id": 23,
+            "name": "[limetorrents.info]The.Lego.Star.Wars.Holiday.Special.2020.MultiSub.720p.x265-StB",
+            "size_total": 0.211824125,
+            "files_total": 4,
+            "files": [
+                {
+                    "number": 1,
+                    "size": 5.8e-8,
+                    "path": "The Lego Star Wars Holiday Special 2020 MultiSub 720p x265-StB/Torrent_downloaded_from_Demonoid.is_.txt"
+                },
+                {
+                    "number": 2,
+                    "size": 5.85e-7,
+                    "path": "The Lego Star Wars Holiday Special 2020 MultiSub 720p x265-StB/[TGx]Downloaded from torrentgalaxy.to .txt"
+                },
+                {
+                    "number": 3,
+                    "size": 0.000008404,
+                    "path": "The Lego Star Wars Holiday Special 2020 MultiSub 720p x265-StB/The Lego Star Wars Holiday Special 2020 MultiSub 720p x265-StB.nfo"
+                },
+                {
+                    "number": 4,
+                    "size": 0.211815078,
+                    "path": "The Lego Star Wars Holiday Special 2020 MultiSub 720p x265-StB/The Lego Star Wars Holiday Special 2020 MultiSub 720p x265-StB.mkv"
+                }
+            ]
+        },
+        {
+            "id": 24,
+            "name": "[limetorrents.info]The.Lego.Star.Wars.Holiday.Special.2020.WEBRip.x264",
+            "size_total": 0.459671586,
+            "files_total": 15,
+            "files": [
+                {
+                    "number": 1,
+                    "size": 3e-8,
+                    "path": "The.Lego.Star.Wars.Holiday.Special.2020.WEBRip.x264-ION10/RARBG.txt"
+                },
+                {
+                    "number": 2,
+                    "size": 9.9e-8,
+                    "path": "The.Lego.Star.Wars.Holiday.Special.2020.WEBRip.x264-ION10/RARBG_DO_NOT_MIRROR.exe"
+                },
+                {
+                    "number": 3,
+                    "size": 0.000040147,
+                    "path": "The.Lego.Star.Wars.Holiday.Special.2020.WEBRip.x264-ION10/Subs/10_Swedish.srt"
+                },
+                {
+                    "number": 4,
+                    "size": 0.000035128,
+                    "path": "The.Lego.Star.Wars.Holiday.Special.2020.WEBRip.x264-ION10/Subs/11_Danish.srt"
+                },
+                {
+                    "number": 5,
+                    "size": 0.000044791,
+                    "path": "The.Lego.Star.Wars.Holiday.Special.2020.WEBRip.x264-ION10/Subs/12_German.srt"
+                },
+                {
+                    "number": 6,
+                    "size": 0.000041861,
+                    "path": "The.Lego.Star.Wars.Holiday.Special.2020.WEBRip.x264-ION10/Subs/13_Spanish.srt"
+                },
+                {
+                    "number": 7,
+                    "size": 0.000052208,
+                    "path": "The.Lego.Star.Wars.Holiday.Special.2020.WEBRip.x264-ION10/Subs/2_English.srt"
+                },
+                {
+                    "number": 8,
+                    "size": 0.000042314,
+                    "path": "The.Lego.Star.Wars.Holiday.Special.2020.WEBRip.x264-ION10/Subs/3_Spanish.srt"
+                },
+                {
+                    "number": 9,
+                    "size": 0.000039985,
+                    "path": "The.Lego.Star.Wars.Holiday.Special.2020.WEBRip.x264-ION10/Subs/4_Finnish.srt"
+                },
+                {
+                    "number": 10,
+                    "size": 0.0000407,
+                    "path": "The.Lego.Star.Wars.Holiday.Special.2020.WEBRip.x264-ION10/Subs/5_French.srt"
+                },
+                {
+                    "number": 11,
+                    "size": 0.000041522,
+                    "path": "The.Lego.Star.Wars.Holiday.Special.2020.WEBRip.x264-ION10/Subs/6_Italian.srt"
+                },
+                {
+                    "number": 12,
+                    "size": 0.000037342,
+                    "path": "The.Lego.Star.Wars.Holiday.Special.2020.WEBRip.x264-ION10/Subs/7_Dutch.srt"
+                },
+                {
+                    "number": 13,
+                    "size": 0.000040909,
+                    "path": "The.Lego.Star.Wars.Holiday.Special.2020.WEBRip.x264-ION10/Subs/8_nor.srt"
+                },
+                {
+                    "number": 14,
+                    "size": 0.000041955,
+                    "path": "The.Lego.Star.Wars.Holiday.Special.2020.WEBRip.x264-ION10/Subs/9_Portuguese.srt"
+                },
+                {
+                    "number": 15,
+                    "size": 0.459172595,
+                    "path": "The.Lego.Star.Wars.Holiday.Special.2020.WEBRip.x264-ION10/The.Lego.Star.Wars.Holiday.Special.2020.WEBRip.x264-ION10.mp4"
+                }
+            ]
+        },
+        {
+            "id": 25,
+            "name": "[limetorrents.info]The.Lego.Star.Wars.Holiday.Special.2020.WEBRip.XviD.MP3-XVID",
+            "size_total": 0.604889315,
+            "files_total": 15,
+            "files": [
+                {
+                    "number": 1,
+                    "size": 3e-8,
+                    "path": "The.Lego.Star.Wars.Holiday.Special.2020.WEBRip.XviD.MP3-XVID/RARBG.txt"
+                },
+                {
+                    "number": 2,
+                    "size": 9.9e-8,
+                    "path": "The.Lego.Star.Wars.Holiday.Special.2020.WEBRip.XviD.MP3-XVID/RARBG_DO_NOT_MIRROR.exe"
+                },
+                {
+                    "number": 3,
+                    "size": 0.000040147,
+                    "path": "The.Lego.Star.Wars.Holiday.Special.2020.WEBRip.XviD.MP3-XVID/Subs/10_Swedish.srt"
+                },
+                {
+                    "number": 4,
+                    "size": 0.000035128,
+                    "path": "The.Lego.Star.Wars.Holiday.Special.2020.WEBRip.XviD.MP3-XVID/Subs/11_Danish.srt"
+                },
+                {
+                    "number": 5,
+                    "size": 0.000044791,
+                    "path": "The.Lego.Star.Wars.Holiday.Special.2020.WEBRip.XviD.MP3-XVID/Subs/12_German.srt"
+                },
+                {
+                    "number": 6,
+                    "size": 0.000041861,
+                    "path": "The.Lego.Star.Wars.Holiday.Special.2020.WEBRip.XviD.MP3-XVID/Subs/13_Spanish.srt"
+                },
+                {
+                    "number": 7,
+                    "size": 0.000052208,
+                    "path": "The.Lego.Star.Wars.Holiday.Special.2020.WEBRip.XviD.MP3-XVID/Subs/2_English.srt"
+                },
+                {
+                    "number": 8,
+                    "size": 0.000042314,
+                    "path": "The.Lego.Star.Wars.Holiday.Special.2020.WEBRip.XviD.MP3-XVID/Subs/3_Spanish.srt"
+                },
+                {
+                    "number": 9,
+                    "size": 0.000039985,
+                    "path": "The.Lego.Star.Wars.Holiday.Special.2020.WEBRip.XviD.MP3-XVID/Subs/4_Finnish.srt"
+                },
+                {
+                    "number": 10,
+                    "size": 0.0000407,
+                    "path": "The.Lego.Star.Wars.Holiday.Special.2020.WEBRip.XviD.MP3-XVID/Subs/5_French.srt"
+                },
+                {
+                    "number": 11,
+                    "size": 0.000041522,
+                    "path": "The.Lego.Star.Wars.Holiday.Special.2020.WEBRip.XviD.MP3-XVID/Subs/6_Italian.srt"
+                },
+                {
+                    "number": 12,
+                    "size": 0.000037342,
+                    "path": "The.Lego.Star.Wars.Holiday.Special.2020.WEBRip.XviD.MP3-XVID/Subs/7_Dutch.srt"
+                },
+                {
+                    "number": 13,
+                    "size": 0.000040909,
+                    "path": "The.Lego.Star.Wars.Holiday.Special.2020.WEBRip.XviD.MP3-XVID/Subs/8_nor.srt"
+                },
+                {
+                    "number": 14,
+                    "size": 0.000041955,
+                    "path": "The.Lego.Star.Wars.Holiday.Special.2020.WEBRip.XviD.MP3-XVID/Subs/9_Portuguese.srt"
+                },
+                {
+                    "number": 15,
+                    "size": 0.604390324,
+                    "path": "The.Lego.Star.Wars.Holiday.Special.2020.WEBRip.XviD.MP3-XVID/The.Lego.Star.Wars.Holiday.Special.2020.WEBRip.XviD.MP3-XVID.avi"
+                }
+            ]
+        },
+        {
+            "id": 26,
+            "name": "Lego Star Wars – Christmas Special (2020) ITA AC3 WEBRip H264 - L@Z59 - iDN_CreW.mkv",
+            "size_total": 0.327143448,
+            "files_total": 1,
+            "files": [
+                {
+                    "number": 1,
+                    "size": 0.327143448,
+                    "path": "Lego Star Wars – Christmas Special (2020) ITA AC3 WEBRip H264 - L@Z59 - iDN_CreW.mkv"
+                }
+            ]
+        },
+        {
+            "id": 27,
+            "name": "The Lego Star Wars Holiday Special (2020)  [1080p x265 q22 FS86 Joy].mkv",
+            "size_total": 1.366899146,
+            "files_total": 1,
+            "files": [
+                {
+                    "number": 1,
+                    "size": 1.366899146,
+                    "path": "The Lego Star Wars Holiday Special (2020)  [1080p x265 q22 FS86 Joy].mkv"
+                }
+            ]
+        },
+        {
+            "id": 28,
+            "name": "The LEGO Star Wars Holiday Special (2020) 1080p 5.1 - 2.0 x264 Phun Psyz.mp4",
+            "size_total": 0.793097038,
+            "files_total": 1,
+            "files": [
+                {
+                    "number": 1,
+                    "size": 0.793097038,
+                    "path": "The LEGO Star Wars Holiday Special (2020) 1080p 5.1 - 2.0 x264 Phun Psyz.mp4"
+                }
+            ]
+        },
+        {
+            "id": 29,
+            "name": "The Lego Star Wars Holiday Special 2020 720p WEB-DL x264 ESubs - MkvHub.Com.mkv",
+            "size_total": 0.41685282,
+            "files_total": 1,
+            "files": [
+                {
+                    "number": 1,
+                    "size": 0.41685282,
+                    "path": "The Lego Star Wars Holiday Special 2020 720p WEB-DL x264 ESubs - MkvHub.Com.mkv"
+                }
+            ]
+        },
+        {
+            "id": 30,
+            "name": "The Lego Star Wars Holiday Special 2020 MultiSub 720p x265-StB",
+            "size_total": 0.211824125,
+            "files_total": 4,
+            "files": [
+                {
+                    "number": 1,
+                    "size": 5.8e-8,
+                    "path": "The Lego Star Wars Holiday Special 2020 MultiSub 720p x265-StB/Torrent_downloaded_from_Demonoid.is_.txt"
+                },
+                {
+                    "number": 2,
+                    "size": 5.85e-7,
+                    "path": "The Lego Star Wars Holiday Special 2020 MultiSub 720p x265-StB/[TGx]Downloaded from torrentgalaxy.to .txt"
+                },
+                {
+                    "number": 3,
+                    "size": 0.000008404,
+                    "path": "The Lego Star Wars Holiday Special 2020 MultiSub 720p x265-StB/The Lego Star Wars Holiday Special 2020 MultiSub 720p x265-StB.nfo"
+                },
+                {
+                    "number": 4,
+                    "size": 0.211815078,
+                    "path": "The Lego Star Wars Holiday Special 2020 MultiSub 720p x265-StB/The Lego Star Wars Holiday Special 2020 MultiSub 720p x265-StB.mkv"
+                }
+            ]
+        },
+        {
+            "id": 31,
+            "name": "The Lego Star Wars Holiday Special.2020.hdrip.720p.subesp.mp4",
+            "size_total": 0.732306253,
+            "files_total": 1,
+            "files": [
+                {
+                    "number": 1,
+                    "size": 0.732306253,
+                    "path": "The Lego Star Wars Holiday Special.2020.hdrip.720p.subesp.mp4"
+                }
+            ]
+        },
+        {
+            "id": 32,
+            "name": "The.Lego.Star.Wars.Holiday.Special.(2020).Ita.Eng.1080p.h264.MultiSub.byMetalh.mkv",
+            "size_total": 3.035229298,
+            "files_total": 1,
+            "files": [
+                {
+                    "number": 1,
+                    "size": 3.035229298,
+                    "path": "The.Lego.Star.Wars.Holiday.Special.(2020).Ita.Eng.1080p.h264.MultiSub.byMetalh.mkv"
+                }
+            ]
+        },
+        {
+            "id": 33,
+            "name": "The.Lego.Star.Wars.Holiday.Special.2020.1080p.DSNP.WEBRip.DDP5.1.x264-NOGRP-[rarbg.to]",
+            "size_total": 2.948847534,
+            "files_total": 2,
+            "files": [
+                {
+                    "number": 1,
+                    "size": 3.1e-8,
+                    "path": "The.Lego.Star.Wars.Holiday.Special.2020.1080p.DSNP.WEBRip.DDP5.1.x264-NOGRP/RARBG.txt"
+                },
+                {
+                    "number": 2,
+                    "size": 2.948847503,
+                    "path": "The.Lego.Star.Wars.Holiday.Special.2020.1080p.DSNP.WEBRip.DDP5.1.x264-NOGRP/The.Lego.Star.Wars.Holiday.Special.2020.1080p.DSNP.WEBRip.DDP5.1.x264-NOGRP.mkv"
+                }
+            ]
+        },
+        {
+            "id": 34,
+            "name": "The.Lego.Star.Wars.Holiday.Special.2020.1080p.DSNP.WEBRip.DDP5.1.x264-NOGRP.mkv",
+            "size_total": 2.948847503,
+            "files_total": 1,
+            "files": [
+                {
+                    "number": 1,
+                    "size": 2.948847503,
+                    "path": "The.Lego.Star.Wars.Holiday.Special.2020.1080p.DSNP.WEBRip.DDP5.1.x264-NOGRP.mkv"
+                }
+            ]
+        },
+        {
+            "id": 35,
+            "name": "The.Lego.Star.Wars.Holiday.Special.2020.1080p.WEB-DL.DDP5.1.H.264-ROCCaT [IPT]",
+            "size_total": 2.948847956,
+            "files_total": 2,
+            "files": [
+                {
+                    "number": 1,
+                    "size": 2.948847503,
+                    "path": "The.Lego.Star.Wars.Holiday.Special.2020.1080p.WEB-DL.DDP5.1.H.264-ROCCaT/The.Lego.Star.Wars.Holiday.Special.2020.1080p.WEB-DL.DDP5.1.H.264-ROCCaT.mkv"
+                },
+                {
+                    "number": 2,
+                    "size": 4.53e-7,
+                    "path": "The.Lego.Star.Wars.Holiday.Special.2020.1080p.WEB-DL.DDP5.1.H.264-ROCCaT/The.Lego.Star.Wars.Holiday.Special.2020.1080p.WEB-DL.DDP5.1.H.264-ROCCaT.nfo"
+                }
+            ]
+        },
+        {
+            "id": 36,
+            "name": "The.Lego.Star.Wars.Holiday.Special.2020.1080p.WEBRip.DD5.1.X.264-EVO [IPT]",
+            "size_total": 0.872015771,
+            "files_total": 2,
+            "files": [
+                {
+                    "number": 1,
+                    "size": 0.872015115,
+                    "path": "The.Lego.Star.Wars.Holiday.Special.2020.1080p.WEBRip.DD5.1.X.264-EVO/The.Lego.Star.Wars.Holiday.Special.2020.1080p.WEBRip.DD5.1.X.264-EVO.mkv"
+                },
+                {
+                    "number": 2,
+                    "size": 6.56e-7,
+                    "path": "The.Lego.Star.Wars.Holiday.Special.2020.1080p.WEBRip.DD5.1.X.264-EVO/The.Lego.Star.Wars.Holiday.Special.2020.1080p.WEBRip.DD5.1.X.264-EVO.NFO"
+                }
+            ]
+        },
+        {
+            "id": 37,
+            "name": "The.Lego.Star.Wars.Holiday.Special.2020.1080p.WEBRip.x264-RARBG-[rarbg.to]",
+            "size_total": 0.920797262,
+            "files_total": 15,
+            "files": [
+                {
+                    "number": 1,
+                    "size": 3e-8,
+                    "path": "The.Lego.Star.Wars.Holiday.Special.2020.1080p.WEBRip.x264-RARBG/RARBG.txt"
+                },
+                {
+                    "number": 2,
+                    "size": 9.9e-8,
+                    "path": "The.Lego.Star.Wars.Holiday.Special.2020.1080p.WEBRip.x264-RARBG/RARBG_DO_NOT_MIRROR.exe"
+                },
+                {
+                    "number": 3,
+                    "size": 0.000040147,
+                    "path": "The.Lego.Star.Wars.Holiday.Special.2020.1080p.WEBRip.x264-RARBG/Subs/10_Swedish.srt"
+                },
+                {
+                    "number": 4,
+                    "size": 0.000035128,
+                    "path": "The.Lego.Star.Wars.Holiday.Special.2020.1080p.WEBRip.x264-RARBG/Subs/11_Danish.srt"
+                },
+                {
+                    "number": 5,
+                    "size": 0.000044791,
+                    "path": "The.Lego.Star.Wars.Holiday.Special.2020.1080p.WEBRip.x264-RARBG/Subs/12_German.srt"
+                },
+                {
+                    "number": 6,
+                    "size": 0.000041861,
+                    "path": "The.Lego.Star.Wars.Holiday.Special.2020.1080p.WEBRip.x264-RARBG/Subs/13_Spanish.srt"
+                },
+                {
+                    "number": 7,
+                    "size": 0.000052208,
+                    "path": "The.Lego.Star.Wars.Holiday.Special.2020.1080p.WEBRip.x264-RARBG/Subs/2_English.srt"
+                },
+                {
+                    "number": 8,
+                    "size": 0.000042314,
+                    "path": "The.Lego.Star.Wars.Holiday.Special.2020.1080p.WEBRip.x264-RARBG/Subs/3_Spanish.srt"
+                },
+                {
+                    "number": 9,
+                    "size": 0.000039985,
+                    "path": "The.Lego.Star.Wars.Holiday.Special.2020.1080p.WEBRip.x264-RARBG/Subs/4_Finnish.srt"
+                },
+                {
+                    "number": 10,
+                    "size": 0.0000407,
+                    "path": "The.Lego.Star.Wars.Holiday.Special.2020.1080p.WEBRip.x264-RARBG/Subs/5_French.srt"
+                },
+                {
+                    "number": 11,
+                    "size": 0.000041522,
+                    "path": "The.Lego.Star.Wars.Holiday.Special.2020.1080p.WEBRip.x264-RARBG/Subs/6_Italian.srt"
+                },
+                {
+                    "number": 12,
+                    "size": 0.000037342,
+                    "path": "The.Lego.Star.Wars.Holiday.Special.2020.1080p.WEBRip.x264-RARBG/Subs/7_Dutch.srt"
+                },
+                {
+                    "number": 13,
+                    "size": 0.000040909,
+                    "path": "The.Lego.Star.Wars.Holiday.Special.2020.1080p.WEBRip.x264-RARBG/Subs/8_nor.srt"
+                },
+                {
+                    "number": 14,
+                    "size": 0.000041955,
+                    "path": "The.Lego.Star.Wars.Holiday.Special.2020.1080p.WEBRip.x264-RARBG/Subs/9_Portuguese.srt"
+                },
+                {
+                    "number": 15,
+                    "size": 0.920298271,
+                    "path": "The.Lego.Star.Wars.Holiday.Special.2020.1080p.WEBRip.x264-RARBG/The.Lego.Star.Wars.Holiday.Special.2020.1080p.WEBRip.x264-RARBG.mp4"
+                }
+            ]
+        },
+        {
+            "id": 38,
+            "name": "The.Lego.Star.Wars.Holiday.Special.2020.1080p.WEBRip.x264-RARBG",
+            "size_total": 0.920340333,
+            "files_total": 2,
+            "files": [
+                {
+                    "number": 1,
+                    "size": 0.920298271,
+                    "path": "The.Lego.Star.Wars.Holiday.Special.2020.1080p.WEBRip.x264-RARBG/The.Lego.Star.Wars.Holiday.Special.2020.1080p.WEBRip.x264-RARBG.mp4"
+                },
+                {
+                    "number": 2,
+                    "size": 0.000042062,
+                    "path": "The.Lego.Star.Wars.Holiday.Special.2020.1080p.WEBRip.x264-RARBG/The.Lego.Star.Wars.Holiday.Special.2020.1080p.WEBRip.x264-RARBG.srt"
+                }
+            ]
+        },
+        {
+            "id": 39,
+            "name": "The.Lego.Star.Wars.Holiday.Special.2020.1080p.WEBRip.x265-RARBG-[rarbg.to]",
+            "size_total": 0.751959908,
+            "files_total": 15,
+            "files": [
+                {
+                    "number": 1,
+                    "size": 3e-8,
+                    "path": "The.Lego.Star.Wars.Holiday.Special.2020.1080p.WEBRip.x265-RARBG/RARBG.txt"
+                },
+                {
+                    "number": 2,
+                    "size": 9.9e-8,
+                    "path": "The.Lego.Star.Wars.Holiday.Special.2020.1080p.WEBRip.x265-RARBG/RARBG_DO_NOT_MIRROR.exe"
+                },
+                {
+                    "number": 3,
+                    "size": 0.000040147,
+                    "path": "The.Lego.Star.Wars.Holiday.Special.2020.1080p.WEBRip.x265-RARBG/Subs/10_Swedish.srt"
+                },
+                {
+                    "number": 4,
+                    "size": 0.000035128,
+                    "path": "The.Lego.Star.Wars.Holiday.Special.2020.1080p.WEBRip.x265-RARBG/Subs/11_Danish.srt"
+                },
+                {
+                    "number": 5,
+                    "size": 0.000044791,
+                    "path": "The.Lego.Star.Wars.Holiday.Special.2020.1080p.WEBRip.x265-RARBG/Subs/12_German.srt"
+                },
+                {
+                    "number": 6,
+                    "size": 0.000041861,
+                    "path": "The.Lego.Star.Wars.Holiday.Special.2020.1080p.WEBRip.x265-RARBG/Subs/13_Spanish.srt"
+                },
+                {
+                    "number": 7,
+                    "size": 0.000052208,
+                    "path": "The.Lego.Star.Wars.Holiday.Special.2020.1080p.WEBRip.x265-RARBG/Subs/2_English.srt"
+                },
+                {
+                    "number": 8,
+                    "size": 0.000042314,
+                    "path": "The.Lego.Star.Wars.Holiday.Special.2020.1080p.WEBRip.x265-RARBG/Subs/3_Spanish.srt"
+                },
+                {
+                    "number": 9,
+                    "size": 0.000039985,
+                    "path": "The.Lego.Star.Wars.Holiday.Special.2020.1080p.WEBRip.x265-RARBG/Subs/4_Finnish.srt"
+                },
+                {
+                    "number": 10,
+                    "size": 0.0000407,
+                    "path": "The.Lego.Star.Wars.Holiday.Special.2020.1080p.WEBRip.x265-RARBG/Subs/5_French.srt"
+                },
+                {
+                    "number": 11,
+                    "size": 0.000041522,
+                    "path": "The.Lego.Star.Wars.Holiday.Special.2020.1080p.WEBRip.x265-RARBG/Subs/6_Italian.srt"
+                },
+                {
+                    "number": 12,
+                    "size": 0.000037342,
+                    "path": "The.Lego.Star.Wars.Holiday.Special.2020.1080p.WEBRip.x265-RARBG/Subs/7_Dutch.srt"
+                },
+                {
+                    "number": 13,
+                    "size": 0.000040909,
+                    "path": "The.Lego.Star.Wars.Holiday.Special.2020.1080p.WEBRip.x265-RARBG/Subs/8_nor.srt"
+                },
+                {
+                    "number": 14,
+                    "size": 0.000041955,
+                    "path": "The.Lego.Star.Wars.Holiday.Special.2020.1080p.WEBRip.x265-RARBG/Subs/9_Portuguese.srt"
+                },
+                {
+                    "number": 15,
+                    "size": 0.751460917,
+                    "path": "The.Lego.Star.Wars.Holiday.Special.2020.1080p.WEBRip.x265-RARBG/The.Lego.Star.Wars.Holiday.Special.2020.1080p.WEBRip.x265-RARBG.mp4"
+                }
+            ]
+        },
+        {
+            "id": 40,
+            "name": "The.Lego.Star.Wars.Holiday.Special.2020.720p.WEBRip.400MB.x264-GalaxyRG[TGx]",
+            "size_total": 0.418083504,
+            "files_total": 2,
+            "files": [
+                {
+                    "number": 1,
+                    "size": 0.418082826,
+                    "path": "The.Lego.Star.Wars.Holiday.Special.2020.720p.WEBRip.400MB.x264-GalaxyRG[TGx]/The.Lego.Star.Wars.Holiday.Special.2020.720p.WEBRip.400MB.x264-GalaxyRG.mkv"
+                },
+                {
+                    "number": 2,
+                    "size": 6.78e-7,
+                    "path": "The.Lego.Star.Wars.Holiday.Special.2020.720p.WEBRip.400MB.x264-GalaxyRG[TGx]/[TGx]Downloaded from torrentgalaxy.to .txt"
+                }
+            ]
+        },
+        {
+            "id": 41,
+            "name": "The.Lego.Star.Wars.Holiday.Special.2020.720p.WEBRip.AAC2.0.X.264-EVO [IPT]",
+            "size_total": 0.414989978,
+            "files_total": 2,
+            "files": [
+                {
+                    "number": 1,
+                    "size": 0.414989324,
+                    "path": "The.Lego.Star.Wars.Holiday.Special.2020.720p.WEBRip.AAC2.0.X.264-EVO/The.Lego.Star.Wars.Holiday.Special.2020.720p.WEBRip.AAC2.0.X.264-EVO.mkv"
+                },
+                {
+                    "number": 2,
+                    "size": 6.54e-7,
+                    "path": "The.Lego.Star.Wars.Holiday.Special.2020.720p.WEBRip.AAC2.0.X.264-EVO/The.Lego.Star.Wars.Holiday.Special.2020.720p.WEBRip.AAC2.0.X.264-EVO.NFO"
+                }
+            ]
+        },
+        {
+            "id": 42,
+            "name": "The.Lego.Star.Wars.Holiday.Special.2020.[TopNow.se]",
+            "size_total": 0.849222235,
+            "files_total": 2,
+            "files": [
+                {
+                    "number": 1,
+                    "size": 0.849166856,
+                    "path": "The.Lego.Star.Wars.Holiday.Special.2020.[TopNow.se]/The.Lego.Star.Wars.Holiday.Special.2020.[TopNow.se].mp4"
+                },
+                {
+                    "number": 2,
+                    "size": 0.000055379,
+                    "path": "The.Lego.Star.Wars.Holiday.Special.2020.[TopNow.se]/The.Lego.Star.Wars.Holiday.Special.2020.[TopNow.se].srt"
+                }
+            ]
+        },
+        {
+            "id": 43,
+            "name": "The.Lego.Star.Wars.Holiday.Special.2020.HDRip.XviD.AC3-EVO [IPT]",
+            "size_total": 0.97533234,
+            "files_total": 2,
+            "files": [
+                {
+                    "number": 1,
+                    "size": 0.975331697,
+                    "path": "The.Lego.Star.Wars.Holiday.Special.2020.HDRip.XviD.AC3-EVO/The.Lego.Star.Wars.Holiday.Special.2020.HDRip.XviD.AC3-EVO.avi"
+                },
+                {
+                    "number": 2,
+                    "size": 6.43e-7,
+                    "path": "The.Lego.Star.Wars.Holiday.Special.2020.HDRip.XviD.AC3-EVO/The.Lego.Star.Wars.Holiday.Special.2020.HDRip.XviD.AC3-EVO.NFO"
+                }
+            ]
+        },
+        {
+            "id": 44,
+            "name": "The.Lego.Star.Wars.Holiday.Special.2020.HDRip.XviD.AC3-EVO",
+            "size_total": 0.975332377,
+            "files_total": 3,
+            "files": [
+                {
+                    "number": 1,
+                    "size": 6.43e-7,
+                    "path": "The.Lego.Star.Wars.Holiday.Special.2020.HDRip.XviD.AC3-EVO/The.Lego.Star.Wars.Holiday.Special.2020.HDRip.XviD.AC3-EVO.NFO"
+                },
+                {
+                    "number": 2,
+                    "size": 0.975331697,
+                    "path": "The.Lego.Star.Wars.Holiday.Special.2020.HDRip.XviD.AC3-EVO/The.Lego.Star.Wars.Holiday.Special.2020.HDRip.XviD.AC3-EVO.avi"
+                },
+                {
+                    "number": 3,
+                    "size": 3.7e-8,
+                    "path": "The.Lego.Star.Wars.Holiday.Special.2020.HDRip.XviD.AC3-EVO/Torrent Downloaded From ProstyleX.org.txt"
+                }
+            ]
+        },
+        {
+            "id": 45,
+            "name": "The.Lego.Star.Wars.Holiday.Special.2020.iNTERNAL.720p.WEB.h264-OPUS-[rarbg.to]",
+            "size_total": 0.75959054,
+            "files_total": 4,
+            "files": [
+                {
+                    "number": 1,
+                    "size": 3e-8,
+                    "path": "The.Lego.Star.Wars.Holiday.Special.2020.iNTERNAL.720p.WEB.h264-OPUS[rarbg]/RARBG.txt"
+                },
+                {
+                    "number": 2,
+                    "size": 9.9e-8,
+                    "path": "The.Lego.Star.Wars.Holiday.Special.2020.iNTERNAL.720p.WEB.h264-OPUS[rarbg]/RARBG_DO_NOT_MIRROR.exe"
+                },
+                {
+                    "number": 3,
+                    "size": 0.759588342,
+                    "path": "The.Lego.Star.Wars.Holiday.Special.2020.iNTERNAL.720p.WEB.h264-OPUS[rarbg]/The.Lego.Star.Wars.Holiday.Special.2020.iNTERNAL.720p.WEB.h264-OPUS.mkv"
+                },
+                {
+                    "number": 4,
+                    "size": 0.000002069,
+                    "path": "The.Lego.Star.Wars.Holiday.Special.2020.iNTERNAL.720p.WEB.h264-OPUS[rarbg]/the.lego.star.wars.holiday.special.2020.internal.720p.web.h264-opus.nfo"
+                }
+            ]
+        },
+        {
+            "id": 46,
+            "name": "The.Lego.Star.Wars.Holiday.Special.2020.iNTERNAL.720p.WEB.h264-OPUS[rarbg]",
+            "size_total": 0.75959054,
+            "files_total": 4,
+            "files": [
+                {
+                    "number": 1,
+                    "size": 3e-8,
+                    "path": "The.Lego.Star.Wars.Holiday.Special.2020.iNTERNAL.720p.WEB.h264-OPUS[rarbg]/RARBG.txt"
+                },
+                {
+                    "number": 2,
+                    "size": 9.9e-8,
+                    "path": "The.Lego.Star.Wars.Holiday.Special.2020.iNTERNAL.720p.WEB.h264-OPUS[rarbg]/RARBG_DO_NOT_MIRROR.exe"
+                },
+                {
+                    "number": 3,
+                    "size": 0.759588342,
+                    "path": "The.Lego.Star.Wars.Holiday.Special.2020.iNTERNAL.720p.WEB.h264-OPUS[rarbg]/The.Lego.Star.Wars.Holiday.Special.2020.iNTERNAL.720p.WEB.h264-OPUS.mkv"
+                },
+                {
+                    "number": 4,
+                    "size": 0.000002069,
+                    "path": "The.Lego.Star.Wars.Holiday.Special.2020.iNTERNAL.720p.WEB.h264-OPUS[rarbg]/the.lego.star.wars.holiday.special.2020.internal.720p.web.h264-opus.nfo"
+                }
+            ]
+        },
+        {
+            "id": 47,
+            "name": "The.Lego.Star.Wars.Holiday.Special.2020.lati.mp4",
+            "size_total": 0.986082295,
+            "files_total": 1,
+            "files": [
+                {
+                    "number": 1,
+                    "size": 0.986082295,
+                    "path": "The.Lego.Star.Wars.Holiday.Special.2020.lati.mp4"
+                }
+            ]
+        },
+        {
+            "id": 48,
+            "name": "The.Lego.Star.Wars.Holiday.Special.2020.Pa.WEB-DL.72Op.mkv",
+            "size_total": 2.008219746,
+            "files_total": 1,
+            "files": [
+                {
+                    "number": 1,
+                    "size": 2.008219746,
+                    "path": "The.Lego.Star.Wars.Holiday.Special.2020.Pa.WEB-DL.72Op.mkv"
+                }
+            ]
+        },
+        {
+            "id": 49,
+            "name": "The.Lego.Star.Wars.Holiday.Special.2020.Pa.WEB-DLRip.avi",
+            "size_total": 0.652173312,
+            "files_total": 1,
+            "files": [
+                {
+                    "number": 1,
+                    "size": 0.652173312,
+                    "path": "The.Lego.Star.Wars.Holiday.Special.2020.Pa.WEB-DLRip.avi"
+                }
+            ]
+        },
+        {
+            "id": 50,
+            "name": "The.Lego.Star.Wars.Holiday.Special.2020.WEBRip.x264-ION10-[rarbg.to]",
+            "size_total": 0.459671586,
+            "files_total": 15,
+            "files": [
+                {
+                    "number": 1,
+                    "size": 3e-8,
+                    "path": "The.Lego.Star.Wars.Holiday.Special.2020.WEBRip.x264-ION10/RARBG.txt"
+                },
+                {
+                    "number": 2,
+                    "size": 9.9e-8,
+                    "path": "The.Lego.Star.Wars.Holiday.Special.2020.WEBRip.x264-ION10/RARBG_DO_NOT_MIRROR.exe"
+                },
+                {
+                    "number": 3,
+                    "size": 0.000040147,
+                    "path": "The.Lego.Star.Wars.Holiday.Special.2020.WEBRip.x264-ION10/Subs/10_Swedish.srt"
+                },
+                {
+                    "number": 4,
+                    "size": 0.000035128,
+                    "path": "The.Lego.Star.Wars.Holiday.Special.2020.WEBRip.x264-ION10/Subs/11_Danish.srt"
+                },
+                {
+                    "number": 5,
+                    "size": 0.000044791,
+                    "path": "The.Lego.Star.Wars.Holiday.Special.2020.WEBRip.x264-ION10/Subs/12_German.srt"
+                },
+                {
+                    "number": 6,
+                    "size": 0.000041861,
+                    "path": "The.Lego.Star.Wars.Holiday.Special.2020.WEBRip.x264-ION10/Subs/13_Spanish.srt"
+                },
+                {
+                    "number": 7,
+                    "size": 0.000052208,
+                    "path": "The.Lego.Star.Wars.Holiday.Special.2020.WEBRip.x264-ION10/Subs/2_English.srt"
+                },
+                {
+                    "number": 8,
+                    "size": 0.000042314,
+                    "path": "The.Lego.Star.Wars.Holiday.Special.2020.WEBRip.x264-ION10/Subs/3_Spanish.srt"
+                },
+                {
+                    "number": 9,
+                    "size": 0.000039985,
+                    "path": "The.Lego.Star.Wars.Holiday.Special.2020.WEBRip.x264-ION10/Subs/4_Finnish.srt"
+                },
+                {
+                    "number": 10,
+                    "size": 0.0000407,
+                    "path": "The.Lego.Star.Wars.Holiday.Special.2020.WEBRip.x264-ION10/Subs/5_French.srt"
+                },
+                {
+                    "number": 11,
+                    "size": 0.000041522,
+                    "path": "The.Lego.Star.Wars.Holiday.Special.2020.WEBRip.x264-ION10/Subs/6_Italian.srt"
+                },
+                {
+                    "number": 12,
+                    "size": 0.000037342,
+                    "path": "The.Lego.Star.Wars.Holiday.Special.2020.WEBRip.x264-ION10/Subs/7_Dutch.srt"
+                },
+                {
+                    "number": 13,
+                    "size": 0.000040909,
+                    "path": "The.Lego.Star.Wars.Holiday.Special.2020.WEBRip.x264-ION10/Subs/8_nor.srt"
+                },
+                {
+                    "number": 14,
+                    "size": 0.000041955,
+                    "path": "The.Lego.Star.Wars.Holiday.Special.2020.WEBRip.x264-ION10/Subs/9_Portuguese.srt"
+                },
+                {
+                    "number": 15,
+                    "size": 0.459172595,
+                    "path": "The.Lego.Star.Wars.Holiday.Special.2020.WEBRip.x264-ION10/The.Lego.Star.Wars.Holiday.Special.2020.WEBRip.x264-ION10.mp4"
+                }
+            ]
+        },
+        {
+            "id": 51,
+            "name": "The.Lego.Star.Wars.Holiday.Special.2020.WEBRip.XviD.MP3-XVID-[rarbg.to]",
+            "size_total": 0.604889315,
+            "files_total": 15,
+            "files": [
+                {
+                    "number": 1,
+                    "size": 3e-8,
+                    "path": "The.Lego.Star.Wars.Holiday.Special.2020.WEBRip.XviD.MP3-XVID/RARBG.txt"
+                },
+                {
+                    "number": 2,
+                    "size": 9.9e-8,
+                    "path": "The.Lego.Star.Wars.Holiday.Special.2020.WEBRip.XviD.MP3-XVID/RARBG_DO_NOT_MIRROR.exe"
+                },
+                {
+                    "number": 3,
+                    "size": 0.000040147,
+                    "path": "The.Lego.Star.Wars.Holiday.Special.2020.WEBRip.XviD.MP3-XVID/Subs/10_Swedish.srt"
+                },
+                {
+                    "number": 4,
+                    "size": 0.000035128,
+                    "path": "The.Lego.Star.Wars.Holiday.Special.2020.WEBRip.XviD.MP3-XVID/Subs/11_Danish.srt"
+                },
+                {
+                    "number": 5,
+                    "size": 0.000044791,
+                    "path": "The.Lego.Star.Wars.Holiday.Special.2020.WEBRip.XviD.MP3-XVID/Subs/12_German.srt"
+                },
+                {
+                    "number": 6,
+                    "size": 0.000041861,
+                    "path": "The.Lego.Star.Wars.Holiday.Special.2020.WEBRip.XviD.MP3-XVID/Subs/13_Spanish.srt"
+                },
+                {
+                    "number": 7,
+                    "size": 0.000052208,
+                    "path": "The.Lego.Star.Wars.Holiday.Special.2020.WEBRip.XviD.MP3-XVID/Subs/2_English.srt"
+                },
+                {
+                    "number": 8,
+                    "size": 0.000042314,
+                    "path": "The.Lego.Star.Wars.Holiday.Special.2020.WEBRip.XviD.MP3-XVID/Subs/3_Spanish.srt"
+                },
+                {
+                    "number": 9,
+                    "size": 0.000039985,
+                    "path": "The.Lego.Star.Wars.Holiday.Special.2020.WEBRip.XviD.MP3-XVID/Subs/4_Finnish.srt"
+                },
+                {
+                    "number": 10,
+                    "size": 0.0000407,
+                    "path": "The.Lego.Star.Wars.Holiday.Special.2020.WEBRip.XviD.MP3-XVID/Subs/5_French.srt"
+                },
+                {
+                    "number": 11,
+                    "size": 0.000041522,
+                    "path": "The.Lego.Star.Wars.Holiday.Special.2020.WEBRip.XviD.MP3-XVID/Subs/6_Italian.srt"
+                },
+                {
+                    "number": 12,
+                    "size": 0.000037342,
+                    "path": "The.Lego.Star.Wars.Holiday.Special.2020.WEBRip.XviD.MP3-XVID/Subs/7_Dutch.srt"
+                },
+                {
+                    "number": 13,
+                    "size": 0.000040909,
+                    "path": "The.Lego.Star.Wars.Holiday.Special.2020.WEBRip.XviD.MP3-XVID/Subs/8_nor.srt"
+                },
+                {
+                    "number": 14,
+                    "size": 0.000041955,
+                    "path": "The.Lego.Star.Wars.Holiday.Special.2020.WEBRip.XviD.MP3-XVID/Subs/9_Portuguese.srt"
+                },
+                {
+                    "number": 15,
+                    "size": 0.604390324,
+                    "path": "The.Lego.Star.Wars.Holiday.Special.2020.WEBRip.XviD.MP3-XVID/The.Lego.Star.Wars.Holiday.Special.2020.WEBRip.XviD.MP3-XVID.avi"
+                }
+            ]
+        },
+        {
+            "id": 52,
+            "name": "乐高星球大战.圣诞特别篇.The.Lego.Star.Wars.Holiday.Special.2020.1080p.H265-NEW字幕组.mp4",
+            "size_total": 1.311600043,
+            "files_total": 1,
+            "files": [
+                {
+                    "number": 1,
+                    "size": 1.311600043,
+                    "path": "乐高星球大战.圣诞特别篇.The.Lego.Star.Wars.Holiday.Special.2020.1080p.H265-NEW字幕组.mp4"
+                }
+            ]
+        },
+        {
+            "id": 53,
+            "name": "乐高星球大战：圣诞特别篇.The Lego Star Wars Holiday Special.2020.HD1080P.X264.AAC.English.CHS.mp4",
+            "size_total": 0.836932062,
+            "files_total": 1,
+            "files": [
+                {
+                    "number": 1,
+                    "size": 0.836932062,
+                    "path": "乐高星球大战：圣诞特别篇.The Lego Star Wars Holiday Special.2020.HD1080P.X264.AAC.English.CHS.mp4"
+                }
+            ]
+        },
+        {
+            "id": 54,
+            "name": "乐高星球大战：圣诞特别篇.The.Lego.Star.Wars.Holiday.Special.2020.HD1080P.X264.AAC.English.CHS-ENG.BDE4",
+            "size_total": 2.74242952,
+            "files_total": 3,
+            "files": [
+                {
+                    "number": 1,
+                    "size": 2.742428972,
+                    "path": "乐高星球大战：圣诞特别篇.The.Lego.Star.Wars.Holiday.Special.2020.HD1080P.X264.AAC.English.CHS-ENG.BDE4/The.Lego.Star.Wars.Holiday.Special.2020.HD1080P.X264.AAC.English.CHS-ENG.BDE4.mp4"
+                },
+                {
+                    "number": 2,
+                    "size": 4.62e-7,
+                    "path": "乐高星球大战：圣诞特别篇.The.Lego.Star.Wars.Holiday.Special.2020.HD1080P.X264.AAC.English.CHS-ENG.BDE4/最新域名及域名找回.txt"
+                },
+                {
+                    "number": 3,
+                    "size": 8.6e-8,
+                    "path": "乐高星球大战：圣诞特别篇.The.Lego.Star.Wars.Holiday.Special.2020.HD1080P.X264.AAC.English.CHS-ENG.BDE4/点击进入bde4.cc哔嘀影视高清在线网站.url"
+                }
+            ]
+        }
+    ],
+    "collection_cumulative_by_btiha": [
+        {
+            "id": 526,
+            "name": "multi-btih-7-2-x-[limetorrents.info]The.Lego.Star.Wars.Holiday.Special.2020.1080p.DSNP.WEBRip.DDP5.1.x264",
+            "btih": "1856e1b9f20276832e74619f1b80f336291125b0",
+            "resolution": "1080",
+            "encoding": "264",
+            "gigabytes": 2.948847534,
+            "creation": "2020-11-17T09:55:44.000000000Z,Torrent downloaded from torrent cache at http://itorrents.org",
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "udownloaders": 138135,
+            "uuploaders": 51670
+        },
+        {
+            "id": 527,
+            "name": "multi-btih-8-2-x-[limetorrents.info]The.Lego.Star.Wars.Holiday.Special.2020.1080p.WEBRip.x264-RARBG",
+            "btih": "b787b13f805a4510f769d4477e3f5d7968d0a478",
+            "resolution": "1080",
+            "encoding": "264",
+            "gigabytes": 0.920797262,
+            "creation": "2020-11-17T12:05:05.000000000Z,Torrent downloaded from torrent cache at http://itorrents.org",
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "udownloaders": 115000,
+            "uuploaders": 14089
+        },
+        {
+            "id": 528,
+            "name": "multi-btih-9-2-x-[limetorrents.info]The.Lego.Star.Wars.Holiday.Special.2020.1080p.WEBRip.x265-RARBG",
+            "btih": "aebf877d66d80a6894f170bf19851fa3e5bff7d5",
+            "resolution": "1080",
+            "encoding": "265",
+            "gigabytes": 0.751959908,
+            "creation": "2020-11-17T16:37:13.000000000Z,go.torrent,dynamic metainfo from client",
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "udownloaders": 90887,
+            "uuploaders": 24755
+        },
+        {
+            "id": 11,
+            "name": "[limetorrents.info]The.Lego.Star.Wars.Holiday.Special..2020..[720p].[WEBRip].[YTS.MX]",
+            "btih": "c572dda8b347311ab3ed4a34460c88ee2216f409",
+            "resolution": "720",
+            "encoding": "none",
+            "gigabytes": 0.43342076,
+            "creation": "2020-11-17T15:37:12.000000000Z,go.torrent,dynamic metainfo from client",
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "udownloaders": 81726,
+            "uuploaders": 25803
+        },
+        {
+            "id": 38,
+            "name": "The.Lego.Star.Wars.Holiday.Special.2020.1080p.WEBRip.x264-RARBG",
+            "btih": "12e8f675aaebf9f38383e72d693b1fc93e169681",
+            "resolution": "1080",
+            "encoding": "264",
+            "gigabytes": 0.920340333,
+            "creation": "1970-01-01T00:00:00.000000000Z",
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "udownloaders": 79327,
+            "uuploaders": 4491
+        },
+        {
+            "id": 8,
+            "name": "[limetorrents.info]The.Lego.Star.Wars.Holiday.Special..2020...1080p..[WEBRip].[5.1].[YTS.MX]",
+            "btih": "944faf426159f6a29f9df3d2f8e68347417302af",
+            "resolution": "1080",
+            "encoding": "none",
+            "gigabytes": 0.890471074,
+            "creation": "2020-11-17T13:54:10.000000000Z,go.torrent,dynamic metainfo from client",
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "udownloaders": 75267,
+            "uuploaders": 30179
+        },
+        {
+            "id": 20,
+            "name": "[limetorrents.info]The.Lego.Star.Wars.Holiday.Special.2020.HDRip.XviD",
+            "btih": "17e0ee1fe7ca71ab788b33e6a52518d522fc036b",
+            "resolution": "720",
+            "encoding": "xvid",
+            "gigabytes": 0.975333018,
+            "creation": "2020-11-17T00:35:33.000000000Z,mktorrent 1.1,Torrent downloaded from torrent cache at http://itorrents.org",
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "udownloaders": 74714,
+            "uuploaders": 16494
+        },
+        {
+            "id": 534,
+            "name": "multi-btih-15-3-x-[limetorrents.info]The.Lego.Star.Wars.Holiday.Special.2020.iNTERNAL.720p.WEB.h264-OPUS[rarbg]",
+            "btih": "81111f7892bbd13408d90e643f470557d124139b",
+            "resolution": "720",
+            "encoding": "264",
+            "gigabytes": 0.75959054,
+            "creation": "2020-11-20T12:36:20.000000000Z,RARBG,Torrent downloaded from torrent cache at http://itorrents.org",
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "udownloaders": 66718,
+            "uuploaders": 1571
+        },
+        {
+            "id": 54,
+            "name": "乐高星球大战：圣诞特别篇.The.Lego.Star.Wars.Holiday.Special.2020.HD1080P.X264.AAC.English.CHS-ENG.BDE4",
+            "btih": "59e8e42bdf62f459804a9bb4cb89be68c114c4bf",
+            "resolution": "1080",
+            "encoding": "264",
+            "gigabytes": 2.74242952,
+            "creation": "1970-01-01T00:00:00.000000000Z",
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "udownloaders": 64782,
+            "uuploaders": 173
+        },
+        {
+            "id": 523,
+            "name": "multi-btih-4-2-x-[limetorrents.info]The.LEGO.Star.Wars.Holiday.Special..2020..1080p.5.1.-.2.0.x264.Phun.Psyz",
+            "btih": "d8543df8333301ce5e4e118da4d2e6072b90ba47",
+            "resolution": "1080",
+            "encoding": "264",
+            "gigabytes": 0.793097038,
+            "creation": "2020-11-28T16:18:16.000000000Z,go.torrent,dynamic metainfo from client",
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "udownloaders": 59220,
+            "uuploaders": 1320
+        },
+        {
+            "id": 47,
+            "name": "The.Lego.Star.Wars.Holiday.Special.2020.lati.mp4",
+            "btih": "ebea7ad267ac04d24d9edba0ca482b057b81eedc",
+            "resolution": "sd",
+            "encoding": "none",
+            "gigabytes": 0.986082295,
+            "creation": "1970-01-01T00:00:00.000000000Z",
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "udownloaders": 58850,
+            "uuploaders": 981
+        },
+        {
+            "id": 531,
+            "name": "multi-btih-12-2-x-[limetorrents.info]The.Lego.Star.Wars.Holiday.Special.2020.MultiSub.720p.x265-StB",
+            "btih": "c40a568ecbae199f0b894f3a67ce925c7d8738c5",
+            "resolution": "720",
+            "encoding": "265",
+            "gigabytes": 0.211824125,
+            "creation": "2020-11-17T14:05:31.000000000Z,uTorrent/3.5.5,Torrent downloaded from torrent cache at http://itorrents.org",
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "udownloaders": 57100,
+            "uuploaders": 689
+        },
+        {
+            "id": 524,
+            "name": "multi-btih-5-2-x-[limetorrents.info]The.Lego.Star.Wars.Holiday.Special..2020...[1080p.x265.q22.FS86.Joy]",
+            "btih": "74722b449c17c02bfdfe0a95568357d4d028bdda",
+            "resolution": "1080",
+            "encoding": "265",
+            "gigabytes": 1.366899146,
+            "creation": "2020-11-19T15:08:15.000000000Z,go.torrent,dynamic metainfo from client",
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "udownloaders": 56897,
+            "uuploaders": 1721
+        },
+        {
+            "id": 533,
+            "name": "multi-btih-14-2-x-[limetorrents.info]The.Lego.Star.Wars.Holiday.Special.2020.WEBRip.x264",
+            "btih": "15ecf99ba1c89d356545df620bcc4804dbe77a9e",
+            "resolution": "720",
+            "encoding": "264",
+            "gigabytes": 0.459671586,
+            "creation": "2020-11-17T10:45:01.000000000Z,Torrent downloaded from torrent cache at http://itorrents.org",
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "udownloaders": 47000,
+            "uuploaders": 8458
+        },
+        {
+            "id": 14,
+            "name": "[limetorrents.info]The.Lego.Star.Wars.Holiday.Special.2020.1080p.DSNP.WEBRip.x264-Rapta",
+            "btih": "03d163b48d57eca73e15228ac1f084ed2ddfa973",
+            "resolution": "1080",
+            "encoding": "264",
+            "gigabytes": 1.282706973,
+            "creation": "2020-11-17T14:11:15.000000000Z,go.torrent,dynamic metainfo from client",
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "udownloaders": 46253,
+            "uuploaders": 582
+        },
+        {
+            "id": 520,
+            "name": "multi-btih-1-2-x-[ OxTorrent.cc ] The.Lego.Star.Wars.Holiday.Special.2020.FRENCH.HDRip.XviD-EXTREME.avi",
+            "btih": "f78f4165b0adac9eee4454ba61b5a1a105f5d865",
+            "resolution": "sd",
+            "encoding": "xvid",
+            "gigabytes": 0.417619386,
+            "creation": "1970-01-01T00:00:00.000000000Z",
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "udownloaders": 43898,
+            "uuploaders": 6685
+        },
+        {
+            "id": 521,
+            "name": "multi-btih-2-2-x-[ OxTorrent.cc ] The.Lego.Star.Wars.Holiday.Special.2020.MULTI.1080p.WEB.H264-FRATERNITY.mkv",
+            "btih": "87f111417010d2a4bfc8b994ad7579ad4e049bc2",
+            "resolution": "1080",
+            "encoding": "264",
+            "gigabytes": 3.034790342,
+            "creation": "1970-01-01T00:00:00.000000000Z",
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "udownloaders": 43492,
+            "uuploaders": 2817
+        },
+        {
+            "id": 15,
+            "name": "[limetorrents.info]The.Lego.Star.Wars.Holiday.Special.2020.1080p.WEB-DL.DDP5.1.H.264-ROCCaT[TGx]",
+            "btih": "444b0c3f1b1ef9d3a120b025d73c8d4ef4b63acd",
+            "resolution": "1080",
+            "encoding": "264",
+            "gigabytes": 2.948848634,
+            "creation": "2020-11-17T02:05:42.000000000Z,mktorrent 1.1,Torrent downloaded from torrent cache at http://itorrents.org",
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "udownloaders": 43214,
+            "uuploaders": 5949
+        },
+        {
+            "id": 522,
+            "name": "multi-btih-3-2-x-[limetorrents.info]Lego.Star.Wars.–.Christmas.Special..2020..ITA.AC3.WEBRip.H264.-.L@Z59.-.iDN.CreW",
+            "btih": "33800b170a878d06d6d56f823c3ac28d9c5f008e",
+            "resolution": "720",
+            "encoding": "264",
+            "gigabytes": 0.327143448,
+            "creation": "2020-11-22T14:45:32.000000000Z,uTorrent/3.5.5,Torrent downloaded from torrent cache at http://itorrents.org",
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "udownloaders": 40365,
+            "uuploaders": 902
+        },
+        {
+            "id": 22,
+            "name": "[limetorrents.info]The.Lego.Star.Wars.Holiday.Special.2020.MULTI.1080p.WEB-DL.DDP5.1.H264",
+            "btih": "7fe8fda8bfd5c4f0cc9bf7656a6be62afcf8ce3e",
+            "resolution": "1080",
+            "encoding": "264",
+            "gigabytes": 3.034796998,
+            "creation": "2020-11-17T11:29:03.000000000Z,go.torrent,dynamic metainfo from client",
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "udownloaders": 38080,
+            "uuploaders": 237
+        },
+        {
+            "id": 34,
+            "name": "The.Lego.Star.Wars.Holiday.Special.2020.1080p.DSNP.WEBRip.DDP5.1.x264-NOGRP.mkv",
+            "btih": "da3b53e3ec78b849cdb4c26ac11041e6d393718d",
+            "resolution": "1080",
+            "encoding": "264",
+            "gigabytes": 2.948847503,
+            "creation": "1970-01-01T00:00:00.000000000Z",
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "udownloaders": 35220,
+            "uuploaders": 436
+        },
+        {
+            "id": 529,
+            "name": "multi-btih-10-2-x-[limetorrents.info]The.Lego.Star.Wars.Holiday.Special.2020.720p.WEBRip.400MB.x264",
+            "btih": "4679d3b2031ac927de5f730bf4e2b8e9ad4555ea",
+            "resolution": "720",
+            "encoding": "264",
+            "gigabytes": 0.418083504,
+            "creation": "2020-11-17T02:35:02.000000000Z,Torrent downloaded from torrent cache at http://itorrents.org",
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "udownloaders": 35098,
+            "uuploaders": 8326
+        },
+        {
+            "id": 530,
+            "name": "multi-btih-11-2-x-[limetorrents.info]The.Lego.Star.Wars.Holiday.Special.2020.HDRip.XviD(1)",
+            "btih": "d77279d13ca6f04466969cbb8b493a90713a2a8b",
+            "resolution": "720",
+            "encoding": "xvid",
+            "gigabytes": 0.975332377,
+            "creation": "2020-11-17T04:55:08.000000000Z,Torrent downloaded from torrent cache at http://itorrents.org",
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "udownloaders": 30234,
+            "uuploaders": 677
+        },
+        {
+            "id": 525,
+            "name": "multi-btih-6-2-x-[limetorrents.info]The.Lego.Star.Wars.Holiday.Special..2020..Ita.Eng.1080p.h264.MultiSub.byMetalh",
+            "btih": "66941b72673579df652fb110a49b251a6d89605f",
+            "resolution": "1080",
+            "encoding": "264",
+            "gigabytes": 3.035229298,
+            "creation": "2020-11-21T12:16:40.000000000Z,go.torrent,dynamic metainfo from client",
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "udownloaders": 28652,
+            "uuploaders": 1685
+        },
+        {
+            "id": 52,
+            "name": "乐高星球大战.圣诞特别篇.The.Lego.Star.Wars.Holiday.Special.2020.1080p.H265-NEW字幕组.mp4",
+            "btih": "2f8b6f519f079df18925fe4167e00c7a36d77c22",
+            "resolution": "1080",
+            "encoding": "265",
+            "gigabytes": 1.311600043,
+            "creation": "1970-01-01T00:00:00.000000000Z",
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "udownloaders": 26812,
+            "uuploaders": 174
+        },
+        {
+            "id": 53,
+            "name": "乐高星球大战：圣诞特别篇.The Lego Star Wars Holiday Special.2020.HD1080P.X264.AAC.English.CHS.mp4",
+            "btih": "a00147c02182041b42befc792f9b734284086079",
+            "resolution": "1080",
+            "encoding": "264",
+            "gigabytes": 0.836932062,
+            "creation": "1970-01-01T00:00:00.000000000Z",
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "udownloaders": 24665,
+            "uuploaders": 724
+        },
+        {
+            "id": 532,
+            "name": "multi-btih-13-2-x-[limetorrents.info]The.Lego.Star.Wars.Holiday.Special.2020.WEBRip.XviD.MP3-XVID",
+            "btih": "c10f8166afb007b47c21723d152db8883ba3ee56",
+            "resolution": "720",
+            "encoding": "xvid",
+            "gigabytes": 0.604889315,
+            "creation": "2020-11-17T10:25:02.000000000Z,Torrent downloaded from torrent cache at http://itorrents.org",
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "udownloaders": 24286,
+            "uuploaders": 2965
+        },
+        {
+            "id": 42,
+            "name": "The.Lego.Star.Wars.Holiday.Special.2020.[TopNow.se]",
+            "btih": "e4434cbcc544b33d5c3d654fedc14382a30cf0cc",
+            "resolution": "sd",
+            "encoding": "none",
+            "gigabytes": 0.849222235,
+            "creation": "1970-01-01T00:00:00.000000000Z",
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "udownloaders": 23690,
+            "uuploaders": 1690
+        },
+        {
+            "id": 519,
+            "name": "multi-btih-0-2-x-[ OxTorrent.cc ] The.Lego.Star.Wars.Holiday.Special.2020.FRENCH.720p.WEB.H264-EXTREME.mkv",
+            "btih": "51a80d976a3cd30393ea2af5ecfafa015bab3ac1",
+            "resolution": "720",
+            "encoding": "264",
+            "gigabytes": 1.557023425,
+            "creation": "1970-01-01T00:00:00.000000000Z",
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "udownloaders": 22154,
+            "uuploaders": 2626
+        },
+        {
+            "id": 48,
+            "name": "The.Lego.Star.Wars.Holiday.Special.2020.Pa.WEB-DL.72Op.mkv",
+            "btih": "dd759b4ec1a045aba164a4dce46911fbdd124169",
+            "resolution": "sd",
+            "encoding": "none",
+            "gigabytes": 2.008219746,
+            "creation": "1970-01-01T00:00:00.000000000Z",
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "udownloaders": 21594,
+            "uuploaders": 406
+        },
+        {
+            "id": 31,
+            "name": "The Lego Star Wars Holiday Special.2020.hdrip.720p.subesp.mp4",
+            "btih": "aa8374aa6760e4b8a3b1b933573e6ad731b4a1c1",
+            "resolution": "720",
+            "encoding": "none",
+            "gigabytes": 0.732306253,
+            "creation": "1970-01-01T00:00:00.000000000Z",
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "udownloaders": 19070,
+            "uuploaders": 276
+        },
+        {
+            "id": 49,
+            "name": "The.Lego.Star.Wars.Holiday.Special.2020.Pa.WEB-DLRip.avi",
+            "btih": "8002a3b6e3391aed069b3953c496fba975682198",
+            "resolution": "sd",
+            "encoding": "none",
+            "gigabytes": 0.652173312,
+            "creation": "1970-01-01T00:00:00.000000000Z",
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "udownloaders": 8570,
+            "uuploaders": 775
+        },
+        {
+            "id": 29,
+            "name": "The Lego Star Wars Holiday Special 2020 720p WEB-DL x264 ESubs - MkvHub.Com.mkv",
+            "btih": "2aff7255a281ac0c149bf7778c3f961d535c2ca5",
+            "resolution": "720",
+            "encoding": "264",
+            "gigabytes": 0.41685282,
+            "creation": "1970-01-01T00:00:00.000000000Z",
+            "ssl": false,
+            "private": false,
+            "i2p": false,
+            "udownloaders": 6984,
+            "uuploaders": 105
+        },
+        {
+            "id": 35,
+            "name": "The.Lego.Star.Wars.Holiday.Special.2020.1080p.WEB-DL.DDP5.1.H.264-ROCCaT [IPT]",
+            "btih": "9431dd3d9ca726e2e5dc2637dae110b08aa581c8",
+            "resolution": "1080",
+            "encoding": "264",
+            "gigabytes": 2.948847956,
+            "creation": "1970-01-01T00:00:00.000000000Z",
+            "ssl": false,
+            "private": true,
+            "i2p": false,
+            "udownloaders": 2582,
+            "uuploaders": 1382
+        },
+        {
+            "id": 36,
+            "name": "The.Lego.Star.Wars.Holiday.Special.2020.1080p.WEBRip.DD5.1.X.264-EVO [IPT]",
+            "btih": "9c4dbe5f6d2d8b5de1cbae0c5011754a3248bef9",
+            "resolution": "1080",
+            "encoding": "264",
+            "gigabytes": 0.872015771,
+            "creation": "1970-01-01T00:00:00.000000000Z",
+            "ssl": false,
+            "private": true,
+            "i2p": false,
+            "udownloaders": 2056,
+            "uuploaders": 1112
+        },
+        {
+            "id": 41,
+            "name": "The.Lego.Star.Wars.Holiday.Special.2020.720p.WEBRip.AAC2.0.X.264-EVO [IPT]",
+            "btih": "a3e4fe347cb668b0b692c42bffa4f2f4e330fb61",
+            "resolution": "720",
+            "encoding": "264",
+            "gigabytes": 0.414989978,
+            "creation": "1970-01-01T00:00:00.000000000Z",
+            "ssl": false,
+            "private": true,
+            "i2p": false,
+            "udownloaders": 1383,
+            "uuploaders": 565
+        },
+        {
+            "id": 43,
+            "name": "The.Lego.Star.Wars.Holiday.Special.2020.HDRip.XviD.AC3-EVO [IPT]",
+            "btih": "b1574eb3a077223756f48ccd73e3b0d3a800e6d9",
+            "resolution": "sd",
+            "encoding": "xvid",
+            "gigabytes": 0.97533234,
+            "creation": "1970-01-01T00:00:00.000000000Z",
+            "ssl": false,
+            "private": true,
+            "i2p": false,
+            "udownloaders": 765,
+            "uuploaders": 465
+        }
+    ]
+}
