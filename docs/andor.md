@@ -1816,7 +1816,7 @@ week: 26
 
 <tr>
 
-<th style="padding: 5px;"><a href="https://bdekoz.github.io/geojson-share-maps/?cluster=true&fields=downloaders.size&src=https://raw.githubusercontent.com/alpha60-devops/alpha60-results-star-wars-universe/main/data.v2/star-wars-visions-01-cumulative.geojson"> Star Wars Visions 01 GeoJSON </a></th>
+<th style="padding: 5px;"><a href="https://bdekoz.github.io/geojson-share-maps/?cluster=false&fields=downloaders&src=https://raw.githubusercontent.com/alpha60-devops/alpha60-results-star-wars-universe/main/data.v2/star-wars-visions-01-cumulative.geojson"> Star Wars Visions 01 GeoJSON </a></th>
 <th style="padding: 5px;"><a href="https://bdekoz.github.io/geojson-share-maps/?fields=downloaders.size&src=https://raw.githubusercontent.com/alpha60-devops/alpha60-results-star-wars-universe/main/data.v2/star-wars-visions-03-cumulative.geojson"> Star Wars Visions 03 GeoJSON </a></th>
 
 </tr>
