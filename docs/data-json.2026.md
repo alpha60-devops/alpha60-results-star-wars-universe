@@ -97,11 +97,11 @@
   - FeatureCollection
     - [0] feature of swarm
       - properties object of COUNTRY-GEOID-CITY by largest swarm size
-	- country_code
-	- city
-	- geoname_id
-	- downloaders (size,mobile,satellite,tor,tor_exit_nodes,vpn,relay,proxy,hosting,service)
-	- uploaders (size,mobile,satellite,tor,tor_exit_nodes,vpn,relay,proxy,hosting,service)
+        - country_code
+        - city
+        - geoname_id
+        - downloaders (size,mobile,satellite,tor,tor_exit_nodes,vpn,relay,proxy,hosting,service)
+        - uploaders (size,mobile,satellite,tor,tor_exit_nodes,vpn,relay,proxy,hosting,service)
       - geometry Point
 
 ## collection metadata
