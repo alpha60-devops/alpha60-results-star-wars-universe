@@ -96,7 +96,12 @@
 - filename: (collection_key)-cumulative.geojson
   - FeatureCollection
     - [0] feature of swarm
-      - properties object of COUNTRY-GEOID-CITY grouping by largest swarm size: udownloaders_total, uuploaders_total, etc.
+      - properties object of COUNTRY-GEOID-CITY by largest swarm size
+	- country_code
+	- city
+	- geoname_id
+	- downloaders.(size,mobile,satellite,tor,tor_exit_nodes,vpn,relay,proxy,hosting,service)
+	- uploaders.(size,mobile,satellite,tor,tor_exit_nodes,vpn,relay,proxy,hosting,service)
       - geometry Point
 
 
