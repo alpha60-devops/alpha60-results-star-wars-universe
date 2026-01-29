@@ -16,12 +16,12 @@ layout: default
 
 ### Aggregate
 
-{% include andor-s1s2-meta-collection-table.html %}
+{% include resources/andor-s1s2-meta-collection-table.html %}
 
 
 ### Itemized
 
-{% include andor-s1s2-media-objects-table.html %}
+{% include resources/andor-s1s2-media-objects-table.html %}
 
 <div style="height: 50px;">
 </div>
