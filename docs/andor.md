@@ -11,11 +11,7 @@
 
 ### Aggregate
 
-<!-- generated HTML aggregate table -->
-
-<object type="text/html" data="../image/andor-s1s2-meta-collection-table.html"
-	width="100%> height="auto">
-</object>
+{% include andor-s1s2-meta-collection-table.html %}
 
 
 <table>
