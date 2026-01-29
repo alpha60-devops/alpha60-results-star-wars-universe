@@ -13,6 +13,7 @@ layout: default
 # Andor Seasons 1-2
 
 ## Results
+<div style="height: 50px;"></div>
 
 ### Aggregate
 
@@ -34,16 +35,13 @@ layout: default
 <script type="text/javascript" crossorigin="anonymous" id="graph-fade-js"
 	src="../scripts/graph-fade.js">
 </script>
-
 <div style="height: 50px;"></div>
 
 
 ### Maps
 
 {% include andor-s1s2-carto-table.html %}
-
 <div style="height: 50px;"></div>
-
 
 
 ## Commentary, Questions
