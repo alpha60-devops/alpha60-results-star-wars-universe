@@ -44,6 +44,7 @@
 
 ### [Source](https://github.com/alpha60-devops/alpha60-results-star-wars-universe/tree/main/data.v2)
 
+<!-- - [analysis notebook](/notebooks/analysis_2025.ipynb) -->
 
 {::nomarkdown}
 <svg width="100" height=100>

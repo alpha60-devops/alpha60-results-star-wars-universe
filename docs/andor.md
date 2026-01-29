@@ -5,15 +5,17 @@
 </div>
 {:/}
 
-<!-- - [analysis notebook](/notebooks/analysis_2025.ipynb) -->
-
 # Andor Seasons 1-2
 
 ## Results
 
 ### Aggregate
 
-<!-- generated HTML summary table -->
+<!-- generated HTML aggregate table -->
+<object type="text/html" data="../image/andor-s1s2-meta-collection-table.html"
+	width="100%> height="auto">
+</object>
+
 <table>
 	<thead>
 	  <tr>
