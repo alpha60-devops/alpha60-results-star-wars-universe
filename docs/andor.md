@@ -1,3 +1,8 @@
+---
+layout: default
+---
+
+
 {::nomarkdown}
 <img src="../image/a60-logo-block-gray.simple.svg?sanitize=true" height="50" width="100">
 
