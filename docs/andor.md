@@ -23,6 +23,7 @@ layout: default
 
 {% include andor-s1s2-media-objects-table.html %}
 
+
 <div style="height: 50px;">
 </div>
 
@@ -30,7 +31,7 @@ layout: default
 ### Graphs
 
 
-<img src="../image/andor-s1s2-downloads-by-week-cumulative-normalized-start.svg?sanitize=false" width="100%" height="auto">
+<img src="../image/andor-s1s2-downloads-by-week-cumulative-normalized-start.svg?sanitize=true" width="100%" height="auto">
 
 
 {::nomarkdown}
