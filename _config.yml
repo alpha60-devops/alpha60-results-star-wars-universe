@@ -2,4 +2,4 @@ title: " "
 theme: jekyll-theme-minimal
 show_downloads: false
 include:
-  - _includes
+  - resources
