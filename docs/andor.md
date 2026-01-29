@@ -29,9 +29,10 @@ layout: default
 
 ### Graphs
 
-<!--
+
 <img src="../image/andor-s1s2-downloads-by-week-cumulative-normalized-start.svg?sanitize=false" width="100%" height="auto">
--->
+
+
 {::nomarkdown}
 
 <?xml version="1.0" encoding="utf-8"?>
