@@ -30,11 +30,12 @@ layout: default
 
 ### Graphs
 
+{::nomarkdown}
 
 <img src="../image/andor-s1s2-downloads-by-week-cumulative-normalized-start.svg?sanitize=true" width="100%" height="auto">
 
 
-{::nomarkdown}
+
 
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
