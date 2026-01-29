@@ -5,10 +5,10 @@ layout: default
 
 {::nomarkdown}
 <img src="../image/a60-logo-block-gray.simple.svg?sanitize=true" height="50" width="100">
-
-<div style="height: 50px;">
-</div>
 {:/}
+
+<div style="height: 50px;"></div>
+
 
 # Andor Seasons 1-2
 
@@ -17,13 +17,11 @@ layout: default
 ### Aggregate
 
 {% include andor-s1s2-meta-collection-table.html %}
-
+<div style="height: 50px;"></div>
 
 ### Itemized
 
 {% include andor-s1s2-media-objects-table.html %}
-
-
 <div style="height: 50px;"></div>
 
 
