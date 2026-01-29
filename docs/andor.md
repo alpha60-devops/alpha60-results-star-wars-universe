@@ -12,11 +12,11 @@
 ### Aggregate
 
 <!-- generated HTML aggregate table -->
-{::nomarkdown}
+
 <object type="text/html" data="../image/andor-s1s2-meta-collection-table.html"
 	width="100%> height="auto">
 </object>
-{:/}
+
 
 <table>
 	<thead>
