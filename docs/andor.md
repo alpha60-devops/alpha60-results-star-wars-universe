@@ -15,12 +15,10 @@ layout: default
 ## Results
 <div style="height: 50px;"></div>
 
-### Aggregate
+### Tables
 
 {% include andor-s1s2-meta-collection-table.html %}
 <div style="height: 50px;"></div>
-
-### Itemized
 
 {% include andor-s1s2-media-objects-table.html %}
 <div style="height: 50px;"></div>
