@@ -40,7 +40,6 @@ layout: default
 ### Global Media by Week
 
 <!--
-{% include swu-media-objects-usa-global-weeks-1-5-10-20-table.html %}
 -->
 <div style="height: 50px;"></div>
 
@@ -54,11 +53,7 @@ Furthermore, if one takes a longer duration, say twenty weeks, the USA slice det
 The top six countries for andor-210-211-212 are:
 
 <!--
-{::nomarkdown}
-{% andor-210-downloaders-per-country-per-week.svg %}
-{:/}
 -->
-
 <div style="height: 50px;"></div>
 
 
