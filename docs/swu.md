@@ -51,9 +51,11 @@ Furthermore, if one takes a longer duration, say twenty weeks, the USA slice det
 
 The top six countries for andor-210-211-212 are:
 
+<!--
 {::nomarkdown}
 {% andor-210-downloaders-per-country-per-week.svg %}
 {:/}
+-->
 
 <div style="height: 50px;"></div>
 
