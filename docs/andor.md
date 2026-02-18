@@ -29,8 +29,8 @@ layout: default
 {% include andor-s1s2-downloads-by-week-cumulative-normalized-start.svg %}
 {:/}
 
-<script type="text/javascript" crossorigin="anonymous" id="graph-fade-js"
-	src="../scripts/graph-fade.js">
+<script type="text/javascript" crossorigin="anonymous" id="graph-hover"
+	src="../scripts/graph-hover-txt-polyline.js">
 </script>
 <div style="height: 50px;"></div>
 

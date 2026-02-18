@@ -43,7 +43,12 @@ layout: default
 <div style="height: 50px;"></div>
 
 What is the audience for these media objects on the global internet?
-How does this compare to media comparison methodologies that are restricted to five weeks of data from only the USA?
+
+How does this compare to media comparison methodologies that are
+restricted to five weeks of data from only the USA? The chart above
+uses a subset of global data for a 5 week duration to create a
+synthetic version of Nielsen ratings, but using peer to peer data for
+the USA only.
 
 The table above shows that for the first five weeks of the media object andor-210-211-212, the downloads from the USA are roughly 1 million, the rest of the world roughtly 13 million, showing that only 9% of all peers are "from" the USA. This shows the danger of relying on a USA-centric data slice to see the global audience.
 
