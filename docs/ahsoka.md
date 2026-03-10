@@ -13,24 +13,40 @@ layout: default
 
 ## Results
 
-### Tables
-
-{% include ahsoka-ackolyte-others-meta-collection-table.html %}
+## Results
 <div style="height: 50px;"></div>
-
-{% include ahsoka-ackolyte-others-meta-collection-table.html %}
-<div style="height: 50px;"></div>
-
 
 ### Graphs
+
+<script type="text/javascript" crossorigin="anonymous" id="graph-hover"
+	src="../resources/izzi-graph-hover-txt-polyline-red.js">
+</script>
 
 {::nomarkdown}
 {% include ahsoka-ackolyte-others-downloads-by-week-cumulative-normalized-start.svg %}
 {:/}
+<div style="height: 50px;"></div>
 
-<script type="text/javascript" crossorigin="anonymous" id="graph-fade-js"
-	src="../scripts/graph-fade.js">
+
+### Maps
+
+<script type="text/javascript" crossorigin="anonymous" id="geojson-map"
+	src="../resources/izzi-leaflet-map-geojson.js">
 </script>
+
+<div style="height: 50px;"></div>
+
+
+### Tables
+
+<script type="text/javascript" crossorigin="anonymous" id="table-sort"
+	src="../resources/izzi-script-table-sort-inline.js">
+</script>
+
+{% include ahsoka-ackolyte-others-meta-collection-table.html %}
+<div style="height: 50px;"></div>
+
+{% include ahsoka-ackolyte-others-media-objects-table.html %}
 <div style="height: 50px;"></div>
 
 

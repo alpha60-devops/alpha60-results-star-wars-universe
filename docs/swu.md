@@ -14,7 +14,32 @@ layout: default
 ## Results
 <div style="height: 50px;"></div>
 
+### Graphs
+
+<script type="text/javascript" crossorigin="anonymous" id="graph-fade-js"
+	src="../scripts/graph-fade.js">
+</script>
+
+{::nomarkdown}
+{% include swu-downloads-by-week-cumulative-normalized-start.svg %}
+{:/}
+<div style="height: 50px;"></div>
+
+
+### Maps
+
+<script type="text/javascript" crossorigin="anonymous" id="geojson-map"
+	src="../resources/izzi-leaflet-map-geojson.js">
+</script>
+
+<div style="height: 50px;"></div>
+
+
 ### Tables
+
+<script type="text/javascript" crossorigin="anonymous" id="table-sort"
+	src="../resources/izzi-script-table-sort-inline.js">
+</script>
 
 {% include swu-meta-collection-table.html %}
 <div style="height: 50px;"></div>
@@ -22,21 +47,13 @@ layout: default
 {% include swu-media-objects-table.html %}
 <div style="height: 50px;"></div>
 
-
-### Graphs
-
-{::nomarkdown}
-{% include swu-downloads-by-week-cumulative-normalized-start.svg %}
-{:/}
-
-<script type="text/javascript" crossorigin="anonymous" id="graph-fade-js"
-	src="../scripts/graph-fade.js">
-</script>
+{% include star-wars-universe-geo-slices-usa-weeks-1-5-10-20.html %}
 <div style="height: 50px;"></div>
 
-### Maps
+{% include star-wars-universe-geo-slices-africa.html %}
+<div style="height: 50px;"></div>
 
-[Star Wars Visions 3 x 15 week](https://felt.com/embed/map/visions-03-15-week-LzhO0BDFS8WsJeFLbuvgOD?loc=39.32%2C127.4%2C4.64z)
+{% include star-wars-universe-geo-slices-asia.html %}
 <div style="height: 50px;"></div>
 
 
