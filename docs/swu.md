@@ -61,9 +61,6 @@ layout: default
 
 ### Global Media by Week
 
-{% include swu-media-objects-usa-global-weeks-1-5-10-20-table.html %}
-<div style="height: 50px;"></div>
-
 What is the audience for these media objects on the global internet?
 
 How does this compare to media comparison methodologies that are
