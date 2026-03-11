@@ -50,10 +50,6 @@ layout: default
 
 ## Commentary, Questions
 
-- Acolyte
-  - if this series was so successful with downloaders, why was it cancelled?
-- Obi Wan Kenobi
-  - would a hypothetical second season follow the same trajectory as Andor?
 - Year-over-year growth vs. ITU growth
 
 
