@@ -9,7 +9,7 @@ layout: default
 <div style="height: 50px;"></div>
 
 
-# Ahsoka, Ackolyte, Visions, Kenobi, etc.
+# Andor Seasons 1 and 2
 
 ## Results
 <div style="height: 50px;"></div>
