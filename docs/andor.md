@@ -33,7 +33,6 @@ layout: default
 </script>
 
 {% include andor-s1s2-carto-table.html %}
-
 <div style="height: 50px;"></div>
 
 
@@ -46,8 +45,7 @@ layout: default
 {% include andor-meta-collection-table.html %}
 <div style="height: 50px;"></div>
 
-{% include andor-media-objects-table.html
-%}
+{% include andor-media-objects-table.html %}
 <div style="height: 50px;"></div>
 
 

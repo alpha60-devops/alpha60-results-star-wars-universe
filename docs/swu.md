@@ -79,10 +79,6 @@ The top six countries for andor-210-211-212 are:
 <div style="height: 50px;"></div>
 
 
-### Obi-Wan Kenobi, The Hunt for Ben Kenobi
-
-What does the future hold for this beloved character? Would a hypothetical second season follow the same growth trajectory seen between Andor Seasons 1 and 2?
-
 ### Disney+ as a Streaming Service
   - Year-over-year subscriber growth vs. ITU growth
   - Year-over-year price hikes
