@@ -7,20 +7,13 @@
 
 
 ## About
-- [Alpha60](http://alpha60.co) Grouping: Star Wars Universe
-- Media Objects
-  - acolyte-101, 107
-  - ahsoka-101, 108
-  - andor-101, 112, 201, 210
-  - book-of-boba-fett-107
-  - lego-star-wars-holiday-special-2020
-  - mandalorian-101, 102, 108, 201, 208, 301, 308
-  - obi-wan-kenobi-101, 106
-  - star-wars-visions-01, 03
-  - tales-of-the-jedi-01
-- Dates
-  - 2019 to 2025
-<!-- - [analysis notebook](/notebooks/analysis_2025.ipynb) -->
+
+These are results from sampling peer swarms associated with *media objects* being *shared* on the internet. In this case *media objects* means any instances of media (film, television, books, streaming video, podcast, any video really) that that represent a specific film, television series or episode, or recorded event as a file or archive. And *sharing* means any peer-to-peer file sharing protocol used on the internet, namely BitTorrent.
+
+Sample dates: 2019 to 2026
+
+{% include swu-led-media-objects-list.html %}
+<div style="height: 50px;"></div>
 
 
 ## Results, Commentary
@@ -28,6 +21,7 @@
 - [ahsoka/ackolyte](/docs/ahsoka.md)
 - [mandalorian](/docs/mandalorian.md)
 - [star wars universe](/docs/swu.md)
+<div style="height: 50px;"></div>
 
 
 ## Data
