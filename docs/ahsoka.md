@@ -12,8 +12,6 @@ layout: default
 # Ahsoka, Ackolyte, Visions, Kenobi, etc.
 
 ## Results
-
-## Results
 <div style="height: 50px;"></div>
 
 ### Graphs

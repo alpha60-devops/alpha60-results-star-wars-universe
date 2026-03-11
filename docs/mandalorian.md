@@ -12,8 +12,6 @@ layout: default
 # Mandalorian Seasons 1,2,3
 
 ## Results
-
-## Results
 <div style="height: 50px;"></div>
 
 ### Graphs
