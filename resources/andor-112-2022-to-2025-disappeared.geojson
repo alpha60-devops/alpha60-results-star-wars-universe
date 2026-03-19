@@ -1,6 +1,6 @@
 {
 "type": "FeatureCollection",
-"name": "andor-112-2022-to-2025-disappeared",
+"id": "andor-112-2022-to-2025-disappeared",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
 { "type": "Feature", "properties": { "country_code": "GRC", "city": "Irákleio", "geoname_id": "261743", "downloaders": { "size": 2154, "mobile": 0, "satellite": 0, "tor": 0, "tor_exit_nodes": 0, "vpn": 0, "relay": 0, "proxy": 0, "hosting": 0, "service": 0 }, "uploaders": { "size": 1002, "mobile": 0, "satellite": 0, "tor": 0, "tor_exit_nodes": 0, "vpn": 0, "relay": 0, "proxy": 0, "hosting": 0, "service": 0 } }, "geometry": { "type": "Point", "coordinates": [ 23.76523, 38.05282 ] } },
