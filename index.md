@@ -36,9 +36,7 @@ Sample dates: 2019 to 2026
 - [Media Object Metadata](https://github.com/alpha60-devops/alpha60-btiha/tree/main/metadata) (title.json)
 - [2026 JSON API](docs/data-json.2026.md)
 
-### [Source](https://github.com/alpha60-devops/alpha60-results-star-wars-universe/tree/main/data.v2)
-
-<!-- - [analysis notebook](/notebooks/analysis_2025.ipynb) -->
+### [Source](https://github.com/alpha60-devops/alpha60-results-star-wars-universe/tree/main/data)
 
 {::nomarkdown}
 <svg width="100" height=100>
