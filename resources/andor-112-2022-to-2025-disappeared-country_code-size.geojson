@@ -7,8 +7,30 @@
         "country_code": "AIA",
         "city": "The Valley",
         "geoname_id": "3573374",
-        "downloaders": "{\"size\":19,\"mobile\":0,\"satellite\":0,\"tor\":0,\"tor_exit_nodes\":0,\"vpn\":0,\"relay\":0,\"proxy\":0,\"hosting\":0,\"service\":0}",
-        "uploaders": "{\"size\":3,\"mobile\":0,\"satellite\":0,\"tor\":0,\"tor_exit_nodes\":0,\"vpn\":0,\"relay\":0,\"proxy\":0,\"hosting\":0,\"service\":0}"
+        "downloaders": {
+          "size": 19,
+          "mobile": 0,
+          "satellite": 0,
+          "tor": 0,
+          "tor_exit_nodes": 0,
+          "vpn": 0,
+          "relay": 0,
+          "proxy": 0,
+          "hosting": 0,
+          "service": 0
+        },
+        "uploaders": {
+          "size": 3,
+          "mobile": 0,
+          "satellite": 0,
+          "tor": 0,
+          "tor_exit_nodes": 0,
+          "vpn": 0,
+          "relay": 0,
+          "proxy": 0,
+          "hosting": 0,
+          "service": 0
+        }
       },
       "geometry": {
         "type": "Point",
@@ -24,8 +46,30 @@
         "country_code": "CAF",
         "city": "Bangui",
         "geoname_id": "2389853",
-        "downloaders": "{\"size\":44,\"mobile\":43,\"satellite\":0,\"tor\":0,\"tor_exit_nodes\":0,\"vpn\":0,\"relay\":0,\"proxy\":0,\"hosting\":0,\"service\":0}",
-        "uploaders": "{\"size\":27,\"mobile\":26,\"satellite\":0,\"tor\":0,\"tor_exit_nodes\":0,\"vpn\":0,\"relay\":0,\"proxy\":0,\"hosting\":0,\"service\":0}"
+        "downloaders": {
+          "size": 44,
+          "mobile": 43,
+          "satellite": 0,
+          "tor": 0,
+          "tor_exit_nodes": 0,
+          "vpn": 0,
+          "relay": 0,
+          "proxy": 0,
+          "hosting": 0,
+          "service": 0
+        },
+        "uploaders": {
+          "size": 27,
+          "mobile": 26,
+          "satellite": 0,
+          "tor": 0,
+          "tor_exit_nodes": 0,
+          "vpn": 0,
+          "relay": 0,
+          "proxy": 0,
+          "hosting": 0,
+          "service": 0
+        }
       },
       "geometry": {
         "type": "Point",
@@ -41,8 +85,30 @@
         "country_code": "COK",
         "city": "Avarua",
         "geoname_id": "4035715",
-        "downloaders": "{\"size\":40,\"mobile\":0,\"satellite\":0,\"tor\":0,\"tor_exit_nodes\":0,\"vpn\":0,\"relay\":0,\"proxy\":0,\"hosting\":0,\"service\":0}",
-        "uploaders": "{\"size\":23,\"mobile\":0,\"satellite\":0,\"tor\":0,\"tor_exit_nodes\":0,\"vpn\":0,\"relay\":0,\"proxy\":0,\"hosting\":0,\"service\":0}"
+        "downloaders": {
+          "size": 40,
+          "mobile": 0,
+          "satellite": 0,
+          "tor": 0,
+          "tor_exit_nodes": 0,
+          "vpn": 0,
+          "relay": 0,
+          "proxy": 0,
+          "hosting": 0,
+          "service": 0
+        },
+        "uploaders": {
+          "size": 23,
+          "mobile": 0,
+          "satellite": 0,
+          "tor": 0,
+          "tor_exit_nodes": 0,
+          "vpn": 0,
+          "relay": 0,
+          "proxy": 0,
+          "hosting": 0,
+          "service": 0
+        }
       },
       "geometry": {
         "type": "Point",
@@ -58,8 +124,30 @@
         "country_code": "CUB",
         "city": "Havana",
         "geoname_id": "3553478",
-        "downloaders": "{\"size\":13,\"mobile\":0,\"satellite\":0,\"tor\":0,\"tor_exit_nodes\":0,\"vpn\":1,\"relay\":0,\"proxy\":0,\"hosting\":2,\"service\":1}",
-        "uploaders": "{\"size\":6,\"mobile\":0,\"satellite\":0,\"tor\":0,\"tor_exit_nodes\":0,\"vpn\":1,\"relay\":0,\"proxy\":0,\"hosting\":2,\"service\":1}"
+        "downloaders": {
+          "size": 13,
+          "mobile": 0,
+          "satellite": 0,
+          "tor": 0,
+          "tor_exit_nodes": 0,
+          "vpn": 1,
+          "relay": 0,
+          "proxy": 0,
+          "hosting": 2,
+          "service": 1
+        },
+        "uploaders": {
+          "size": 6,
+          "mobile": 0,
+          "satellite": 0,
+          "tor": 0,
+          "tor_exit_nodes": 0,
+          "vpn": 1,
+          "relay": 0,
+          "proxy": 0,
+          "hosting": 2,
+          "service": 1
+        }
       },
       "geometry": {
         "type": "Point",
@@ -75,8 +163,30 @@
         "country_code": "DJI",
         "city": "Djibouti",
         "geoname_id": "223817",
-        "downloaders": "{\"size\":182,\"mobile\":0,\"satellite\":0,\"tor\":0,\"tor_exit_nodes\":0,\"vpn\":0,\"relay\":0,\"proxy\":0,\"hosting\":0,\"service\":0}",
-        "uploaders": "{\"size\":38,\"mobile\":0,\"satellite\":0,\"tor\":0,\"tor_exit_nodes\":0,\"vpn\":0,\"relay\":0,\"proxy\":0,\"hosting\":0,\"service\":0}"
+        "downloaders": {
+          "size": 182,
+          "mobile": 0,
+          "satellite": 0,
+          "tor": 0,
+          "tor_exit_nodes": 0,
+          "vpn": 0,
+          "relay": 0,
+          "proxy": 0,
+          "hosting": 0,
+          "service": 0
+        },
+        "uploaders": {
+          "size": 38,
+          "mobile": 0,
+          "satellite": 0,
+          "tor": 0,
+          "tor_exit_nodes": 0,
+          "vpn": 0,
+          "relay": 0,
+          "proxy": 0,
+          "hosting": 0,
+          "service": 0
+        }
       },
       "geometry": {
         "type": "Point",
@@ -92,8 +202,30 @@
         "country_code": "FSM",
         "city": "Weno",
         "geoname_id": "2081114",
-        "downloaders": "{\"size\":15,\"mobile\":0,\"satellite\":0,\"tor\":0,\"tor_exit_nodes\":0,\"vpn\":0,\"relay\":0,\"proxy\":0,\"hosting\":0,\"service\":0}",
-        "uploaders": "{\"size\":5,\"mobile\":0,\"satellite\":0,\"tor\":0,\"tor_exit_nodes\":0,\"vpn\":0,\"relay\":0,\"proxy\":0,\"hosting\":0,\"service\":0}"
+        "downloaders": {
+          "size": 15,
+          "mobile": 0,
+          "satellite": 0,
+          "tor": 0,
+          "tor_exit_nodes": 0,
+          "vpn": 0,
+          "relay": 0,
+          "proxy": 0,
+          "hosting": 0,
+          "service": 0
+        },
+        "uploaders": {
+          "size": 5,
+          "mobile": 0,
+          "satellite": 0,
+          "tor": 0,
+          "tor_exit_nodes": 0,
+          "vpn": 0,
+          "relay": 0,
+          "proxy": 0,
+          "hosting": 0,
+          "service": 0
+        }
       },
       "geometry": {
         "type": "Point",
@@ -109,8 +241,30 @@
         "country_code": "MAF",
         "city": "Marigot",
         "geoname_id": "3578851",
-        "downloaders": "{\"size\":51,\"mobile\":0,\"satellite\":0,\"tor\":0,\"tor_exit_nodes\":0,\"vpn\":0,\"relay\":0,\"proxy\":0,\"hosting\":0,\"service\":0}",
-        "uploaders": "{\"size\":13,\"mobile\":0,\"satellite\":0,\"tor\":0,\"tor_exit_nodes\":0,\"vpn\":0,\"relay\":0,\"proxy\":0,\"hosting\":0,\"service\":0}"
+        "downloaders": {
+          "size": 51,
+          "mobile": 0,
+          "satellite": 0,
+          "tor": 0,
+          "tor_exit_nodes": 0,
+          "vpn": 0,
+          "relay": 0,
+          "proxy": 0,
+          "hosting": 0,
+          "service": 0
+        },
+        "uploaders": {
+          "size": 13,
+          "mobile": 0,
+          "satellite": 0,
+          "tor": 0,
+          "tor_exit_nodes": 0,
+          "vpn": 0,
+          "relay": 0,
+          "proxy": 0,
+          "hosting": 0,
+          "service": 0
+        }
       },
       "geometry": {
         "type": "Point",
@@ -126,8 +280,30 @@
         "country_code": "MHL",
         "city": "Majuro",
         "geoname_id": "2113779",
-        "downloaders": "{\"size\":18,\"mobile\":0,\"satellite\":0,\"tor\":0,\"tor_exit_nodes\":0,\"vpn\":3,\"relay\":0,\"proxy\":0,\"hosting\":3,\"service\":3}",
-        "uploaders": "{\"size\":8,\"mobile\":0,\"satellite\":0,\"tor\":0,\"tor_exit_nodes\":0,\"vpn\":0,\"relay\":0,\"proxy\":0,\"hosting\":0,\"service\":0}"
+        "downloaders": {
+          "size": 18,
+          "mobile": 0,
+          "satellite": 0,
+          "tor": 0,
+          "tor_exit_nodes": 0,
+          "vpn": 3,
+          "relay": 0,
+          "proxy": 0,
+          "hosting": 3,
+          "service": 3
+        },
+        "uploaders": {
+          "size": 8,
+          "mobile": 0,
+          "satellite": 0,
+          "tor": 0,
+          "tor_exit_nodes": 0,
+          "vpn": 0,
+          "relay": 0,
+          "proxy": 0,
+          "hosting": 0,
+          "service": 0
+        }
       },
       "geometry": {
         "type": "Point",
@@ -143,8 +319,30 @@
         "country_code": "MYT",
         "city": "Mamoudzou",
         "geoname_id": "921815",
-        "downloaders": "{\"size\":31,\"mobile\":0,\"satellite\":8,\"tor\":0,\"tor_exit_nodes\":0,\"vpn\":0,\"relay\":0,\"proxy\":0,\"hosting\":0,\"service\":0}",
-        "uploaders": "{\"size\":13,\"mobile\":0,\"satellite\":3,\"tor\":0,\"tor_exit_nodes\":0,\"vpn\":0,\"relay\":0,\"proxy\":0,\"hosting\":0,\"service\":0}"
+        "downloaders": {
+          "size": 31,
+          "mobile": 0,
+          "satellite": 8,
+          "tor": 0,
+          "tor_exit_nodes": 0,
+          "vpn": 0,
+          "relay": 0,
+          "proxy": 0,
+          "hosting": 0,
+          "service": 0
+        },
+        "uploaders": {
+          "size": 13,
+          "mobile": 0,
+          "satellite": 3,
+          "tor": 0,
+          "tor_exit_nodes": 0,
+          "vpn": 0,
+          "relay": 0,
+          "proxy": 0,
+          "hosting": 0,
+          "service": 0
+        }
       },
       "geometry": {
         "type": "Point",
@@ -160,8 +358,30 @@
         "country_code": "PLW",
         "city": "Koror",
         "geoname_id": "1559446",
-        "downloaders": "{\"size\":14,\"mobile\":0,\"satellite\":0,\"tor\":0,\"tor_exit_nodes\":0,\"vpn\":2,\"relay\":0,\"proxy\":0,\"hosting\":0,\"service\":0}",
-        "uploaders": "{\"size\":8,\"mobile\":0,\"satellite\":0,\"tor\":0,\"tor_exit_nodes\":0,\"vpn\":2,\"relay\":0,\"proxy\":0,\"hosting\":0,\"service\":0}"
+        "downloaders": {
+          "size": 14,
+          "mobile": 0,
+          "satellite": 0,
+          "tor": 0,
+          "tor_exit_nodes": 0,
+          "vpn": 2,
+          "relay": 0,
+          "proxy": 0,
+          "hosting": 0,
+          "service": 0
+        },
+        "uploaders": {
+          "size": 8,
+          "mobile": 0,
+          "satellite": 0,
+          "tor": 0,
+          "tor_exit_nodes": 0,
+          "vpn": 2,
+          "relay": 0,
+          "proxy": 0,
+          "hosting": 0,
+          "service": 0
+        }
       },
       "geometry": {
         "type": "Point",
@@ -177,8 +397,30 @@
         "country_code": "SDN",
         "city": "Atbara",
         "geoname_id": "378231",
-        "downloaders": "{\"size\":6,\"mobile\":0,\"satellite\":0,\"tor\":0,\"tor_exit_nodes\":0,\"vpn\":0,\"relay\":0,\"proxy\":0,\"hosting\":0,\"service\":0}",
-        "uploaders": "{\"size\":5,\"mobile\":0,\"satellite\":0,\"tor\":0,\"tor_exit_nodes\":0,\"vpn\":0,\"relay\":0,\"proxy\":0,\"hosting\":0,\"service\":0}"
+        "downloaders": {
+          "size": 6,
+          "mobile": 0,
+          "satellite": 0,
+          "tor": 0,
+          "tor_exit_nodes": 0,
+          "vpn": 0,
+          "relay": 0,
+          "proxy": 0,
+          "hosting": 0,
+          "service": 0
+        },
+        "uploaders": {
+          "size": 5,
+          "mobile": 0,
+          "satellite": 0,
+          "tor": 0,
+          "tor_exit_nodes": 0,
+          "vpn": 0,
+          "relay": 0,
+          "proxy": 0,
+          "hosting": 0,
+          "service": 0
+        }
       },
       "geometry": {
         "type": "Point",
@@ -194,8 +436,30 @@
         "country_code": "SHN",
         "city": "Jamestown",
         "geoname_id": "3370903",
-        "downloaders": "{\"size\":3,\"mobile\":0,\"satellite\":0,\"tor\":0,\"tor_exit_nodes\":0,\"vpn\":0,\"relay\":0,\"proxy\":0,\"hosting\":0,\"service\":0}",
-        "uploaders": "{\"size\":3,\"mobile\":0,\"satellite\":0,\"tor\":0,\"tor_exit_nodes\":0,\"vpn\":0,\"relay\":0,\"proxy\":0,\"hosting\":0,\"service\":0}"
+        "downloaders": {
+          "size": 3,
+          "mobile": 0,
+          "satellite": 0,
+          "tor": 0,
+          "tor_exit_nodes": 0,
+          "vpn": 0,
+          "relay": 0,
+          "proxy": 0,
+          "hosting": 0,
+          "service": 0
+        },
+        "uploaders": {
+          "size": 3,
+          "mobile": 0,
+          "satellite": 0,
+          "tor": 0,
+          "tor_exit_nodes": 0,
+          "vpn": 0,
+          "relay": 0,
+          "proxy": 0,
+          "hosting": 0,
+          "service": 0
+        }
       },
       "geometry": {
         "type": "Point",
@@ -211,8 +475,30 @@
         "country_code": "SLB",
         "city": "Honiara",
         "geoname_id": "2108502",
-        "downloaders": "{\"size\":28,\"mobile\":0,\"satellite\":0,\"tor\":0,\"tor_exit_nodes\":0,\"vpn\":2,\"relay\":0,\"proxy\":0,\"hosting\":0,\"service\":0}",
-        "uploaders": "{\"size\":16,\"mobile\":0,\"satellite\":0,\"tor\":0,\"tor_exit_nodes\":0,\"vpn\":1,\"relay\":0,\"proxy\":0,\"hosting\":0,\"service\":0}"
+        "downloaders": {
+          "size": 28,
+          "mobile": 0,
+          "satellite": 0,
+          "tor": 0,
+          "tor_exit_nodes": 0,
+          "vpn": 2,
+          "relay": 0,
+          "proxy": 0,
+          "hosting": 0,
+          "service": 0
+        },
+        "uploaders": {
+          "size": 16,
+          "mobile": 0,
+          "satellite": 0,
+          "tor": 0,
+          "tor_exit_nodes": 0,
+          "vpn": 1,
+          "relay": 0,
+          "proxy": 0,
+          "hosting": 0,
+          "service": 0
+        }
       },
       "geometry": {
         "type": "Point",
@@ -228,8 +514,30 @@
         "country_code": "SMR",
         "city": "Serravalle",
         "geoname_id": "3166645",
-        "downloaders": "{\"size\":10,\"mobile\":0,\"satellite\":0,\"tor\":0,\"tor_exit_nodes\":0,\"vpn\":1,\"relay\":0,\"proxy\":0,\"hosting\":0,\"service\":0}",
-        "uploaders": "{\"size\":4,\"mobile\":0,\"satellite\":0,\"tor\":0,\"tor_exit_nodes\":0,\"vpn\":0,\"relay\":0,\"proxy\":0,\"hosting\":0,\"service\":0}"
+        "downloaders": {
+          "size": 10,
+          "mobile": 0,
+          "satellite": 0,
+          "tor": 0,
+          "tor_exit_nodes": 0,
+          "vpn": 1,
+          "relay": 0,
+          "proxy": 0,
+          "hosting": 0,
+          "service": 0
+        },
+        "uploaders": {
+          "size": 4,
+          "mobile": 0,
+          "satellite": 0,
+          "tor": 0,
+          "tor_exit_nodes": 0,
+          "vpn": 0,
+          "relay": 0,
+          "proxy": 0,
+          "hosting": 0,
+          "service": 0
+        }
       },
       "geometry": {
         "type": "Point",
@@ -245,8 +553,30 @@
         "country_code": "SPM",
         "city": "Saint-Pierre",
         "geoname_id": "3424934",
-        "downloaders": "{\"size\":25,\"mobile\":0,\"satellite\":0,\"tor\":0,\"tor_exit_nodes\":0,\"vpn\":0,\"relay\":0,\"proxy\":0,\"hosting\":0,\"service\":0}",
-        "uploaders": "{\"size\":13,\"mobile\":0,\"satellite\":0,\"tor\":0,\"tor_exit_nodes\":0,\"vpn\":0,\"relay\":0,\"proxy\":0,\"hosting\":0,\"service\":0}"
+        "downloaders": {
+          "size": 25,
+          "mobile": 0,
+          "satellite": 0,
+          "tor": 0,
+          "tor_exit_nodes": 0,
+          "vpn": 0,
+          "relay": 0,
+          "proxy": 0,
+          "hosting": 0,
+          "service": 0
+        },
+        "uploaders": {
+          "size": 13,
+          "mobile": 0,
+          "satellite": 0,
+          "tor": 0,
+          "tor_exit_nodes": 0,
+          "vpn": 0,
+          "relay": 0,
+          "proxy": 0,
+          "hosting": 0,
+          "service": 0
+        }
       },
       "geometry": {
         "type": "Point",
@@ -262,8 +592,30 @@
         "country_code": "TCD",
         "city": "N'Djamena",
         "geoname_id": "2427123",
-        "downloaders": "{\"size\":158,\"mobile\":13,\"satellite\":0,\"tor\":0,\"tor_exit_nodes\":0,\"vpn\":1,\"relay\":0,\"proxy\":0,\"hosting\":0,\"service\":0}",
-        "uploaders": "{\"size\":53,\"mobile\":7,\"satellite\":0,\"tor\":0,\"tor_exit_nodes\":0,\"vpn\":0,\"relay\":0,\"proxy\":0,\"hosting\":0,\"service\":0}"
+        "downloaders": {
+          "size": 158,
+          "mobile": 13,
+          "satellite": 0,
+          "tor": 0,
+          "tor_exit_nodes": 0,
+          "vpn": 1,
+          "relay": 0,
+          "proxy": 0,
+          "hosting": 0,
+          "service": 0
+        },
+        "uploaders": {
+          "size": 53,
+          "mobile": 7,
+          "satellite": 0,
+          "tor": 0,
+          "tor_exit_nodes": 0,
+          "vpn": 0,
+          "relay": 0,
+          "proxy": 0,
+          "hosting": 0,
+          "service": 0
+        }
       },
       "geometry": {
         "type": "Point",
@@ -279,8 +631,30 @@
         "country_code": "WSM",
         "city": "Apia",
         "geoname_id": "4035413",
-        "downloaders": "{\"size\":60,\"mobile\":0,\"satellite\":0,\"tor\":0,\"tor_exit_nodes\":0,\"vpn\":0,\"relay\":0,\"proxy\":0,\"hosting\":0,\"service\":0}",
-        "uploaders": "{\"size\":32,\"mobile\":0,\"satellite\":0,\"tor\":0,\"tor_exit_nodes\":0,\"vpn\":0,\"relay\":0,\"proxy\":0,\"hosting\":0,\"service\":0}"
+        "downloaders": {
+          "size": 60,
+          "mobile": 0,
+          "satellite": 0,
+          "tor": 0,
+          "tor_exit_nodes": 0,
+          "vpn": 0,
+          "relay": 0,
+          "proxy": 0,
+          "hosting": 0,
+          "service": 0
+        },
+        "uploaders": {
+          "size": 32,
+          "mobile": 0,
+          "satellite": 0,
+          "tor": 0,
+          "tor_exit_nodes": 0,
+          "vpn": 0,
+          "relay": 0,
+          "proxy": 0,
+          "hosting": 0,
+          "service": 0
+        }
       },
       "geometry": {
         "type": "Point",
