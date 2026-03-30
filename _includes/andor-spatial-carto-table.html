@@ -1,80 +1,93 @@
 <!-- geoweb cartography -->
 <table style="border-collapse: collapse; width: 100%;" aria-label="Andor series spatial data maps">
     <caption style="text-align: left; padding: 8px; font-weight: bold; caption-side: top;">
-	Andor Series Geographic Data Visualizations
-	<span style="font-weight: normal; font-size: 0.9em;">(Click any link to open an interactive map in a new window)</span>
+        Andor Spatial and Temporal Cartography
+        <span style="font-weight: normal; font-size: 0.9em;">(Click any link to open an interactive map in a new window)</span>
     </caption>
-    <thead>
-	<tr>
-	    <th scope="col" style="padding: 5px; width: 33.33%;">Cumulative Datasets</th>
-	    <th scope="col" style="padding: 5px; width: 33.33%;">Cumulative Datasets</th>
-	    <th scope="col" style="padding: 5px; width: 33.33%;">Cumulative Datasets</th>
-	</tr>
+    <thead class="sr-only">
+        <tr>
+            <th scope="col" style="padding: 5px; width: 33.33%;">Cumulative Datasets</th>
+            <th scope="col" style="padding: 5px; width: 33.33%;">Cumulative Datasets</th>
+            <th scope="col" style="padding: 5px; width: 33.33%;">Cumulative Datasets</th>
+        </tr>
     </thead>
     <tbody>
-	<tr>
-	    <td style="padding: 5px; width: 33.33%;">
-		<a href="#"
-		   onclick="leaflet_map_open_window('https://raw.githubusercontent.com/alpha60-devops/alpha60-results-star-wars-universe/main/data/andor-112-2022-cumulative.geojson', 'Andor 112 (2022)'); return false;"
-		   class="map-link"
-		   aria-label="Open Andor 112 2022 cumulative data map in new window"
-		   title="Opens interactive map for Andor 112 (2022) data">
-		    Andor 112 (2022)
-		</a>
-	    </td>
-	    <td style="padding: 5px; width: 33.33%;">
-		<a href="#"
-		   onclick="leaflet_map_open_window('https://raw.githubusercontent.com/alpha60-devops/alpha60-results-star-wars-universe/main/data/andor-112-2025-cumulative.geojson', 'Andor 112 (2025)'); return false;"
-		   class="map-link"
-		   aria-label="Open Andor 112 2025 cumulative data map in new window"
-		   title="Opens interactive map for Andor 112 (2025) data">
-		    Andor 112 (2025)
-		</a>
-	    </td>
-	    <td style="padding: 5px; width: 33.33%;">
-		<a href="#"
-		   onclick="leaflet_map_open_window('https://raw.githubusercontent.com/alpha60-devops/alpha60-results-star-wars-universe/main/data/andor-210-cumulative.geojson', 'Andor 210'); return false;"
-		   class="map-link"
-		   aria-label="Open Andor 210 cumulative data map in new window"
-		   title="Opens interactive map for Andor 210 data">
-		    Andor 210
-		</a>
-	    </td>
-	</tr>
-	<tr>
-	    <th scope="row" style="padding: 5px; width: 33.33%; font-weight: normal;" aria-label="Geographic ID datasets row">
-		<a href="#"
-		   onclick="leaflet_map_open_window('https://raw.githubusercontent.com/alpha60-devops/alpha60-results-star-wars-universe/main/resources/andor-112-2022-to-2025-disappeared-geoname_id-size.geojson', 'Andor 2022 Only (geoid)'); return false;"
-		   class="map-link"
-		   aria-label="Open Andor 2022 only geographic ID data map in new window"
-		   title="Opens interactive map for Andor 2022 only geographic ID data">
-		    Andor 2022 Only (geoid)
-		</a>
-	    </th>
-	    <td style="padding: 5px; width: 33.33%;">
-		<a href="#"
-		   onclick="leaflet_map_open_window('https://raw.githubusercontent.com/alpha60-devops/alpha60-results-star-wars-universe/main/resources/andor-112-2022-to-2025-emergent-geoname_id-size.geojson', 'Andor 2025 Only (geoid)'); return false;"
-		   class="map-link"
-		   aria-label="Open Andor 2025 only geographic ID data map in new window"
-		   title="Opens interactive map for Andor 2025 only geographic ID data">
-		    Andor 2025 Only (geoid)
-		</a>
-	    </td>
-	    <td style="padding: 5px; width: 33.33%;">
-		<a href="#"
-		   onclick="leaflet_map_open_window('https://raw.githubusercontent.com/alpha60-devops/alpha60-results-star-wars-universe/main/resources/andor-112-2022-to-2025-intersection-change-geoname_id-size.geojson', 'Andor Intersectional (geoid)'); return false;"
-		   class="map-link"
-		   aria-label="Open Andor intersectional change geographic ID data map in new window"
-		   title="Opens interactive map for Andor intersectional geographic ID change data">
-		    Andor Intersectional (geoid)
-		</a>
-	    </td>
-	</tr>
+        <tr>
+            <th scope="row" style="padding: 5px; width: 33.33%; font-weight: normal;">
+                <a href="#" 
+                   onclick="leaflet_map_open_window('https://raw.githubusercontent.com/alpha60-devops/alpha60-results-star-wars-universe/main/data/andor-112-2022-cumulative.geojson', 'Andor 112 (2022)'); return false;"
+                   class="map-link"
+                   aria-label="Open Andor 112 2022 cumulative data map in new window"
+                   title="Opens interactive map for Andor 112 (2022) data">
+                    Andor 112 (2022)
+                </a>
+            </th>
+            <td style="padding: 5px; width: 33.33%;">
+                <a href="#" 
+                   onclick="leaflet_map_open_window('https://raw.githubusercontent.com/alpha60-devops/alpha60-results-star-wars-universe/main/data/andor-112-2025-cumulative.geojson', 'Andor 112 (2025)'); return false;"
+                   class="map-link"
+                   aria-label="Open Andor 112 2025 cumulative data map in new window"
+                   title="Opens interactive map for Andor 112 (2025) data">
+                    Andor 112 (2025)
+                </a>
+            </td>
+            <td style="padding: 5px; width: 33.33%;">
+                <a href="#" 
+                   onclick="leaflet_map_open_window('https://raw.githubusercontent.com/alpha60-devops/alpha60-results-star-wars-universe/main/data/andor-210-cumulative.geojson', 'Andor 210'); return false;"
+                   class="map-link"
+                   aria-label="Open Andor 210 cumulative data map in new window"
+                   title="Opens interactive map for Andor 210 data">
+                    Andor 210
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <th scope="row" style="padding: 5px; width: 33.33%; font-weight: normal;">
+                <a href="#" 
+                   onclick="leaflet_map_open_window('https://raw.githubusercontent.com/alpha60-devops/alpha60-results-star-wars-universe/main/resources/andor-112-2022-to-2025-disappeared-geoname_id-size.geojson', 'Andor 2022 Only (geoid)'); return false;"
+                   class="map-link"
+                   aria-label="Open Andor 2022 only geographic ID data map in new window"
+                   title="Opens interactive map for Andor 2022 only geographic ID data">
+                    Andor 2022 Only (geoid)
+                </a>
+            </th>
+            <td style="padding: 5px; width: 33.33%;">
+                <a href="#" 
+                   onclick="leaflet_map_open_window('https://raw.githubusercontent.com/alpha60-devops/alpha60-results-star-wars-universe/main/resources/andor-112-2022-to-2025-emergent-geoname_id-size.geojson', 'Andor 2025 Only (geoid)'); return false;"
+                   class="map-link"
+                   aria-label="Open Andor 2025 only geographic ID data map in new window"
+                   title="Opens interactive map for Andor 2025 only geographic ID data">
+                    Andor 2025 Only (geoid)
+                </a>
+            </td>
+            <td style="padding: 5px; width: 33.33%;">
+                <a href="#" 
+                   onclick="leaflet_map_open_window('https://raw.githubusercontent.com/alpha60-devops/alpha60-results-star-wars-universe/main/resources/andor-112-2022-to-2025-intersection-change-geoname_id-size.geojson', 'Andor Intersectional (geoid)'); return false;"
+                   class="map-link"
+                   aria-label="Open Andor intersectional change geographic ID data map in new window"
+                   title="Opens interactive map for Andor intersectional geographic ID change data">
+                    Andor Intersectional (geoid)
+                </a>
+            </td>
+        </tr>
     </tbody>
 </table>
 
 <style>
-/* Accessibility improvements */
+/* Screen reader only class - visually hidden but accessible */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0;
+}
+
+/* Accessibility improvements for links */
 .map-link {
     display: inline-block;
     padding: 8px 12px;
@@ -112,52 +125,49 @@ td:focus-within, th:focus-within {
     background-color: #f8f9fa;
 }
 
-/* Screen reader only text for additional context */
-.sr-only {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    padding: 0;
-    margin: -1px;
-    overflow: hidden;
-    clip: rect(0, 0, 0, 0);
-    white-space: nowrap;
-    border-width: 0;
-}
-
 /* Ensure table is responsive */
 @media (max-width: 768px) {
     .map-link {
-	display: block;
-	text-align: center;
-	margin: 5px 0;
+        display: block;
+        text-align: center;
+        margin: 5px 0;
     }
-
+    
     table, thead, tbody, th, td, tr {
-	display: block;
+        display: block;
     }
-
-    thead {
-	position: absolute;
-	width: 1px;
-	height: 1px;
-	padding: 0;
-	margin: -1px;
-	overflow: hidden;
+    
+    .sr-only {
+        display: none;
     }
-
+    
     tr {
-	margin-bottom: 20px;
-	border: 1px solid #ddd;
-	border-radius: 5px;
-	padding: 10px;
+        margin-bottom: 20px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        padding: 10px;
     }
-
+    
     td, th {
-	display: block;
-	text-align: center;
-	width: 100% !important;
-	padding: 8px !important;
+        display: block;
+        text-align: center;
+        width: 100% !important;
+        padding: 8px !important;
     }
 }
 </style>
+
+<script>
+function leaflet_map_open_window(geojsonUrl, title) {
+    // Create the HTML content for the new window
+    const htmlContent = leaflet_map_geojson(geojsonUrl);
+    
+    // Open a new window
+    const newWindow = window.open('', '_blank', 'width=1200,height=800,resizable=yes,scrollbars=yes');
+    
+    // Write the content to the new window
+    newWindow.document.write(htmlContent);
+    newWindow.document.title = title;
+    newWindow.document.close();
+}
+</script>
