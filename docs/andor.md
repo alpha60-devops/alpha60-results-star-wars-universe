@@ -105,7 +105,7 @@ The later sample is 3x original viewing.
 
 Estimate year-over-year P2P or internet population growth. Try to fit that to ITU(itu.int)  internet size and population estimates, see  ICT Development Index (IDI) 2025, ITU Facts and Figures 2025, Global Connectivity Report 2025.
 
-#### Spatial Analysis.
+#### Spatial Analysis
 
 Breaking apart the swarms by geoname_id, the behavior over time can be learned.
 The swarms are divided into three partitions: only in the 2022 sample, only in the 2025 sample, and in both samples.
