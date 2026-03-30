@@ -1,3 +1,4 @@
+// Deepthink.
 // baseline-v7 - Function-generated geojson map
 function leaflet_map_geojson(geojsonUrl) {
     // Extract title from URL (remove "cumulative.geojson" and clean up)
