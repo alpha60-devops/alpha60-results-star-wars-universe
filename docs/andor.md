@@ -29,7 +29,7 @@ layout: default
 ### Maps
 
 <script type="text/javascript" crossorigin="anonymous" id="geojson-map"
-	src="../resources/izzi-leaflet-map-geojson-v8.js">
+	src="../resources/izzi-leaflet-map-geojson-v7.1.js">
 </script>
 
 {% include andor-s1s2-carto-table.html %}
