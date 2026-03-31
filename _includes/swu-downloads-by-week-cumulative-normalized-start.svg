@@ -679,6 +679,9 @@ Line graph of media objects as peer swarms over time, from week 1 to week 26. Th
 <text x="1112.000000" y="898.000000" font-family="Apercu" font-size="14.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(118,118,118); fill-opacity:1; stroke:rgb(118,118,118); stroke-opacity:0; stroke-width:0.5"> 16</text>
 <text x="1172.800000" y="898.000000" font-family="Apercu" font-size="14.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(118,118,118); fill-opacity:1; stroke:rgb(118,118,118); stroke-opacity:0; stroke-width:0.5"> 17</text>
 <text x="1233.600000" y="898.000000" font-family="Apercu" font-size="14.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(118,118,118); fill-opacity:1; stroke:rgb(118,118,118); stroke-opacity:0; stroke-width:0.5"> 18</text>
+<text x="1294.400000" y="898.000000" font-family="Apercu" font-size="14.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(118,118,118); fill-opacity:1; stroke:rgb(118,118,118); stroke-opacity:0; stroke-width:0.5"> 19</text>
+<text x="1355.200000" y="898.000000" font-family="Apercu" font-size="14.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(118,118,118); fill-opacity:1; stroke:rgb(118,118,118); stroke-opacity:0; stroke-width:0.5"> 20</text>
+<text x="1416.000000" y="898.000000" font-family="Apercu" font-size="14.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(118,118,118); fill-opacity:1; stroke:rgb(118,118,118); stroke-opacity:0; stroke-width:0.5"> 21</text>
 <text x="200.000000" y="898.000000" font-family="Apercu" font-size="14.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(118,118,118); fill-opacity:1; stroke:rgb(118,118,118); stroke-opacity:0; stroke-width:0.5"> 1</text>
 <text x="260.800000" y="898.000000" font-family="Apercu" font-size="14.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(118,118,118); fill-opacity:1; stroke:rgb(118,118,118); stroke-opacity:0; stroke-width:0.5"> 2</text>
 <text x="321.600000" y="898.000000" font-family="Apercu" font-size="14.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(118,118,118); fill-opacity:1; stroke:rgb(118,118,118); stroke-opacity:0; stroke-width:0.5"> 3</text>
@@ -4496,126 +4499,126 @@ week: 15
 <polyline points="200,847.647 260.8,833.734 321.6,824.28 382.4,815.719 443.2,808.37 504,802.396 564.8,797.131 625.6,792.549 686.4,788.299 747.2,784.172 808,780.588 868.8,777.442 929.6,774.241 990.4,771.315 1051.2,768.493 1112,765.663 1172.8,762.902 1233.6,760.3 " stroke-linecap="round"  style="fill:rgb(128,5,5); fill-opacity:0; stroke:rgb(128,5,5); stroke-opacity:1; stroke-width:2" />
  </g>
  <g id="markers-obiwan-kenobi-101-102">
- <path id="blob-6.000000" d="M204.56,847.647  Q200.801,851.251 202.651,855.807 Q197.712,849.977 195.194,851.138 Q197.562,845.807 195.728,844.543 Q200.858,844.989 201.687,842.454 Q202.834,847.759 204.56,847.647 Z" style="fill:rgb(128,5,5); fill-opacity:1; stroke:rgb(128,5,5); stroke-opacity:0; stroke-width:2"  >
+ <path id="blob-6.000000" d="M203,847.647  Q200.137,850.577 201.224,851.413 Q196.612,849.26 194.078,851.949 Q197.085,845.942 194.127,843.379 Q200.741,844.678 201.539,842.91 Q202.55,847.893 203,847.647 Z" style="fill:rgb(128,5,5); fill-opacity:1; stroke:rgb(128,5,5); stroke-opacity:0; stroke-width:2"  >
 <title>
 obiwan-kenobi-101-102
 week: 1
 3,054,204
 </title>
  </path>
-<path id="blob-6.000000" d="M265.36,833.734  Q261.601,837.338 263.451,841.894 Q258.512,836.064 255.994,837.225 Q258.362,831.894 256.528,830.63 Q261.658,831.076 262.487,828.541 Q263.634,833.846 265.36,833.734 Z" style="fill:rgb(128,5,5); fill-opacity:1; stroke:rgb(128,5,5); stroke-opacity:0; stroke-width:2"  >
+<path id="blob-6.000000" d="M263.8,833.734  Q260.937,836.664 262.024,837.5 Q257.412,835.347 254.878,838.036 Q257.885,832.029 254.927,829.466 Q261.541,830.765 262.339,828.997 Q263.35,833.98 263.8,833.734 Z" style="fill:rgb(128,5,5); fill-opacity:1; stroke:rgb(128,5,5); stroke-opacity:0; stroke-width:2"  >
 <title>
 obiwan-kenobi-101-102
 week: 2
 4,367,621
 </title>
  </path>
-<path id="blob-6.000000" d="M326.16,824.28  Q322.401,827.884 324.251,832.44 Q319.312,826.611 316.794,827.772 Q319.162,822.44 317.328,821.177 Q322.458,821.622 323.287,819.087 Q324.434,824.393 326.16,824.28 Z" style="fill:rgb(128,5,5); fill-opacity:1; stroke:rgb(128,5,5); stroke-opacity:0; stroke-width:2"  >
+<path id="blob-6.000000" d="M324.6,824.28  Q321.737,827.211 322.824,828.046 Q318.212,825.894 315.678,828.583 Q318.685,822.575 315.727,820.013 Q322.341,821.311 323.139,819.544 Q324.15,824.526 324.6,824.28 Z" style="fill:rgb(128,5,5); fill-opacity:1; stroke:rgb(128,5,5); stroke-opacity:0; stroke-width:2"  >
 <title>
 obiwan-kenobi-101-102
 week: 3
 5,260,029
 </title>
  </path>
-<path id="blob-6.000000" d="M386.96,815.719  Q383.201,819.323 385.051,823.879 Q380.112,818.049 377.594,819.21 Q379.962,813.879 378.128,812.615 Q383.258,813.061 384.087,810.526 Q385.234,815.831 386.96,815.719 Z" style="fill:rgb(128,5,5); fill-opacity:1; stroke:rgb(128,5,5); stroke-opacity:0; stroke-width:2"  >
+<path id="blob-6.000000" d="M385.4,815.719  Q382.537,818.649 383.624,819.485 Q379.012,817.332 376.478,820.021 Q379.485,814.014 376.527,811.451 Q383.141,812.75 383.939,810.982 Q384.95,815.965 385.4,815.719 Z" style="fill:rgb(128,5,5); fill-opacity:1; stroke:rgb(128,5,5); stroke-opacity:0; stroke-width:2"  >
 <title>
 obiwan-kenobi-101-102
 week: 4
 6,068,263
 </title>
  </path>
-<path id="blob-6.000000" d="M447.76,808.37  Q444.001,811.974 445.851,816.53 Q440.912,810.701 438.394,811.862 Q440.762,806.531 438.928,805.267 Q444.058,805.712 444.887,803.178 Q446.034,808.483 447.76,808.37 Z" style="fill:rgb(128,5,5); fill-opacity:1; stroke:rgb(128,5,5); stroke-opacity:0; stroke-width:2"  >
+<path id="blob-6.000000" d="M446.2,808.37  Q443.337,811.301 444.424,812.136 Q439.812,809.984 437.278,812.673 Q440.285,806.665 437.327,804.103 Q443.941,805.402 444.739,803.634 Q445.75,808.616 446.2,808.37 Z" style="fill:rgb(128,5,5); fill-opacity:1; stroke:rgb(128,5,5); stroke-opacity:0; stroke-width:2"  >
 <title>
 obiwan-kenobi-101-102
 week: 5
 6,761,947
 </title>
  </path>
-<path id="blob-6.000000" d="M508.56,802.396  Q504.801,806 506.651,810.556 Q501.712,804.726 499.194,805.887 Q501.562,800.556 499.728,799.292 Q504.858,799.738 505.687,797.203 Q506.834,802.509 508.56,802.396 Z" style="fill:rgb(128,5,5); fill-opacity:1; stroke:rgb(128,5,5); stroke-opacity:0; stroke-width:2"  >
+<path id="blob-6.000000" d="M507,802.396  Q504.137,805.327 505.224,806.162 Q500.612,804.01 498.078,806.699 Q501.085,800.691 498.127,798.129 Q504.741,799.427 505.539,797.66 Q506.55,802.642 507,802.396 Z" style="fill:rgb(128,5,5); fill-opacity:1; stroke:rgb(128,5,5); stroke-opacity:0; stroke-width:2"  >
 <title>
 obiwan-kenobi-101-102
 week: 6
 7,325,931
 </title>
  </path>
-<path id="blob-6.000000" d="M569.36,797.131  Q565.601,800.735 567.451,805.291 Q562.512,799.461 559.994,800.622 Q562.362,795.291 560.528,794.027 Q565.658,794.473 566.487,791.938 Q567.634,797.243 569.36,797.131 Z" style="fill:rgb(128,5,5); fill-opacity:1; stroke:rgb(128,5,5); stroke-opacity:0; stroke-width:2"  >
+<path id="blob-6.000000" d="M567.8,797.131  Q564.937,800.061 566.024,800.897 Q561.412,798.744 558.878,801.433 Q561.885,795.426 558.927,792.863 Q565.541,794.162 566.339,792.394 Q567.35,797.377 567.8,797.131 Z" style="fill:rgb(128,5,5); fill-opacity:1; stroke:rgb(128,5,5); stroke-opacity:0; stroke-width:2"  >
 <title>
 obiwan-kenobi-101-102
 week: 7
 7,822,981
 </title>
  </path>
-<path id="blob-6.000000" d="M630.16,792.549  Q626.401,796.153 628.251,800.709 Q623.312,794.88 620.794,796.041 Q623.162,790.71 621.328,789.446 Q626.458,789.891 627.287,787.357 Q628.434,792.662 630.16,792.549 Z" style="fill:rgb(128,5,5); fill-opacity:1; stroke:rgb(128,5,5); stroke-opacity:0; stroke-width:2"  >
+<path id="blob-6.000000" d="M628.6,792.549  Q625.737,795.48 626.824,796.316 Q622.212,794.163 619.678,796.852 Q622.685,790.845 619.727,788.282 Q626.341,789.581 627.139,787.813 Q628.15,792.796 628.6,792.549 Z" style="fill:rgb(128,5,5); fill-opacity:1; stroke:rgb(128,5,5); stroke-opacity:0; stroke-width:2"  >
 <title>
 obiwan-kenobi-101-102
 week: 8
 8,255,465
 </title>
  </path>
-<path id="blob-6.000000" d="M690.96,788.299  Q687.201,791.903 689.051,796.459 Q684.112,790.629 681.594,791.79 Q683.962,786.459 682.128,785.195 Q687.258,785.641 688.087,783.106 Q689.234,788.411 690.96,788.299 Z" style="fill:rgb(128,5,5); fill-opacity:1; stroke:rgb(128,5,5); stroke-opacity:0; stroke-width:2"  >
+<path id="blob-6.000000" d="M689.4,788.299  Q686.537,791.229 687.624,792.065 Q683.012,789.912 680.478,792.601 Q683.485,786.594 680.527,784.031 Q687.141,785.33 687.939,783.562 Q688.95,788.545 689.4,788.299 Z" style="fill:rgb(128,5,5); fill-opacity:1; stroke:rgb(128,5,5); stroke-opacity:0; stroke-width:2"  >
 <title>
 obiwan-kenobi-101-102
 week: 9
 8,656,742
 </title>
  </path>
-<path id="blob-6.000000" d="M751.76,784.172  Q748.001,787.776 749.851,792.332 Q744.912,786.502 742.394,787.664 Q744.762,782.332 742.928,781.069 Q748.058,781.514 748.887,778.979 Q750.034,784.285 751.76,784.172 Z" style="fill:rgb(128,5,5); fill-opacity:1; stroke:rgb(128,5,5); stroke-opacity:0; stroke-width:2"  >
+<path id="blob-6.000000" d="M750.2,784.172  Q747.337,787.103 748.424,787.938 Q743.812,785.786 741.278,788.475 Q744.285,782.467 741.327,779.905 Q747.941,781.203 748.739,779.436 Q749.75,784.418 750.2,784.172 Z" style="fill:rgb(128,5,5); fill-opacity:1; stroke:rgb(128,5,5); stroke-opacity:0; stroke-width:2"  >
 <title>
 obiwan-kenobi-101-102
 week: 10
 9,046,286
 </title>
  </path>
-<path id="blob-6.000000" d="M812.56,780.588  Q808.801,784.192 810.651,788.748 Q805.712,782.918 803.194,784.08 Q805.562,778.748 803.728,777.485 Q808.858,777.93 809.687,775.395 Q810.834,780.701 812.56,780.588 Z" style="fill:rgb(128,5,5); fill-opacity:1; stroke:rgb(128,5,5); stroke-opacity:0; stroke-width:2"  >
+<path id="blob-6.000000" d="M811,780.588  Q808.137,783.519 809.224,784.354 Q804.612,782.202 802.078,784.891 Q805.085,778.883 802.127,776.321 Q808.741,777.619 809.539,775.852 Q810.55,780.834 811,780.588 Z" style="fill:rgb(128,5,5); fill-opacity:1; stroke:rgb(128,5,5); stroke-opacity:0; stroke-width:2"  >
 <title>
 obiwan-kenobi-101-102
 week: 11
 9,384,624
 </title>
  </path>
-<path id="blob-6.000000" d="M873.36,777.442  Q869.601,781.047 871.451,785.603 Q866.512,779.773 863.994,780.934 Q866.362,775.603 864.528,774.339 Q869.658,774.784 870.487,772.25 Q871.634,777.555 873.36,777.442 Z" style="fill:rgb(128,5,5); fill-opacity:1; stroke:rgb(128,5,5); stroke-opacity:0; stroke-width:2"  >
+<path id="blob-6.000000" d="M871.8,777.442  Q868.937,780.373 870.024,781.209 Q865.412,779.056 862.878,781.745 Q865.885,775.738 862.927,773.175 Q869.541,774.474 870.339,772.706 Q871.35,777.689 871.8,777.442 Z" style="fill:rgb(128,5,5); fill-opacity:1; stroke:rgb(128,5,5); stroke-opacity:0; stroke-width:2"  >
 <title>
 obiwan-kenobi-101-102
 week: 12
 9,681,575
 </title>
  </path>
-<path id="blob-6.000000" d="M934.16,774.241  Q930.401,777.845 932.251,782.401 Q927.312,776.571 924.794,777.733 Q927.162,772.401 925.328,771.138 Q930.458,771.583 931.287,769.048 Q932.434,774.354 934.16,774.241 Z" style="fill:rgb(128,5,5); fill-opacity:1; stroke:rgb(128,5,5); stroke-opacity:0; stroke-width:2"  >
+<path id="blob-6.000000" d="M932.6,774.241  Q929.737,777.172 930.824,778.007 Q926.212,775.855 923.678,778.544 Q926.685,772.536 923.727,769.974 Q930.341,771.272 931.139,769.505 Q932.15,774.487 932.6,774.241 Z" style="fill:rgb(128,5,5); fill-opacity:1; stroke:rgb(128,5,5); stroke-opacity:0; stroke-width:2"  >
 <title>
 obiwan-kenobi-101-102
 week: 13
 9,983,789
 </title>
  </path>
-<path id="blob-6.000000" d="M994.96,771.315  Q991.201,774.919 993.051,779.475 Q988.112,773.646 985.594,774.807 Q987.962,769.476 986.128,768.212 Q991.258,768.657 992.087,766.123 Q993.234,771.428 994.96,771.315 Z" style="fill:rgb(128,5,5); fill-opacity:1; stroke:rgb(128,5,5); stroke-opacity:0; stroke-width:2"  >
+<path id="blob-6.000000" d="M993.4,771.315  Q990.537,774.246 991.624,775.082 Q987.012,772.929 984.478,775.618 Q987.485,769.61 984.527,767.048 Q991.141,768.347 991.939,766.579 Q992.95,771.562 993.4,771.315 Z" style="fill:rgb(128,5,5); fill-opacity:1; stroke:rgb(128,5,5); stroke-opacity:0; stroke-width:2"  >
 <title>
 obiwan-kenobi-101-102
 week: 14
 10,259,988
 </title>
  </path>
-<path id="blob-6.000000" d="M1055.76,768.493  Q1052,772.097 1053.85,776.653 Q1048.91,770.823 1046.39,771.984 Q1048.76,766.653 1046.93,765.389 Q1052.06,765.835 1052.89,763.3 Q1054.03,768.605 1055.76,768.493 Z" style="fill:rgb(128,5,5); fill-opacity:1; stroke:rgb(128,5,5); stroke-opacity:0; stroke-width:2"  >
+<path id="blob-6.000000" d="M1054.2,768.493  Q1051.34,771.424 1052.42,772.259 Q1047.81,770.107 1045.28,772.795 Q1048.28,766.788 1045.33,764.225 Q1051.94,765.524 1052.74,763.756 Q1053.75,768.739 1054.2,768.493 Z" style="fill:rgb(128,5,5); fill-opacity:1; stroke:rgb(128,5,5); stroke-opacity:0; stroke-width:2"  >
 <title>
 obiwan-kenobi-101-102
 week: 15
 10,526,444
 </title>
  </path>
-<path id="blob-6.000000" d="M1116.56,765.663  Q1112.8,769.267 1114.65,773.823 Q1109.71,767.994 1107.19,769.155 Q1109.56,763.824 1107.73,762.56 Q1112.86,763.005 1113.69,760.471 Q1114.83,765.776 1116.56,765.663 Z" style="fill:rgb(128,5,5); fill-opacity:1; stroke:rgb(128,5,5); stroke-opacity:0; stroke-width:2"  >
+<path id="blob-6.000000" d="M1115,765.663  Q1112.14,768.594 1113.22,769.43 Q1108.61,767.277 1106.08,769.966 Q1109.08,763.958 1106.13,761.396 Q1112.74,762.695 1113.54,760.927 Q1114.55,765.91 1115,765.663 Z" style="fill:rgb(128,5,5); fill-opacity:1; stroke:rgb(128,5,5); stroke-opacity:0; stroke-width:2"  >
 <title>
 obiwan-kenobi-101-102
 week: 16
 10,793,546
 </title>
  </path>
-<path id="blob-6.000000" d="M1177.36,762.902  Q1173.6,766.506 1175.45,771.062 Q1170.51,765.232 1167.99,766.393 Q1170.36,761.062 1168.53,759.798 Q1173.66,760.243 1174.49,757.709 Q1175.63,763.014 1177.36,762.902 Z" style="fill:rgb(128,5,5); fill-opacity:1; stroke:rgb(128,5,5); stroke-opacity:0; stroke-width:2"  >
+<path id="blob-6.000000" d="M1175.8,762.902  Q1172.94,765.832 1174.02,766.668 Q1169.41,764.515 1166.88,767.204 Q1169.88,761.197 1166.93,758.634 Q1173.54,759.933 1174.34,758.165 Q1175.35,763.148 1175.8,762.902 Z" style="fill:rgb(128,5,5); fill-opacity:1; stroke:rgb(128,5,5); stroke-opacity:0; stroke-width:2"  >
 <title>
 obiwan-kenobi-101-102
 week: 17
 11,054,265
 </title>
  </path>
-<path id="blob-6.000000" d="M1238.16,760.3  Q1234.4,763.904 1236.25,768.46 Q1231.31,762.63 1228.79,763.791 Q1231.16,758.46 1229.33,757.196 Q1234.46,757.642 1235.29,755.107 Q1236.43,760.412 1238.16,760.3 Z" style="fill:rgb(128,5,5); fill-opacity:1; stroke:rgb(128,5,5); stroke-opacity:0; stroke-width:2"  >
+<path id="blob-6.000000" d="M1236.6,760.3  Q1233.74,763.23 1234.82,764.066 Q1230.21,761.913 1227.68,764.602 Q1230.68,758.595 1227.73,756.032 Q1234.34,757.331 1235.14,755.563 Q1236.15,760.546 1236.6,760.3 Z" style="fill:rgb(128,5,5); fill-opacity:1; stroke:rgb(128,5,5); stroke-opacity:0; stroke-width:2"  >
 <title>
 obiwan-kenobi-101-102
 week: 18
@@ -4630,119 +4633,119 @@ week: 18
 <polyline points="200,861.631 260.8,853.471 321.6,847.267 382.4,842.039 443.2,837.569 504,833.551 564.8,829.868 625.6,826.493 686.4,823.093 747.2,819.832 808,816.747 868.8,813.462 929.6,810.364 990.4,807.245 1051.2,804.171 " stroke-linecap="round"  style="fill:rgb(128,5,5); fill-opacity:0; stroke:rgb(128,5,5); stroke-opacity:1; stroke-width:2" />
  </g>
  <g id="markers-obiwan-kenobi-106">
- <path id="blob-6.000000" d="M204.56,861.631  Q200.801,865.235 202.651,869.791 Q197.712,863.961 195.194,865.123 Q197.562,859.791 195.728,858.528 Q200.858,858.973 201.687,856.438 Q202.834,861.744 204.56,861.631 Z" style="fill:rgb(128,5,5); fill-opacity:1; stroke:rgb(128,5,5); stroke-opacity:0; stroke-width:2"  >
+ <path id="blob-6.000000" d="M203,861.631  Q200.137,864.562 201.224,865.397 Q196.612,863.245 194.078,865.934 Q197.085,859.926 194.127,857.364 Q200.741,858.662 201.539,856.895 Q202.55,861.877 203,861.631 Z" style="fill:rgb(128,5,5); fill-opacity:1; stroke:rgb(128,5,5); stroke-opacity:0; stroke-width:2"  >
 <title>
 obiwan-kenobi-106
 week: 1
 1,734,043
 </title>
  </path>
-<path id="blob-4.500000" d="M215.313,860.035  Q212.494,862.738 213.882,866.155 Q210.177,861.783 208.289,862.654 Q210.065,858.655 208.69,857.707 Q212.537,858.041 213.159,856.14 Q214.019,860.119 215.313,860.035 Z" style="fill:rgb(128,5,5); fill-opacity:1; stroke:rgb(128,5,5); stroke-opacity:0; stroke-width:2" />
-<path id="blob-6.000000" d="M265.36,853.471  Q261.601,857.075 263.451,861.631 Q258.512,855.802 255.994,856.963 Q258.362,851.632 256.528,850.368 Q261.658,850.813 262.487,848.279 Q263.634,853.584 265.36,853.471 Z" style="fill:rgb(128,5,5); fill-opacity:1; stroke:rgb(128,5,5); stroke-opacity:0; stroke-width:2"  >
+<path id="blob-4.500000" d="M214.143,860.035  Q211.996,862.233 212.811,862.86 Q209.353,861.245 207.452,863.262 Q209.707,858.756 207.488,856.835 Q212.449,857.808 213.048,856.483 Q213.806,860.22 214.143,860.035 Z" style="fill:rgb(128,5,5); fill-opacity:1; stroke:rgb(128,5,5); stroke-opacity:0; stroke-width:2" />
+<path id="blob-6.000000" d="M263.8,853.471  Q260.937,856.402 262.024,857.238 Q257.412,855.085 254.878,857.774 Q257.885,851.767 254.927,849.204 Q261.541,850.503 262.339,848.735 Q263.35,853.718 263.8,853.471 Z" style="fill:rgb(128,5,5); fill-opacity:1; stroke:rgb(128,5,5); stroke-opacity:0; stroke-width:2"  >
 <title>
 obiwan-kenobi-106
 week: 2
 2,504,342
 </title>
  </path>
-<path id="blob-4.500000" d="M276.158,852.253  Q273.339,854.956 274.727,858.373 Q271.022,854.001 269.134,854.872 Q270.909,850.873 269.534,849.925 Q273.381,850.26 274.003,848.358 Q274.863,852.337 276.158,852.253 Z" style="fill:rgb(128,5,5); fill-opacity:1; stroke:rgb(128,5,5); stroke-opacity:0; stroke-width:2" />
-<path id="blob-6.000000" d="M326.16,847.267  Q322.401,850.871 324.251,855.427 Q319.312,849.597 316.794,850.758 Q319.162,845.427 317.328,844.163 Q322.458,844.609 323.287,842.074 Q324.434,847.379 326.16,847.267 Z" style="fill:rgb(128,5,5); fill-opacity:1; stroke:rgb(128,5,5); stroke-opacity:0; stroke-width:2"  >
+<path id="blob-4.500000" d="M274.988,852.253  Q272.841,854.451 273.656,855.078 Q270.197,853.463 268.296,855.48 Q270.552,850.974 268.333,849.053 Q273.294,850.027 273.892,848.701 Q274.651,852.438 274.988,852.253 Z" style="fill:rgb(128,5,5); fill-opacity:1; stroke:rgb(128,5,5); stroke-opacity:0; stroke-width:2" />
+<path id="blob-6.000000" d="M324.6,847.267  Q321.737,850.197 322.824,851.033 Q318.212,848.88 315.678,851.569 Q318.685,845.562 315.727,842.999 Q322.341,844.298 323.139,842.53 Q324.15,847.513 324.6,847.267 Z" style="fill:rgb(128,5,5); fill-opacity:1; stroke:rgb(128,5,5); stroke-opacity:0; stroke-width:2"  >
 <title>
 obiwan-kenobi-106
 week: 3
 3,090,076
 </title>
  </path>
-<path id="blob-4.500000" d="M336.976,846.239  Q334.157,848.942 335.544,852.359 Q331.84,847.986 329.952,848.857 Q331.727,844.859 330.352,843.911 Q334.199,844.245 334.821,842.344 Q335.681,846.323 336.976,846.239 Z" style="fill:rgb(128,5,5); fill-opacity:1; stroke:rgb(128,5,5); stroke-opacity:0; stroke-width:2" />
-<path id="blob-6.000000" d="M386.96,842.039  Q383.201,845.643 385.051,850.199 Q380.112,844.369 377.594,845.531 Q379.962,840.199 378.128,838.936 Q383.258,839.381 384.087,836.846 Q385.234,842.152 386.96,842.039 Z" style="fill:rgb(128,5,5); fill-opacity:1; stroke:rgb(128,5,5); stroke-opacity:0; stroke-width:2"  >
+<path id="blob-4.500000" d="M335.806,846.239  Q333.659,848.437 334.474,849.063 Q331.015,847.449 329.114,849.466 Q331.369,844.96 329.151,843.038 Q334.111,844.012 334.71,842.686 Q335.469,846.423 335.806,846.239 Z" style="fill:rgb(128,5,5); fill-opacity:1; stroke:rgb(128,5,5); stroke-opacity:0; stroke-width:2" />
+<path id="blob-6.000000" d="M385.4,842.039  Q382.537,844.97 383.624,845.805 Q379.012,843.653 376.478,846.342 Q379.485,840.334 376.527,837.772 Q383.141,839.07 383.939,837.303 Q384.95,842.285 385.4,842.039 Z" style="fill:rgb(128,5,5); fill-opacity:1; stroke:rgb(128,5,5); stroke-opacity:0; stroke-width:2"  >
 <title>
 obiwan-kenobi-106
 week: 4
 3,583,563
 </title>
  </path>
-<path id="blob-4.500000" d="M397.788,841.159  Q394.969,843.862 396.356,847.279 Q392.651,842.907 390.764,843.778 Q392.539,839.78 391.164,838.832 Q395.011,839.166 395.633,837.265 Q396.493,841.244 397.788,841.159 Z" style="fill:rgb(128,5,5); fill-opacity:1; stroke:rgb(128,5,5); stroke-opacity:0; stroke-width:2" />
-<path id="blob-6.000000" d="M447.76,837.569  Q444.001,841.174 445.851,845.73 Q440.912,839.9 438.394,841.061 Q440.762,835.73 438.928,834.466 Q444.058,834.911 444.887,832.377 Q446.034,837.682 447.76,837.569 Z" style="fill:rgb(128,5,5); fill-opacity:1; stroke:rgb(128,5,5); stroke-opacity:0; stroke-width:2"  >
+<path id="blob-4.500000" d="M396.618,841.159  Q394.471,843.357 395.285,843.984 Q391.827,842.37 389.926,844.386 Q392.181,839.881 389.963,837.959 Q394.923,838.933 395.522,837.607 Q396.281,841.344 396.618,841.159 Z" style="fill:rgb(128,5,5); fill-opacity:1; stroke:rgb(128,5,5); stroke-opacity:0; stroke-width:2" />
+<path id="blob-6.000000" d="M446.2,837.569  Q443.337,840.5 444.424,841.336 Q439.812,839.183 437.278,841.872 Q440.285,835.865 437.327,833.302 Q443.941,834.601 444.739,832.833 Q445.75,837.816 446.2,837.569 Z" style="fill:rgb(128,5,5); fill-opacity:1; stroke:rgb(128,5,5); stroke-opacity:0; stroke-width:2"  >
 <title>
 obiwan-kenobi-106
 week: 5
 4,005,505
 </title>
  </path>
-<path id="blob-4.500000" d="M458.594,836.778  Q455.775,839.481 457.162,842.898 Q453.458,838.526 451.57,839.397 Q453.345,835.398 451.97,834.451 Q455.817,834.785 456.439,832.884 Q457.299,836.863 458.594,836.778 Z" style="fill:rgb(128,5,5); fill-opacity:1; stroke:rgb(128,5,5); stroke-opacity:0; stroke-width:2" />
-<path id="blob-6.000000" d="M508.56,833.551  Q504.801,837.156 506.651,841.711 Q501.712,835.882 499.194,837.043 Q501.562,831.712 499.728,830.448 Q504.858,830.893 505.687,828.359 Q506.834,833.664 508.56,833.551 Z" style="fill:rgb(128,5,5); fill-opacity:1; stroke:rgb(128,5,5); stroke-opacity:0; stroke-width:2"  >
+<path id="blob-4.500000" d="M457.424,836.778  Q455.277,838.976 456.092,839.603 Q452.633,837.988 450.732,840.005 Q452.987,835.5 450.769,833.578 Q455.729,834.552 456.328,833.226 Q457.087,836.963 457.424,836.778 Z" style="fill:rgb(128,5,5); fill-opacity:1; stroke:rgb(128,5,5); stroke-opacity:0; stroke-width:2" />
+<path id="blob-6.000000" d="M507,833.551  Q504.137,836.482 505.224,837.318 Q500.612,835.165 498.078,837.854 Q501.085,831.847 498.127,829.284 Q504.741,830.583 505.539,828.815 Q506.55,833.798 507,833.551 Z" style="fill:rgb(128,5,5); fill-opacity:1; stroke:rgb(128,5,5); stroke-opacity:0; stroke-width:2"  >
 <title>
 obiwan-kenobi-106
 week: 6
 4,384,815
 </title>
  </path>
-<path id="blob-4.500000" d="M519.398,832.826  Q516.579,835.529 517.967,838.946 Q514.262,834.574 512.374,835.444 Q514.149,831.446 512.774,830.498 Q516.621,830.832 517.243,828.931 Q518.103,832.91 519.398,832.826 Z" style="fill:rgb(128,5,5); fill-opacity:1; stroke:rgb(128,5,5); stroke-opacity:0; stroke-width:2" />
-<path id="blob-6.000000" d="M569.36,829.868  Q565.601,833.473 567.451,838.028 Q562.512,832.199 559.994,833.36 Q562.362,828.029 560.528,826.765 Q565.658,827.21 566.487,824.676 Q567.634,829.981 569.36,829.868 Z" style="fill:rgb(128,5,5); fill-opacity:1; stroke:rgb(128,5,5); stroke-opacity:0; stroke-width:2"  >
+<path id="blob-4.500000" d="M518.228,832.826  Q516.081,835.024 516.896,835.65 Q513.437,834.036 511.537,836.053 Q513.792,831.547 511.573,829.625 Q516.534,830.599 517.132,829.274 Q517.891,833.01 518.228,832.826 Z" style="fill:rgb(128,5,5); fill-opacity:1; stroke:rgb(128,5,5); stroke-opacity:0; stroke-width:2" />
+<path id="blob-6.000000" d="M567.8,829.868  Q564.937,832.799 566.024,833.635 Q561.412,831.482 558.878,834.171 Q561.885,828.164 558.927,825.601 Q565.541,826.9 566.339,825.132 Q567.35,830.115 567.8,829.868 Z" style="fill:rgb(128,5,5); fill-opacity:1; stroke:rgb(128,5,5); stroke-opacity:0; stroke-width:2"  >
 <title>
 obiwan-kenobi-106
 week: 7
 4,732,494
 </title>
  </path>
-<path id="blob-4.500000" d="M580.202,829.203  Q577.383,831.906 578.77,835.323 Q575.065,830.951 573.177,831.822 Q574.953,827.823 573.578,826.876 Q577.425,827.21 578.047,825.309 Q578.907,829.288 580.202,829.203 Z" style="fill:rgb(128,5,5); fill-opacity:1; stroke:rgb(128,5,5); stroke-opacity:0; stroke-width:2" />
-<path id="blob-6.000000" d="M630.16,826.493  Q626.401,830.097 628.251,834.653 Q623.312,828.824 620.794,829.985 Q623.162,824.654 621.328,823.39 Q626.458,823.835 627.287,821.3 Q628.434,826.606 630.16,826.493 Z" style="fill:rgb(128,5,5); fill-opacity:1; stroke:rgb(128,5,5); stroke-opacity:0; stroke-width:2"  >
+<path id="blob-4.500000" d="M579.032,829.203  Q576.884,831.401 577.699,832.028 Q574.241,830.414 572.34,832.43 Q574.595,827.925 572.376,826.003 Q577.337,826.977 577.936,825.651 Q578.694,829.388 579.032,829.203 Z" style="fill:rgb(128,5,5); fill-opacity:1; stroke:rgb(128,5,5); stroke-opacity:0; stroke-width:2" />
+<path id="blob-6.000000" d="M628.6,826.493  Q625.737,829.424 626.824,830.259 Q622.212,828.107 619.678,830.796 Q622.685,824.788 619.727,822.226 Q626.341,823.524 627.139,821.757 Q628.15,826.739 628.6,826.493 Z" style="fill:rgb(128,5,5); fill-opacity:1; stroke:rgb(128,5,5); stroke-opacity:0; stroke-width:2"  >
 <title>
 obiwan-kenobi-106
 week: 8
 5,051,113
 </title>
  </path>
-<path id="blob-4.500000" d="M641.001,825.823  Q638.182,828.526 639.57,831.943 Q635.865,827.571 633.977,828.442 Q635.752,824.443 634.378,823.496 Q638.225,823.83 638.847,821.929 Q639.707,825.908 641.001,825.823 Z" style="fill:rgb(128,5,5); fill-opacity:1; stroke:rgb(128,5,5); stroke-opacity:0; stroke-width:2" />
-<path id="blob-6.000000" d="M690.96,823.093  Q687.201,826.697 689.051,831.253 Q684.112,825.423 681.594,826.584 Q683.962,821.253 682.128,819.989 Q687.258,820.435 688.087,817.9 Q689.234,823.205 690.96,823.093 Z" style="fill:rgb(128,5,5); fill-opacity:1; stroke:rgb(128,5,5); stroke-opacity:0; stroke-width:2"  >
+<path id="blob-4.500000" d="M639.831,825.823  Q637.684,828.021 638.499,828.648 Q635.041,827.033 633.14,829.05 Q635.395,824.545 633.176,822.623 Q638.137,823.597 638.735,822.271 Q639.494,826.008 639.831,825.823 Z" style="fill:rgb(128,5,5); fill-opacity:1; stroke:rgb(128,5,5); stroke-opacity:0; stroke-width:2" />
+<path id="blob-6.000000" d="M689.4,823.093  Q686.537,826.023 687.624,826.859 Q683.012,824.706 680.478,827.395 Q683.485,821.388 680.527,818.825 Q687.141,820.124 687.939,818.356 Q688.95,823.339 689.4,823.093 Z" style="fill:rgb(128,5,5); fill-opacity:1; stroke:rgb(128,5,5); stroke-opacity:0; stroke-width:2"  >
 <title>
 obiwan-kenobi-106
 week: 9
 5,372,135
 </title>
  </path>
-<path id="blob-4.500000" d="M701.803,822.45  Q698.984,825.153 700.371,828.57 Q696.666,824.198 694.779,825.069 Q696.554,821.07 695.179,820.122 Q699.026,820.456 699.648,818.555 Q700.508,822.534 701.803,822.45 Z" style="fill:rgb(128,5,5); fill-opacity:1; stroke:rgb(128,5,5); stroke-opacity:0; stroke-width:2" />
-<path id="blob-6.000000" d="M751.76,819.832  Q748.001,823.436 749.851,827.992 Q744.912,822.162 742.394,823.323 Q744.762,817.992 742.928,816.728 Q748.058,817.174 748.887,814.639 Q750.034,819.944 751.76,819.832 Z" style="fill:rgb(128,5,5); fill-opacity:1; stroke:rgb(128,5,5); stroke-opacity:0; stroke-width:2"  >
+<path id="blob-4.500000" d="M700.633,822.45  Q698.486,824.648 699.301,825.275 Q695.842,823.66 693.941,825.677 Q696.196,821.171 693.978,819.249 Q698.938,820.223 699.537,818.898 Q700.296,822.635 700.633,822.45 Z" style="fill:rgb(128,5,5); fill-opacity:1; stroke:rgb(128,5,5); stroke-opacity:0; stroke-width:2" />
+<path id="blob-6.000000" d="M750.2,819.832  Q747.337,822.762 748.424,823.598 Q743.812,821.445 741.278,824.134 Q744.285,818.127 741.327,815.564 Q747.941,816.863 748.739,815.095 Q749.75,820.078 750.2,819.832 Z" style="fill:rgb(128,5,5); fill-opacity:1; stroke:rgb(128,5,5); stroke-opacity:0; stroke-width:2"  >
 <title>
 obiwan-kenobi-106
 week: 10
 5,679,974
 </title>
  </path>
-<path id="blob-4.500000" d="M762.605,819.224  Q759.786,821.927 761.173,825.344 Q757.468,820.971 755.58,821.842 Q757.356,817.844 755.981,816.896 Q759.828,817.23 760.45,815.329 Q761.31,819.308 762.605,819.224 Z" style="fill:rgb(128,5,5); fill-opacity:1; stroke:rgb(128,5,5); stroke-opacity:0; stroke-width:2" />
-<path id="blob-6.000000" d="M812.56,816.747  Q808.801,820.351 810.651,824.907 Q805.712,819.077 803.194,820.238 Q805.562,814.907 803.728,813.643 Q808.858,814.089 809.687,811.554 Q810.834,816.859 812.56,816.747 Z" style="fill:rgb(128,5,5); fill-opacity:1; stroke:rgb(128,5,5); stroke-opacity:0; stroke-width:2"  >
+<path id="blob-4.500000" d="M761.435,819.224  Q759.287,821.422 760.102,822.048 Q756.644,820.434 754.743,822.451 Q756.998,817.945 754.779,816.023 Q759.74,816.997 760.339,815.671 Q761.097,819.408 761.435,819.224 Z" style="fill:rgb(128,5,5); fill-opacity:1; stroke:rgb(128,5,5); stroke-opacity:0; stroke-width:2" />
+<path id="blob-6.000000" d="M811,816.747  Q808.137,819.678 809.224,820.513 Q804.612,818.361 802.078,821.049 Q805.085,815.042 802.127,812.48 Q808.741,813.778 809.539,812.011 Q810.55,816.993 811,816.747 Z" style="fill:rgb(128,5,5); fill-opacity:1; stroke:rgb(128,5,5); stroke-opacity:0; stroke-width:2"  >
 <title>
 obiwan-kenobi-106
 week: 11
 5,971,187
 </title>
  </path>
-<path id="blob-4.500000" d="M823.403,816.099  Q820.584,818.803 821.971,822.22 Q818.266,817.847 816.378,818.718 Q818.154,814.72 816.779,813.772 Q820.626,814.106 821.248,812.205 Q822.108,816.184 823.403,816.099 Z" style="fill:rgb(128,5,5); fill-opacity:1; stroke:rgb(128,5,5); stroke-opacity:0; stroke-width:2" />
-<path id="blob-6.000000" d="M873.36,813.462  Q869.601,817.066 871.451,821.622 Q866.512,815.792 863.994,816.953 Q866.362,811.622 864.528,810.359 Q869.658,810.804 870.487,808.269 Q871.634,813.575 873.36,813.462 Z" style="fill:rgb(128,5,5); fill-opacity:1; stroke:rgb(128,5,5); stroke-opacity:0; stroke-width:2"  >
+<path id="blob-4.500000" d="M822.233,816.099  Q820.085,818.298 820.9,818.924 Q817.442,817.31 815.541,819.326 Q817.796,814.821 815.577,812.899 Q820.538,813.873 821.137,812.547 Q821.895,816.284 822.233,816.099 Z" style="fill:rgb(128,5,5); fill-opacity:1; stroke:rgb(128,5,5); stroke-opacity:0; stroke-width:2" />
+<path id="blob-6.000000" d="M871.8,813.462  Q868.937,816.393 870.024,817.228 Q865.412,815.076 862.878,817.765 Q865.885,811.757 862.927,809.195 Q869.541,810.493 870.339,808.726 Q871.35,813.708 871.8,813.462 Z" style="fill:rgb(128,5,5); fill-opacity:1; stroke:rgb(128,5,5); stroke-opacity:0; stroke-width:2"  >
 <title>
 obiwan-kenobi-106
 week: 12
 6,281,281
 </title>
  </path>
-<path id="blob-4.500000" d="M884.204,812.851  Q881.386,815.555 882.773,818.971 Q879.068,814.599 877.18,815.47 Q878.956,811.472 877.581,810.524 Q881.428,810.858 882.05,808.957 Q882.91,812.936 884.204,812.851 Z" style="fill:rgb(128,5,5); fill-opacity:1; stroke:rgb(128,5,5); stroke-opacity:0; stroke-width:2" />
-<path id="blob-6.000000" d="M934.16,810.364  Q930.401,813.968 932.251,818.524 Q927.312,812.695 924.794,813.856 Q927.162,808.525 925.328,807.261 Q930.458,807.706 931.287,805.172 Q932.434,810.477 934.16,810.364 Z" style="fill:rgb(128,5,5); fill-opacity:1; stroke:rgb(128,5,5); stroke-opacity:0; stroke-width:2"  >
+<path id="blob-4.500000" d="M883.034,812.851  Q880.887,815.05 881.702,815.676 Q878.244,814.062 876.343,816.078 Q878.598,811.573 876.379,809.651 Q881.34,810.625 881.939,809.299 Q882.697,813.036 883.034,812.851 Z" style="fill:rgb(128,5,5); fill-opacity:1; stroke:rgb(128,5,5); stroke-opacity:0; stroke-width:2" />
+<path id="blob-6.000000" d="M932.6,810.364  Q929.737,813.295 930.824,814.131 Q926.212,811.978 923.678,814.667 Q926.685,808.66 923.727,806.097 Q930.341,807.396 931.139,805.628 Q932.15,810.611 932.6,810.364 Z" style="fill:rgb(128,5,5); fill-opacity:1; stroke:rgb(128,5,5); stroke-opacity:0; stroke-width:2"  >
 <title>
 obiwan-kenobi-106
 week: 13
 6,573,705
 </title>
  </path>
-<path id="blob-4.500000" d="M945.004,809.75  Q942.185,812.453 943.573,815.87 Q939.868,811.497 937.98,812.368 Q939.755,808.37 938.381,807.422 Q942.228,807.756 942.85,805.855 Q943.71,809.834 945.004,809.75 Z" style="fill:rgb(128,5,5); fill-opacity:1; stroke:rgb(128,5,5); stroke-opacity:0; stroke-width:2" />
-<path id="blob-6.000000" d="M994.96,807.245  Q991.201,810.849 993.051,815.405 Q988.112,809.575 985.594,810.737 Q987.962,805.405 986.128,804.142 Q991.258,804.587 992.087,802.052 Q993.234,807.358 994.96,807.245 Z" style="fill:rgb(128,5,5); fill-opacity:1; stroke:rgb(128,5,5); stroke-opacity:0; stroke-width:2"  >
+<path id="blob-4.500000" d="M943.834,809.75  Q941.687,811.948 942.502,812.574 Q939.043,810.96 937.143,812.976 Q939.398,808.471 937.179,806.549 Q942.14,807.523 942.738,806.197 Q943.497,809.934 943.834,809.75 Z" style="fill:rgb(128,5,5); fill-opacity:1; stroke:rgb(128,5,5); stroke-opacity:0; stroke-width:2" />
+<path id="blob-6.000000" d="M993.4,807.245  Q990.537,810.176 991.624,811.011 Q987.012,808.859 984.478,811.548 Q987.485,805.54 984.527,802.978 Q991.141,804.276 991.939,802.509 Q992.95,807.491 993.4,807.245 Z" style="fill:rgb(128,5,5); fill-opacity:1; stroke:rgb(128,5,5); stroke-opacity:0; stroke-width:2"  >
 <title>
 obiwan-kenobi-106
 week: 14
 6,868,166
 </title>
  </path>
-<path id="blob-4.500000" d="M1005.8,806.639  Q1002.99,809.342 1004.37,812.759 Q1000.67,808.387 998.781,809.258 Q1000.56,805.259 999.181,804.312 Q1003.03,804.646 1003.65,802.745 Q1004.51,806.724 1005.8,806.639 Z" style="fill:rgb(128,5,5); fill-opacity:1; stroke:rgb(128,5,5); stroke-opacity:0; stroke-width:2" />
-<path id="blob-6.000000" d="M1055.76,804.171  Q1052,807.775 1053.85,812.331 Q1048.91,806.501 1046.39,807.662 Q1048.76,802.331 1046.93,801.067 Q1052.06,801.513 1052.89,798.978 Q1054.03,804.284 1055.76,804.171 Z" style="fill:rgb(128,5,5); fill-opacity:1; stroke:rgb(128,5,5); stroke-opacity:0; stroke-width:2"  >
+<path id="blob-4.500000" d="M1004.63,806.639  Q1002.49,808.837 1003.3,809.464 Q999.844,807.849 997.943,809.866 Q1000.2,805.361 997.98,803.439 Q1002.94,804.413 1003.54,803.087 Q1004.3,806.824 1004.63,806.639 Z" style="fill:rgb(128,5,5); fill-opacity:1; stroke:rgb(128,5,5); stroke-opacity:0; stroke-width:2" />
+<path id="blob-6.000000" d="M1054.2,804.171  Q1051.34,807.102 1052.42,807.937 Q1047.81,805.785 1045.28,808.474 Q1048.28,802.466 1045.33,799.904 Q1051.94,801.202 1052.74,799.435 Q1053.75,804.417 1054.2,804.171 Z" style="fill:rgb(128,5,5); fill-opacity:1; stroke:rgb(128,5,5); stroke-opacity:0; stroke-width:2"  >
 <title>
 obiwan-kenobi-106
 week: 15
@@ -4846,7 +4849,7 @@ week: 12
  </g>
 <g id="line-graph-22-stranger-things-301-302-303-304-305-306-307-308-309">
  <g id="polyline-stranger-things-301-302-303-304-305-306-307-308-309">
-<polyline points="200,868.164 260.8,850.697 321.6,830.736 382.4,809.023 443.2,785.65 504,760.013 564.8,733.501 625.6,710.923 686.4,687.749 747.2,661.414 808,634.966 868.8,609.654 929.6,585.42 990.4,561.563 1051.2,537.181 1112,513.323 1172.8,489.09 1233.6,468.729 " stroke-dasharray="3 6" stroke-linecap="round"  style="fill:rgb(102,102,102); fill-opacity:0; stroke:rgb(0,0,0); stroke-opacity:1; stroke-width:2" />
+<polyline points="200,868.164 260.8,850.697 321.6,830.736 382.4,809.023 443.2,785.65 504,760.013 564.8,733.501 625.6,710.923 686.4,687.749 747.2,661.414 808,634.966 868.8,609.654 929.6,585.42 990.4,561.563 1051.2,537.181 1112,513.323 1172.8,489.09 1233.6,468.729 1294.4,447.638 1355.2,425.369 1416,403.933 " stroke-dasharray="3 6" stroke-linecap="round"  style="fill:rgb(102,102,102); fill-opacity:0; stroke:rgb(0,0,0); stroke-opacity:1; stroke-width:2" />
  </g>
  <g id="markers-stranger-things-301-302-303-304-305-306-307-308-309">
  <circle cx="200.000000" cy="868.164256" r="6.000000" style="fill:rgb(102,102,102); fill-opacity:1; stroke:rgb(0,0,0); stroke-opacity:0; stroke-width:2"  >
@@ -4975,8 +4978,29 @@ week: 18
 38,824,587
 </title>
  </circle>
+<circle cx="1294.400000" cy="447.638163" r="6.000000" style="fill:rgb(102,102,102); fill-opacity:1; stroke:rgb(0,0,0); stroke-opacity:0; stroke-width:2"  >
+<title>
+stranger-things-301-302-303-304-305-306-307-308-309
+week: 19
+40,815,572
+</title>
+ </circle>
+<circle cx="1355.200000" cy="425.369133" r="6.000000" style="fill:rgb(102,102,102); fill-opacity:1; stroke:rgb(0,0,0); stroke-opacity:0; stroke-width:2"  >
+<title>
+stranger-things-301-302-303-304-305-306-307-308-309
+week: 20
+42,917,800
+</title>
+ </circle>
+<circle cx="1416.000000" cy="403.932676" r="6.000000" style="fill:rgb(102,102,102); fill-opacity:1; stroke:rgb(0,0,0); stroke-opacity:0; stroke-width:2"  >
+<title>
+stranger-things-301-302-303-304-305-306-307-308-309
+week: 21
+44,941,432
+</title>
+ </circle>
  </g>
-<text x="1233.600000" y="461.728789" font-family="Atkinson Hyperlegible" font-size="10.000000pt" text-anchor="end" text-align="right" font-weight="400" font-style="normal"  style="fill:rgb(148,148,148); fill-opacity:1; stroke:rgb(148,148,148); stroke-opacity:0; stroke-width:0.5"> stranger-things-301-302-303-304-305-306-307-308-309</text>
+<text x="1416.000000" y="396.932676" font-family="Atkinson Hyperlegible" font-size="10.000000pt" text-anchor="end" text-align="right" font-weight="400" font-style="normal"  style="fill:rgb(148,148,148); fill-opacity:1; stroke:rgb(148,148,148); stroke-opacity:0; stroke-width:0.5"> stranger-things-301-302-303-304-305-306-307-308-309</text>
  </g>
 <g id="line-graph-23-star-wars-tales-of-the-jedi-101-102-103-104-105-106">
  <g id="polyline-star-wars-tales-of-the-jedi-101-102-103-104-105-106">
