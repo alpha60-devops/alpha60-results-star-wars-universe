@@ -29,9 +29,10 @@ layout: default
 ### Maps
 
 <script type="text/javascript" crossorigin="anonymous" id="geojson-map"
-	src="../resources/izzi-leaflet-map-geojson.js">
+        src="../resources/izzi-map-leaflet-geojson-v7.3.js">
 </script>
 
+{% include swu-spatial-carto-table.html %}
 <div style="height: 50px;"></div>
 
 
