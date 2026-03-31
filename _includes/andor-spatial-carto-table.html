@@ -156,18 +156,3 @@ td:focus-within, th:focus-within {
     }
 }
 </style>
-
-<script>
-function leaflet_map_open_window(geojsonUrl, title) {
-    // Create the HTML content for the new window
-    const htmlContent = leaflet_map_geojson(geojsonUrl);
-    
-    // Open a new window
-    const newWindow = window.open('', '_blank', 'width=1200,height=800,resizable=yes,scrollbars=yes');
-    
-    // Write the content to the new window
-    newWindow.document.write(htmlContent);
-    newWindow.document.title = title;
-    newWindow.document.close();
-}
-</script>
