@@ -77,18 +77,18 @@ The top six countries for andor-210-211-212 are:
 
 Streaming affords the opportunity to serve a media object for what
 seems to be an infinite amount of time. Forever! In practice, the
-longevity of media on a steraming platform is less certain. But what about peer swarms?
+longevity of media on a streaming platform is less certain. (See Westworld and HBO, as one instance).
 
-Andor Season 1 was released in 2022, and Season 2 was released
-in 2025. At each event, peer to peer swarms were sampled for 26
-weeks. And then these swarms are compared for size, locality, etc.
+But what about peer swarms? Andor Season 1 was released in 2022, and
+Season 2 was released in 2025. At each event, peer to peer swarms were
+sampled for 26 weeks. And then these swarms are compared for size,
+locality, etc.
 
-But what about Andor as a series of two seasons?
-
-To gain some insight, while Andor Season 2 was being sampled, the last
-episode of Season 1 (112) was re-sampled. So there are two sample data
-sets for Andor 112, with the exact same inputs (BTIHA is the same):
-one from 2022 and one from 2025, about two and a half years later.
+But what about Andor as a series of two seasons? To gain some insight,
+while Andor Season 2 was being sampled, the last episode of Season 1
+(112) was re-sampled. So there are two sample data sets for Andor 112,
+with the exact same inputs (BTIHA is the same): one from 2022 and one
+from 2025, about two and a half years later.
 
 
 #### Size Differences
