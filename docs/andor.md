@@ -140,7 +140,7 @@ active in the swarm cluster from 2022 to 2025 (aka the 418,800
 internet addresses (ip) in the two sample set's intersection over the 3 million and change ip origiinal sample).
 
 Fourteen percent continuity over two and a half years is far more than expected. (Expecting zero).
-How many Disney+ users re-watch Andor once a year on the web-based official platform? (Note HJ and Big say compare to non-resistance media here (Game of Thrones?) or have come kind of comparable).
+How many Disney+ users re-watch Andor once a year on the web-based official platform? (*Note HJ and Big say compare to non-resistance media here (Game of Thrones?) or have come kind of comparable*).
 
 The other oddity here is the increase in each ip downloading more media objects than just one format. In 2022, the dl/ip ratio was 1.89, and in 2025 it was 3.04. This can be thought of as each ip downloading 1.89 versions or variants of the movie: one for phones (720p resolution) and one for the big flat panel display (maybe 4k resolution). The the variants can also include different languages or subtitles that the canonical streaming release, or special audio formats or video or audo codeccs optimized for playback on lower-end hardware.
 
