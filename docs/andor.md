@@ -107,18 +107,17 @@ that to ITU(itu.int) internet size and population estimates, see ICT
 Development Index (IDI) 2025, ITU Facts and Figures 2025, Global
 Connectivity Report 2025.
 
-#### Spatial Analysis
+#### Spatial/Temporal Analysis
 
-Breaking apart the swarms by geoname_id, the behavior over time can be
-learned.  The swarms are divided into three partitions: only in the
-2022 sample, only in the 2025 sample, and in both samples.
-
+Swarm behavior over time can analyzed by repeated sampling over time. The sample swarms are then divided into three partitions: only in the
+2022 sample, only in the 2025 sample, and in both samples (the intersection).
 
 {% include andor-spatial-carto-table.html %}
 <div style="height: 50px;"></div>
 
 {% include andor-112-x-andor-112-compare-table.html %}
 <div style="height: 50px;"></div>
+
 
 
 
