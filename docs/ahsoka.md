@@ -52,6 +52,12 @@ layout: default
 
 - Acolyte
   - if this series was so successful with downloaders, why was it cancelled?
+  - Abigail De Kosnik speculates about this show's plot violating Star Wars cannon with depictions of evil, and thus the decision to not produce more.
+  - Both Ahsoka and Acolyte did well in terms of downloader
+	numbers. Both had POC women leads. In a direct comparison to
+	comparable shows with white leads (Mandalorian season 3 and
+	Obi-Wan Kenobi). the downloaders for these female-led shows win.
+
 - Obi Wan Kenobi
   - would a hypothetical second season follow the same trajectory as Andor?
 - Year-over-year growth vs. ITU growth
@@ -59,6 +65,6 @@ layout: default
 
 {::nomarkdown}
 <svg width="100" height=100>
-    <circle cx="20" cy="50" r="10" fill="black"/>
+	<circle cx="20" cy="50" r="10" fill="black"/>
 </svg>
 {:/}

@@ -17,7 +17,7 @@ layout: default
 ### Graphs
 
 <script type="text/javascript" crossorigin="anonymous" id="graph-fade-js"
-	src="../scripts/graph-fade.js">
+	src="../scripts/izzi-graph-hover-txt-polyline-red.js">
 </script>
 
 {::nomarkdown}
