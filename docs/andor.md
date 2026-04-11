@@ -147,7 +147,7 @@ The other oddity here is the increase in each ip downloading more media objects 
 The why remains elusive here. One operating theory is that debrid frontends are automatically downloading various resolutions by default. Or some distributed filesystem is being created by yet-unknown pirate technology using the Bittorrent protocol.
 
 
-### Extrapolating to all episodes.
+### Extrapolating to all episodes in a season from partial samples.
 
 Only half of the episodes in Andor season two were sampled. Can the
 missing episodes (204-206, 207-209) be approximated using data from
