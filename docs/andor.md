@@ -53,7 +53,7 @@ layout: default
 
 ### What percentage of viewers are from the USA?
 
-#### Synthetic week Only results
+#### Synthetic week 5 USA-only results
 Nielsen methodology uses 35 day measurements of select USA-only data feeds. Approximate this by using 5 week USA only swarm results. How does this compare to global or 15/26 week USA samples?
 
 The table above shows that for the first five weeks of the media
