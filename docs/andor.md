@@ -133,7 +133,18 @@ Swarm behavior over time can analyzed by repeated sampling over time. The sample
 {% include andor-112-x-andor-112-compare-table.html %}
 <div style="height: 50px;"></div>
 
+This one is a bit weird. Instead of anonymized results, the intial intersection work uses ip address information, with the hope that eventually the analytical methods can be improved and closely-correlated yet anonymous H3 hexagons can be used in the future.
 
+These results indicate that 14% of the Andor 112 swarm was continuously
+active in the swarm cluster from 2022 to 2025 (aka the 418,800
+internet addresses (ip) in the two sample set's intersection over the 3 million and change ip origiinal sample).
+
+Fourteen percent continuity over two and a half years is far more than expected. (Expecting zero).
+How many Disney+ users re-watch Andor once a year on the web-based official platform? (Note HJ and Big say compare to non-resistance media here (Game of Thrones?) or have come kind of comparable).
+
+The other oddity here is the increase in each ip downloading more media objects than just one format. In 2022, the dl/ip ratio was 1.89, and in 2025 it was 3.04. This can be thought of as each ip downloading 1.89 versions or variants of the movie: one for phones (720p resolution) and one for the big flat panel display (maybe 4k resolution). The the variants can also include different languages or subtitles that the canonical streaming release, or special audio formats or video or audo codeccs optimized for playback on lower-end hardware.
+
+The why remains elusive here. One operating theory is that debrid frontends are automatically downloading various resolutions by default. Or some distributed filesystem is being created by yet-unknown pirate technology using the Bittorrent protocol.
 
 
 ### Extrapolating to all episodes.
