@@ -100,7 +100,7 @@ The number of downloaders for this experiment are in the chart and tables above.
 #### Size Differences
 
   - Season two last episodes swarm < first episodes swarm.
-  - In the context of 2022 (as immediate past COVID-19 lockdown), similar results to contemporaneous shows like Obiwan Kenobi, Book of Bobba Fett.
+  - In the context of 2022 (as immediate past COVID-19 lock down), similar results to contemporaneous shows like Obi-Wan Kenobi, Book of Boba Fett.
   - Season two opener 4x higher swarm count than Season one opener.
   - Season two last episodes swarm > first episodes swarm.
 
@@ -116,11 +116,11 @@ internet size and population estimates. Consulting official publications and syn
 Report.  The collated estimate year-over-year P2P or internet population
 growth from 2015 to 2025 can be found in the data repository [here](/resources/facts_and_figures.json).
 
-Using this techique, the multiple of 2022 to 2025 global internet
+Using this technique, the multiple of 2022 to 2025 global internet
 users is (6.0/5.3) or about 1.13, normalizing the number of downloaders from
 2022's 5.8 million to 6.56 million 2025 equivalents.
 
-Comparing these scaled 15-week numbers from 2022 to the resampled number of downloaders in 2025 (15 week is 21,282,679) indicates that interest in the same media object increased by a factor of 3.24 over two and a half years. Far from fair-weather friends, the extraordinary Andor fandom grew at a gigantic rate after the premiere season, only to explode by another multplle on top of this residule multple during the second season.
+Comparing these scaled 15-week numbers from 2022 to the resampled number of downloaders in 2025 (15 week is 21,282,679) indicates that interest in the same media object increased by a factor of 3.24 over two and a half years. Far from fair-weather friends, the extraordinary Andor fandom grew at a gigantic rate after the premiere season, only to explode by another multiple on top of this residual multiple during the second season.
 
 
 
@@ -135,18 +135,18 @@ Swarm behavior over time can analyzed by repeated sampling over time. The sample
 {% include andor-112-x-andor-112-compare-table.html %}
 <div style="height: 50px;"></div>
 
-This one is a bit weird. Instead of anonymized results, the intial intersection work uses ip address information, with the hope that eventually the analytical methods can be improved and closely-correlated yet anonymous H3 hexagons can be used in the future.
+This one is a bit weird. Instead of anonymized results, the initial intersection work uses ip address information, with the hope that eventually the analytical methods can be improved and closely-correlated yet anonymous H3 hexagons can be used in the future.
 
 These results indicate that 14% of the Andor 112 swarm was continuously
 active in the swarm cluster from 2022 to 2025 (aka the 418,800
-internet addresses (ip) in the two sample set's intersection over the 3 million and change ip origiinal sample).
+internet addresses (ip) in the two sample set's intersection over the 3 million and change ip original sample).
 
 Fourteen percent continuity over two and a half years is far more than expected. (Expecting zero).
 How many Disney+ users re-watch Andor once a year on the web-based official platform? (*Note HJ and Big say compare to non-resistance media here (Game of Thrones?) or have come kind of comparable*).
 
-The other oddity here is the increase in each ip downloading more media objects than just one format. In 2022, the dl/ip ratio was 1.89, and in 2025 it was 3.04. This can be thought of as each ip downloading 1.89 versions or variants of the movie: one for phones (720p resolution) and one for the big flat panel display (maybe 4k resolution). The the variants can also include different languages or subtitles that the canonical streaming release, or special audio formats or video or audo codeccs optimized for playback on lower-end hardware.
+The other oddity here is the increase in each ip downloading more media objects than just one format. In 2022, the dl/ip ratio was 1.89, and in 2025 it was 3.04. This can be thought of as each ip downloading 1.89 versions or variants of the movie: one for phones (720p resolution) and one for the big flat panel display (maybe 4k resolution). The the variants can also include different languages or subtitles that the canonical streaming release, or special audio formats or video or audio codecs optimized for playback on lower-end hardware.
 
-The why remains elusive here. One operating theory is that debrid frontends are automatically downloading various resolutions by default. Or some distributed filesystem is being created by yet-unknown pirate technology using the Bittorrent protocol.
+The why remains elusive here. One operating theory is that debrid front-ends are automatically downloading various resolutions by default. Or some distributed file system is being created by yet-unknown pirate technology using the Bittorrent protocol.
 
 <div style="height: 50px;"></div>
 ### Extrapolating to all episodes in a season from partial samples.
