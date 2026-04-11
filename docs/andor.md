@@ -51,14 +51,6 @@ layout: default
 
 ## Commentary, Questions
 
-### Season one
-  - Season two last episodes swarm < first episodes swarm.
-  - In the context of 2022 (as immediate past COVID-19 lockdown), similar results to contemporaneous shows like Obiwan Kenobi, Book of Bobba Fett.
-
-### Season two
-  - Season two opener 4x higher swarm count than Season one opener.
-  - Season two last episodes swarm > first episodes swarm.
-
 ### What percentage of viewers are from the USA?
 
 #### Synthetic week Only results
@@ -87,28 +79,39 @@ Streaming affords the opportunity to serve a media object for what
 seems to be an infinite amount of time. Forever! In practice, the
 longevity of media on a steraming platform is less certain. But what about peer swarms?
 
-Andor Season 1 was released in 2022, and Season 2 was released in 2025. At each event, peer to peer swarms were sampled for 26 weeks. And then these swarms are compared for size, locality, etc.
+Andor Season 1 was released in 2022, and Season 2 was released
+in 2025. At each event, peer to peer swarms were sampled for 26
+weeks. And then these swarms are compared for size, locality, etc.
 
 But what about Andor as a series of two seasons?
 
 To gain some insight, while Andor Season 2 was being sampled, the last
 episode of Season 1 (112) was re-sampled. So there are two sample data
 sets for Andor 112, with the exact same inputs (BTIHA is the same):
-one from 2022 and one from 2025.
+one from 2022 and one from 2025, about two and a half years later.
 
 
 #### Size Differences
+
+  - Season two last episodes swarm < first episodes swarm.
+  - In the context of 2022 (as immediate past COVID-19 lockdown), similar results to contemporaneous shows like Obiwan Kenobi, Book of Bobba Fett.
+  - Season two opener 4x higher swarm count than Season one opener.
+  - Season two last episodes swarm > first episodes swarm.
 
 The later sample is 3x original viewing.
 
 #### Size Differences Normalized for ITU Growth
 
-Estimate year-over-year P2P or internet population growth. Try to fit that to ITU(itu.int)  internet size and population estimates, see  ICT Development Index (IDI) 2025, ITU Facts and Figures 2025, Global Connectivity Report 2025.
+Estimate year-over-year P2P or internet population growth. Try to fit
+that to ITU(itu.int) internet size and population estimates, see ICT
+Development Index (IDI) 2025, ITU Facts and Figures 2025, Global
+Connectivity Report 2025.
 
 #### Spatial Analysis
 
-Breaking apart the swarms by geoname_id, the behavior over time can be learned.
-The swarms are divided into three partitions: only in the 2022 sample, only in the 2025 sample, and in both samples.
+Breaking apart the swarms by geoname_id, the behavior over time can be
+learned.  The swarms are divided into three partitions: only in the
+2022 sample, only in the 2025 sample, and in both samples.
 
 
 {% include andor-spatial-carto-table.html %}
@@ -121,7 +124,9 @@ The swarms are divided into three partitions: only in the 2022 sample, only in t
 
 ### Extrapolating to all episodes.
 
-Only half of the episodes in Andor season two were sampled. Can the missing episodes (204-206, 207-209) be approximated using data from the first (201-203) and (210-212) episodes?
+Only half of the episodes in Andor season two were sampled. Can the
+missing episodes (204-206, 207-209) be approximated using data from
+the first (201-203) and (210-212) episodes?
 
 <div style="height: 50px;"></div>
 
