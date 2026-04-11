@@ -148,6 +148,8 @@ The other oddity here is the increase in each ip downloading more media objects 
 
 The why remains elusive here. One operating theory is that debrid front-ends are automatically downloading various resolutions by default. Or some distributed file system is being created by yet-unknown pirate technology using the Bittorrent protocol.
 
+* Average may not mean anything for this distribution. Look at the histogram of values per ip instead. *
+
 <div style="height: 50px;"></div>
 ### Extrapolating to all episodes in a season from partial samples.
 
