@@ -54,9 +54,10 @@ layout: default
 ### What percentage of viewers are from the USA?
 
 #### Synthetic week 5 USA-only results
-Nielsen methodology uses 35 day measurements of select USA-only data feeds. Approximate this by using 5 week USA only swarm results. How does this compare to global or 15/26 week USA samples?
 
-The table above shows that for the first five weeks of the media
+Nielsen methodology uses 35 day measurements of select USA-only data feeds. This can be approximated with Alpha60 swarm data by using 5 week USA only swarm results. How does this then compare to global or 15/26 week USA samples?
+
+The table previously (see USA-only results [table](https://alpha60-devops.github.io/alpha60-results-star-wars-universe/docs/swu.html)) shows that for the first five weeks of the media
 object andor-210-211-212, the downloads from the USA are roughly 1
 million, the rest of the world roughly 13 million, showing that
 only 9% of all peers are "from" the USA. This shows the danger of
