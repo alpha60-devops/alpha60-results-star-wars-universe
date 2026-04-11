@@ -102,10 +102,21 @@ The later sample is 3x original viewing.
 
 #### Size Differences Normalized for ITU Growth
 
-Estimate year-over-year P2P or internet population growth. Try to fit
-that to ITU(itu.int) internet size and population estimates, see ICT
-Development Index (IDI) 2025, ITU Facts and Figures 2025, Global
-Connectivity Report 2025.
+Given that the two samples occurred two and a half years apart, what's a good method to normalize the size of the internet in 2022 to the bigger internet in 2025?
+
+The answer is to scale via data obtained from ITU(itu.int)
+internet size and population estimates. Consulting official publications and synthesizing the data into a year index of scalable size. See ICT Development Index
+(IDI) 2025 (and previous), ITU Facts and Figures, Global Connectivity
+Report.  The collated estimate year-over-year P2P or internet population
+growth from 2015 to 2025 can be found in the data repository [here](/resources/facts_and_figures.json).
+
+Using this techique, the multiple of 2022 to 2025 global internet
+users is (6.0/5.3) or about 1.13, normalizing the number of downloaders from
+2022's 5.8 million to 6.56 million 2025 equivalents.
+
+Comparing these scaled 15-week numbers from 2022 to the resampled number of downloaders in 2025 (15 week is 21,282,679) indicates that interest in the same media object increased by a factor of 3.24 over two and a half years. Far from fair-wearther friends, the extraoridary Andor fandom grew at a gigantic rate after the premiere season, only to explode by another multplle on top of this residule multple during the second season.
+
+
 
 #### Spatial/Temporal Analysis
 
