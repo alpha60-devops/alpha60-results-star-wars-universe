@@ -114,7 +114,7 @@ Using this techique, the multiple of 2022 to 2025 global internet
 users is (6.0/5.3) or about 1.13, normalizing the number of downloaders from
 2022's 5.8 million to 6.56 million 2025 equivalents.
 
-Comparing these scaled 15-week numbers from 2022 to the resampled number of downloaders in 2025 (15 week is 21,282,679) indicates that interest in the same media object increased by a factor of 3.24 over two and a half years. Far from fair-wearther friends, the extraoridary Andor fandom grew at a gigantic rate after the premiere season, only to explode by another multplle on top of this residule multple during the second season.
+Comparing these scaled 15-week numbers from 2022 to the resampled number of downloaders in 2025 (15 week is 21,282,679) indicates that interest in the same media object increased by a factor of 3.24 over two and a half years. Far from fair-weather friends, the extraordinary Andor fandom grew at a gigantic rate after the premiere season, only to explode by another multplle on top of this residule multple during the second season.
 
 
 
