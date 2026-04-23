@@ -122,15 +122,10 @@ users is (6.0/5.3) or about 1.13, normalizing the number of downloaders from
 
 Comparing these scaled 15-week numbers from 2022 to the resampled number of downloaders in 2025 (15 week is 21,282,679) indicates that interest in the same media object increased by a factor of 3.24 over two and a half years. Far from fair-weather friends, the extraordinary Andor fandom grew at a gigantic rate after the premiere season, only to explode by another multiple on top of this residual multiple during the second season.
 
-
-
-#### Swarn IP Analysis
+#### Swarm IP Analysis
 
 Swarm behavior over time can analyzed by repeated sampling over time. The sample swarms are then divided into three partitions: only in the
 2022 sample, only in the 2025 sample, and in both samples (the intersection).
-
-{% include andor-spatial-carto-table.html %}
-<div style="height: 50px;"></div>
 
 {% include andor-112-x-andor-112-compare-table.html %}
 <div style="height: 50px;"></div>
@@ -147,7 +142,6 @@ How many Disney+ users re-watch Andor once a year on the web-based official plat
 {% include game-of-thrones-707-x-game-of-thrones-806-compare-table.html %}
 <div style="height: 50px;"></div>
 
-
 The other oddity here is the increase in each ip downloading more media objects than just one format. In 2022, the dl/ip ratio was 1.89, and in 2025 it was 3.04. This can be thought of as each ip downloading 1.89 versions or variants of the movie: one for phones (720p resolution) and one for the big flat panel display (maybe 4k resolution). The the variants can also include different languages or subtitles that the canonical streaming release, or special audio formats or video or audio codecs optimized for playback on lower-end hardware.
 
 The why remains elusive here. One operating theory is that debrid front-ends are automatically downloading various resolutions by default. Or some distributed file system is being created by yet-unknown pirate technology using the Bittorrent protocol.
@@ -155,11 +149,18 @@ The why remains elusive here. One operating theory is that debrid front-ends are
 * Average may not mean anything for this distribution. Look at the histogram of values per ip instead. *
 
 
-#### Spatial/Temporal Analysis
+#### Geo Spatial/Temporal Analysis
 
-Projecting IP-space on to specific geography, we find 96% of internet addresses can be located via geolocation databases (Ipinfo.io).
+{% include andor-spatial-carto-table.html %}
+<div style="height: 50px;"></div>
 
-So, use the data set of IP addresses from the analysis above, and covert it to an aggregated datum tied to a specific geolocation (lat, long).
+Projecting IP-space on to specific geography, we find 96% of internet
+addresses can be located via geolocation databases (Ipinfo.io).
+
+Using the data set of IP addresses from the analysis above, transform
+it to an aggregated datum tied to a specific geolocation (lat, long)
+converted to a unique hexagon in a sphere of hexagons modling the
+world. (See H3 Hexagon).
 
 <img src="../resources/andor-carto-spatial-2-phase-hexagon-r5-threshold-1.1-scale-22.jpg" height="auto" width="100%">
 
