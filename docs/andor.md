@@ -124,7 +124,7 @@ Comparing these scaled 15-week numbers from 2022 to the resampled number of down
 
 
 
-#### Spatial/Temporal Analysis
+#### Swarn IP Analysis
 
 Swarm behavior over time can analyzed by repeated sampling over time. The sample swarms are then divided into three partitions: only in the
 2022 sample, only in the 2025 sample, and in both samples (the intersection).
@@ -153,6 +153,19 @@ The other oddity here is the increase in each ip downloading more media objects 
 The why remains elusive here. One operating theory is that debrid front-ends are automatically downloading various resolutions by default. Or some distributed file system is being created by yet-unknown pirate technology using the Bittorrent protocol.
 
 * Average may not mean anything for this distribution. Look at the histogram of values per ip instead. *
+
+
+#### Spatial/Temporal Analysis
+
+Projecting IP-space on to specific geography, we find 96% of internet addresses can be located via geolocation databases (Ipinfo.io).
+
+So, use the data set of IP addresses from the analysis above, and covert it to an aggregated datum tied to a specific geolocation (lat, long).
+
+<img src="../resources/andor-carto-spatial-2-phase-hexagon-r5-threshold-1.1-scale-22.jpg" height="auto" width="100%">
+
+
+
+
 
 <div style="height: 50px;"></div>
 ### Extrapolating to all episodes in a season from partial samples.
