@@ -162,10 +162,7 @@ it to an aggregated datum tied to a specific geolocation (lat, long)
 converted to a unique hexagon in a sphere of hexagons modling the
 world. (See H3 Hexagon).
 
-<img src="../resources/andor-carto-spatial-2-phase-hexagon-r5-threshold-1.1-scale-22.jpg" height="auto" width="100%">
-
-
-
+<img src="../resources/andor-carto-spatial-2-phase-hexagon-r5-threshold-1.1-scale-22.jpg" height="auto" width="80%">
 
 
 <div style="height: 50px;"></div>
