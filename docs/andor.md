@@ -20,6 +20,7 @@ layout: default
 	src="../resources/izzi-graph-hover-txt-polyline-red.js">
 </script>
 
+
 {::nomarkdown}
 {% include andor-downloads-by-week-cumulative-normalized-start.svg %}
 {:/}
@@ -31,6 +32,8 @@ layout: default
 <script type="text/javascript" crossorigin="anonymous" id="geojson-map"
 	src="../resources/izzi-map-leaflet-geojson-v7.3.js">
 </script>
+
+<link rel="stylesheet" href="../resources/izzi-table-wcag-22.css">
 
 {% include andor-s1s2-carto-table.html %}
 <div style="height: 50px;"></div>
