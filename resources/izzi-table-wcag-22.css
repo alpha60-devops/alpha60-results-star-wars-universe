@@ -22,8 +22,15 @@
     caption-side: top;
 }
 
-/* Accessibility improvements for Table Cells */
+/* Accessibility improvements for Tables */
 .table-cell {
+    padding: 8px 12px;
+    color: #0066cc;
+    font-weight: 500;
+    transition: all 0.2s ease;
+}
+
+.table-link {
     display: inline-block;
     padding: 8px 12px;
     color: #0066cc;
@@ -33,7 +40,9 @@
 }
 
 /* Focus indicator for keyboard navigation */
-.table-cell:focus {
+.focus-style:focus,
+.table-cell:focus,
+.table-link:focus {
     outline: 3px solid #0066cc;
     outline-offset: 3px;
     background-color: #f0f7ff;
@@ -42,7 +51,9 @@
 }
 
 /* Hover state for mouse users */
-.table-cell:hover {
+.hover-style:hover,
+.table-cell:hover,
+.table-link:hover {
     color: #004499;
     text-decoration: none;
     background-color: #f0f7ff;
@@ -50,7 +61,9 @@
 }
 
 /* Ensure sufficient color contrast (WCAG AA: 4.5:1) */
-.table-cell:visited {
+.visited-style:visited,
+.table-cell:visited,
+.table-link:visited {
     color: #6b4c9b;
 }
 
@@ -63,6 +76,12 @@ td:focus-within, th:focus-within {
 /* Ensure table is responsive */
 @media (max-width: 768px) {
     .table-cell {
+	display: block;
+	text-align: center;
+	margin: 5px 0;
+    }
+
+    .table-link {
 	display: block;
 	text-align: center;
 	margin: 5px 0;
