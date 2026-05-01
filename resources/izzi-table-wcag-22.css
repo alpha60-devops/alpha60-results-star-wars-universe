@@ -92,11 +92,11 @@ tbody tr:nth-child(even) {
 table {
     border-collapse: collapse;
     width: 100%;
-    margin: 2px 0;
+    margin: 20px 0;
 }
 
 th, td {
-    padding: 12px;
+    padding: 6px;
     text-align: left;
     border: 1px solid #dee2e6;
 }
