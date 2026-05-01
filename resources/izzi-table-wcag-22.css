@@ -40,7 +40,6 @@
 }
 
 /* Focus indicator for keyboard navigation */
-.focus-style:focus,
 .table-cell:focus,
 .table-link:focus {
     outline: 3px solid #0066cc;
@@ -51,7 +50,6 @@
 }
 
 /* Hover state for mouse users */
-.hover-style:hover,
 .table-cell:hover,
 .table-link:hover {
     color: #004499;
@@ -61,17 +59,11 @@
 }
 
 /* Ensure sufficient color contrast (WCAG AA: 4.5:1) */
-.visited-style:visited,
 .table-cell:visited,
 .table-link:visited {
     color: #6b4c9b;
 }
 
-/* Table cell focus styles */
-td:focus-within, th:focus-within {
-    outline: none;
-    background-color: #f8f9fa;
-}
 
 /* Ensure table is responsive */
 @media (max-width: 768px) {
