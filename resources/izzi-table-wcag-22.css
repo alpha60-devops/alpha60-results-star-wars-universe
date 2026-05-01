@@ -24,7 +24,6 @@
 
 /* Accessibility improvements for Tables */
 .table-cell {
-    display: inline-block;
     padding: 8px 12px;
     color: #0066cc;
     font-weight: 500;
@@ -56,9 +55,9 @@
 .table-cell:hover,
 .table-link:hover {
     color: #004499;
-    text-decoration: none;
     background-color: #f0f7ff;
     border-radius: 3px;
+    text-decoration: none;    
 }
 
 /* Ensure sufficient color contrast (WCAG AA: 4.5:1) */
