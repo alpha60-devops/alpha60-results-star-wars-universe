@@ -10,11 +10,9 @@ layout: default
 
 
 # Andor Seasons 1 and 2
-
-## Results
 <div style="height: 50px;"></div>
 
-### Graphs
+## Graphs
 
 <script type="text/javascript" crossorigin="anonymous" id="graph-hover"
 	src="../resources/izzi-graph-hover-txt-polyline-red.js">
@@ -27,7 +25,7 @@ layout: default
 <div style="height: 50px;"></div>
 
 
-### Maps
+## Maps
 
 <script type="text/javascript" crossorigin="anonymous" id="geojson-map"
 	src="../resources/izzi-map-leaflet-geojson-v7.3.js">
@@ -39,7 +37,7 @@ layout: default
 <div style="height: 50px;"></div>
 
 
-### Tables
+## Tables
 
 <script type="text/javascript" crossorigin="anonymous" id="table-sort"
 	src="../resources/izzi-script-table-sort-inline.js">
