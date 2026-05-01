@@ -1,5 +1,5 @@
-/* izzi-table-wcag-22.css - WCAG 2.2 compliant table styles */
-/* 20260430 deepseek / gemini wcag 2.2 audit */
+/* izzi-table-wcag-22.1.css - WCAG 2.2 compliant table styles */
+/* 20260501 deepseek wcag 2.2 audit | v2.1 Zebra class refactored */
 
 /* Screen reader only class - visually hidden but accessible */
 .sr-only {
@@ -14,7 +14,7 @@
     border-width: 0;
 }
 
-/* Caption in Table in H3 block */
+/* H3 Caption */
 .caption-h3 {
     text-align: left;
     padding: 8px;
@@ -63,78 +63,15 @@
     color: #6b4c9b;
 }
 
-/* Reset the interactive header buttons */
-th button.sort-toggle {
-  background: transparent;
-  border: none;
-  padding: 0.5rem; /* Adjust to match your table padding */
-  margin: 0;
-  font: inherit;
-  font-weight: bold;
-  color: inherit;
-  cursor: pointer;
-
-  /* Fill the header cell for a larger click target (WCAG 2.5.8 Target Size) */
-  width: 100%;
-  height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  text-align: left;
-}
-
-/* Provide a clear focus state for keyboard navigation */
-th button.sort-toggle:focus-visible {
-  outline: 3px solid #0d6efd;
-  outline-offset: -2px; /* Keeps the outline inside the cell boundary */
-  border-radius: 2px;
-}
-
-/* Hover styling to indicate interactivity */
-th button.sort-toggle:hover {
-  background-color: #f0f0f0; /* Soft gray highlight */
-}
-
-/* Ensure table is responsive */
-@media (max-width: 768px) {
-    .table-cell {
-	display: block;
-	text-align: center;
-	margin: 5px 0;
-    }
-
-    .table-link {
-	display: block;
-	text-align: center;
-	margin: 5px 0;
-    }
-
-    table, thead, tbody, th, td, tr {
-	display: block;
-    }
-
-    .sr-only {
-	display: none;
-    }
-
-    tr {
-	margin-bottom: 20px;
-	border: 1px solid #ddd;
-	border-radius: 5px;
-	padding: 10px;
-    }
-
-    td, th {
-	display: block;
-	text-align: center;
-	width: 100% !important;
-	padding: 8px !important;
-    }
-}
-
-/* Optional: Add zebra striping for better readability */
-tbody tr:nth-child(even) {
+/* table body striping */
+/* Add class="tbody-zebra" to <tbody> for alternating row colors */
+.tbody-zebra tr:nth-child(even) {
     background-color: #f8f9fa;
+}
+
+/* Optional: Darker hover on zebra rows for better interaction */
+.tbody-zebra tr:hover {
+    background-color: #e9ecef;
 }
 
 /* Ensure table has proper spacing */
@@ -153,4 +90,41 @@ th, td {
 th {
     background-color: #f8f9fa;
     font-weight: 600;
+}
+
+/* Ensure table is responsive */
+@media (max-width: 768px) {
+    .table-cell {
+        display: block;
+        text-align: center;
+        margin: 5px 0;
+    }
+
+    .table-link {
+        display: block;
+        text-align: center;
+        margin: 5px 0;
+    }
+
+    table, thead, tbody, th, td, tr {
+        display: block;
+    }
+
+    .sr-only {
+        display: none;
+    }
+
+    tr {
+        margin-bottom: 20px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        padding: 10px;
+    }
+
+    td, th {
+        display: block;
+        text-align: center;
+        width: 100% !important;
+        padding: 8px !important;
+    }
 }
