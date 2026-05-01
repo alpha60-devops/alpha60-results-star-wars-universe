@@ -1,86 +1,264 @@
-
 <details>
   <summary>
     <h3>Media Objects Itemized</h3>
   </summary>
   <div class="table-container">
       
-<table id="t-mo">
-<caption class="caption-h3">Media Objects Itemized Table</caption>
+<table id="t-mo" aria-label="Media objects itemized with sortable columns">
+  <caption class="caption-h3" id="table-caption">Media Objects Itemized Table — Click any column header to sort. Press Enter or Space to activate sorting.</caption>
 
-	<thead>
-	  <tr>
-	    <th onclick="sortTable('t-mo', 0)" scope="col" rowspan="2" width="26.6%">media object</th>
-	    <th onclick="sortTable('t-mo', 1)" scope="col" rowspan="2" width="6.6%">weeks</th>
-	    <th onclick="sortTable('t-mo', 2)" scope="col" rowspan="2" width="26.6%">duration</th>
-	    <th onclick="sortTable('t-mo', 3)" scope="col" rowspan="2" width="6.6%">btiha size</th>
-	    <th scope="col" colspan="2" width="16.6%">downloaders</th>
-	    <th scope="col" colspan="2" width="16.6%">uploaders</th>
-	  </tr>
-	  <tr>
-	    <th onclick="sortTable('t-mo', 4)" scope="col">total</th>
-	    <th onclick="sortTable('t-mo', 5)" scope="col">per btiha</th>
-	    <th onclick="sortTable('t-mo', 6)" scope="col">total</th>
-	    <th onclick="sortTable('t-mo', 7)" scope="col">per btiha</th>
-	   </tr>
-	</thead>
+  <thead>
+    <tr>
+      <th onclick="sortTable('t-mo', 0)" onkeydown="handleKeySort(event, 't-mo', 0)" scope="col" rowspan="2" width="26.6%" tabindex="0" role="button" aria-describedby="table-caption" aria-label="Sort by media object, currently unsorted">
+        media object
+        <span class="sort-indicator" aria-hidden="true"></span>
+      </th>
+      <th onclick="sortTable('t-mo', 1)" onkeydown="handleKeySort(event, 't-mo', 1)" scope="col" rowspan="2" width="6.6%" tabindex="0" role="button" aria-describedby="table-caption" aria-label="Sort by weeks, currently unsorted">
+        weeks
+        <span class="sort-indicator" aria-hidden="true"></span>
+      </th>
+      <th onclick="sortTable('t-mo', 2)" onkeydown="handleKeySort(event, 't-mo', 2)" scope="col" rowspan="2" width="26.6%" tabindex="0" role="button" aria-describedby="table-caption" aria-label="Sort by duration, currently unsorted">
+        duration
+        <span class="sort-indicator" aria-hidden="true"></span>
+      </th>
+      <th onclick="sortTable('t-mo', 3)" onkeydown="handleKeySort(event, 't-mo', 3)" scope="col" rowspan="2" width="6.6%" tabindex="0" role="button" aria-describedby="table-caption" aria-label="Sort by btiha size, currently unsorted">
+        btiha size
+        <span class="sort-indicator" aria-hidden="true"></span>
+      </th>
+      <th scope="col" colspan="2" width="16.6%">downloaders</th>
+      <th scope="col" colspan="2" width="16.6%">uploaders</th>
+    </tr>
+    <tr>
+      <th onclick="sortTable('t-mo', 4)" onkeydown="handleKeySort(event, 't-mo', 4)" scope="col" tabindex="0" role="button" aria-label="Sort downloaders total, currently unsorted">
+        total
+        <span class="sort-indicator" aria-hidden="true"></span>
+      </th>
+      <th onclick="sortTable('t-mo', 5)" onkeydown="handleKeySort(event, 't-mo', 5)" scope="col" tabindex="0" role="button" aria-label="Sort downloaders per btiha, currently unsorted">
+        per btiha
+        <span class="sort-indicator" aria-hidden="true"></span>
+      </th>
+      <th onclick="sortTable('t-mo', 6)" onkeydown="handleKeySort(event, 't-mo', 6)" scope="col" tabindex="0" role="button" aria-label="Sort uploaders total, currently unsorted">
+        total
+        <span class="sort-indicator" aria-hidden="true"></span>
+      </th>
+      <th onclick="sortTable('t-mo', 7)" onkeydown="handleKeySort(event, 't-mo', 7)" scope="col" tabindex="0" role="button" aria-label="Sort uploaders per btiha, currently unsorted">
+        per btiha
+        <span class="sort-indicator" aria-hidden="true"></span>
+      </th>
+    </tr>
+  </thead>
       
-<tbody class="tbody-zebra">
-<tr>
-<td scope="row" class="table-cell">andor-101-102-103</td>
-<td scope="row" class="table-cell">26</td>
-<td scope="row" class="table-cell"><time datetime="2022-09-21" aria-label="September 21, 2022"> 2022-09-21 </time> to <time datetime="2023-03-21" aria-label="March 21, 2023"> 2023-03-21 </time></td>
-<td scope="row" class="table-cell">347</td>
-<td scope="row" class="table-cell">13,172,413</td>
-<td scope="row" class="table-cell">37,960</td>
-<td scope="row" class="table-cell">4,317,482</td>
-<td scope="row" class="table-cell">12,442</td>
-</tr>
-
-<tr>
-<td scope="row" class="table-cell">andor-112</td>
-<td scope="row" class="table-cell">15</td>
-<td scope="row" class="table-cell"><time datetime="2022-11-23" aria-label="November 23, 2022"> 2022-11-23 </time> to <time datetime="2023-03-07" aria-label="March 07, 2023"> 2023-03-07 </time></td>
-<td scope="row" class="table-cell">199</td>
-<td scope="row" class="table-cell">5,806,419</td>
-<td scope="row" class="table-cell">29,177</td>
-<td scope="row" class="table-cell">1,964,406</td>
-<td scope="row" class="table-cell">9,871</td>
-</tr>
-
-<tr>
-<td scope="row" class="table-cell">andor-112</td>
-<td scope="row" class="table-cell">16</td>
-<td scope="row" class="table-cell"><time datetime="2025-04-23" aria-label="April 23, 2025"> 2025-04-23 </time> to <time datetime="2025-08-12" aria-label="August 12, 2025"> 2025-08-12 </time></td>
-<td scope="row" class="table-cell">199</td>
-<td scope="row" class="table-cell">22,721,062</td>
-<td scope="row" class="table-cell">114,176</td>
-<td scope="row" class="table-cell">764,733</td>
-<td scope="row" class="table-cell">3,842</td>
-</tr>
-
-<tr>
-<td scope="row" class="table-cell">andor-201-202-203</td>
-<td scope="row" class="table-cell">27</td>
-<td scope="row" class="table-cell"><time datetime="2025-04-23" aria-label="April 23, 2025"> 2025-04-23 </time> to <time datetime="2025-10-27" aria-label="October 27, 2025"> 2025-10-27 </time></td>
-<td scope="row" class="table-cell">424</td>
-<td scope="row" class="table-cell">54,179,489</td>
-<td scope="row" class="table-cell">127,781</td>
-<td scope="row" class="table-cell">3,411,904</td>
-<td scope="row" class="table-cell">8,046</td>
-</tr>
-
-<tr>
-<td scope="row" class="table-cell">andor-210-211-212</td>
-<td scope="row" class="table-cell">26</td>
-<td scope="row" class="table-cell"><time datetime="2025-05-14" aria-label="May 14, 2025"> 2025-05-14 </time> to <time datetime="2025-11-12" aria-label="November 12, 2025"> 2025-11-12 </time></td>
-<td scope="row" class="table-cell">493</td>
-<td scope="row" class="table-cell">64,192,966</td>
-<td scope="row" class="table-cell">130,208</td>
-<td scope="row" class="table-cell">3,504,441</td>
-<td scope="row" class="table-cell">7,108</td>
-</tr>
-
-</tbody>
+  <tbody class="tbody-zebra">
+    <tr>
+      <td scope="row" class="table-cell">andor-101-102-103</td>
+      <td class="table-cell">26</td>
+      <td class="table-cell">
+        <time datetime="2022-09-21" aria-label="September 21, 2022">2022-09-21</time> 
+        to 
+        <time datetime="2023-03-21" aria-label="March 21, 2023">2023-03-21</time>
+      </td>
+      <td class="table-cell">347</td>
+      <td class="table-cell">13,172,413</td>
+      <td class="table-cell">37,960</td>
+      <td class="table-cell">4,317,482</td>
+      <td class="table-cell">12,442</td>
+    </tr>
+    <tr>
+      <td scope="row" class="table-cell">andor-112</td>
+      <td class="table-cell">15</td>
+      <td class="table-cell">
+        <time datetime="2022-11-23" aria-label="November 23, 2022">2022-11-23</time> 
+        to 
+        <time datetime="2023-03-07" aria-label="March 07, 2023">2023-03-07</time>
+      </td>
+      <td class="table-cell">199</td>
+      <td class="table-cell">5,806,419</td>
+      <td class="table-cell">29,177</td>
+      <td class="table-cell">1,964,406</td>
+      <td class="table-cell">9,871</td>
+    </tr>
+    <tr>
+      <td scope="row" class="table-cell">andor-112</td>
+      <td class="table-cell">16</td>
+      <td class="table-cell">
+        <time datetime="2025-04-23" aria-label="April 23, 2025">2025-04-23</time> 
+        to 
+        <time datetime="2025-08-12" aria-label="August 12, 2025">2025-08-12</time>
+      </td>
+      <td class="table-cell">199</td>
+      <td class="table-cell">22,721,062</td>
+      <td class="table-cell">114,176</td>
+      <td class="table-cell">764,733</td>
+      <td class="table-cell">3,842</td>
+    </tr>
+    <tr>
+      <td scope="row" class="table-cell">andor-201-202-203</td>
+      <td class="table-cell">27</td>
+      <td class="table-cell">
+        <time datetime="2025-04-23" aria-label="April 23, 2025">2025-04-23</time> 
+        to 
+        <time datetime="2025-10-27" aria-label="October 27, 2025">2025-10-27</time>
+      </td>
+      <td class="table-cell">424</td>
+      <td class="table-cell">54,179,489</td>
+      <td class="table-cell">127,781</td>
+      <td class="table-cell">3,411,904</td>
+      <td class="table-cell">8,046</td>
+    </tr>
+    <tr>
+      <td scope="row" class="table-cell">andor-210-211-212</td>
+      <td class="table-cell">26</td>
+      <td class="table-cell">
+        <time datetime="2025-05-14" aria-label="May 14, 2025">2025-05-14</time> 
+        to 
+        <time datetime="2025-11-12" aria-label="November 12, 2025">2025-11-12</time>
+      </td>
+      <td class="table-cell">493</td>
+      <td class="table-cell">64,192,966</td>
+      <td class="table-cell">130,208</td>
+      <td class="table-cell">3,504,441</td>
+      <td class="table-cell">7,108</td>
+    </tr>
+  </tbody>
 </table>
-</div></details>
+
+<!-- Live region for screen reader sort announcements -->
+<div class="sr-only" aria-live="polite" id="sort-announcement"></div>
+
+<script>
+// Enhanced WCAG 2.2 sort function with ARIA announcements
+function sortTable(tableId, colIndex) {
+  const table = document.getElementById(tableId);
+  if (!table) return;
+
+  const tbody = table.tBodies[0];
+  if (!tbody) return;
+
+  const rows = Array.from(tbody.rows);
+  const currentSort = table.getAttribute('data-sort-col');
+  const currentAsc = table.getAttribute('data-sort-asc') === 'true';
+  
+  // Determine sort direction
+  let ascending;
+  if (currentSort === String(colIndex)) {
+    ascending = !currentAsc;
+  } else {
+    ascending = true;
+  }
+  
+  // Store sort state
+  table.setAttribute('data-sort-col', colIndex);
+  table.setAttribute('data-sort-asc', ascending);
+  
+  // Get column header cell
+  const headerRow = table.tHead.rows;
+  let headerCell = null;
+  for (let i = 0; i < headerRow.length; i++) {
+    const cells = headerRow[i].cells;
+    for (let j = 0; j < cells.length; j++) {
+      if (cells[j].getAttribute('onclick')?.includes(`sortTable('${tableId}', ${colIndex})`)) {
+        headerCell = cells[j];
+        break;
+      }
+    }
+  }
+  
+  // Clear all sort indicators
+  document.querySelectorAll(`#${tableId} th .sort-indicator`).forEach(ind => {
+    ind.textContent = '';
+    ind.className = 'sort-indicator';
+  });
+  
+  // Update sort indicator
+  if (headerCell) {
+    const indicator = headerCell.querySelector('.sort-indicator');
+    if (indicator) {
+      indicator.textContent = ascending ? ' ▲' : ' ▼';
+      indicator.className = `sort-indicator sort-${ascending ? 'asc' : 'desc'}`;
+      headerCell.setAttribute('aria-label', 
+        `${headerCell.textContent.replace(/[▲▼]/g, '').trim()}, sorted ${ascending ? 'ascending' : 'descending'}`
+      );
+    }
+  }
+  
+  // Sort rows
+  rows.sort((a, b) => {
+    let x = a.cells[colIndex]?.innerText.trim() || '';
+    let y = b.cells[colIndex]?.innerText.trim() || '';
+    
+    const xNum = parseNumber(x);
+    const yNum = parseNumber(y);
+    
+    if (xNum !== null && yNum !== null) {
+      return ascending ? xNum - yNum : yNum - xNum;
+    }
+    return ascending ? x.localeCompare(y) : y.localeCompare(x);
+  });
+  
+  // Reorder rows
+  rows.forEach(row => tbody.appendChild(row));
+  
+  // Announce sort for screen readers
+  const columnName = headerCell ? headerCell.textContent.replace(/[▲▼]/g, '').trim() : `Column ${colIndex + 1}`;
+  const direction = ascending ? 'ascending' : 'descending';
+  const announcement = document.getElementById('sort-announcement');
+  if (announcement) {
+    announcement.textContent = `${columnName} sorted ${direction}.`;
+  }
+}
+
+// Keyboard handler for Enter/Space
+function handleKeySort(event, tableId, colIndex) {
+  if (event.key === 'Enter' || event.key === ' ') {
+    event.preventDefault();
+    sortTable(tableId, colIndex);
+  }
+}
+
+// Number parser (from your existing script)
+function parseNumber(str) {
+  if (!str) return null;
+  const cleaned = str.replace(/,/g, '').trim();
+  if (cleaned === '' || isNaN(cleaned)) return null;
+  const num = Number(cleaned);
+  return isNaN(num) ? null : num;
+}
+
+// Initialize ARIA sort states on page load
+document.addEventListener('DOMContentLoaded', function() {
+  const table = document.getElementById('t-mo');
+  if (table && table.tHead) {
+    const headers = table.querySelectorAll('th[onclick]');
+    headers.forEach(header => {
+      if (!header.hasAttribute('tabindex')) {
+        header.setAttribute('tabindex', '0');
+        header.setAttribute('role', 'button');
+      }
+    });
+  }
+});
+</script>
+
+<style>
+/* Sort indicator styling for visual feedback */
+.sort-indicator {
+  display: inline-block;
+  width: 1em;
+  margin-left: 0.25em;
+  font-size: 0.85em;
+}
+.sort-indicator.sort-asc {
+  content: " ▲";
+}
+.sort-indicator.sort-desc {
+  content: " ▼";
+}
+th:focus {
+  outline: 3px solid #0066cc;
+  outline-offset: 2px;
+  background-color: #f0f7ff;
+}
+</style>
+
+</div>
+</details>
