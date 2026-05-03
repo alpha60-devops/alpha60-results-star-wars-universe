@@ -34,7 +34,7 @@ layout: default
 <link rel="stylesheet" href="../resources/izzi-table-wcag-22.css">
 
 {% include andor-spatial-carto-table.html %}
-<div style="height: 50px;"></div>
+<div style="height: 25px;"></div>
 
 {% include andor-s1s2-carto-table.html %}
 <div style="height: 50px;"></div>
