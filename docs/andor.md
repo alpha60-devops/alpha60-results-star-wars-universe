@@ -33,8 +33,12 @@ layout: default
 
 <link rel="stylesheet" href="../resources/izzi-table-wcag-22.css">
 
+{% include andor-spatial-carto-table.html %}
+<div style="height: 50px;"></div>
+
 {% include andor-s1s2-carto-table.html %}
 <div style="height: 50px;"></div>
+
 
 
 ## Tables
@@ -155,9 +159,6 @@ The why remains elusive here. One operating theory is that debrid front-ends are
 
 
 #### Geo Spatial/Temporal Analysis
-
-{% include andor-spatial-carto-table.html %}
-<div style="height: 50px;"></div>
 
 Projecting IP-space on to specific geography, we find 96% of internet
 addresses can be located via geolocation databases (Ipinfo.io).
