@@ -51,8 +51,8 @@ layout: default
 <div style="height: 50px;"></div>
 
 ## H2
-### H3
-#### H4
+### H3 Media Objects Itemized Table
+#### H4 Media Objects Itemized Table
 
 {% include andor-media-objects-table.html %}
 <div style="height: 50px;"></div>
