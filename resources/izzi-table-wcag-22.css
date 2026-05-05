@@ -17,6 +17,8 @@
 /* Revert only font properties for summary h3 */
 details summary h3,
 table caption h3 {
+    text-align: left;
+    color:revert-layer;
     font: revert-layer;
     font-size: revert-layer;
     font-weight: revert-layer;
