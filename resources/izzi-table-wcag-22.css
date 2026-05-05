@@ -15,7 +15,7 @@
 }
 
 /* Remove background and border from details container */
-details {
+summary {
     background: none;
     border: none;
     outline: none;
@@ -25,7 +25,7 @@ details {
 /* Revert these properties for matching h3 styles in both */
 details summary h3,
 table caption h3 {
-    text-align: revert-layer;
+    text-align: left;
     color:revert-layer;
     font: revert-layer;
     font-size: revert-layer;
