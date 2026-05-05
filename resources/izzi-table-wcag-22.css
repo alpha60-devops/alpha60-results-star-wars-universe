@@ -15,21 +15,14 @@
 }
 
 /* Revert only font properties for summary h3 */
-summary h3 {
+details summary h3,
+table caption h3 {
     font: revert-layer;
     font-size: revert-layer;
     font-weight: revert-layer;
     font-family: revert-layer;
     font-style: revert-layer;
     line-height: revert-layer;
-}
-
-/* H3 Caption */
-.caption-h3 {
-    text-align: left;
-    padding: 8px;
-    font-weight: bold;
-    caption-side: top;
 }
 
 /* Accessibility improvements for Tables */
