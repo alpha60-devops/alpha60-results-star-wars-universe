@@ -48,11 +48,7 @@ layout: default
 </script>
 
 {% include andor-meta-collection-table.html %}
-<div style="height: 50px;"></div>
-
-## H2
-### H3 Media Objects Itemized Table
-#### H4 Media Objects Itemized Table
+<div style="height: 25px;"></div>
 
 {% include andor-media-objects-table.html %}
 <div style="height: 50px;"></div>
