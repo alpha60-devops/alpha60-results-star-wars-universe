@@ -5,7 +5,7 @@
  *   File:  sortable-table.js
  *   Desc:  Adds sorting to a HTML data table that implements ARIA Authoring Practices
  *   URL:   https://www.w3.org/WAI/ARIA/apg/patterns/table/examples/sortable-table/
- *   ver:   20260505:3
+ *   ver:   20260506:4
  */
 
 'use strict';
@@ -22,9 +22,9 @@ class SortableTable {
       var ch = this.columnHeaders[i];
       var buttonNode = ch.querySelector('button');
       if (buttonNode) {
-        this.sortColumns.push(i);
-        buttonNode.setAttribute('data-column-index', i);
-        buttonNode.addEventListener('click', this.handleClick.bind(this));
+	this.sortColumns.push(i);
+	buttonNode.setAttribute('data-column-index', i);
+	buttonNode.addEventListener('click', this.handleClick.bind(this));
       }
     }
 
@@ -34,18 +34,18 @@ class SortableTable {
 
     if (this.optionCheckbox) {
       this.optionCheckbox.addEventListener(
-        'change',
-        this.handleOptionChange.bind(this)
+	'change',
+	this.handleOptionChange.bind(this)
       );
       if (this.optionCheckbox.checked) {
-        this.tableNode.classList.add('show-unsorted-icon');
+	this.tableNode.classList.add('show-unsorted-icon');
       }
     }
   }
 
   // Helper function to parse numbers from strings (handles commas, decimals, etc.)
   parseNumber(str) {
-    if (!str) return null;
+    if (!str || str === '') return null;
 
     // Remove commas and trim whitespace
     const cleaned = str.replace(/,/g, '').trim();
@@ -57,6 +57,18 @@ class SortableTable {
     return isNaN(num) ? null : num;
   }
 
+  getValueForComparison(cell) {
+    const rawValue = cell.textContent.trim();
+    const numericValue = this.parseNumber(rawValue);
+
+    return {
+      raw: rawValue,
+      numeric: numericValue,
+      // Return the numeric value if available, otherwise the raw string (lowercase for case-insensitive compare)
+      compareValue: numericValue !== null ? numericValue : rawValue.toLowerCase()
+    };
+  }
+
   setColumnHeaderSort(columnIndex) {
     if (typeof columnIndex === 'string') {
       columnIndex = parseInt(columnIndex);
@@ -66,47 +78,23 @@ class SortableTable {
       var ch = this.columnHeaders[i];
       var buttonNode = ch.querySelector('button');
       if (i === columnIndex) {
-        var value = ch.getAttribute('aria-sort');
-        if (value === 'descending') {
-          ch.setAttribute('aria-sort', 'ascending');
-          this.sortColumn(columnIndex, 'ascending');
-        } else {
-          ch.setAttribute('aria-sort', 'descending');
-          this.sortColumn(columnIndex, 'descending');
-        }
+	var value = ch.getAttribute('aria-sort');
+	if (value === 'descending') {
+	  ch.setAttribute('aria-sort', 'ascending');
+	  this.sortColumn(columnIndex, 'ascending');
+	} else {
+	  ch.setAttribute('aria-sort', 'descending');
+	  this.sortColumn(columnIndex, 'descending');
+	}
       } else {
-        if (ch.hasAttribute('aria-sort') && buttonNode) {
-          ch.removeAttribute('aria-sort');
-        }
+	if (ch.hasAttribute('aria-sort') && buttonNode) {
+	  ch.removeAttribute('aria-sort');
+	}
       }
     }
   }
 
   sortColumn(columnIndex, sortValue) {
-    function compareValues(a, b, sortValue, parseNumberFn) {
-      const x = a.value;
-      const y = b.value;
-      
-      const xNum = parseNumberFn(x);
-      const yNum = parseNumberFn(y);
-
-      if (xNum !== null && yNum !== null) {
-        // Both are numbers - sort numerically
-        if (sortValue === 'ascending') {
-          return xNum - yNum;
-        } else {
-          return yNum - xNum;
-        }
-      } else {
-        // At least one is text - sort as strings
-        if (sortValue === 'ascending') {
-          return x.localeCompare(y);
-        } else {
-          return y.localeCompare(x);
-        }
-      }
-    }
-
     var tbodyNode = this.tableNode.querySelector('tbody');
     var rowNodes = [];
     var dataCells = [];
@@ -119,18 +107,39 @@ class SortableTable {
       var rowCells = rowNode.querySelectorAll('th, td');
       var dataCell = rowCells[columnIndex];
 
-      var data = {};
-      data.index = index;
-      data.value = dataCell.textContent.toLowerCase().trim();
+      var comparisonInfo = this.getValueForComparison(dataCell);
+
+      var data = {
+	index: index,
+	compareValue: comparisonInfo.compareValue,
+	isNumeric: comparisonInfo.numeric !== null
+      };
+
       dataCells.push(data);
       rowNode = rowNode.nextElementSibling;
       index += 1;
     }
 
-    // Bind the parseNumber function and sortValue to the compare function
+    // Sort using the comparison values
     var self = this;
     dataCells.sort(function(a, b) {
-      return compareValues(a, b, sortValue, self.parseNumber.bind(self));
+      var aVal = a.compareValue;
+      var bVal = b.compareValue;
+
+      if (sortValue === 'ascending') {
+	if (typeof aVal === 'number' && typeof bVal === 'number') {
+	  return aVal - bVal;
+	} else {
+	  // Convert to strings for localeCompare if they're not both numbers
+	  return String(aVal).localeCompare(String(bVal));
+	}
+      } else {
+	if (typeof aVal === 'number' && typeof bVal === 'number') {
+	  return bVal - aVal;
+	} else {
+	  return String(bVal).localeCompare(String(aVal));
+	}
+      }
     });
 
     // remove rows
