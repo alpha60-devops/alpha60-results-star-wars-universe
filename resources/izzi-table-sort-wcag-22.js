@@ -10,7 +10,7 @@
 
 'use strict';
 
-const VERBOSE = false; // Set to true to enable console logging for debugging
+const VERBOSE = true; // Set to true to enable console logging for debugging
 
 class SortableTable {
   constructor(tableNode) {
