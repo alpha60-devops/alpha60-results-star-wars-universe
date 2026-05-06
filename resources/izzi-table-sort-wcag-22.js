@@ -5,7 +5,7 @@
  *   File:  sortable-table.js
  *   Desc:  Adds sorting to a HTML data table that implements ARIA Authoring Practices
  *   URL:   https://www.w3.org/WAI/ARIA/apg/patterns/table/examples/sortable-table/
- *   ver:   20260506:10
+ *   ver:   20260506:11
  */
 
 'use strict';
@@ -41,29 +41,28 @@ class SortableTable {
 
   // Helper to find the actual data column index for a header cell (handles colspan)
   getActualColumnIndex(headerCell) {
-    // Get the table body rows to determine column count
+    // Get the first data row to count columns
     var firstDataRow = this.tableNode.querySelector('tbody tr');
     if (!firstDataRow) return 0;
     
-    // Find which column in the data row aligns with this header
+    // Get the position by finding which column this header aligns with
+    // by checking the DOM structure and colspan attributes
     var headerRow = headerCell.parentElement;
-    var headerCellsInRow = headerRow.querySelectorAll('th, td');
+    var headerCellsInRow = Array.from(headerRow.querySelectorAll('th, td'));
     
-    var colSpanOffset = 0;
+    var currentCol = 0;
     for (var i = 0; i < headerCellsInRow.length; i++) {
-      if (headerCellsInRow[i] === headerCell) {
-        return colSpanOffset;
+      var cell = headerCellsInRow[i];
+      var colspan = cell.getAttribute('colspan');
+      var colWidth = colspan ? parseInt(colspan) : 1;
+      
+      if (cell === headerCell) {
+        return currentCol;
       }
-      // Account for colspan in previous header cells
-      var colspan = parseInt(headerCellsInRow[i].getAttribute('colspan'));
-      if (!isNaN(colspan)) {
-        colSpanOffset += colspan;
-      } else {
-        colSpanOffset += 1;
-      }
+      currentCol += colWidth;
     }
     
-    return colSpanOffset;
+    return currentCol;
   }
 
   parseNumber(str) {
@@ -84,6 +83,10 @@ class SortableTable {
   setColumnHeaderSort(columnIndex) {
     if (typeof columnIndex === 'string') {
       columnIndex = parseInt(columnIndex);
+    }
+
+    if (VERBOSE) {
+      console.log(`setColumnHeaderSort called with columnIndex: ${columnIndex}`);
     }
 
     // Find the header element that corresponds to this column index
@@ -131,19 +134,32 @@ class SortableTable {
     var asc = (sortValue === 'ascending');
     var self = this;
     
+    if (VERBOSE) {
+      console.log(`sortColumn called with columnIndex: ${columnIndex}, sortValue: ${sortValue}`);
+      console.log(`First row cell values for column ${columnIndex}:`);
+      if (rows[0] && rows[0].cells[columnIndex]) {
+        console.log(`  Value: "${rows[0].cells[columnIndex].innerText.trim()}"`);
+      }
+    }
+    
     // Create array of objects with row and its value
     var rowsWithValues = rows.map(function(row, idx) {
       var cell = row.cells[columnIndex];
-      var rawValue = cell ? cell.innerText.trim() : '';
+      if (!cell) {
+        if (VERBOSE) console.warn(`Row ${idx} has no cell at column ${columnIndex}`);
+        return {
+          row: row,
+          originalIndex: idx,
+          rawValue: '',
+          sortValue: '',
+          isNumeric: false,
+          numericValue: null
+        };
+      }
+      
+      var rawValue = cell.innerText.trim();
       var numericValue = self.parseNumber(rawValue);
       var sortValue = numericValue !== null ? numericValue : rawValue;
-      
-      if (VERBOSE) {
-        var mediaObject = row.cells[0] ? row.cells[0].innerText.trim() : '';
-        if (mediaObject === 'andor-112') {
-          console.log(`Row ${idx}: ${mediaObject}, weeks: ${row.cells[1].innerText.trim()}, value: ${rawValue}, parsed: ${numericValue}, sortValue: ${sortValue}`);
-        }
-      }
       
       return {
         row: row,
@@ -171,10 +187,6 @@ class SortableTable {
         else result = 1;
       }
       
-      if (VERBOSE) {
-        console.log(`Comparing ${a.numericValue} (${a.isNumeric}) vs ${b.numericValue} (${b.isNumeric}) = ${result}`);
-      }
-      
       // Reverse for descending
       return asc ? result : -result;
     });
@@ -183,7 +195,7 @@ class SortableTable {
       console.log('Sorted values:');
       rowsWithValues.forEach(function(item, idx) {
         var mediaObject = item.row.cells[0] ? item.row.cells[0].innerText.trim() : '';
-        console.log(`${idx}: ${mediaObject} - ${item.rawValue}`);
+        console.log(`${idx}: ${mediaObject} - ${item.rawValue} (parsed: ${item.numericValue})`);
       });
     }
     
@@ -198,6 +210,7 @@ class SortableTable {
   handleClick(event) {
     var tgt = event.currentTarget;
     var columnIndex = parseInt(tgt.getAttribute('data-column-index'));
+    if (VERBOSE) console.log(`Button clicked, column index from attribute: ${columnIndex}`);
     this.setColumnHeaderSort(columnIndex);
   }
 }
