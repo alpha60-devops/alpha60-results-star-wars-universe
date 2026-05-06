@@ -5,56 +5,80 @@
  *   File:  sortable-table.js
  *   Desc:  Adds sorting to a HTML data table that implements ARIA Authoring Practices
  *   URL:   https://www.w3.org/WAI/ARIA/apg/patterns/table/examples/sortable-table/
- *   ver:   20260505:3
+ *   ver:   20260506:10
  */
 
 'use strict';
+
+const VERBOSE = true; // Set to true to enable console logging for debugging
 
 class SortableTable {
   constructor(tableNode) {
     this.tableNode = tableNode;
 
-    this.columnHeaders = tableNode.querySelectorAll('thead th');
+    // Get ALL header cells in the thead (including all rows)
+    this.allHeaders = tableNode.querySelectorAll('thead th');
+    
+    // Find which header cells actually contain buttons (these are the sortable columns)
+    this.columnHeaders = [];
 
-    this.sortColumns = [];
-
-    for (var i = 0; i < this.columnHeaders.length; i++) {
-      var ch = this.columnHeaders[i];
+    for (var i = 0; i < this.allHeaders.length; i++) {
+      var ch = this.allHeaders[i];
       var buttonNode = ch.querySelector('button');
       if (buttonNode) {
-        this.sortColumns.push(i);
-        buttonNode.setAttribute('data-column-index', i);
+        // Store the actual DOM element and its logical column index
+        this.columnHeaders.push({
+          element: ch,
+          button: buttonNode,
+          columnIndex: this.getActualColumnIndex(ch)
+        });
+        
+        buttonNode.setAttribute('data-column-index', this.columnHeaders[this.columnHeaders.length - 1].columnIndex);
         buttonNode.addEventListener('click', this.handleClick.bind(this));
-      }
-    }
-
-    this.optionCheckbox = document.querySelector(
-      'input[type="checkbox"][value="show-unsorted-icon"]'
-    );
-
-    if (this.optionCheckbox) {
-      this.optionCheckbox.addEventListener(
-        'change',
-        this.handleOptionChange.bind(this)
-      );
-      if (this.optionCheckbox.checked) {
-        this.tableNode.classList.add('show-unsorted-icon');
       }
     }
   }
 
-  // Helper function to parse numbers from strings (handles commas, decimals, etc.)
+  // Helper to find the actual data column index for a header cell (handles colspan)
+  getActualColumnIndex(headerCell) {
+    // Get the table body rows to determine column count
+    var firstDataRow = this.tableNode.querySelector('tbody tr');
+    if (!firstDataRow) return 0;
+    
+    // Find which column in the data row aligns with this header
+    var headerRow = headerCell.parentElement;
+    var headerCellsInRow = headerRow.querySelectorAll('th, td');
+    
+    var colSpanOffset = 0;
+    for (var i = 0; i < headerCellsInRow.length; i++) {
+      if (headerCellsInRow[i] === headerCell) {
+        return colSpanOffset;
+      }
+      // Account for colspan in previous header cells
+      var colspan = parseInt(headerCellsInRow[i].getAttribute('colspan'));
+      if (!isNaN(colspan)) {
+        colSpanOffset += colspan;
+      } else {
+        colSpanOffset += 1;
+      }
+    }
+    
+    return colSpanOffset;
+  }
+
   parseNumber(str) {
     if (!str) return null;
 
     // Remove commas and trim whitespace
-    const cleaned = str.replace(/,/g, '').trim();
+    var cleaned = str.replace(/,/g, '').trim();
 
     // Check if it's a valid number
-    if (cleaned === '' || isNaN(cleaned)) return null;
-
-    const num = Number(cleaned);
-    return isNaN(num) ? null : num;
+    if (cleaned === '') return null;
+    
+    var num = Number(cleaned);
+    if (isNaN(num)) return null;
+    
+    return num;
   }
 
   setColumnHeaderSort(columnIndex) {
@@ -62,10 +86,22 @@ class SortableTable {
       columnIndex = parseInt(columnIndex);
     }
 
+    // Find the header element that corresponds to this column index
+    var targetHeader = null;
     for (var i = 0; i < this.columnHeaders.length; i++) {
-      var ch = this.columnHeaders[i];
-      var buttonNode = ch.querySelector('button');
-      if (i === columnIndex) {
+      if (this.columnHeaders[i].columnIndex === columnIndex) {
+        targetHeader = this.columnHeaders[i].element;
+        break;
+      }
+    }
+    
+    if (!targetHeader) return;
+
+    for (var i = 0; i < this.columnHeaders.length; i++) {
+      var ch = this.columnHeaders[i].element;
+      var buttonNode = this.columnHeaders[i].button;
+      
+      if (ch === targetHeader) {
         var value = ch.getAttribute('aria-sort');
         if (value === 'descending') {
           ch.setAttribute('aria-sort', 'ascending');
@@ -83,82 +119,86 @@ class SortableTable {
   }
 
   sortColumn(columnIndex, sortValue) {
-    function compareValues(a, b, sortValue, parseNumberFn) {
-      const x = a.value;
-      const y = b.value;
+    // Get the main tbody
+    var tbodyNode = this.tableNode.querySelector('tbody');
+    if (!tbodyNode) return;
+    
+    // Get all rows in the tbody
+    var rows = Array.from(tbodyNode.querySelectorAll('tr'));
+    
+    if (rows.length === 0) return;
+    
+    var asc = (sortValue === 'ascending');
+    var self = this;
+    
+    // Create array of objects with row and its value
+    var rowsWithValues = rows.map(function(row, idx) {
+      var cell = row.cells[columnIndex];
+      var rawValue = cell ? cell.innerText.trim() : '';
+      var numericValue = self.parseNumber(rawValue);
+      var sortValue = numericValue !== null ? numericValue : rawValue;
       
-      const xNum = parseNumberFn(x);
-      const yNum = parseNumberFn(y);
-
-      if (xNum !== null && yNum !== null) {
-        // Both are numbers - sort numerically
-        if (sortValue === 'ascending') {
-          return xNum - yNum;
-        } else {
-          return yNum - xNum;
-        }
-      } else {
-        // At least one is text - sort as strings
-        if (sortValue === 'ascending') {
-          return x.localeCompare(y);
-        } else {
-          return y.localeCompare(x);
+      if (VERBOSE) {
+        var mediaObject = row.cells[0] ? row.cells[0].innerText.trim() : '';
+        if (mediaObject === 'andor-112') {
+          console.log(`Row ${idx}: ${mediaObject}, weeks: ${row.cells[1].innerText.trim()}, value: ${rawValue}, parsed: ${numericValue}, sortValue: ${sortValue}`);
         }
       }
-    }
-
-    var tbodyNode = this.tableNode.querySelector('tbody');
-    var rowNodes = [];
-    var dataCells = [];
-
-    var rowNode = tbodyNode.firstElementChild;
-
-    var index = 0;
-    while (rowNode) {
-      rowNodes.push(rowNode);
-      var rowCells = rowNode.querySelectorAll('th, td');
-      var dataCell = rowCells[columnIndex];
-
-      var data = {};
-      data.index = index;
-      data.value = dataCell.textContent.toLowerCase().trim();
-      dataCells.push(data);
-      rowNode = rowNode.nextElementSibling;
-      index += 1;
-    }
-
-    // Bind the parseNumber function and sortValue to the compare function
-    var self = this;
-    dataCells.sort(function(a, b) {
-      return compareValues(a, b, sortValue, self.parseNumber.bind(self));
+      
+      return {
+        row: row,
+        originalIndex: idx,
+        rawValue: rawValue,
+        sortValue: sortValue,
+        isNumeric: numericValue !== null,
+        numericValue: numericValue
+      };
     });
-
-    // remove rows
-    while (tbodyNode.firstChild) {
-      tbodyNode.removeChild(tbodyNode.lastChild);
+    
+    // Sort the array
+    rowsWithValues.sort(function(a, b) {
+      var result = 0;
+      
+      if (a.isNumeric && b.isNumeric) {
+        // Both are numbers
+        result = a.numericValue - b.numericValue;
+      } else if (!a.isNumeric && !b.isNumeric) {
+        // Both are strings
+        result = a.sortValue.localeCompare(b.sortValue);
+      } else {
+        // Mixed type - numbers come before strings
+        if (a.isNumeric) result = -1;
+        else result = 1;
+      }
+      
+      if (VERBOSE) {
+        console.log(`Comparing ${a.numericValue} (${a.isNumeric}) vs ${b.numericValue} (${b.isNumeric}) = ${result}`);
+      }
+      
+      // Reverse for descending
+      return asc ? result : -result;
+    });
+    
+    if (VERBOSE) {
+      console.log('Sorted values:');
+      rowsWithValues.forEach(function(item, idx) {
+        var mediaObject = item.row.cells[0] ? item.row.cells[0].innerText.trim() : '';
+        console.log(`${idx}: ${mediaObject} - ${item.rawValue}`);
+      });
     }
-
-    // add sorted rows
-    for (var i = 0; i < dataCells.length; i += 1) {
-      tbodyNode.appendChild(rowNodes[dataCells[i].index]);
-    }
+    
+    // Reorder the DOM
+    rowsWithValues.forEach(function(item) {
+      tbodyNode.appendChild(item.row);
+    });
   }
 
   /* EVENT HANDLERS */
 
   handleClick(event) {
     var tgt = event.currentTarget;
-    this.setColumnHeaderSort(tgt.getAttribute('data-column-index'));
-  }
-
-  handleOptionChange(event) {
-    var tgt = event.currentTarget;
-
-    if (tgt.checked) {
-      this.tableNode.classList.add('show-unsorted-icon');
-    } else {
-      this.tableNode.classList.remove('show-unsorted-icon');
-    }
+    var columnIndex = parseInt(tgt.getAttribute('data-column-index'));
+    this.setColumnHeaderSort(columnIndex);
   }
 }
 
