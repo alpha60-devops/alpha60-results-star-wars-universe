@@ -44,8 +44,10 @@ layout: default
 ## Tables
 
 <script type="text/javascript" crossorigin="anonymous" id="table-sort"
-	src="../resources/izzi-script-table-sort-inline.js">
+	src="../resources/izzi-table-sort-wcag-22.js">
 </script>
+
+<link rel="stylesheet" href="../resources/izzi-table-sort-wcag-22.css">
 
 {% include andor-meta-collection-table.html %}
 <div style="height: 25px;"></div>
