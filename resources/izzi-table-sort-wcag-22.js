@@ -1,9 +1,9 @@
 /*
  *
  *   File:  izzi-table-sort-22.js
- *   Info:  Adds sorting to a HTML data table that implements ARIA Authoring Practices
+ *   Info:  Adds style-free sorting to a HTML data table with ARIA tags
  *   URL:   https://www.w3.org/WAI/ARIA/apg/patterns/table/examples/sortable-table/
- *   Ver:   20260506:8
+ *   Ver:   20260506:9
  *
  *   This content is derived from
  *   Sources licensed according to the W3C Software License at
@@ -31,8 +31,6 @@ class SortableTable {
 	this.columnHeaders.push({
 	  element: ch,
 	  button: buttonNode,
-	  // Find the visual column position by looking at cellIndex or using getBoundingClientRect
-	  // For tables with colspan, we need to calculate based on DOM structure
 	  columnIndex: this.getActualColumnIndex(ch)
 	});
 
@@ -49,7 +47,6 @@ class SortableTable {
     if (!firstDataRow) return 0;
 
     // Find which column in the data row aligns with this header
-    // We'll use a simple approach: find the header's position in the header row
     var headerRow = headerCell.parentElement;
     var headerCellsInRow = headerRow.querySelectorAll('th, td');
 
@@ -123,38 +120,58 @@ class SortableTable {
   }
 
   sortColumn(columnIndex, sortValue) {
-    var tbodyNode = this.tableNode.querySelector('tbody');
-    var rows = Array.from(tbodyNode.rows);
+    // Get the main tbody (skip any thead or tfoot)
+    var tbodyNode = this.tableNode.querySelector('tbody:not(.sr-only)');
+    if (!tbodyNode) return;
+
+    // Get all rows in the tbody
+    var rows = Array.from(tbodyNode.children).filter(function(el) {
+      return el.tagName === 'TR';
+    });
+
+    if (rows.length === 0) return;
 
     var asc = (sortValue === 'ascending');
     var self = this;
 
-    rows.sort(function(a, b) {
-      // Make sure the column index exists in the row
-      if (columnIndex >= a.cells.length || columnIndex >= b.cells.length) {
-	return 0;
-      }
+    // Create array of objects with row and its value
+    var rowsWithValues = rows.map(function(row, idx) {
+      var cell = row.cells[columnIndex];
+      var rawValue = cell ? cell.innerText.trim() : '';
+      var numericValue = self.parseNumber(rawValue);
 
-      // Get cell values as raw text
-      var x = a.cells[columnIndex].innerText.trim();
-      var y = b.cells[columnIndex].innerText.trim();
-
-      // Try to parse as numbers (handles commas like "64,192,966")
-      var xNum = self.parseNumber(x);
-      var yNum = self.parseNumber(y);
-
-      if (xNum !== null && yNum !== null) {
-	// Both are numbers - sort numerically
-	return asc ? xNum - yNum : yNum - xNum;
-      } else {
-	// At least one is text - sort as strings
-	return asc ? x.localeCompare(y) : y.localeCompare(x);
-      }
+      return {
+	row: row,
+	originalIndex: idx,
+	rawValue: rawValue,
+	value: numericValue !== null ? numericValue : rawValue,
+	isNumeric: numericValue !== null
+      };
     });
 
-    // Re-append sorted rows
-    rows.forEach(function(row) {
-      tbodyNode.appendChild(row);
+    // Sort the array
+    rowsWithValues.sort(function(a, b) {
+      var result = 0;
+
+      if (a.isNumeric && b.isNumeric) {
+	// Both are numbers
+	result = a.value - b.value;
+      } else if (!a.isNumeric && !b.isNumeric) {
+	// Both are strings
+	result = a.value.localeCompare(b.value);
+      } else {
+	// Mixed type - numbers come before strings? Actually let's treat numbers as smaller
+	if (a.isNumeric) result = -1;
+	else result = 1;
+      }
+
+      // Reverse for descending
+      return asc ? result : -result;
+    });
+
+    // Reorder the DOM
+    rowsWithValues.forEach(function(item) {
+      tbodyNode.appendChild(item.row);
     });
   }
 
