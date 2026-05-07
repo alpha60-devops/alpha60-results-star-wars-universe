@@ -5,7 +5,7 @@
  *   File:  sortable-table.js
  *   Desc:  Adds sorting to a HTML data table that implements ARIA Authoring Practices
  *   URL:   https://www.w3.org/WAI/ARIA/apg/patterns/table/examples/sortable-table/
- *   ver:   20260506:12
+ *   ver:   20260506:13
  */
 
 'use strict';
@@ -16,7 +16,7 @@ class SortableTable {
   constructor(tableNode) {
     this.tableNode = tableNode;
 
-    // Get ALL header cells in the thead (including all rows)
+    // Get ALL header cells in the thead
     this.allHeaders = tableNode.querySelectorAll('thead th');
     
     // Find which header cells actually contain buttons (these are the sortable columns)
@@ -27,62 +27,55 @@ class SortableTable {
       var buttonNode = ch.querySelector('button');
       if (buttonNode) {
         // Store the actual DOM element and its logical column index
+        var columnIndex = this.getColumnIndexFromHeader(ch);
         this.columnHeaders.push({
           element: ch,
           button: buttonNode,
-          columnIndex: this.getActualColumnIndex(ch)
+          columnIndex: columnIndex
         });
         
         if (VERBOSE) {
           var buttonText = buttonNode.innerText.trim();
-          console.log(`Button "${buttonText}" assigned to column index: ${this.columnHeaders[this.columnHeaders.length - 1].columnIndex}`);
+          console.log(`Button "${buttonText}" in header "${ch.innerText.trim()}" assigned to column index: ${columnIndex}`);
         }
         
-        buttonNode.setAttribute('data-column-index', this.columnHeaders[this.columnHeaders.length - 1].columnIndex);
+        buttonNode.setAttribute('data-column-index', columnIndex);
         buttonNode.addEventListener('click', this.handleClick.bind(this));
       }
     }
   }
 
-  // Helper to find the actual data column index for a header cell (handles colspan)
-  getActualColumnIndex(headerCell) {
-    // Get the first data row to count columns
+  // Find the column index by examining data rows and matching header position
+  getColumnIndexFromHeader(headerCell) {
+    // Get the first data row
     var firstDataRow = this.tableNode.querySelector('tbody tr');
     if (!firstDataRow) return 0;
     
-    // Get all header cells in the same row
+    // Get the position of this header in its row
     var headerRow = headerCell.parentElement;
-    var allHeaderCells = Array.from(headerRow.querySelectorAll('th'));
+    var headerCellsInRow = Array.from(headerRow.children);
+    var headerIndex = headerCellsInRow.indexOf(headerCell);
     
-    // Find the position of this header cell in its row
-    var cellIndex = allHeaderCells.indexOf(headerCell);
-    if (cellIndex === -1) return 0;
+    // Count how many columns this header spans (colspan)
+    var colspan = parseInt(headerCell.getAttribute('colspan'));
+    if (isNaN(colspan)) colspan = 1;
     
-    // Find the corresponding cell in the data row
-    // For complex headers with colspans, we need to map header cells to data columns
-    var dataRowCells = Array.from(firstDataRow.cells);
-    
-    // If the count matches, use direct index
-    if (allHeaderCells.length === dataRowCells.length) {
-      return cellIndex;
+    // Count all previous colspans to find the starting column
+    var startCol = 0;
+    for (var i = 0; i < headerIndex; i++) {
+      var prevHeader = headerCellsInRow[i];
+      var prevColspan = parseInt(prevHeader.getAttribute('colspan'));
+      if (isNaN(prevColspan)) prevColspan = 1;
+      startCol += prevColspan;
     }
     
-    // Otherwise, we need to account for colspans in the header
-    var colOffset = 0;
-    for (var i = 0; i <= cellIndex; i++) {
-      var header = allHeaderCells[i];
-      var colspan = header.getAttribute('colspan');
-      if (i === cellIndex) {
-        return colOffset;
-      }
-      if (colspan) {
-        colOffset += parseInt(colspan);
-      } else {
-        colOffset += 1;
-      }
+    if (VERBOSE) {
+      console.log(`Header at position ${headerIndex} starts at column ${startCol} and spans ${colspan} columns`);
     }
     
-    return colOffset;
+    // For buttons, they're usually on the bottom row of headers
+    // Return the starting column index
+    return startCol;
   }
 
   parseNumber(str) {
@@ -158,6 +151,8 @@ class SortableTable {
       console.log(`sortColumn called with columnIndex: ${columnIndex}, sortValue: ${sortValue}`);
       if (rows[0] && rows[0].cells[columnIndex]) {
         console.log(`First row cell values for column ${columnIndex}: "${rows[0].cells[columnIndex].innerText.trim()}"`);
+      } else {
+        console.error(`Column ${columnIndex} does not exist in data rows! Max columns: ${rows[0] ? rows[0].cells.length : 0}`);
       }
     }
     
@@ -214,7 +209,7 @@ class SortableTable {
       console.log('Sorted values:');
       rowsWithValues.forEach(function(item, idx) {
         var mediaObject = item.row.cells[0] ? item.row.cells[0].innerText.trim() : '';
-        console.log(`${idx}: ${mediaObject} - ${item.rawValue} (parsed: ${item.numericValue})`);
+        console.log(`${idx}: ${mediaObject} - "${item.rawValue}" (parsed: ${item.numericValue})`);
       });
     }
     
