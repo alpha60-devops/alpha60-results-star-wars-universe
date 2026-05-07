@@ -5,7 +5,7 @@
  *   File:  sortable-table.js
  *   Desc:  Adds sorting to a HTML data table that implements ARIA Authoring Practices
  *   URL:   https://www.w3.org/WAI/ARIA/apg/patterns/table/examples/sortable-table/
- *   ver:   20260506:13
+ *   ver:   20260505:14
  */
 
 'use strict';
@@ -26,8 +26,16 @@ class SortableTable {
       var ch = this.allHeaders[i];
       var buttonNode = ch.querySelector('button');
       if (buttonNode) {
-        // Store the actual DOM element and its logical column index
-        var columnIndex = this.getColumnIndexFromHeader(ch);
+        // Get the column ID from the column-idx attribute
+        var columnId = ch.getAttribute('column-idx');
+        
+        if (columnId === null) {
+          console.error('Sortable th element missing column-idx attribute:', ch);
+          continue;
+        }
+        
+        var columnIndex = parseInt(columnId);
+        
         this.columnHeaders.push({
           element: ch,
           button: buttonNode,
@@ -36,46 +44,13 @@ class SortableTable {
         
         if (VERBOSE) {
           var buttonText = buttonNode.innerText.trim();
-          console.log(`Button "${buttonText}" in header "${ch.innerText.trim()}" assigned to column index: ${columnIndex}`);
+          console.log(`Button "${buttonText}" assigned to column index: ${columnIndex}`);
         }
         
         buttonNode.setAttribute('data-column-index', columnIndex);
         buttonNode.addEventListener('click', this.handleClick.bind(this));
       }
     }
-  }
-
-  // Find the column index by examining data rows and matching header position
-  getColumnIndexFromHeader(headerCell) {
-    // Get the first data row
-    var firstDataRow = this.tableNode.querySelector('tbody tr');
-    if (!firstDataRow) return 0;
-    
-    // Get the position of this header in its row
-    var headerRow = headerCell.parentElement;
-    var headerCellsInRow = Array.from(headerRow.children);
-    var headerIndex = headerCellsInRow.indexOf(headerCell);
-    
-    // Count how many columns this header spans (colspan)
-    var colspan = parseInt(headerCell.getAttribute('colspan'));
-    if (isNaN(colspan)) colspan = 1;
-    
-    // Count all previous colspans to find the starting column
-    var startCol = 0;
-    for (var i = 0; i < headerIndex; i++) {
-      var prevHeader = headerCellsInRow[i];
-      var prevColspan = parseInt(prevHeader.getAttribute('colspan'));
-      if (isNaN(prevColspan)) prevColspan = 1;
-      startCol += prevColspan;
-    }
-    
-    if (VERBOSE) {
-      console.log(`Header at position ${headerIndex} starts at column ${startCol} and spans ${colspan} columns`);
-    }
-    
-    // For buttons, they're usually on the bottom row of headers
-    // Return the starting column index
-    return startCol;
   }
 
   parseNumber(str) {
@@ -151,8 +126,6 @@ class SortableTable {
       console.log(`sortColumn called with columnIndex: ${columnIndex}, sortValue: ${sortValue}`);
       if (rows[0] && rows[0].cells[columnIndex]) {
         console.log(`First row cell values for column ${columnIndex}: "${rows[0].cells[columnIndex].innerText.trim()}"`);
-      } else {
-        console.error(`Column ${columnIndex} does not exist in data rows! Max columns: ${rows[0] ? rows[0].cells.length : 0}`);
       }
     }
     
