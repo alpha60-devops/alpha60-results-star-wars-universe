@@ -1,4 +1,23 @@
-/* 20260507 v3 table sort button styles */
+
+table.sortable td,
+table.sortable th {
+  padding: 0.125em 0.25em;
+  width: 8em;
+}
+
+table.sortable th {
+  font-weight: bold;
+  border-bottom: thin solid #888;
+  position: relative;
+}
+
+table.sortable th.no-sort {
+  padding-top: 0.35em;
+}
+
+table.sortable th:nth-child(5) {
+  width: 10em;
+}
 
 table.sortable th button {
   padding: 4px;
@@ -46,6 +65,13 @@ table.show-unsorted-icon th:not([aria-sort]) button span::after {
   left: -4px;
 }
 
+table.sortable td.num {
+  text-align: right;
+}
+
+table.sortable tbody tr:nth-child(odd) {
+  background-color: #ddd;
+}
 
 /* Focus and hover styling */
 
