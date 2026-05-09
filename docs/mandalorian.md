@@ -10,11 +10,9 @@ layout: default
 
 
 # Mandalorian Seasons 1,2,3
-
-## Results
 <div style="height: 50px;"></div>
 
-### Graphs
+## Graphs
 
 <script type="text/javascript" crossorigin="anonymous" id="graph-hover"
 	src="../resources/izzi-graph-hover-txt-polyline-red.js">
@@ -26,20 +24,19 @@ layout: default
 <div style="height: 50px;"></div>
 
 
-### Maps
-
-<script type="text/javascript" crossorigin="anonymous" id="geojson-map"
-	src="../resources/izzi-leaflet-map-geojson.js">
-</script>
+## Maps
 
 <div style="height: 50px;"></div>
 
 
-### Tables
+## Tables
 
 <script type="text/javascript" crossorigin="anonymous" id="table-sort"
-	src="../resources/izzi-script-table-sort-inline.js">
+	src="../resources/izzi-table-sort-wcag-22.js">
 </script>
+
+<link rel="stylesheet" href="../resources/izzi-table-wcag-22.css">
+<link rel="stylesheet" href="../resources/izzi-table-sort-wcag-22.css">
 
 {% include mandalorian-meta-collection-table.html %}
 <div style="height: 50px;"></div>
@@ -50,7 +47,7 @@ layout: default
 
 ## Commentary, Questions
 
-- Year-over-year growth vs. ITU growth
+### Year-over-year growth vs. ITU growth
 
 
 {::nomarkdown}

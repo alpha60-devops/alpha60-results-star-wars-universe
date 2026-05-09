@@ -10,11 +10,9 @@ layout: default
 
 
 # Star Wars Universe
-
-## Results
 <div style="height: 50px;"></div>
 
-### Graphs
+## Graphs
 
 <script type="text/javascript" crossorigin="anonymous" id="graph-fade-js"
 	src="../scripts/izzi-graph-hover-txt-polyline-red.js">
@@ -32,27 +30,31 @@ layout: default
         src="../resources/izzi-map-leaflet-geojson-v7.3.js">
 </script>
 
+<link rel="stylesheet" href="../resources/izzi-table-wcag-22.css">
+
 {% include swu-spatial-carto-table.html %}
 <div style="height: 50px;"></div>
 
 
-### Tables
+## Tables
 
 <script type="text/javascript" crossorigin="anonymous" id="table-sort"
-	src="../resources/izzi-script-table-sort-inline.js">
+	src="../resources/izzi-table-sort-wcag-22.js">
 </script>
 
+<link rel="stylesheet" href="../resources/izzi-table-sort-wcag-22.css">
+
 {% include swu-meta-collection-table.html %}
-<div style="height: 50px;"></div>
+<div style="height: 25px;"></div>
 
 {% include swu-media-objects-table.html %}
-<div style="height: 50px;"></div>
+<div style="height: 25px;"></div>
 
 {% include star-wars-universe-geo-slices-usa-weeks-1-5-10-20.html %}
-<div style="height: 50px;"></div>
+<div style="height: 25px;"></div>
 
 {% include star-wars-universe-geo-slices-africa.html %}
-<div style="height: 50px;"></div>
+<div style="height: 25px;"></div>
 
 {% include star-wars-universe-geo-slices-asia.html %}
 <div style="height: 50px;"></div>

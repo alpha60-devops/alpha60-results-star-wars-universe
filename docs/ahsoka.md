@@ -10,11 +10,9 @@ layout: default
 
 
 # Ahsoka, Ackolyte, Visions, Kenobi, etc.
-
-## Results
 <div style="height: 50px;"></div>
 
-### Graphs
+## Graphs
 
 <script type="text/javascript" crossorigin="anonymous" id="graph-hover"
 	src="../resources/izzi-graph-hover-txt-polyline-red.js">
@@ -26,20 +24,19 @@ layout: default
 <div style="height: 50px;"></div>
 
 
-### Maps
-
-<script type="text/javascript" crossorigin="anonymous" id="geojson-map"
-	src="../resources/izzi-leaflet-map-geojson.js">
-</script>
+## Maps
 
 <div style="height: 50px;"></div>
 
 
-### Tables
+## Tables
 
 <script type="text/javascript" crossorigin="anonymous" id="table-sort"
-	src="../resources/izzi-script-table-sort-inline.js">
+	src="../resources/izzi-table-sort-wcag-22.js">
 </script>
+
+<link rel="stylesheet" href="../resources/izzi-table-wcag-22.css">
+<link rel="stylesheet" href="../resources/izzi-table-sort-wcag-22.css">
 
 {% include ahsoka-ackolyte-others-meta-collection-table.html %}
 <div style="height: 50px;"></div>
@@ -50,15 +47,17 @@ layout: default
 
 ## Commentary, Questions
 
-- Acolyte
-  - if this series was so successful with downloaders, why was it cancelled?
-  - Abigail De Kosnik speculates about this show's plot violating Star Wars cannon with depictions of evil, and thus the decision to not produce more.
-  - Both Ahsoka and Acolyte did well in terms of downloader
-	numbers. Both had POC women leads. In a direct comparison to
-	comparable shows with white leads (Mandalorian season 3 and
-	Obi-Wan Kenobi). the downloaders for these female-led shows win.
+### Acolyte
 
-- Obi Wan Kenobi
+If this series was so successful with downloaders, why was it cancelled?
+
+During a presentation at HOPE 16, Abigail De Kosnik speculated about this show's plot violating Star Wars cannon with depictions of evil, and thus the decision to not produce more. The presence of a similar padawan-sith storyline in 2026's Maul Shadow Lord shows that the powers that be in control of Star Wars IP are rolling around trying another aspect of this relationship. In Maul, the sith is temporarily good and the padawan is good but listening. In Acolyte, the opposite: the sith is bad and the padawan may be as well. Some combination or permutation of this struggle will show up again, or as a constant presence in future Maul seasons.
+
+It is interesting to note that the Star Wars fandom has noticed the above, and Acolyte returned to the Disney top ten streaming charts when Maul was completing broadcast of its last episodes. Is there hope for the sexy sith yet?
+
+Both Ahsoka and Acolyte did well in terms of downloader numbers. Both had POC women leads. In a direct comparison to comparable shows with white leads (Mandalorian season 3 and Obi-Wan Kenobi). The downloaders for these female-led shows win.
+
+### Obi Wan Kenobi
   - would a hypothetical second season follow the same trajectory as Andor?
 - Year-over-year growth vs. ITU growth
 

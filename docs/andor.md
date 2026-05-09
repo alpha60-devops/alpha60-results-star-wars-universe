@@ -18,7 +18,6 @@ layout: default
 	src="../resources/izzi-graph-hover-txt-polyline-red.js">
 </script>
 
-
 {::nomarkdown}
 {% include andor-downloads-by-week-cumulative-normalized-start.svg %}
 {:/}
@@ -58,7 +57,6 @@ layout: default
 
 ## Commentary, Questions
 
-<div style="height: 50px;"></div>
 ### What percentage of viewers are from the USA?
 
 #### Synthetic week 5 USA-only results
