@@ -77,8 +77,12 @@ slightly over 2% of all peers measured.
 
 #### Top Downloads by Country
 
-The top six countries for andor-210-211-212 are:
-{% include andor-210-downloaders-per-country-per-week.svg %}
+The top seven countries for andor-112-2022 are:
+{% include andor-112-2022-downloads-by-country.svg %}
+<div style="height: 25px;"></div>
+
+The top seven countries for andor-112-2025 are:
+{% include andor-112-2025-downloads-by-country.svg %}
 
 <div style="height: 50px;"></div>
 ### Long Duration and the Shape of Streaming Serialization
