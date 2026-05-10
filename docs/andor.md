@@ -173,8 +173,9 @@ it to an aggregated datum tied to a specific geolocation (lat, long)
 converted to a unique hexagon in a sphere of hexagons modling the
 world. (See H3 Hexagon).
 
+<div align="center">
 <img src="../resources/andor-carto-spatial-2-phase-hexagon-r5-threshold-1.1-scale-22.jpg" height="auto" width="80%">
-
+</div>
 
 <div style="height: 50px;"></div>
 ### Extrapolating to all episodes in a season from partial samples.
