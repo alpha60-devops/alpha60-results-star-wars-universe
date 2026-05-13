@@ -5,85 +5,29 @@
   </summary>
   <div class="table-container">
       
-<table id="t-mo-andor" class="sortable">
-<caption class="sr-only">Media Objects Itemized Table</caption>
+<table id="t-mo">
+<caption class="caption-h3">Media Objects Itemized Table</caption>
 
-<colgroup>
-  <col style="width: 26.6%;">
-  <col style="width: 6.6%;">
-  <col style="width: 26.6%;">
-  <col style="width: 6.6%;">
-  <!-- downloaders (16.6% total / 2 cols = 8.3% each) -->
-  <col style="width: 8.3%;">
-  <col style="width: 8.3%;">
-  <!-- uploaders (16.6% total / 2 cols = 8.3% each) -->
-  <col style="width: 8.3%;">
-  <col style="width: 8.3%;">
-</colgroup>
-<thead>
-  <tr>
-    <th aria-sort="ascending" column-idx="0" scope="col" rowspan="2">
-      <button>
-	media object
-	 <span aria-hidden="true"></span>
-      </button>
-    </th>
-    <th column-idx="1" scope="col" rowspan="2">
-      <button>
-	weeks
-	 <span aria-hidden="true"></span>
-      </button>
-    </th>
-    <th column-idx="2" scope="col" rowspan="2">
-      <button>
-	duration
-	 <span aria-hidden="true"></span>
-      </button>
-    </th>
-    <th column-idx="3" scope="col" rowspan="2">
-      <button>
-	btiha size
-	 <span aria-hidden="true"></span>
-      </button>
-    </th>
-    <th scope="col" colspan="2">
-	downloaders
-    </th>
-    <th scope="col" colspan="2">
-	uploaders
-    </th>
-   </tr>
-   <tr>
-     <th column-idx="4" scope="col">
-       <button>
-	 total
-	 <span aria-hidden="true"></span>
-      </button>
-     </th>
-     <th column-idx="5" scope="col">
-       <button>
-	 per btiha
-	 <span aria-hidden="true"></span>
-      </button>
-     </th>
-     <th column-idx="6" scope="col">
-       <button>
-	 total
-	 <span aria-hidden="true"></span>
-      </button>
-     </th>
-     <th column-idx="7" scope="col">
-       <button>
-	 per btiha
-	 <span aria-hidden="true"></span>
-      </button>
-     </th>
-  </tr>
-</thead>
-
+	<thead>
+	  <tr>
+	    <th onclick="sortTable('t-mo', 0)" scope="col" rowspan="2" width="26.6%">media object</th>
+	    <th onclick="sortTable('t-mo', 1)" scope="col" rowspan="2" width="6.6%">weeks</th>
+	    <th onclick="sortTable('t-mo', 2)" scope="col" rowspan="2" width="26.6%">duration</th>
+	    <th onclick="sortTable('t-mo', 3)" scope="col" rowspan="2" width="6.6%">btiha size</th>
+	    <th scope="col" colspan="2" width="16.6%">downloaders</th>
+	    <th scope="col" colspan="2" width="16.6%">uploaders</th>
+	  </tr>
+	  <tr>
+	    <th onclick="sortTable('t-mo', 4)" scope="col">total</th>
+	    <th onclick="sortTable('t-mo', 5)" scope="col">per btiha</th>
+	    <th onclick="sortTable('t-mo', 6)" scope="col">total</th>
+	    <th onclick="sortTable('t-mo', 7)" scope="col">per btiha</th>
+	   </tr>
+	</thead>
+      
 <tbody class="tbody-zebra">
 <tr>
-<td scope="row" class="table-cell">andor-101</td>
+<td scope="row" class="table-cell">andor-101-102-103</td>
 <td scope="row" class="table-cell">26</td>
 <td scope="row" class="table-cell"><time datetime="2022-09-21" aria-label="September 21, 2022"> 2022-09-21 </time> to <time datetime="2023-03-21" aria-label="March 21, 2023"> 2023-03-21 </time></td>
 <td scope="row" class="table-cell">347</td>
@@ -94,7 +38,7 @@
 </tr>
 
 <tr>
-<td scope="row" class="table-cell">andor-112-2022</td>
+<td scope="row" class="table-cell">andor-112</td>
 <td scope="row" class="table-cell">15</td>
 <td scope="row" class="table-cell"><time datetime="2022-11-23" aria-label="November 23, 2022"> 2022-11-23 </time> to <time datetime="2023-03-07" aria-label="March 07, 2023"> 2023-03-07 </time></td>
 <td scope="row" class="table-cell">199</td>
@@ -105,7 +49,7 @@
 </tr>
 
 <tr>
-<td scope="row" class="table-cell">andor-112-2025</td>
+<td scope="row" class="table-cell">andor-112</td>
 <td scope="row" class="table-cell">16</td>
 <td scope="row" class="table-cell"><time datetime="2025-04-23" aria-label="April 23, 2025"> 2025-04-23 </time> to <time datetime="2025-08-12" aria-label="August 12, 2025"> 2025-08-12 </time></td>
 <td scope="row" class="table-cell">199</td>
@@ -116,7 +60,7 @@
 </tr>
 
 <tr>
-<td scope="row" class="table-cell">andor-201</td>
+<td scope="row" class="table-cell">andor-201-202-203</td>
 <td scope="row" class="table-cell">27</td>
 <td scope="row" class="table-cell"><time datetime="2025-04-23" aria-label="April 23, 2025"> 2025-04-23 </time> to <time datetime="2025-10-27" aria-label="October 27, 2025"> 2025-10-27 </time></td>
 <td scope="row" class="table-cell">424</td>
@@ -127,7 +71,7 @@
 </tr>
 
 <tr>
-<td scope="row" class="table-cell">andor-210</td>
+<td scope="row" class="table-cell">andor-210-211-212</td>
 <td scope="row" class="table-cell">26</td>
 <td scope="row" class="table-cell"><time datetime="2025-05-14" aria-label="May 14, 2025"> 2025-05-14 </time> to <time datetime="2025-11-12" aria-label="November 12, 2025"> 2025-11-12 </time></td>
 <td scope="row" class="table-cell">493</td>
