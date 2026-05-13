@@ -10,7 +10,7 @@ author: Benjamin De Kosnik <bkoz@gnu.org>
 
 <div style="height: 50px;"></div>
 
-<main role="main">
+
 # Andor Seasons 1 and 2
 <div style="height: 50px;"></div>
 
@@ -187,7 +187,7 @@ missing episodes (204-206, 207-209) be approximated using data from
 the first (201-203) and (210-212) episodes?
 
 <div style="height: 50px;"></div>
-</main>
+
 
 {::nomarkdown}
 <svg width="100" height=100>
