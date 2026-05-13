@@ -1,5 +1,7 @@
 ---
 layout: default
+title: Andor Seasons 1 and 2
+author: Benjamin De Kosnik <bkoz@gnu.org>
 ---
 
 {::nomarkdown}
