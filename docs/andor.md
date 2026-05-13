@@ -5,9 +5,7 @@ author: Benjamin De Kosnik <bkoz@gnu.org>
 ---
 
 {::nomarkdown}
-<header role="banner">
 <img src="../resources/a60-logo-block-gray.simple.svg?sanitize=true" height="50" width="100">
-</header>
 {:/}
 
 <div style="height: 50px;"></div>
@@ -192,9 +190,7 @@ the first (201-203) and (210-212) episodes?
 </main>
 
 {::nomarkdown}
-<footer role="footer">
 <svg width="100" height=100>
 	<circle cx="20" cy="50" r="10" fill="black"/>
 </svg>
-</footer>
 {:/}
