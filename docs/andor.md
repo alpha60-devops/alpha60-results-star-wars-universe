@@ -3,12 +3,14 @@ layout: default
 ---
 
 {::nomarkdown}
+<header role="banner">
 <img src="../resources/a60-logo-block-gray.simple.svg?sanitize=true" height="50" width="100">
+</header>
 {:/}
 
 <div style="height: 50px;"></div>
 
-
+<main role="main">
 # Andor Seasons 1 and 2
 <div style="height: 50px;"></div>
 
@@ -185,9 +187,12 @@ missing episodes (204-206, 207-209) be approximated using data from
 the first (201-203) and (210-212) episodes?
 
 <div style="height: 50px;"></div>
+</main>
 
 {::nomarkdown}
+<footer role="footer">
 <svg width="100" height=100>
 	<circle cx="20" cy="50" r="10" fill="black"/>
 </svg>
+</footer>
 {:/}
