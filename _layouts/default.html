@@ -4,7 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     {% seo %}
-    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+
+    <!-- 1. Fetch the file as fast as humanly possible -->
+<link rel="preload" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}" as="style">
+
+<!-- 2. Apply it normally (blocks rendering, which we want for main styles) -->
+<link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
 
     <style>
@@ -29,6 +35,19 @@ summary h3 {
   margin: 0;
   font-size: 1.2rem;
 }
+
+/* link wcag compliant and match table style */
+a {
+    color: #0066cc;
+    text-decoration: underline;
+}
+
+
+/* link (optional but good for usability: make it react when hovered) */
+a:hover,
+a:focus {
+    text-decoration: none;
+}
     </style>
 </head>
 <body>
@@ -42,7 +61,7 @@ summary h3 {
   <footer>
     <p><a href="https://alpha60.co">a60</a></p>
   </footer>
-  -->  
+  -->
 
 </body>
 </html>
