@@ -5,7 +5,7 @@ author: Benjamin De Kosnik <bkoz@gnu.org>
 ---
 
 {::nomarkdown}
-<img src="../resources/a60-logo-block-gray.simple.svg?sanitize=true" height="50" width="100">
+<img alt="alpha60 header" src="../resources/a60-logo-block-gray.simple.svg?sanitize=true" height="50" width="100">
 {:/}
 
 <div style="height: 50px;"></div>
@@ -190,7 +190,7 @@ converted to a unique hexagon in a sphere of hexagons modling the
 world. (See H3 Hexagon).
 
 <div align="center">
-<img src="../resources/andor-carto-spatial-2-phase-hexagon-r5-threshold-1.1-scale-22.jpg" height="auto" width="80%">
+<img alt="map of the world with spatial hot spots in green" src="../resources/andor-carto-spatial-2-phase-hexagon-r5-threshold-1.1-scale-22.jpg" height="auto" width="80%">
 </div>
 
 <div style="height: 50px;"></div>
