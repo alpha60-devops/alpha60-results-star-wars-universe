@@ -6,14 +6,45 @@
     {% seo %}
 
     <!-- 1. Fetch the file as fast as humanly possible -->
-<link rel="preload" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}" as="style">
+    <link rel="preload" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}" as="style">
 
-<!-- 2. Apply it normally (blocks rendering, which we want for main styles) -->
-<link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    <!-- 2. Apply it normally (blocks rendering, which we want for main styles) -->
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+
+    <!-- Preload the regular weight of Noto Sans -->
+    <link rel="preload" href="resources/fonts/noto-sans-v27-latin-regular.woff2" as="font" type="font/woff2" crossorigin>
+
+    <!-- Preload the bold weight (only if it's used immediately "above the fold") -->
+    <link rel="preload" href="resources/fonts/noto-sans-v27-latin-700.woff2" as="font" type="font/woff2" crossorigin>
 
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
 
     <style>
+/* noto-sans-regular - latin */
+@font-face {
+  font-display: swap;
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url('resources/fonts/noto-sans-v42-latin-regular.woff2') format('woff2');
+}
+/* noto-sans-italic - latin */
+@font-face {
+  font-display: swap;
+  font-family: 'Noto Sans';
+  font-style: italic;
+  font-weight: 400;
+  src: url('resources/fonts/noto-sans-v42-latin-italic.woff2') format('woff2');
+}
+/* noto-sans-700 - latin */
+@font-face {
+  font-display: swap;
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: url('resources/fonts/noto-sans-v42-latin-700.woff2') format('woff2');
+}
+
 /* li fix Minimal theme weird nested list spacing */
       li * {
     margin-top: 0;
@@ -49,6 +80,7 @@ a:focus {
     text-decoration: none;
 }
     </style>
+
 </head>
 <body>
 
