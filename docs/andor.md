@@ -16,7 +16,7 @@ author: Benjamin De Kosnik <bkoz@gnu.org>
 
 ## Graphs
 
-<script type="text/javascript" crossorigin="anonymous" id="graph-hover"
+<script defer type="text/javascript" crossorigin="anonymous" id="graph-hover"
 	src="../resources/izzi-graph-hover-txt-polyline-red.js">
 </script>
 
@@ -28,11 +28,18 @@ author: Benjamin De Kosnik <bkoz@gnu.org>
 
 ## Maps
 
-<script type="text/javascript" crossorigin="anonymous" id="geojson-map"
+<script defer type="text/javascript" crossorigin="anonymous" id="geojson-map"
 	src="../resources/izzi-map-leaflet-geojson-v7.3.js">
 </script>
 
-<link rel="stylesheet" href="../resources/izzi-table-wcag-22.css">
+<!-- Preload the CSS without blocking rendering -->
+<link rel="preload" href="../resources/izzi-table-wcag-22.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+
+<!-- Fallback for users who have JavaScript disabled -->
+<noscript>
+  <link rel="stylesheet" href="../resources/izzi-table-wcag-22.css">
+</noscript>
+
 
 {% include andor-spatial-carto-table.html %}
 <div style="height: 25px;"></div>
@@ -44,11 +51,18 @@ author: Benjamin De Kosnik <bkoz@gnu.org>
 
 ## Tables
 
-<script type="text/javascript" crossorigin="anonymous" id="table-sort"
+<script defer type="text/javascript" crossorigin="anonymous" id="table-sort"
 	src="../resources/izzi-table-sort-wcag-22.js">
 </script>
 
-<link rel="stylesheet" href="../resources/izzi-table-sort-wcag-22.css">
+<!-- Preload the CSS without blocking rendering -->
+<link rel="preload" href="../resources/izzi-table-sort-wcag-22.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+
+<!-- Fallback for users who have JavaScript disabled -->
+<noscript>
+  <link rel="stylesheet" href="../resources/izzi-table-sort-wcag-22.css">
+</noscript>
+
 
 {% include andor-meta-collection-table.html %}
 <div style="height: 25px;"></div>
