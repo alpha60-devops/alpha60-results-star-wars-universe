@@ -1,7 +1,8 @@
 ---
 layout: default
-title: Andor Seasons 1 and 2
-author: Benjamin De Kosnik <bkoz@gnu.org>
+title: "Andor Seasons 1 and 2"
+author: "Benjamin De Kosnik <bkoz@gnu.org>"
+description: "Analysis of Andor Season 1 and 2 distribution using peer-to-peer analysis"
 ---
 
 {::nomarkdown}
