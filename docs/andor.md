@@ -143,8 +143,8 @@ Given that the two samples occurred two and a half years apart, what's a good me
 The answer is to scale via data obtained from ITU(itu.int)
 internet size and population estimates. Consulting official publications and synthesizing the data into a year index of scalable size. See ICT Development Index
 (IDI) 2025 (and previous), ITU Facts and Figures, Global Connectivity
-Report.  The collated estimate year-over-year P2P or internet population
-growth from 2015 to 2025 can be found in the data repository [here](/resources/facts_and_figures.json).
+Report.  The estimated year-over-year internet population
+growth from 2015 to 2025 can be found in the repository [JSON data file](/resources/facts_and_figures.json).
 
 Using this technique, the multiple of 2022 to 2025 global internet
 users is (6.0/5.3) or about 1.13, normalizing the number of downloaders from
