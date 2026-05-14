@@ -37,11 +37,11 @@
   src: url('../resources/fonts/noto-sans-v42-latin-700.woff2') format('woff2');
 }
 
-/* li fix Minimal theme weird nested list spacing */
-      li * {
-    margin-top: 0;
-    margin-bottom: 0;
-      }
+/* don't render below the fold: 80% on the images and svgs is rougly 480px*/
+.defer-render {
+  content-visibility: auto;
+  contain-intrinsic-size: 500px;
+}
 
 /* Style the summary to look like a clickable block */
 summary {
@@ -52,6 +52,12 @@ summary {
   border-radius: 4px;
 }
 
+/* li fix Minimal theme weird nested list spacing */
+      li * {
+    margin-top: 0;
+    margin-bottom: 0;
+      }
+
 /* Ensure the heading sits inline with the native disclosure triangle */
 summary h3 {
   display: inline;
@@ -59,7 +65,7 @@ summary h3 {
   font-size: 1.2rem;
 }
 
-/* link wcag compliant and match table style */
+/* link text as WCAG22 compliant and match table style */
 a {
     color: #0066cc;
     text-decoration: underline;

@@ -95,14 +95,14 @@ slightly over 2% of all peers measured.
 #### Top Downloads by Country
 
 The top seven countries for andor-112-2022 are:
-<div align="center">
+<div align="center" class="defer-render">
 {% include andor-112-2022-downloads-by-country.svg %}
 </div>
 
 <div style="height: 25px;"></div>
 
 The top seven countries for andor-112-2025 are:
-<div align="center">
+<div align="center" class="defer-render">
 {% include andor-112-2025-downloads-by-country.svg %}
 </div>
 
@@ -191,7 +191,7 @@ converted to a unique hexagon in a sphere of hexagons modling the
 world. (See H3 Hexagon).
 
 <div align="center">
-<img alt="map of the world with spatial hot spots in green" src="../resources/andor-carto-spatial-2-phase-hexagon-r5-threshold-1.1-scale-22.jpg" height="auto" width="80%">
+<img alt="map of the world with spatial hot spots in green" src="../resources/andor-carto-spatial-2-phase-hexagon-r5-threshold-1.1-scale-22.jpg" width="80%" class="defer-render">
 </div>
 
 <div style="height: 50px;"></div>
