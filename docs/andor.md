@@ -191,7 +191,7 @@ converted to a unique hexagon in a sphere of hexagons modling the
 world. (See H3 Hexagon).
 
 <div align="center">
-<img alt="map of the world with spatial hot spots in green" src="../resources/andor-carto-spatial-2-phase-hexagon-r5-threshold-1.1-scale-22.jpg" width="80%" class="defer-render">
+<img alt="map of the world with spatial hot spots in green" src="../resources/andor-carto-spatial-2-phase-hexagon-r5-threshold-1.1-scale-22.jpg" width="80%" height="auto" class="defer-render">
 </div>
 
 <div style="height: 50px;"></div>
