@@ -105,8 +105,16 @@ th {
     font-weight: 600;
 }
 
-/* Ensure table is responsive */
+/* Ensure table is responsive for mobile */
 @media (max-width: 768px) {
+    /* Break the caption out of the strict table layout so that titles are not squashed on mobile */
+    table caption {
+	display: block;
+	width: 100%;
+	caption-side: top; /* Ensures it stays above the table */
+	box-sizing: border-box;
+    }
+
     .table-cell {
 	display: block;
 	text-align: center;

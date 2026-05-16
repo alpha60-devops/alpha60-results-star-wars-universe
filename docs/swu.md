@@ -50,7 +50,7 @@ src="../resources/izzi-graph-hover-txt-polyline-red.js">
 {% include swu-media-objects-table.html %}
 <div style="height: 25px;"></div>
 
-{% include star-wars-universe-geo-slices-usa-weeks-1-5-10-20.html %}
+{% include star-wars-universe-geo-slices-usa-weeks-1-5-15.html %}
 <div style="height: 25px;"></div>
 
 {% include star-wars-universe-geo-slices-africa.html %}

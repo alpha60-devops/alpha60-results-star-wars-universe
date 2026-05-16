@@ -1,11 +1,12 @@
 ---
 layout: default
-title: Andor Seasons 1 and 2
-author: Benjamin De Kosnik <bkoz@gnu.org>
+title: "Andor Seasons 1 and 2"
+author: "Benjamin De Kosnik <bkoz@gnu.org>"
+description: "Analysis of Andor Season 1 and 2 distribution using peer-to-peer analysis"
 ---
 
 {::nomarkdown}
-<img src="../resources/a60-logo-block-gray.simple.svg?sanitize=true" height="50" width="100">
+<img alt="alpha60 header" src="../resources/a60-logo-block-gray.simple.svg?sanitize=true" height="50" width="100">
 {:/}
 
 <div style="height: 50px;"></div>
@@ -16,7 +17,7 @@ author: Benjamin De Kosnik <bkoz@gnu.org>
 
 ## Graphs
 
-<script type="text/javascript" crossorigin="anonymous" id="graph-hover"
+<script defer type="text/javascript" crossorigin="anonymous" id="graph-hover"
 	src="../resources/izzi-graph-hover-txt-polyline-red.js">
 </script>
 
@@ -28,11 +29,18 @@ author: Benjamin De Kosnik <bkoz@gnu.org>
 
 ## Maps
 
-<script type="text/javascript" crossorigin="anonymous" id="geojson-map"
+<script defer type="text/javascript" crossorigin="anonymous" id="geojson-map"
 	src="../resources/izzi-map-leaflet-geojson-v7.3.js">
 </script>
 
-<link rel="stylesheet" href="../resources/izzi-table-wcag-22.css">
+<!-- Preload the CSS without blocking rendering -->
+<link rel="preload" href="../resources/izzi-table-wcag-22.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+
+<!-- Fallback for users who have JavaScript disabled -->
+<noscript>
+  <link rel="stylesheet" href="../resources/izzi-table-wcag-22.css">
+</noscript>
+
 
 {% include andor-spatial-carto-table.html %}
 <div style="height: 25px;"></div>
@@ -44,11 +52,18 @@ author: Benjamin De Kosnik <bkoz@gnu.org>
 
 ## Tables
 
-<script type="text/javascript" crossorigin="anonymous" id="table-sort"
+<script defer type="text/javascript" crossorigin="anonymous" id="table-sort"
 	src="../resources/izzi-table-sort-wcag-22.js">
 </script>
 
-<link rel="stylesheet" href="../resources/izzi-table-sort-wcag-22.css">
+<!-- Preload the CSS without blocking rendering -->
+<link rel="preload" href="../resources/izzi-table-sort-wcag-22.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+
+<!-- Fallback for users who have JavaScript disabled -->
+<noscript>
+  <link rel="stylesheet" href="../resources/izzi-table-sort-wcag-22.css">
+</noscript>
+
 
 {% include andor-meta-collection-table.html %}
 <div style="height: 25px;"></div>
@@ -80,14 +95,14 @@ slightly over 2% of all peers measured.
 #### Top Downloads by Country
 
 The top seven countries for andor-112-2022 are:
-<div align="center">
+<div align="center" class="defer-render">
 {% include andor-112-2022-downloads-by-country.svg %}
 </div>
 
 <div style="height: 25px;"></div>
 
 The top seven countries for andor-112-2025 are:
-<div align="center">
+<div align="center" class="defer-render">
 {% include andor-112-2025-downloads-by-country.svg %}
 </div>
 
@@ -129,8 +144,8 @@ Given that the two samples occurred two and a half years apart, what's a good me
 The answer is to scale via data obtained from ITU(itu.int)
 internet size and population estimates. Consulting official publications and synthesizing the data into a year index of scalable size. See ICT Development Index
 (IDI) 2025 (and previous), ITU Facts and Figures, Global Connectivity
-Report.  The collated estimate year-over-year P2P or internet population
-growth from 2015 to 2025 can be found in the data repository [here](/resources/facts_and_figures.json).
+Report.  The estimated year-over-year internet population
+growth from 2015 to 2025 can be found in the repository [JSON data file](/resources/facts_and_figures.json).
 
 Using this technique, the multiple of 2022 to 2025 global internet
 users is (6.0/5.3) or about 1.13, normalizing the number of downloaders from
@@ -176,7 +191,7 @@ converted to a unique hexagon in a sphere of hexagons modling the
 world. (See H3 Hexagon).
 
 <div align="center">
-<img src="../resources/andor-carto-spatial-2-phase-hexagon-r5-threshold-1.1-scale-22.jpg" height="auto" width="80%">
+<img alt="map of the world with spatial hot spots in green" src="../resources/andor-carto-spatial-2-phase-hexagon-r5-threshold-1.1-scale-22.jpg" width="80%">
 </div>
 
 <div style="height: 50px;"></div>
