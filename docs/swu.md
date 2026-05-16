@@ -19,7 +19,7 @@ src="../resources/izzi-graph-hover-txt-polyline-red.js">
 </script>
 
 {::nomarkdown}
-{% include swu-downloads-by-week-cumulative-normalized-start.svg %}
+{% include swu-downloads-by-week-normalized-start.svg %}
 {:/}
 <div style="height: 50px;"></div>
 
