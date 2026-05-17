@@ -19,7 +19,7 @@ layout: default
 </script>
 
 {::nomarkdown}
-{% include ahsoka-ackolyte-others-downloads-by-week-cumulative-normalized-start.svg %}
+{% include ahsoka-ackolyte-others-downloads-by-week-normalized-start.svg %}
 {:/}
 <div style="height: 50px;"></div>
 

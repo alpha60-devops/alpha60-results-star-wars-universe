@@ -22,7 +22,7 @@ description: "Analysis of Andor Season 1 and 2 distribution using peer-to-peer a
 </script>
 
 {::nomarkdown}
-{% include andor-downloads-by-week-cumulative-normalized-start.svg %}
+{% include andor-downloads-by-week-normalized-start.svg %}
 {:/}
 <div style="height: 50px;"></div>
 

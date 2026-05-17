@@ -19,7 +19,7 @@ layout: default
 </script>
 
 {::nomarkdown}
-{% include mandalorian-downloads-by-week-cumulative-normalized-start.svg %}
+{% include mandalorian-downloads-by-week-normalized-start.svg %}
 {:/}
 <div style="height: 50px;"></div>
 
