@@ -1,5 +1,8 @@
 ---
 layout: default
+title: "Ahsoka, Acolyte"
+author: "Benjamin De Kosnik <bkoz@gnu.org>"
+description: "Analysis of Ahsoka, Acolyte peer-to-peer distribution."
 ---
 
 {::nomarkdown}
@@ -54,6 +57,8 @@ If this series was so successful with downloaders, why was it cancelled?
 During a presentation at HOPE 16, Abigail De Kosnik speculated about this show's plot violating Star Wars cannon with depictions of evil, and thus the decision to not produce more. The presence of a similar padawan-sith storyline in 2026's Maul Shadow Lord shows that the powers that be in control of Star Wars IP are rolling around trying another aspect of this relationship. In Maul, the sith is temporarily good and the padawan is good but listening. In Acolyte, the opposite: the sith is bad and the padawan may be as well. Some combination or permutation of this struggle will show up again, or as a constant presence in future Maul seasons.
 
 It is interesting to note that the Star Wars fandom has noticed the above, and Acolyte returned to the Disney top ten streaming charts when Maul was completing broadcast of its last episodes. Is there hope for the sexy sith yet?
+
+Round two of Acolyte sampling started May 4, 2026. Those results will illuminate the staying power and continued popularity of this media object.
 
 Both Ahsoka and Acolyte did well in terms of downloader numbers. Both had POC women leads. In a direct comparison to comparable shows with white leads (Mandalorian season 3 and Obi-Wan Kenobi). The downloaders for these female-led shows win.
 

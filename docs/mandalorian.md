@@ -1,5 +1,8 @@
 ---
 layout: default
+title: "Mandalorian Seasons 1,2,3"
+author: "Benjamin De Kosnik <bkoz@gnu.org>"
+description: "Analysis of Mandor Seasons 1-3 peer-to-peer distribution."
 ---
 
 {::nomarkdown}

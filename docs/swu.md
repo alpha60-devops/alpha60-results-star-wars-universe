@@ -1,5 +1,8 @@
 ---
 layout: default
+title: "Star Wars Universe"
+author: "Benjamin De Kosnik <bkoz@gnu.org>"
+description: "Analysis Star Wars Universe media using peer-to-peer distribution."
 ---
 
 {::nomarkdown}
@@ -27,7 +30,7 @@ src="../resources/izzi-graph-hover-txt-polyline-red.js">
 ### Maps
 
 <script type="text/javascript" crossorigin="anonymous" id="geojson-map"
-        src="../resources/izzi-map-leaflet-geojson-v7.3.js">
+		src="../resources/izzi-map-leaflet-geojson-v7.3.js">
 </script>
 
 <link rel="stylesheet" href="../resources/izzi-table-wcag-22.css">
@@ -77,12 +80,12 @@ the USA only.
   - Year-over-year subscriber growth vs. ITU growth
   - Year-over-year price hikes
   - Correlate downloads to
-    - Film Production Cost / Global Box Office
-    - TV, Streaming: Estimated Cost per Episode x Number of Episodes x Length
+	- Film Production Cost / Global Box Office
+	- TV, Streaming: Estimated Cost per Episode x Number of Episodes x Length
 
 
 {::nomarkdown}
 <svg width="100" height=100>
-    <circle cx="20" cy="50" r="10" fill="black"/>
+	<circle cx="20" cy="50" r="10" fill="black"/>
 </svg>
 {:/}
